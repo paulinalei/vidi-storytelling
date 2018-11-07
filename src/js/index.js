@@ -1,9 +1,17 @@
-import leftPad from './leftpad';
+import 'ol/ol.css';
+import {Map, View} from 'ol';
+import TileLayer from 'ol/layer/Tile';
+import OSM from 'ol/source/OSM';
 
-const serNos = [6934, 23111, 23114, 1001, 211161, 'abc'];
-const partEl = document.getElementById('part-list');
-const strList = serNos.reduce(
-  (acc, element) => acc += `<li>${leftPad(element, 8, '0')}</li>`, ''
-);
-
-partEl.innerHTML = strList;
+const map = new Map({
+  target: 'map',
+  layers: [
+    new TileLayer({
+      source: new OSM()
+    })
+  ],
+  view: new View({
+    center: [0, 0],
+    zoom: 0
+  })
+});
