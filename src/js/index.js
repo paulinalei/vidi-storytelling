@@ -1,17 +1,33 @@
-import 'ol/ol.css';
-import {Map, View} from 'ol';
+import Graticule from 'ol/Graticule';
+import Map from 'ol/Map';
+import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
+import {fromLonLat} from 'ol/proj';
 import OSM from 'ol/source/OSM';
+import Stroke from 'ol/style/Stroke';
 
-const map = new Map({
-  target: 'map',
+var map = new Map({
   layers: [
     new TileLayer({
-      source: new OSM()
+      source: new OSM({
+        wrapX: false
+      })
     })
   ],
+  target: 'map',
   view: new View({
-    center: [0, 0],
-    zoom: 0
+    center: fromLonLat([-123.0, 37.5]),
+    zoom: 6
   })
 });
+
+var graticule = new Graticule({
+  strokeStyle: new Stroke({
+    color: 'rgba(0,0,0,1)',
+    width: 2
+  }),
+  showLabels: true,
+  intervals: [1, 0.5, 0.25, 0.125]
+});
+
+graticule.setMap(map);
