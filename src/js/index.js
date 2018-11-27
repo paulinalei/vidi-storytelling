@@ -1,33 +1,36 @@
-import Graticule from 'ol/Graticule';
 import Map from 'ol/Map';
 import View from 'ol/View';
-import TileLayer from 'ol/layer/Tile';
+import GeoJSON from 'ol/format/GeoJSON';
+import {Tile as TileLayer, Vector as VectorLayer} from 'ol/layer';
+import {OSM, Vector as VectorSource} from 'ol/source';
 import {fromLonLat} from 'ol/proj';
-import OSM from 'ol/source/OSM';
-import Stroke from 'ol/style/Stroke';
+import Stamen from 'ol/source/Stamen';
 
 var map = new Map({
   layers: [
     new TileLayer({
-      source: new OSM({
-        wrapX: false
+      source: new Stamen({
+        layer: 'watercolor'
       })
     })
   ],
   target: 'map',
   view: new View({
     center: fromLonLat([-123.0, 37.5]),
-    zoom: 6
+    zoom: 8
   })
 });
 
-var graticule = new Graticule({
-  strokeStyle: new Stroke({
-    color: 'rgba(0,0,0,1)',
-    width: 2
-  }),
-  showLabels: true,
-  intervals: [1, 0.5, 0.25, 0.125]
+document.getElementById('export-png').addEventListener('click', function() {
+  map.once('rendercomplete', function(event) {
+    var canvas = event.context.canvas;
+    if (navigator.msSaveBlob) {
+      navigator.msSaveBlob(canvas.msToBlob(), 'map.png');
+    } else {
+      canvas.toBlob(function(blob) {
+        saveAs(blob, 'map.png');
+      });
+    }
+  });
+  map.renderSync();
 });
-
-graticule.setMap(map);
