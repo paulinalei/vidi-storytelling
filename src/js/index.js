@@ -1,36 +1,31 @@
 import Map from 'ol/Map';
 import View from 'ol/View';
-import GeoJSON from 'ol/format/GeoJSON';
-import {Tile as TileLayer, Vector as VectorLayer} from 'ol/layer';
-import {OSM, Vector as VectorSource} from 'ol/source';
-import {fromLonLat} from 'ol/proj';
-import Stamen from 'ol/source/Stamen';
+import {getCenter} from 'ol/extent';
+import ImageLayer from 'ol/layer/Image';
+import Projection from 'ol/proj/Projection';
+import Static from 'ol/source/ImageStatic';
+
+var extent = [0, 0, 2048, 1024];
+var projection = new Projection({
+  units: 'pixels',
+  extent: extent
+});
 
 var map = new Map({
   layers: [
-    new TileLayer({
-      source: new Stamen({
-        layer: 'watercolor'
+    new ImageLayer({
+      source: new Static({
+        url: '../src/img/map.png',
+        projection: projection,
+        imageExtent: extent
       })
     })
   ],
   target: 'map',
   view: new View({
-    center: fromLonLat([-123.0, 37.5]),
-    zoom: 8
+    projection: projection,
+    center: getCenter(extent),
+    zoom: 2,
+    maxZoom: 8
   })
-});
-
-document.getElementById('export-png').addEventListener('click', function() {
-  map.once('rendercomplete', function(event) {
-    var canvas = event.context.canvas;
-    if (navigator.msSaveBlob) {
-      navigator.msSaveBlob(canvas.msToBlob(), 'map.png');
-    } else {
-      canvas.toBlob(function(blob) {
-        saveAs(blob, 'map.png');
-      });
-    }
-  });
-  map.renderSync();
 });
