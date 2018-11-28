@@ -1,31 +1,51 @@
-import Map from 'ol/Map';
-import View from 'ol/View';
-import {getCenter} from 'ol/extent';
-import ImageLayer from 'ol/layer/Image';
-import Projection from 'ol/proj/Projection';
-import Static from 'ol/source/ImageStatic';
+import Konva from 'konva';
 
-var extent = [0, 0, 2048, 1024];
-var projection = new Projection({
-  units: 'pixels',
-  extent: extent
+var width = window.innerWidth;
+var height = window.innerHeight;
+console.log(width);
+console.log(height);
+
+var cellWidth = width/3;
+var cellHeight = height/3;
+
+var xpos = 0;
+var ypos = 0;
+
+var stage = new Konva.Stage({
+  container: 'container',
+  width: width,
+  height: height
 });
 
-var map = new Map({
-  layers: [
-    new ImageLayer({
-      source: new Static({
-        url: '../src/img/map.png',
-        projection: projection,
-        imageExtent: extent
-      })
-    })
-  ],
-  target: 'map',
-  view: new View({
-    projection: projection,
-    center: getCenter(extent),
-    zoom: 2,
-    maxZoom: 8
-  })
-});
+var layer = new Konva.Layer();
+var imageObject = new Image();
+
+var cell;
+
+imageObject.onload = function() {
+  var map = new Konva.Image({
+    x: 0,
+    y: 0,
+    image: imageObject,
+    width: width,
+    height: height,
+  });
+
+  layer.add(map);
+  for (var ix = 0; ix < width / cellWidth; ix++) {
+    for (var iy = 0; iy < height / cellHeight; iy++) {
+        cell = new Konva.Rect({
+            x : ix * cellWidth,
+            y : iy * cellHeight,
+            width : cellWidth,
+            height : cellHeight,
+            fill : 'red',
+            stroke : 'white',
+            opacity: 0.5
+        });
+        layer.add(cell);
+    }
+  }
+  stage.add(layer);
+}
+imageObject.src = "../src/img/map.png";
