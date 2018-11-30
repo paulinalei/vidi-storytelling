@@ -95,7 +95,7 @@ imageObject.onload = function() {
   layer.add(map);
   for (var ix = 0, lat = tempData.length - 1; ix < width / cellWidth, lat >= 0; ix++, lat--) {
     for (var iy = 0, lon = tempData[0].length - 1; iy < height / cellHeight, lon >= 0; iy++, lon--) {
-        var color = getColor(getTempRange(tempData[lat][lon]));
+        var color =  colorScale(tempData[lat][lon]); 
         cell = new Konva.Rect({
             x : ix * cellWidth,
             y : iy * cellHeight,
