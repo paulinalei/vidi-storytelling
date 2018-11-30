@@ -1,5 +1,42 @@
 import Konva from 'konva';
+import * as d3 from 'd3';
+import {legendColor, legendSize} from 'd3-svg-legend';
 import sst from './sst.json';
+
+var svg = d3.select("svg");
+
+var steps = 5;
+var colorScale = d3.scaleQuantize()
+  .domain([14, 18])
+  .range(d3.schemeRdBu[steps]);
+
+var colorLegend = legendColor()
+  .labelFormat(d3.format(".2f"))
+  .scale(colorScale)
+  .shapePadding(0)
+  .shapeWidth(30)
+  .shapeHeight(30)
+  .labelOffset(10);
+
+svg.append("g")
+  .attr("transform", "translate(200, 60)")
+  .call(colorLegend);
+
+// Size legend.
+var sizeScale = d3.scaleLinear()
+  .domain([0, 10])
+  .range([2, 30]);
+
+var sizeLegend = legendSize()
+  .scale(sizeScale)
+  .shape("circle")
+  .shapePadding(3)
+  .cells(9)
+  .labelOffset(10);
+
+svg.append("g")
+  .attr("transform", "translate(650, 60)")
+  .call(sizeLegend);
 
 var width = window.innerWidth;
 var height = window.innerHeight;
