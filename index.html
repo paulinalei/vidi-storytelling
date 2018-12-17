@@ -8,6 +8,11 @@
          margin: 0;
          padding: 0;
       }
+      #legend {
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.7);
+      }
       #container {
         max-width: 100%;
         max-height: 100vh;
@@ -16,7 +21,7 @@
     </style>
   </head>
   <body>
-    <svg width="500" height="500"></svg>
+    <svg id="legend"></svg>
     <div id="container"></div>
     <script src="./public/js/bundle.js"></script>
   </body>
