@@ -8,10 +8,16 @@
          margin: 0;
          padding: 0;
       }
+      #slider {
+        position: absolute;
+        z-index: 1;
+      }
       #legend {
         position: absolute;
         z-index: 1;
         background-color: rgba(255, 255, 255, 0.7);
+        width: 135px;
+        height: 110px;
       }
       #container {
         max-width: 100%;
@@ -21,6 +27,8 @@
     </style>
   </head>
   <body>
+    <p id="value"></p>
+    <div id="slider"></div>
     <svg id="legend"></svg>
     <div id="container"></div>
     <script src="./public/js/bundle.js"></script>
