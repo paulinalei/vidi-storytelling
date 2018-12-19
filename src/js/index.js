@@ -2,7 +2,6 @@ import Konva from 'konva';
 import * as d3 from 'd3';
 import {sliderHorizontal} from 'd3-simple-slider';
 import {legendColor, legendSize} from 'd3-svg-legend';
-import sst from './sst.json';
 
 var width = window.innerWidth;
 var height = window.innerHeight;
