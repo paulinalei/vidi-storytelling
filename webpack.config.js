@@ -1,5 +1,7 @@
 // Imports
 const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // Webpack Configuration
 const config = {
@@ -9,9 +11,22 @@ const config = {
     
     // Output
     output: {
-        path: path.resolve(__dirname, './public/js'),
         filename: 'bundle.js',
+        path: path.resolve(__dirname, './public/js')
     },
+    devtool: 'source-map',
+    devServer:{
+        contentBase: path.resolve(__dirname, '.'),
+        hot: true
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+          filename: 'index.html',
+          template: 'index.html'
+        }),
+        new webpack.NamedModulesPlugin(),
+        new webpack.HotModuleReplacementPlugin()
+      ],
     // Loaders
     module: {
         rules : [
@@ -19,12 +34,12 @@ const config = {
         {
             test: /\.jsx$/,
             exclude: /node_modules/,
-            use: ['babel-loader'],
+            use: ['babel-loader']
         },
         // CSS Files
         {
             test: /\.css$/,
-            use: ['style-loader', 'css-loader'],
+            use: ['style-loader', 'css-loader']
         }
         ]
     }
