@@ -22,29 +22,64 @@ var colorLegend = legendColor()
   .shapeHeight(20)
   .labelOffset(10);
 
-var legend = d3.select("#legend")
-  .append("g")
-  .attr("transform", "translate(5, 5)")
-  .call(colorLegend);
+// var legend = d3.select("#legend")
+//   .append("g")
+//   .attr("transform", "translate(5, 5)")
+//   .call(colorLegend);
 
 var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
+var camera = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 1, 1000 );
+var renderer = new THREE.WebGLRenderer();
 
 drawScene();
 
 function drawScene(){
-	var renderer = new THREE.WebGLRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	document.body.appendChild( renderer.domElement );
+	
+    // instantiate a loader
+	var loader = new THREE.TextureLoader();
+	loader.load(
+		// resource URL
+		'./src/img/canvas.png',
 
-	var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-	var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-	var cube = new THREE.Mesh( geometry, material );
-	console.log("hello world neverland");
-	cube.position.set(-(width) + 200, (height), 0);
-	scene.add( cube );
+		// onLoad callback
+		function ( texture ) {
+			//create the material when the texture is loaded
+			loadGrid(texture);
+			renderer.render( scene, camera );
+		},
 
+		// onProgress callback currently not supported
+		undefined,
+
+		// onError callback
+		function ( err ) {
+			console.error( 'An error happened.' );
+		}
+	);
 	camera.position.z = 5;
+}
 
-	renderer.render( scene, camera );
+function addCell(xPos,yPos,texture){
+	texture.anisotropy = renderer.getMaxAnisotropy();
+	var material = new THREE.MeshBasicMaterial( {map: texture} );
+	var geometry = new THREE.BoxGeometry( cellWidth, cellHeight, 1 );
+	// var color = (tempData[lat][lon] == 0.0) ? "black":colorScale(tempData[lat][lon]); 
+	var material = new THREE.MeshBasicMaterial({map: texture, color:'#b2b2ff'});
+	var mesh = new THREE.Mesh(geometry, material);
+	mesh.position.set(xPos, yPos, 0);
+	scene.add(mesh);
+}
+
+function loadGrid(texture){
+    var i=0, j=0;
+    var leftX = (-(width) / 2) + (cellWidth / 2); //left
+    var topY = ((height) / 2) - (cellHeight / 2);//top
+   
+    for(i=topY; i > -(height/2); i = i - cellHeight){
+    	for(j = leftX; j < (width / 2); j=j + cellWidth){
+			addCell(j,i,texture)
+		}
+    }	
 }
