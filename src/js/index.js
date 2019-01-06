@@ -17,6 +17,7 @@ var sstdata2016 = [[16.8487, 16.603, 16.4336, 16.243, 16.0631, 15.7722, 15.5611,
 var sstdata2017 = [[17.1778, 17.1527, 17.1513, 16.8207, 16.057, 15.318, 14.8683, 14.8299, 14.8171, 12.6483], [16.8622, 16.8322, 16.8099, 16.4538, 15.7098, 14.9592, 14.4259, 14.1834, 13.5983, -9999.0], [16.3578, 16.2757, 16.1647, 15.7246, 15.246, 14.7075, 14.4308, 14.2613, -9999.0, -9999.0], [15.4826, 15.3943, 15.2726, 14.9267, 14.666, 14.3874, 14.5132, 14.3088, -9999.0, -9999.0], [14.7399, 14.4491, 14.3402, 14.1998, 14.3027, 14.3531, 19.0136, -9999.0, -9999.0, -9999.0], [14.2806, 13.7558, 13.6606, 13.7472, 14.3369, 15.1286, 19.0462, -9999.0, -9999.0, -9999.0], [13.958, 13.251, 13.0493, 13.2074, 14.5405, 17.6825, 19.5152, -9999.0, -9999.0, -9999.0], [13.4247, 12.8461, 12.6845, 12.7424, 12.9846, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0], [12.9413, 12.4565, 12.2284, 12.1369, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0], [12.4158, 12.1374, 11.5729, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0]]
 var sstdata2018 = [[17.2802, 17.217, 16.9556, 16.6666, 16.4058, 16.4381, 16.5967, 16.9258, 17.3752, 16.96], [17.223, 17.192, 16.9072, 16.5934, 16.3423, 16.348, 16.3659, 16.5869, 17.9886, -9999.0], [17.0359, 17.0607, 16.8071, 16.4699, 16.2304, 16.1992, 16.2619, 16.3804, -9999.0, -9999.0], [16.8095, 16.8419, 16.5346, 16.181, 16.0412, 16.1463, 16.7503, 16.3887, -9999.0, -9999.0], [16.4613, 16.4386, 16.1466, 15.8816, 15.8496, 16.1273, 18.9665, -9999.0, -9999.0, -9999.0], [16.0916, 15.927, 15.6708, 15.5179, 15.7461, 16.4605, 19.0603, -9999.0, -9999.0, -9999.0], [15.6695, 15.393, 15.216, 15.2685, 15.8204, 17.3122, 18.3505, -9999.0, -9999.0, -9999.0], [15.521, 15.1218, 14.8655, 14.9251, 15.222, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0], [15.4584, 14.9795, 14.4957, 14.5765, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0], [15.6722, 15.2392, 14.3217, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0, -9999.0]]
 
+var meshMatrix = [];
 
 var steps = 5;
 var colorScale = d3.scaleQuantize()
@@ -78,9 +79,24 @@ var renderer = new THREE.WebGLRenderer();
 drawScene();
 
 function updateCells(tempData) {
-	console.log("Updating...");
+	var i=0,j=0,k=0;
+	//Update for SST
+	for(i=0; i < tempData.length; i++){
+		for(j=0; j < tempData[0].length; j++, k++){
+			var color = (tempData[i][j] == 0.0) ? "0x000000":colorScale(tempData[i][j]);
+			console.log(color);
+			meshMatrix[k].material.color.set(color);
+		}
+	}
+
+	//TODO:Update Wind
+
+	//TODO:Update Chlorophyll
+
+	renderer.render( scene, camera );
 }
 
+//initial
 function drawScene(){
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	document.getElementById('container').appendChild( renderer.domElement ); //change target
@@ -89,7 +105,7 @@ function drawScene(){
 	var loader = new THREE.TextureLoader();
 	loader.load(
 		// resource URL
-		'./src/img/canvas.png',
+		'./src/img/clothweave.jpg',
 
 		// onLoad callback
 		function ( texture ) {
@@ -109,6 +125,32 @@ function drawScene(){
 	camera.position.z = 5;
 }
 
+
+
+function getCenterPoint(mesh) {
+    var middle = new THREE.Vector3();
+    var geometry = mesh.geometry;
+
+    geometry.computeBoundingBox();
+
+    middle.x = (geometry.boundingBox.max.x + geometry.boundingBox.min.x) / 2;
+    middle.y = (geometry.boundingBox.max.y + geometry.boundingBox.min.y) / 2;
+    middle.z = (geometry.boundingBox.max.z + geometry.boundingBox.min.z) / 2;
+
+    mesh.localToWorld( middle );
+    return middle;
+}
+
+//TODO:
+function drawWind(){
+	//based on x_wind, y_wind create the vector and determine degree to rotate
+}
+
+//TODO:
+function drawCholorphyll(){
+	//based on volume of cholrophyll for a given cell random speckling
+}
+
 function addCell(xPos,yPos,texture,color){
 	texture.anisotropy = renderer.getMaxAnisotropy();
 	var material = new THREE.MeshBasicMaterial( {map: texture} );
@@ -116,6 +158,14 @@ function addCell(xPos,yPos,texture,color){
 	var material = new THREE.MeshBasicMaterial({map: texture, color: color});
 	var mesh = new THREE.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 0);
+
+	//White Speckling for chlorophyll 
+	drawCholorphyll();
+
+	//Wind direction on top
+	drawWind();
+
+	meshMatrix.push(mesh);
 	scene.add(mesh);
 }
 
