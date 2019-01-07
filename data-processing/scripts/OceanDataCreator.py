@@ -29,7 +29,7 @@ def drange(start, stop, step):
 
 def readData(year):
     data = []
-    filename = "../data/" + str(year) + '.json'
+    filename = "../data/sst" + str(year) + '.json'
     with open(filename) as f:
         data = json.load(f)
     return data
@@ -70,7 +70,7 @@ def initMatrix(yearRange):
 # In[48]:
 
 def processFile(year, matrix):
-    sstData = readData()
+    sstData = readData(year)
     rows = sstData["table"]["rows"]
     for idx, cell in enumerate(matrix):
         cell = matrix[idx]
