@@ -20,9 +20,11 @@ var sstdata2018 = [[17.2802, 17.217, 16.9556, 16.6666, 16.4058, 16.4381, 16.5967
 var meshMatrix = [];
 
 var steps = 5;
-var colorScale = d3.scaleQuantize()
-  .domain([19, 14])
-  .range(d3.schemeRdBu[steps]);
+var colorScale = d3.scaleQuantile()
+  .domain([20, 10])
+  .range(d3.schemeRdBu[steps].reverse());
+
+console.log(colorScale(15.012));
 
 var colorLegend = legendColor()
   .labelFormat(d3.format(".2f"))
