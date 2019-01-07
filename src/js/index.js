@@ -24,8 +24,6 @@ var colorScale = d3.scaleQuantile()
   .domain([20, 10])
   .range(d3.schemeRdBu[steps].reverse());
 
-console.log(colorScale(15.012));
-
 var colorLegend = legendColor()
   .labelFormat(d3.format(".2f"))
   .scale(colorScale)
