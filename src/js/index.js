@@ -10,9 +10,6 @@ var height = window.innerHeight;
 var cellWidth = width/10;
 var cellHeight = height/10;
 
-var matrixData = data;
-console.log(matrixData);
-
 var steps = 5;
 var colorScale = d3.scaleQuantile()
   .domain([20, 10])
@@ -31,6 +28,20 @@ var legend = d3.select("#legend")
   .attr("transform", "translate(5, 5)")
   .call(colorLegend);  
 
+
+// initialize and create fullscreen version
+var matrixData = data;
+
+var fullScreenConfig = {
+	'containerID': 'container',
+	'matrixData': matrixData,
+	'height': window.innerHeight,
+	'width': window.innerWidth
+}
+
+createScene(fullScreenConfig); 
+
+// slider
 var slider = sliderHorizontal()
   .min(2009)
   .max(2018)
@@ -50,31 +61,19 @@ var group = d3.select("#slider")
   .attr("transform", "translate(350,30)")
   .call(slider);
 
-var scene = new THREE.Scene();
-var camera = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 1, 1000 );
-var renderer = new THREE.WebGLRenderer();
+/*   Functions   */
 
-drawScene();
+function createScene(config){
+	config['scene'] = new THREE.Scene();
+	config['camera'] = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 1, 1000 );
+	config['renderer'] = new THREE.WebGLRenderer();
 
-function updateCells(year) {
-	matrixData.forEach(function(cell){
-	    var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
-	    cell['mesh'].material.color.set(color);
-	});
-
-	//TODO:Update Wind
-
-	//TODO:Update Chlorophyll
-
-	renderer.render( scene, camera );
+	drawScene(config);
 }
 
-/*
-	This draws a single large canvas
-*/ 
-function drawScene(){
-	renderer.setSize( window.innerWidth, window.innerHeight );
-	document.getElementById('container').appendChild( renderer.domElement ); //change target
+function drawScene(config){
+	config['renderer'].setSize(config['width'], config['height'] );
+	document.getElementById(config['containerID']).appendChild( config['renderer'].domElement ); 
 	
     // instantiate a loader
 	var loader = new THREE.TextureLoader();
@@ -85,8 +84,8 @@ function drawScene(){
 		// onLoad callback
 		function ( texture ) {
 			//create the material when the texture is loaded
-			initGrid(texture,2009);
-			renderer.render( scene, camera );
+			initGrid(texture,2009,config);
+			config['renderer'].render( config['scene'], config['camera'] );
 		},
 
 		// onProgress callback currently not supported
@@ -97,9 +96,62 @@ function drawScene(){
 			console.error( 'An error happened.' );
 		}
 	);
-	camera.position.z = 5;
+
+	config['camera'].position.z = 5;
 }
 
+function initGrid(texture,year, config){
+	var i=0, j=0, counter = 0;
+    var leftX = (-(width) / 2) + (cellWidth / 2); //left
+    var topY = ((height) / 2) - (cellHeight / 2);//top
+   	var lat=0,lon=0;
+
+	for(i=topY; i > -(height/2), lat < 10; lat++, i = i - cellHeight){
+    	for(lon=0,j = leftX; j < (width / 2), lon < 10; lon++, j=j + cellWidth){
+    		config['matrixData'][counter]['pos'] = [j,i];
+    		counter++;
+		}
+    }
+
+	config['matrixData'].forEach(function(cell){
+		var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
+		var i = cell['pos'][0];
+		var j = cell['pos'][1]
+		var mesh = addCell(i,j,texture, color, config);
+		cell['mesh'] = mesh;
+		config['scene'].add(mesh);
+	});
+}
+
+function addCell(xPos,yPos,texture,color,config){
+	texture.anisotropy = config['renderer'].getMaxAnisotropy();
+	var material = new THREE.MeshBasicMaterial( {map: texture} );
+	var geometry = new THREE.BoxGeometry( cellWidth, cellHeight, 1 );
+	var material = new THREE.MeshBasicMaterial({map: texture, color: color});
+	var mesh = new THREE.Mesh(geometry, material);
+	mesh.position.set(xPos, yPos, 0);
+
+	//White Speckling for chlorophyll 
+	drawCholorphyll();
+
+	//Wind direction on top
+	drawWind();
+
+	return mesh;
+}
+
+function updateCells(year) {
+	fullScreenConfig['matrixData'].forEach(function(cell){
+	    var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
+	    cell['mesh'].material.color.set(color);
+	});
+
+	//TODO:Update Wind
+
+	//TODO:Update Chlorophyll
+
+	fullScreenConfig['renderer'].render( fullScreenConfig['scene'], fullScreenConfig['camera'] );
+}
 
 
 function getCenterPoint(mesh) {
@@ -126,46 +178,4 @@ function drawCholorphyll(){
 	//based on volume of cholrophyll for a given cell random speckling
 }
 
-function addCell(xPos,yPos,texture,color){
-	texture.anisotropy = renderer.getMaxAnisotropy();
-	var material = new THREE.MeshBasicMaterial( {map: texture} );
-	var geometry = new THREE.BoxGeometry( cellWidth, cellHeight, 1 );
-	var material = new THREE.MeshBasicMaterial({map: texture, color: color});
-	var mesh = new THREE.Mesh(geometry, material);
-	mesh.position.set(xPos, yPos, 0);
 
-	//White Speckling for chlorophyll 
-	drawCholorphyll();
-
-	//Wind direction on top
-	drawWind();
-
-	return mesh;
-}
-
-function initGrid(texture,year){
-	var i=0, j=0, counter = 0;
-    var leftX = (-(width) / 2) + (cellWidth / 2); //left
-    var topY = ((height) / 2) - (cellHeight / 2);//top
-   	var lat=0,lon=0;
-
-	for(i=topY; i > -(height/2), lat < 10; lat++, i = i - cellHeight){
-    	for(lon=0,j = leftX; j < (width / 2), lon < 10; lon++, j=j + cellWidth){
-    		matrixData[counter]['pos'] = [j,i];
-    		counter++;
-		}
-    }
-
-	matrixData.forEach(function(cell){
-		var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
-		var i = cell['pos'][0];
-		var j = cell['pos'][1]
-		var mesh = addCell(i,j,texture, color);
-		cell['mesh'] = mesh;
-		scene.add(mesh);
-	});
-}
-
-function updateGrid(){
-	
-}
