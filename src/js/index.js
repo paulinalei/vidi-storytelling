@@ -80,7 +80,7 @@ function drawScene(){
 	var loader = new THREE.TextureLoader();
 	loader.load(
 		// resource URL
-		'./src/img/clothweave.jpg',
+		'./src/img/clothweave.png',
 
 		// onLoad callback
 		function ( texture ) {
