@@ -43,6 +43,7 @@ var panel1Config = {
 	'containerID': 'panel-1',
 	'matrixData': matrixData,
 	'height': window.innerHeight/2,
+	'initialYear': 2011,
 	'width': window.innerWidth
 }
 
@@ -50,6 +51,7 @@ var panel2Config = {
 	'containerID': 'panel-2',
 	'matrixData': matrixData,
 	'height': window.innerHeight/2,
+	'initialYear': 2015,
 	'width': window.innerWidth
 }
 
@@ -100,7 +102,7 @@ function drawScene(config){
 		// onLoad callback
 		function ( texture ) {
 			//create the material when the texture is loaded
-			initGrid(texture,2009,config);
+			initGrid(texture,config['initialYear'],config);
 			config['renderer'].render( config['scene'], config['camera'] );
 		},
 
