@@ -42,7 +42,7 @@ var fullScreenConfig = {
 var panel1Config = {
 	'containerID': 'panel-1',
 	'matrixData': matrixData,
-	'height': window.innerHeight/2,
+	'height': window.innerHeight/4,
 	'initialYear': 2011,
 	'width': window.innerWidth
 }
@@ -50,7 +50,7 @@ var panel1Config = {
 var panel2Config = {
 	'containerID': 'panel-2',
 	'matrixData': matrixData,
-	'height': window.innerHeight/2,
+	'height': window.innerHeight/4,
 	'initialYear': 2015,
 	'width': window.innerWidth
 }
@@ -205,7 +205,7 @@ function drawCholorphyll(){
 */
 function drawPopulation(divid, filename) {
 	// set the dimensions and margins of the graph
-	var margin = {top: 10, right: 10, bottom: 50, left: 50},
+	var margin = {top: 10, right: 10, bottom: 45, left: 60},
 	width = 500 - margin.left - margin.right,
 	height = 150 - margin.top - margin.bottom;
   
@@ -254,10 +254,11 @@ function drawPopulation(divid, filename) {
 		.attr("transform", "translate(0," + height + ")")
 		.call(d3.axisBottom(x).tickFormat(d3.timeFormat("%m/%d/%y")))
 		.selectAll("text")
-		  .style("text-anchor", "end")
-		  .attr("dx", "-.8em")
-		  .attr("dy", ".15em")
-		  .attr("transform", "rotate(-55)");
+	  		.style("font", "10px")
+			.style("text-anchor", "end")
+			.attr("dx", "-.8em")
+			.attr("dy", ".15em")
+			.attr("transform", "rotate(-55)");
 	  // Add the Y Axis
 	  svg.append("g")
 		.call(d3.axisLeft(y));
