@@ -39,7 +39,23 @@ var fullScreenConfig = {
 	'width': window.innerWidth
 }
 
-createScene(fullScreenConfig); 
+var panel1Config = {
+	'containerID': 'panel-1',
+	'matrixData': matrixData,
+	'height': window.innerHeight/2,
+	'width': window.innerWidth
+}
+
+var panel2Config = {
+	'containerID': 'panel-2',
+	'matrixData': matrixData,
+	'height': window.innerHeight/2,
+	'width': window.innerWidth
+}
+
+createScene(panel1Config); 
+createScene(panel2Config); 
+
 
 // slider
 var slider = sliderHorizontal()
@@ -174,7 +190,7 @@ function drawWind(){
 	var map = new THREE.TextureLoader().load( "sprite.png" );
 	var material = new THREE.SpriteMaterial( { map: map, color: 0xffffff } );
 	var sprite = new THREE.Sprite( material );
-	scene.add( sprite );
+	//scene.add( sprite );
 }
 
 //TODO:
