@@ -171,6 +171,10 @@ function getCenterPoint(mesh) {
 //TODO:
 function drawWind(){
 	//based on x_wind, y_wind create the vector and determine degree to rotate
+	var map = new THREE.TextureLoader().load( "sprite.png" );
+	var material = new THREE.SpriteMaterial( { map: map, color: 0xffffff } );
+	var sprite = new THREE.Sprite( material );
+	scene.add( sprite );
 }
 
 //TODO:
