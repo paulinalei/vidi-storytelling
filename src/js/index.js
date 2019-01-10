@@ -8,8 +8,8 @@ Math.radians = function(degrees) {
   return degrees * Math.PI / 180;
 };
 
-var width = window.innerWidth;
-var height = window.innerHeight;
+var width = 600;
+var height = 600;
 
 var cellWidth = width/10;
 var cellHeight = height/10;
@@ -39,24 +39,24 @@ var matrixData = data;
 var fullScreenConfig = {
 	'containerID': 'container',
 	'matrixData': matrixData,
-	'height': window.innerHeight/2,
-	'width': window.innerWidth
+	'height': height,
+	'width': width
 }
 
 var panel1Config = {
 	'containerID': 'panel-1',
 	'matrixData': matrixData,
-	'height': window.innerHeight/4,
+	'height': height,
 	'initialYear': 2011,
-	'width': window.innerWidth
+	'width': width
 }
 
 var panel2Config = {
 	'containerID': 'panel-2',
 	'matrixData': matrixData,
-	'height': window.innerHeight/4,
+	'height': height,
 	'initialYear': 2015,
-	'width': window.innerWidth
+	'width': width
 }
 
 createScene(panel1Config); 
@@ -134,8 +134,8 @@ function loadMaterial(model) {
 function loadMesh(config) {
 	const model = {
 		material: {
-			cloth: './src/img/clothweave.png',
-			wave: './src/img/arrow.png'
+			cloth: './src/img/clothweave.jpg',
+			wave: './src/img/wave.png'
 		}
 	};
 	const promises = [
@@ -211,11 +211,10 @@ function updateCells(year) {
 function drawWind(xPos,yPos,texture, degree){
 	//based on x_wind, y_wind create the vector and determine degree to rotate
 	var material = new THREE.SpriteMaterial( {  color: 0xffffff, map: texture, rotation: degree} );
+	material.opacity = 0.25;
 	var sprite = new THREE.Sprite( material );
 	//1H = 1.59343148358W
-	var scalar = 1.59343148358;
-	var height = 75;
-	sprite.scale.set(scalar * height ,height,1.0);
+	sprite.scale.set(50,50,1.0);
 	if(!degree){sprite.scale.set(1 ,1,1.0);}
 	sprite.position.set(xPos, yPos, 1);
 
@@ -282,7 +281,7 @@ function drawPopulation(divid, filename) {
 		.attr("transform", "translate(0," + height + ")")
 		.call(d3.axisBottom(x).tickFormat(d3.timeFormat("%m/%d/%y")))
 		.selectAll("text")
-	  		.style("font", "10px")
+	  		.style("font-size", "10px")
 			.style("text-anchor", "end")
 			.attr("dx", "-.8em")
 			.attr("dy", ".15em")
