@@ -4,6 +4,10 @@ import {sliderHorizontal} from 'd3-simple-slider';
 import {legendColor, legendSize} from 'd3-svg-legend';
 import data from './libs/data.json';
 
+Math.radians = function(degrees) {
+  return degrees * Math.PI / 180;
+};
+
 var width = window.innerWidth;
 var height = window.innerHeight;
 
@@ -83,9 +87,13 @@ var group = d3.select("#slider")
 
 function createScene(config){
 	config['scene'] = new THREE.Scene();
-	config['camera'] = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 1, 1000 );
+	config['camera'] = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 1, 20 );
+	config['camera'].position.z = 10;
 	config['renderer'] = new THREE.WebGLRenderer();
-	
+		
+	console.log(width);
+	console.log(height);
+
 	drawScene(config);
 }
 
@@ -93,32 +101,56 @@ function drawScene(config){
 	config['renderer'].setSize(config['width'], config['height'] );
 	document.getElementById(config['containerID']).appendChild( config['renderer'].domElement ); 
 	
-    // instantiate a loader
-	var loader = new THREE.TextureLoader();
-	loader.load(
-		// resource URL
-		'./src/img/clothweave.png',
-
-		// onLoad callback
-		function ( texture ) {
-			//create the material when the texture is loaded
-			initGrid(texture,config['initialYear'],config);
-			config['renderer'].render( config['scene'], config['camera'] );
-		},
-
-		// onProgress callback currently not supported
-		undefined,
-
-		// onError callback
-		function ( err ) {
-			console.error( 'An error happened.' );
-		}
-	);
-
-	config['camera'].position.z = 5;
+	loadMesh(config);
 }
 
-function initGrid(texture,year, config){
+function loadTexture(url) {
+  return new Promise(resolve => {
+    new THREE.TextureLoader().load(url, resolve);
+  });
+}
+
+function loadMaterial(model) {
+  const textureKeys = ['cloth', 'wave'];	
+  const params = {};
+  const promises = Object.keys(model).map(key => {
+    // load textures for supported keys
+    if (textureKeys.indexOf(key) !== -1) {
+      return loadTexture(model[key]).then(texture => {
+        params[key] = texture;
+      });
+    // just copy the value otherwise  
+    } else {
+      params[key] = model[key];
+    }
+  });
+  
+  return Promise.all(promises).then(() => {
+  	console.log(params);
+    return params;
+  });
+}
+
+function loadMesh(config) {
+	const model = {
+		material: {
+			cloth: './src/img/clothweave.png',
+			wave: './src/img/arrow.png'
+		}
+	};
+	const promises = [
+		loadMaterial(model.material)
+	];
+
+	return Promise.all(promises).then(result => {
+		var textures = result[0];
+	    initGrid(textures,config['initialYear'],config);
+		config['renderer'].render( config['scene'], config['camera'] );
+		// return new THREE.Mesh(result[0], result[1]);
+	});
+}
+
+function initGrid(textures,year, config){
 	var i=0, j=0, counter = 0;
     var leftX = (-(width) / 2) + (cellWidth / 2); //left
     var topY = ((height) / 2) - (cellHeight / 2);//top
@@ -133,29 +165,34 @@ function initGrid(texture,year, config){
 
 	config['matrixData'].forEach(function(cell){
 		var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
+		var degree = (cell[year]['windDegree'] == -9999) ? false: Math.radians(cell[year]['windDegree']);
 		var i = cell['pos'][0];
 		var j = cell['pos'][1]
-		var mesh = addCell(i,j,texture, color, config);
+		var mesh = addCell(i,j,textures, color, degree, config);
 		cell['mesh'] = mesh;
 		config['scene'].add(mesh);
 	});
 }
 
-function addCell(xPos,yPos,texture,color,config){
-	texture.anisotropy = config['renderer'].getMaxAnisotropy();
-	var material = new THREE.MeshBasicMaterial( {map: texture} );
+function addCell(xPos,yPos,textures,color, degree, config){
+	var group = new THREE.Group();
+
+	//Sea Surface Temperature
+	textures['cloth'].anisotropy = config['renderer'].getMaxAnisotropy();
+	var material = new THREE.MeshBasicMaterial( {map: textures['cloth']} );
 	var geometry = new THREE.BoxGeometry( cellWidth, cellHeight, 1 );
-	var material = new THREE.MeshBasicMaterial({map: texture, color: color});
+	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color: color});
 	var mesh = new THREE.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 0);
-
+	group.add(mesh);
 	//White Speckling for chlorophyll 
 	drawCholorphyll();
 
 	//Wind direction on top
-	drawWind();
+	var windMesh = drawWind(xPos,yPos,textures['wave'], degree);
+	group.add(windMesh);
 
-	return mesh;
+	return group;
 }
 
 function updateCells(year) {
@@ -171,27 +208,18 @@ function updateCells(year) {
 	fullScreenConfig['renderer'].render( fullScreenConfig['scene'], fullScreenConfig['camera'] );
 }
 
-
-function getCenterPoint(mesh) {
-    var middle = new THREE.Vector3();
-    var geometry = mesh.geometry;
-
-    geometry.computeBoundingBox();
-
-    middle.x = (geometry.boundingBox.max.x + geometry.boundingBox.min.x) / 2;
-    middle.y = (geometry.boundingBox.max.y + geometry.boundingBox.min.y) / 2;
-    middle.z = (geometry.boundingBox.max.z + geometry.boundingBox.min.z) / 2;
-
-    mesh.localToWorld( middle );
-    return middle;
-}
-
-//TODO:
-function drawWind(){
+function drawWind(xPos,yPos,texture, degree){
 	//based on x_wind, y_wind create the vector and determine degree to rotate
-	var map = new THREE.TextureLoader().load( "sprite.png" );
-	var material = new THREE.SpriteMaterial( { map: map, color: 0xffffff } );
+	var material = new THREE.SpriteMaterial( {  color: 0xffffff, map: texture, rotation: degree} );
 	var sprite = new THREE.Sprite( material );
+	//1H = 1.59343148358W
+	var scalar = 1.59343148358;
+	var height = 75;
+	sprite.scale.set(scalar * height ,height,1.0);
+	if(!degree){sprite.scale.set(1 ,1,1.0);}
+	sprite.position.set(xPos, yPos, 1);
+
+	return sprite
 	//scene.add( sprite );
 }
 
