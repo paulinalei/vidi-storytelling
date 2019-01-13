@@ -90,10 +90,7 @@ function createScene(config){
 	config['camera'] = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 1, 20 );
 	config['camera'].position.z = 10;
 	config['renderer'] = new THREE.WebGLRenderer();
-		
-	console.log(width);
-	console.log(height);
-
+	
 	drawScene(config);
 }
 
@@ -125,7 +122,6 @@ function loadMaterial(model) {
   });
   
   return Promise.all(promises).then(() => {
-  	console.log(params);
     return params;
   });
 }
@@ -179,7 +175,6 @@ function addCell(xPos,yPos,textures,color, degree, config){
 
 	//Sea Surface Temperature
 	textures['cloth'].anisotropy = config['renderer'].getMaxAnisotropy();
-	var material = new THREE.MeshBasicMaterial( {map: textures['cloth']} );
 	var geometry = new THREE.BoxGeometry( cellWidth, cellHeight, 1 );
 	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color: color});
 	var mesh = new THREE.Mesh(geometry, material);
@@ -192,6 +187,11 @@ function addCell(xPos,yPos,textures,color, degree, config){
 	//Wind direction on top
 	var windMesh = drawWind(xPos,yPos,textures['wave'], degree);
 	group.add(windMesh);
+
+	//Population 
+	var popMesh = drawPop(xPos, yPos, 0x00ff00);
+	console.log(popMesh);
+	group.add(popMesh);
 
 	return group;
 }
@@ -227,6 +227,15 @@ function drawWind(xPos,yPos,texture, degree){
 //TODO:
 function drawCholorphyll(){
 	//based on volume of cholrophyll for a given cell random speckling
+}
+
+function drawPop(xPos, yPos, color, degree) {
+	var geometry = new THREE.BoxGeometry( 10, 20, 0);
+	var material = new THREE.MeshBasicMaterial({color: color});
+	var mesh = new THREE.Mesh(geometry, material);
+	mesh.position.set(xPos, yPos, 1);
+	mesh.rotation.z = Math.PI/2;
+	return mesh;
 }
 
 /*
