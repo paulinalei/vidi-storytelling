@@ -20,6 +20,11 @@ var colorScale = d3.scaleQuantile()
   .domain([20, 10])
   .range(d3.schemeRdBu[steps].reverse());
 
+var speciesNum = 18;
+var populationColorScale = d3.scaleOrdinal(d3.schemeSpectral[11]);
+	//.domain(["cephalopod", "clupeoid", "cottid", "crustacean", "deep-sea smelt", "elasmobranch", "euphausiid", "fish", "flatfish", "gelatinous", "hyperiid amphipod", "jellyfish", "myctophid", "other groundfish", "rockfish", "salmonid", "smelt"])
+	//.range(d3.schemeSpectral[speciesNum]);
+
 var colorLegend = legendColor()
   .labelFormat(d3.format(".2f"))
   .scale(colorScale)
@@ -164,14 +169,14 @@ function initGrid(textures,year, config){
 		var degree = (cell[year]['windDegree'] == -9999) ? false: Math.radians(cell[year]['windDegree']);
 		var i = cell['pos'][0];
 		var j = cell['pos'][1]
-		var mesh = addCell(i,j,textures, color, degree, config);  //create and render glyph
+		var mesh = addCell(i,j,textures, color, degree, config, cell);  //create and render glyph
 
 		cell['mesh'] = mesh;
 		config['scene'].add(mesh);
 	});
 }
 
-function addCell(xPos,yPos,textures,color, degree, config){
+function addCell(xPos,yPos,textures,color, degree, config, cell){
 	var group = new THREE.Group();
 
 	//Sea Surface Temperature
@@ -192,22 +197,112 @@ function addCell(xPos,yPos,textures,color, degree, config){
 	//Population 
 	var barwidth = 5;
 	var barheight = 20;
-	var popcolor = 0x00ff00;
-	// var popMesh = drawPop(xPos, yPos, 0x00ff00, barwidth, barheight, 0);
-	// var popMesh2 = drawPop(xPos, yPos, 0x00ff00, barwidth, barheight, 20);
-	// var popMesh3 = drawPop(xPos, yPos, 0x00ff00, barwidth, barheight, 40);
-	// var popMesh4 = drawPop(xPos, yPos, 0x00ff00, barwidth, barheight, 60);
-	// var popMesh5 = drawPop(xPos, yPos, popcolor, barwidth, barheight, 80);
-	// group.add(popMesh);
-	// group.add(popMesh2);
-	// group.add(popMesh3);
-	// group.add(popMesh4);
-	// group.add(popMesh5);
+	//console.log(cell['latRange']);
+	//console.log(maypop2011);
+	var popcolor;
 	var popdegree = 0;
-	for (var i = 0; i < 18; i++) {
-		var popMesh = drawPop(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-		popdegree += 20;
-		group.add(popMesh);
+	for (var i = 0; i < maypop2011.length; i++) {
+		//console.log(maypop2011[i]);
+		var popCell = maypop2011[i]
+		var popCellLat = maypop2011[i]["lat"];
+		var popCellLon = maypop2011[i]["lon"];
+		if (popCellLat >= cell["latRange"][0] && popCellLat < cell["latRange"][1] && popCellLon >= cell["lonRange"][0] && popCellLon < cell["lonRange"][1]) {
+				for (var key in popCell) {
+					popcolor = populationColorScale(key);
+					switch(key) {
+						case "other groundfish": 
+							popdegree = 0;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "flatfish":
+							popdegree = 20;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "cottid":
+							popdegree = 40;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "clupeoid":
+							popdegree = 60;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "salmonid":
+							popdegree = 80;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "smelt":
+							popdegree = 100;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "fish":
+							popdegree = 120;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "rockfish":
+							popdegree = 140;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "other rockfish":
+							popdegree = 160;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "deep-sea smelt":
+							popdegree = 180;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "elasmobranch":
+							popdegree = 200;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "myctophid":
+							popdegree = 220;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "cephalopod":
+							popdegree = 240;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "crustacean":
+							popdegree = 260;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "jellyfish":
+							popdegree = 280;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "hyperiid amphipod":
+							popdegree = 300;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "gelatinous":
+							popdegree = 320;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+						case "euphausiid":
+							popdegree = 340;
+							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+							group.add(popMesh);
+							break;
+					}
+				}
+		}
 	}
 
 	return group;
@@ -246,7 +341,7 @@ function drawCholorphyll(){
 	//based on volume of cholrophyll for a given cell random speckling
 }
 
-function drawPop(xPos, yPos, color, height, width, degree) {
+function drawRect(xPos, yPos, color, height, width, degree) {
 	var geometry = new THREE.BoxGeometry(height, width, 0);
 	var material = new THREE.MeshBasicMaterial({color: color});
 	var mesh = new THREE.Mesh(geometry, material);
