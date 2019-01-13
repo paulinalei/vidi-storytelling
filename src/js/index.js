@@ -98,7 +98,6 @@ function createScene(config){
 function drawScene(config){
 	config['renderer'].setSize(config['width'], config['height'] );
 	document.getElementById(config['containerID']).appendChild( config['renderer'].domElement ); 
-	
 	loadMesh(config);
 }
 
@@ -165,7 +164,8 @@ function initGrid(textures,year, config){
 		var degree = (cell[year]['windDegree'] == -9999) ? false: Math.radians(cell[year]['windDegree']);
 		var i = cell['pos'][0];
 		var j = cell['pos'][1]
-		var mesh = addCell(i,j,textures, color, degree, config);
+		var mesh = addCell(i,j,textures, color, degree, config);  //create and render glyph
+
 		cell['mesh'] = mesh;
 		config['scene'].add(mesh);
 	});
@@ -181,6 +181,7 @@ function addCell(xPos,yPos,textures,color, degree, config){
 	var mesh = new THREE.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 0);
 	group.add(mesh);
+
 	//White Speckling for chlorophyll 
 	drawCholorphyll();
 
@@ -212,6 +213,7 @@ function addCell(xPos,yPos,textures,color, degree, config){
 	return group;
 }
 
+//deprecated
 function updateCells(year) {
 	fullScreenConfig['matrixData'].forEach(function(cell){
 	    var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
