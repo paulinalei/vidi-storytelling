@@ -3,6 +3,7 @@ import * as d3 from 'd3';
 import {sliderHorizontal} from 'd3-simple-slider';
 import {legendColor, legendSize} from 'd3-svg-legend';
 import data from './libs/data.json';
+import maypop2011 from '../../data-processing/population-data/maypop2011.json';
 
 Math.radians = function(degrees) {
   return degrees * Math.PI / 180;
@@ -157,7 +158,7 @@ function initGrid(textures,year, config){
     		config['matrixData'][counter]['pos'] = [j,i];
     		counter++;
 		}
-    }
+  }
 
 	config['matrixData'].forEach(function(cell){
 		var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
@@ -188,9 +189,25 @@ function addCell(xPos,yPos,textures,color, degree, config){
 	group.add(windMesh);
 
 	//Population 
-	var popMesh = drawPop(xPos, yPos, 0x00ff00);
-	console.log(popMesh);
-	group.add(popMesh);
+	var barwidth = 5;
+	var barheight = 20;
+	var popcolor = 0x00ff00;
+	// var popMesh = drawPop(xPos, yPos, 0x00ff00, barwidth, barheight, 0);
+	// var popMesh2 = drawPop(xPos, yPos, 0x00ff00, barwidth, barheight, 20);
+	// var popMesh3 = drawPop(xPos, yPos, 0x00ff00, barwidth, barheight, 40);
+	// var popMesh4 = drawPop(xPos, yPos, 0x00ff00, barwidth, barheight, 60);
+	// var popMesh5 = drawPop(xPos, yPos, popcolor, barwidth, barheight, 80);
+	// group.add(popMesh);
+	// group.add(popMesh2);
+	// group.add(popMesh3);
+	// group.add(popMesh4);
+	// group.add(popMesh5);
+	var popdegree = 0;
+	for (var i = 0; i < 18; i++) {
+		var popMesh = drawPop(xPos, yPos, popcolor, barwidth, barheight, popdegree);
+		popdegree += 20;
+		group.add(popMesh);
+	}
 
 	return group;
 }
@@ -227,12 +244,12 @@ function drawCholorphyll(){
 	//based on volume of cholrophyll for a given cell random speckling
 }
 
-function drawPop(xPos, yPos, color, degree) {
-	var geometry = new THREE.BoxGeometry( 10, 20, 0);
+function drawPop(xPos, yPos, color, height, width, degree) {
+	var geometry = new THREE.BoxGeometry(height, width, 0);
 	var material = new THREE.MeshBasicMaterial({color: color});
 	var mesh = new THREE.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 1);
-	mesh.rotation.z = Math.PI/2;
+	mesh.rotation.z = (degree*Math.PI)/180;
 	return mesh;
 }
 
