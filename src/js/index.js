@@ -4,6 +4,7 @@ import {sliderHorizontal} from 'd3-simple-slider';
 import {legendColor, legendSize} from 'd3-svg-legend';
 import data from './libs/data.json';
 import maypop2011 from '../../data-processing/population-data/maypop2011.json';
+import maypop2015 from '../../data-processing/population-data/maypop2015.json';
 
 Math.radians = function(degrees) {
   return degrees * Math.PI / 180;
@@ -162,23 +163,29 @@ function initGrid(textures,year, config){
     		config['matrixData'][counter]['pos'] = [j,i];
     		counter++;
 		}
-  }
+    }
+
+    initPopData(config,2011,maypop2011);
+    initPopData(config,2015,maypop2015);
+
+
+    console.log(config['matrixData']);
 
 	config['matrixData'].forEach(function(cell){
 		var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
 		var degree = (cell[year]['windDegree'] == -9999) ? false: Math.radians(cell[year]['windDegree']);
-		cell['popGroup'] = new THREE.Group();
+		cell[year]['popGroup'] = new THREE.Group();
 
 		var x = cell['pos'][0];
 		var y = cell['pos'][1];
-		var mesh = addCell(x,y,textures, color, degree, config, cell);  //create and render glyph
+		var mesh = addCell(x,y,textures, color, degree, config, cell, year);  //create and render glyph
 
 		cell['mesh'] = mesh;
 		config['scene'].add(mesh);
 	});
 }
 
-function addCell(xPos,yPos,textures,color, degree, config, cell){
+function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	var group = new THREE.Group();
 
 	//Sea Surface Temperature
@@ -197,8 +204,8 @@ function addCell(xPos,yPos,textures,color, degree, config, cell){
 	// group.add(windMesh);
 
 	//Population Bars
-	var populationMesh = drawPopulation(xPos,yPos,cell);
-	group.add(cell['popGroup']);
+	var populationMesh = drawPopulation(xPos,yPos,cell,year);
+	group.add(cell[year]['popGroup']);
 
 	return group;
 }
@@ -254,117 +261,77 @@ function drawRect(xPos, yPos, color, height, width, degree) {
 	return mesh;
 }
 
-function drawPopulation(xPos,yPos, cell){
+function initPopData(config,year,mayPopData){
+	var species = Object.keys(mayPopData[0]);
+	var populations = [];
+
+	//all 17 species
+	species.forEach(function(key){
+		if(key != 'lat' && key != 'lon'){
+			populations.push(key);
+		}
+	});
+
+
+
+	config['matrixData'].forEach(function(cell){
+		var popChartData = [];
+		var degree = 0;
+		var degreeInc = 360/populations.length;
+		
+
+		var popCounts = {};
+		populations.forEach(function(pop){
+			popCounts[pop] = 0;
+		});
+		for (var i = 0; i < mayPopData.length; i++) {
+			var popCell = mayPopData[i]
+			var popCellLat = mayPopData[i]["lat"];
+			var popCellLon = mayPopData[i]["lon"];
+	
+			if (popCellLat >= cell["latRange"][0] && popCellLat < cell["latRange"][1] && popCellLon >= cell["lonRange"][0] && popCellLon < cell["lonRange"][1]) {
+				populations.forEach(function(p){
+					popCounts[p] = popCounts[p] + popCell[p];
+					
+				});
+			}
+		}
+		var degree = 0;
+		populations.forEach(function(d){
+			var populationData = {
+						'name': '',
+						'degree':0,
+						'count': 0,
+						'height':0
+					};
+
+			 populationData['count'] = popCounts[d];
+			 populationData['degree'] = degree;
+			 populationData['height'] = popCounts[d];
+			 populationData['name'] = d;
+
+			 degree = degree + 360/17;
+			 popChartData.push(populationData);
+		});
+		cell[year]['popChartData'] = popChartData;
+	});
+
+}
+
+function drawPopulation(xPos,yPos, cell,year){
 		//Population 
 	var barwidth =5;
 	var barheight = 30;
 	var popcolor;
 	var popdegree = 0;
 
-
-	for (var i = 0; i < maypop2011.length; i++) {
-		//console.log(maypop2011[i]);
-		var popCell = maypop2011[i]
-		var popCellLat = maypop2011[i]["lat"];
-		var popCellLon = maypop2011[i]["lon"];
-		if (popCellLat >= cell["latRange"][0] && popCellLat < cell["latRange"][1] && popCellLon >= cell["lonRange"][0] && popCellLon < cell["lonRange"][1]) {
-				for (var key in popCell) {
-					popcolor = populationColorScale(key);
-					switch(key) {
-						case "other groundfish": 
-							popdegree = 0;
-							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);//right
-							cell['popGroup'].add(popMesh);
-							break;
-						case "flatfish":
-							popdegree = 90;
-							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);//top
-							cell['popGroup'].add(popMesh);
-							break;
-						case "cottid":
-							popdegree = 180;
-							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);//bottom
-							cell['popGroup'].add(popMesh);
-							break;
-						case "clupeoid":
-							popdegree = 270;
-							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree); //left
-							cell['popGroup'].add(popMesh);
-							break;
-						case "salmonid":
-							popdegree = 45;
-							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-							cell['popGroup'].add(popMesh);
-							break;
-						case "smelt":
-							popdegree = 135;
-							var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-							cell['popGroup'].add(popMesh);
-							break;
-						// case "fish":
-						// 	popdegree = 216;
-						// 	var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-						// 	group.add(popMesh);
-						// 	break;
-						// case "rockfish":
-						// 	popdegree = 242;
-						// 	var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-						// 	group.add(popMesh);
-						// 	break;
-						// case "other rockfish":
-						// 	popdegree = 278;
-						// 	var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-						// 	group.add(popMesh);
-						// 	break;
-						// case "deep-sea smelt":
-						// 	popdegree = 304;
-						// 	var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-						// 	group.add(popMesh);
-						// 	break;
-					// case "elasmobranch":
-					// 		popdegree = 200;
-					// 		var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-					// 		group.add(popMesh);
-					// 		break;
-					// 	case "myctophid":
-					// 		popdegree = 220;
-					// 		var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-					// 		group.add(popMesh);
-					// 		break;
-					// 	case "cephalopod":
-					// 		popdegree = 240;
-					// 		var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-					// 		group.add(popMesh);
-					// 		break;
-					// 	case "crustacean":
-					// 		popdegree = 260;
-					// 		var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-					// 		group.add(popMesh);
-					// 		break;
-					// 	case "jellyfish":
-					// 		popdegree = 280;
-					// 		var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-					// 		group.add(popMesh);
-					// 		break;
-					// 	case "hyperiid amphipod":
-					// 		popdegree = 300;
-					// 		var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-					// 		group.add(popMesh);
-					// 		break;
-					// 	case "gelatinous":
-					// 		popdegree = 320;
-					// 		var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-					// 		group.add(popMesh);
-					// 		break;
-					// 	case "euphausiid":
-					// 		popdegree = 340;
-					// 		var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, popdegree);
-					// 		group.add(popMesh);
-					// 		break;
-					}	
-				}
+	cell[year]['popChartData'].forEach(function(pop){
+		popcolor = populationColorScale(pop['name']);
+		if(pop['count'] > 0){
+			var popMesh = drawRect(xPos, yPos, popcolor, barwidth, barheight, pop['degree']);//right
+			cell[year]['popGroup'].add(popMesh);
 		}
-	}
+	});
 }
 
 
