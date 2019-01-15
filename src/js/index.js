@@ -17,28 +17,68 @@ var cellWidth = width/10;
 var cellHeight = height/10;
 
 var steps = 5;
-var colorScale = d3.scaleQuantile()
+var tempColorScale = d3.scaleQuantile()
   .domain([20, 10])
   .range(d3.schemeRdBu[steps].reverse());
 
-var speciesNum = 18;
-var populationColorScale = d3.scaleOrdinal(d3.schemeSpectral[11]);
-	//.domain(["cephalopod", "clupeoid", "cottid", "crustacean", "deep-sea smelt", "elasmobranch", "euphausiid", "fish", "flatfish", "gelatinous", "hyperiid amphipod", "jellyfish", "myctophid", "other groundfish", "rockfish", "salmonid", "smelt"])
-	//.range(d3.schemeSpectral[speciesNum]);
+var speciesNum = 11;
+var populationColorScale = d3.scaleOrdinal(d3.schemeSpectral[speciesNum]);
 
-var colorLegend = legendColor()
+//d3["interpolatePlasma"]
+var chloroColorScale = d3.scaleSequential(d3.interpolatePlasma());
+
+var tempColorLegend = legendColor()
   .labelFormat(d3.format(".2f"))
-  .scale(colorScale)
+  .scale(tempColorScale)
   .shapePadding(0)
   .shapeWidth(20)
   .shapeHeight(20)
   .labelOffset(10);
 
-var legend = d3.select("#legend")
+var tempLegend = d3.select("#temp-legend")
   .append("g")
-  .attr("transform", "translate(5, 5)")
-  .call(colorLegend);  
+//   .attr("transform", "translate(5, 5)")
+  .call(tempColorLegend);  
 
+var popKeys = []
+Object.keys(maypop2011[0]).forEach(function (key) {
+	if (key != "lat" && key != "lon") {
+		popKeys.push(key);
+	}
+ });
+
+var popLegendSize = d3.select("#pop-legend")
+	.append("svg")
+
+var offset = 80;
+var popLegend = popLegendSize.selectAll("#pop-legend")
+	.data(popKeys)
+	.enter().append("g")
+	.attr("class", "swatch")
+	.attr("transform", function (d, i) {
+		return "translate(0," + i*20 +")";
+	});
+
+popLegend.append("rect")
+	.attr("x", 0)
+	.attr("y", 0)
+	.attr("width", 10)
+	.attr("height", 10)
+	.style("fill", function(d, i) {
+		return populationColorScale(d);
+	});
+
+popLegend.append("text")
+	.attr("x", 10)
+	.attr("y", 10)
+	.text(function(d, i) {
+		return d;
+	})
+		.attr("class", "textselected")
+		.style("text-anchor", "start")
+		.style("font-size", 8);
+
+var chloroLegend;
 
 // initialize and create fullscreen version
 var matrixData = data;
@@ -168,11 +208,8 @@ function initGrid(textures,year, config){
     initPopData(config,2011,maypop2011);
     initPopData(config,2015,maypop2015);
 
-
-    console.log(config['matrixData']);
-
 	config['matrixData'].forEach(function(cell){
-		var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
+		var color = (cell[year]['sst'] == -9999) ? "black":tempColorScale(cell[year]['sst']);
 		var degree = (cell[year]['windDegree'] == -9999) ? false: Math.radians(cell[year]['windDegree']);
 		cell[year]['popGroup'] = new THREE.Group();
 
@@ -213,7 +250,7 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 //deprecated
 function updateCells(year) {
 	fullScreenConfig['matrixData'].forEach(function(cell){
-	    var color = (cell[year]['sst'] == -9999) ? "black":colorScale(cell[year]['sst']);
+	    var color = (cell[year]['sst'] == -9999) ? "black":tempColorScale(cell[year]['sst']);
 	    cell['mesh'].material.color.set(color);
 	});
 
