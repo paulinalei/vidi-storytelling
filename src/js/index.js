@@ -22,20 +22,15 @@ var tempColorScale = d3.scaleQuantile()
   .domain([20, 10])
   .range(d3.schemeRdBu[steps].reverse());
 
-<<<<<<< HEAD
 var speciesNum = 11;
 var populationColorScale = d3.scaleOrdinal(d3.schemeSpectral[speciesNum]);
-=======
-var cScale = d3.scaleSequential(d3["interpolatePlasma"]).domain([0.03,30]);
 
 var speciesNum = 18;
 var populationColorScale = d3.scaleOrdinal(d3.schemeSpectral[11]);
-	//.domain(["cephalopod", "clupeoid", "cottid", "crustacean", "deep-sea smelt", "elasmobranch", "euphausiid", "fish", "flatfish", "gelatinous", "hyperiid amphipod", "jellyfish", "myctophid", "other groundfish", "rockfish", "salmonid", "smelt"])
-	//.range(d3.schemeSpectral[speciesNum]);
->>>>>>> 71c84d64c6528c90423359aebb7ed0fcdc9464c8
+
 
 //d3["interpolatePlasma"]
-var chloroColorScale = d3.scaleSequential(d3.interpolatePlasma());
+var chloroColorScale = d3.scaleSequential(d3['interpolatePlasma']).domain([0.03,30]);
 
 var tempColorLegend = legendColor()
   .labelFormat(d3.format(".2f"))
@@ -288,7 +283,7 @@ function drawWind(xPos,yPos,texture, degree){
 
 //TODO:
 function drawCholorphyll(xPos,yPos,cell,year){
-	var cColor = cScale(cell[year]['chloro']);
+	var cColor = chloroColorScale(cell[year]['chloro']);
 	var geometry = new THREE.CircleGeometry( 15, 64 );
 	var material = new THREE.MeshBasicMaterial( { color: cColor } );
 	var circle = new THREE.Mesh( geometry, material );
@@ -367,13 +362,19 @@ function initPopData(config,year,mayPopData){
 
 			 degree = degree + 360/17;
 			 popChartData.push(populationData);
-			 maxValue = (maxValue < popCounts[d])? popCounts[d]: maxValue;
 			 maxName =  (maxValue < popCounts[d])? d: maxName;
+			 maxValue = (maxValue < popCounts[d])? popCounts[d]: maxValue;
+
+			 if(popCounts[d] == 242617){
+			 	console.log("WHAT");
+			 	console.log(populationData);
+
+			 }
 		});
 		cell[year]['popChartData'] = popChartData;
 	});
-	config['matrixData']['maxPopCell']['value'] =(config['matrixData']['maxPopCell'] < maxValue)? maxValue : config['matrixData']['maxPopCell']['value'];
-	config['matrixData']['maxPopCell']['name'] = maxName;
+	config['matrixData']['maxPopCell']['name'] = (config['matrixData']['maxPopCell']['value'] < maxValue)? maxName : config['matrixData']['maxPopCell']['name'];
+	config['matrixData']['maxPopCell']['value'] =(config['matrixData']['maxPopCell']['value'] < maxValue)? maxValue : config['matrixData']['maxPopCell']['value'];
 }
 
 function drawPopulation(xPos,yPos, cell,year){
