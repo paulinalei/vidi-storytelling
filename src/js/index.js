@@ -10,19 +10,29 @@ Math.radians = function(degrees) {
   return degrees * Math.PI / 180;
 };
 
-var width = 800;
-var height = 800;
+var width = 1000;
+var height = 1000;
+var size = Math.sqrt(data.length);
 
-var cellWidth = width/10;
-var cellHeight = height/10;
+var cellWidth = width/size;
+var cellHeight = height/size;
 
 var steps = 5;
 var tempColorScale = d3.scaleQuantile()
   .domain([20, 10])
   .range(d3.schemeRdBu[steps].reverse());
 
+<<<<<<< HEAD
 var speciesNum = 11;
 var populationColorScale = d3.scaleOrdinal(d3.schemeSpectral[speciesNum]);
+=======
+var cScale = d3.scaleSequential(d3["interpolatePlasma"]).domain([0.03,30]);
+
+var speciesNum = 18;
+var populationColorScale = d3.scaleOrdinal(d3.schemeSpectral[11]);
+	//.domain(["cephalopod", "clupeoid", "cottid", "crustacean", "deep-sea smelt", "elasmobranch", "euphausiid", "fish", "flatfish", "gelatinous", "hyperiid amphipod", "jellyfish", "myctophid", "other groundfish", "rockfish", "salmonid", "smelt"])
+	//.range(d3.schemeSpectral[speciesNum]);
+>>>>>>> 71c84d64c6528c90423359aebb7ed0fcdc9464c8
 
 //d3["interpolatePlasma"]
 var chloroColorScale = d3.scaleSequential(d3.interpolatePlasma());
@@ -177,7 +187,7 @@ function loadMesh(config) {
 	const model = {
 		material: {
 			cloth: './src/img/clothweave.jpg',
-			wave: './src/img/wave.png'
+			wave: './src/img/arrow.png'
 		}
 	};
 	const promises = [
@@ -197,14 +207,14 @@ function initGrid(textures,year, config){
     var leftX = (-(width) / 2) + (cellWidth / 2); //left
     var topY = ((height) / 2) - (cellHeight / 2);//top
    	var lat=0,lon=0;
-
-	for(i=topY; i > -(height/2), lat < 10; lat++, i = i - cellHeight){
-    	for(lon=0,j = leftX; j < (width / 2), lon < 10; lon++, j=j + cellWidth){
+   	console.log(config['matrixData']);
+	for(i=topY; i > -(height/2), lat < size; lat++, i = i - cellHeight){
+    	for(lon=0,j = leftX; j < (width / 2), lon < size; lon++, j=j + cellWidth){
     		config['matrixData'][counter]['pos'] = [j,i];
     		counter++;
 		}
     }
-
+    config['matrixData']['maxPopCell'] = {'value':-9999,'name':''};
     initPopData(config,2011,maypop2011);
     initPopData(config,2015,maypop2015);
 
@@ -234,11 +244,12 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	group.add(mesh);
 
 	//Color Circle for chlorophyll 
-	drawCholorphyll();
+	var cholorMesh = drawCholorphyll(xPos,yPos,cell,year);
+	group.add(cholorMesh);
 
 	//Wind direction on top
-	// var windMesh = drawWind(xPos,yPos,textures['wave'], degree);
-	// group.add(windMesh);
+	var windMesh = drawWind(xPos,yPos,textures['wave'], degree);
+	group.add(windMesh);
 
 	//Population Bars
 	var populationMesh = drawPopulation(xPos,yPos,cell,year);
@@ -264,20 +275,26 @@ function updateCells(year) {
 function drawWind(xPos,yPos,texture, degree){
 	//based on x_wind, y_wind create the vector and determine degree to rotate
 	var material = new THREE.SpriteMaterial( {  color: 0xffffff, map: texture, rotation: degree} );
-	material.opacity = 0.25;
+	// material.opacity = 0.25;
 	var sprite = new THREE.Sprite( material );
 	//1H = 1.59343148358W
-	sprite.scale.set(50,50,1.0);
+	sprite.scale.set(25,25,1.0);
 	if(!degree){sprite.scale.set(1 ,1,1.0);}
-	sprite.position.set(xPos, yPos, 1);
+	sprite.position.set(xPos, yPos, 4);
 
 	return sprite
 	//scene.add( sprite );
 }
 
 //TODO:
-function drawCholorphyll(){
+function drawCholorphyll(xPos,yPos,cell,year){
+	var cColor = cScale(cell[year]['chloro']);
+	var geometry = new THREE.CircleGeometry( 15, 64 );
+	var material = new THREE.MeshBasicMaterial( { color: cColor } );
+	var circle = new THREE.Mesh( geometry, material );
+	circle.position.set(xPos, yPos, 3);
 	//based on volume of cholrophyll for a given cell random speckling
+	return circle;
 }
 
 function drawRect(xPos, yPos, color, height, width, degree) {
@@ -304,13 +321,14 @@ function initPopData(config,year,mayPopData){
 
 	//all 17 species
 	species.forEach(function(key){
-		if(key != 'lat' && key != 'lon'){
+		if(key != 'lat' && key != 'lon' && key != 'euphausiid'){
 			populations.push(key);
 		}
 	});
 
 
-
+	var maxValue = -9999;
+	var maxName = '';
 	config['matrixData'].forEach(function(cell){
 		var popChartData = [];
 		var degree = 0;
@@ -349,10 +367,13 @@ function initPopData(config,year,mayPopData){
 
 			 degree = degree + 360/17;
 			 popChartData.push(populationData);
+			 maxValue = (maxValue < popCounts[d])? popCounts[d]: maxValue;
+			 maxName =  (maxValue < popCounts[d])? d: maxName;
 		});
 		cell[year]['popChartData'] = popChartData;
 	});
-
+	config['matrixData']['maxPopCell']['value'] =(config['matrixData']['maxPopCell'] < maxValue)? maxValue : config['matrixData']['maxPopCell']['value'];
+	config['matrixData']['maxPopCell']['name'] = maxName;
 }
 
 function drawPopulation(xPos,yPos, cell,year){
