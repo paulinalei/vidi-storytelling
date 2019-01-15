@@ -141,7 +141,7 @@ function createScene(config){
 	config['scene'] = new THREE.Scene();
 	config['camera'] = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, 1, 20 );
 	config['camera'].position.z = 10;
-	config['renderer'] = new THREE.WebGLRenderer();
+	config['renderer'] = new THREE.WebGLRenderer({antialias: true});
 	
 	drawScene(config);
 }
@@ -232,6 +232,7 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 
 	//Sea Surface Temperature
 	textures['cloth'].anisotropy = config['renderer'].getMaxAnisotropy();
+	textures['cloth'].magFilter = THREE.NearestFilter;
 	var geometry = new THREE.BoxGeometry( cellWidth, cellHeight, 1 );
 	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color: color});
 	var mesh = new THREE.Mesh(geometry, material);
