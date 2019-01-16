@@ -2,7 +2,7 @@ import * as constants from './constants';
 import * as d3 from 'd3';
 import {sliderHorizontal} from 'd3-simple-slider';
 import {legendColor, legendSize} from 'd3-svg-legend';
-import maypop2011 from '../../data-processing/population-data/maypop2011.json';
+import speciesClass from './libs/speciesClass.json';
 
 var gui = {
 	drawTL : function() {
@@ -20,10 +20,8 @@ var gui = {
 	},
 	drawPop : function(){
 		var popKeys = []
-		Object.keys(maypop2011[0]).forEach(function (key) {
-			if (key != "lat" && key != "lon") {
-				popKeys.push(key);
-			}
+		Object.keys(speciesClass[1]).forEach(function (key) {
+				popKeys.push(speciesClass[1][key]);
 		 });
 
 		var popLegendSize = d3.select("#pop-legend")

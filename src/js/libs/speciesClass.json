@@ -1,27 +1,30 @@
+[{
+	"fish": "1",
+	"other groundfish":"2",
+	"rockfish" :"2",
+	"other rockfish":"2", 
+	"flatfish":"2",
+	"salmonid": "3",
+	"myctophid":"4",
+	"smelt":"4",
+	"deep-sea smelt":"4",
+	"clupeoid":"4",
+	"cottid":"4",
+	"cephalopod":"5",
+	"crustacean":"6",
+	"hyperiid amphipod":"6",
+	"jellyfish":"7",
+	"gelatinous":"8",
+	"euphausiid":"9"	
+},
 {
-	"Fish":{
-		"Fish": 0,
-		"Ground Fish":{
-			"Other groundfish":0,
-			"Rockfish" :0,
-			"other rockfish":0, 
-			"Flatfish":0
-		},
-		"Salmonid": 0,
-		"Small Fish": {
-			"Myctophid":0,
-			"Smelt":0,
-			"deep-sea smelt":0,
-			"Clupeoid":0,
-			"Cottid":0
-		}
-	},
-	"Cephalopod":0,
-	"Crustacean":{
-		"Crustacean":0,
-		"hyperiid amphipod":0
-	},
-	"Jellyfish":0,
-	"Gelatinous":0,
-	"Euphausiid":0	
-}
+	"1":"Fish",
+	"2":"Ground Fish",
+	"3":"Salmonid",
+	"4":"Small Fish",
+	"5":"Cephalopod",
+	"6":"Crustacean",
+	"7":"Jellyfish",
+	"8":"Gelatinous",
+	"9":"Euphausiid"
+}]

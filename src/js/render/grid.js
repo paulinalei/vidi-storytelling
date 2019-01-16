@@ -206,7 +206,6 @@ function drawPopulation(xPos,yPos,config, cell,year){
 	var popdegree = 0;
 	var averages = config['matrixData']['averages'][year];
 	console.log(speciesClass);
-
 	//take the popChartData for this and map it such that it is the right ranking
 
 	cell[year]['popChartData'].forEach(function(pop){
