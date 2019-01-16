@@ -1,0 +1,27 @@
+{
+	"Fish":{
+		"Fish": 0,
+		"Ground Fish":{
+			"Other groundfish":0,
+			"Rockfish" :0,
+			"other rockfish":0, 
+			"Flatfish":0
+		},
+		"Salmonid": 0,
+		"Small Fish": {
+			"Myctophid":0,
+			"Smelt":0,
+			"deep-sea smelt":0,
+			"Clupeoid":0,
+			"Cottid":0
+		}
+	},
+	"Cephalopod":0,
+	"Crustacean":{
+		"Crustacean":0,
+		"hyperiid amphipod":0
+	},
+	"Jellyfish":0,
+	"Gelatinous":0,
+	"Euphausiid":0	
+}

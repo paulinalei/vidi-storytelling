@@ -7,10 +7,6 @@ import scene from './render/scene'
 
 // initialize and create fullscreen version
 var matrixData = data;
-Math.radians = function(degrees) {
-  return degrees * Math.PI / 180;
-};
-
 gui.drawTL();
 gui.drawPop();
 
