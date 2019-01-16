@@ -68,42 +68,25 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	return group;
 }
 
-//deprecated
-function updateCells(year) {
-	fullScreenConfig['matrixData'].forEach(function(cell){
-	    var color = (cell[year]['sst'] == -9999) ? "black":constants.TEMP_CS(cell[year]['sst']);
-	    cell['mesh'].material.color.set(color);
-	});
-
-	//TODO:Update Wind
-
-	//TODO:Update Chlorophyll
-
-	fullScreenConfig['renderer'].render( fullScreenConfig['scene'], fullScreenConfig['camera'] );
-}
 
 function drawWind(xPos,yPos,texture, degree){
 	//based on x_wind, y_wind create the vector and determine degree to rotate
 	var material = new THREE.SpriteMaterial( {  color: 0xffffff, map: texture, rotation: degree} );
 	// material.opacity = 0.25;
 	var sprite = new THREE.Sprite( material );
-	//1H = 1.59343148358W
-	sprite.scale.set(25,25,1.0);
+	sprite.scale.set(15,15,1.0);
 	if(!degree){sprite.scale.set(1 ,1,1.0);}
 	sprite.position.set(xPos, yPos, 4);
 
 	return sprite
-	//scene.add( sprite );
 }
 
-//TODO:
 function drawCholorphyll(xPos,yPos,cell,year){
 	var cColor = constants.CHLORO_CS(cell[year]['chloro']);
 	var geometry = new THREE.CircleGeometry( 15, 64 );
 	var material = new THREE.MeshBasicMaterial( { color: cColor } );
 	var circle = new THREE.Mesh( geometry, material );
 	circle.position.set(xPos, yPos, 3);
-	//based on volume of cholrophyll for a given cell random speckling
 	return circle;
 }
 
@@ -222,6 +205,20 @@ function drawPopulation(xPos,yPos,config, cell,year){
 		}
 		
 	});
+}
+
+//deprecated
+function updateCells(year) {
+	fullScreenConfig['matrixData'].forEach(function(cell){
+	    var color = (cell[year]['sst'] == -9999) ? "black":constants.TEMP_CS(cell[year]['sst']);
+	    cell['mesh'].material.color.set(color);
+	});
+
+	//TODO:Update Wind
+
+	//TODO:Update Chlorophyll
+
+	fullScreenConfig['renderer'].render( fullScreenConfig['scene'], fullScreenConfig['camera'] );
 }
 
 export default grid;
