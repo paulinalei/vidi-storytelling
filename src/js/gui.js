@@ -8,6 +8,7 @@ var gui = {
 	drawTL : function() {
 		var tempColorLegend = legendColor()
 		  .labelFormat(d3.format(".2f"))
+		  .classPrefix('legend')
 		  .scale(constants.TEMP_CS)
 		  .shapePadding(0)
 		  .shapeWidth(20)
@@ -39,21 +40,21 @@ var gui = {
 		popLegend.append("rect")
 			.attr("x", 0)
 			.attr("y", 0)
-			.attr("width", 10)
-			.attr("height", 10)
+			.attr("width", 20)
+			.attr("height", 20)
+			.style("stroke", "black")
 			.style("fill", function(d, i) {
 				return constants.POP_CS(d);
 			});
 
 		popLegend.append("text")
-			.attr("x", 10)
-			.attr("y", 10)
+			.attr("x", 30)
+			.attr("y", 15)
 			.text(function(d, i) {
 				return d;
 			})
-				.attr("class", "textselected")
-				.style("text-anchor", "start")
-				.style("font-size", 8);
+			.attr("class", "legendlabel")
+			.style("text-anchor", "start")
 	},
 	drawChloro : function (){
 		var chloroLegend;
