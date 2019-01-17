@@ -222,17 +222,6 @@ function initPopData(config,year,mayPopData){
 	config['matrixData']['averages'][year] = averages;
 }
 
-<<<<<<< HEAD
-function drawPopulation(xPos,yPos,config, cell,year){
-		//Population 
-	var barwidth =5;
-	var barheight = 30;
-	var popcolor;
-	var popdegree = 0;
-	var averages = config['matrixData']['averages'][year];
-	//take the popChartData for this and map it such that it is the right ranking
-=======
->>>>>>> 61c4fe9ff8c0494d480ae4ca28bde6e951128fe3
 
 
 export default grid;
