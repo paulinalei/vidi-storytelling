@@ -20,23 +20,28 @@ var matrixData = data;
 gui.drawTL();
 gui.drawPop();
 
+var panel1Config = {
+	'containerID': 'panel-1',
+	'matrixData': matrixData,
+	'height': constants.getHeight(),
+	'initialYear': 2011,
+	'width': constants.getWidth(),
+	'cellWidth': constants.getCellWidth(),
+	'cellHeight': constants.getCellHeight()
+}
+
+var panel2Config = {
+	'containerID': 'panel-2',
+	'matrixData': matrixData,
+	'height': constants.getHeight(),
+	'initialYear': 2015,
+	'width': constants.getWidth(),
+	'cellWidth': constants.getCellWidth(),
+	'cellHeight': constants.getCellHeight()
+}
+
+
 function load(){
-	var panel1Config = {
-		'containerID': 'panel-1',
-		'matrixData': matrixData,
-		'height': constants.getHeight(),
-		'initialYear': 2011,
-		'width': constants.getWidth()
-	}
-
-	var panel2Config = {
-		'containerID': 'panel-2',
-		'matrixData': matrixData,
-		'height': constants.getHeight(),
-		'initialYear': 2015,
-		'width': constants.getWidth()
-	}
-
 	scene.draw(panel1Config); 
 	scene.draw(panel2Config); 
 }
@@ -46,10 +51,8 @@ load();
 $(window).resize(function() {
     clearTimeout(window.resizedFinished);
     window.resizedFinished = setTimeout(function(){
-    	console.log(constants.getWidth());
-        constants.setHeight(Window.innerHeight);
-        constants.setWidth(Window.innerHeight);
-        console.log(constants.getWidth());
+    	console.log(window.innerHeight);
+
     }, 250);
 });
 
@@ -58,6 +61,10 @@ $(window).resize(function() {
 $('input[name=centerMark]').click(function(e){
 	  var status = $('input[name=centerMark]:checked', '#centerMark').val();
 	  scene.remove();
+	  panel2Config['width'] = 100;
+	  panel2Config['height'] = 100;
+	  panel2Config['cellWidth'] = panel2Config['width'] / constants.getSize();
+	  panel2Config['cellHeight'] = panel2Config['height'] / constants.getSize();
       load();
 });
 

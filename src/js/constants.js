@@ -16,11 +16,6 @@ export function getSize(){return SIZE;}
 export function getCellWidth(){return CELLWIDTH;}
 export function getCellHeight(){return CELLHEIGHT;}
 
-export function setWidth(w){ WIDTH=w; CELLWIDTH = WIDTH/SIZE}
-export function setHeight(h){ HEIGHT=h; CELLHEIGHT = HEIGHT/SIZE;}
-
-
-
 var steps = 5, speciesNum = 18;
 export const TEMP_CS = d3.scaleQuantile()
   .domain([20, 10])
