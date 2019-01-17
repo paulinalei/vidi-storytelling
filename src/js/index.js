@@ -5,12 +5,9 @@ import gui from './gui';
 import scene from './render/scene'
 import * as jQuery from 'jquery';
 
-/*TODO: (1) Add slide code from last years entry
-		(2) Data for 2 other cases
-		(3) Unqiue species count per cell
+/*TODO: 
 		(4) Toggle between wind / unique species count
 		(5) Bars to illustrate growth per population from previous year
-		✓(6) Clean up UI & GUI (legend)
 		(7) Blending for each grid cell *
 		(8) Update Grid function (so it displays toggle inputs)
 */

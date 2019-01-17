@@ -1,8 +1,6 @@
 import * as constants from '../constants';
 import THREE from 'three';
-import maypop2011 from '../../../data-processing/population-data/maypop2011.json';
-import maypop2015 from '../../../data-processing/population-data/maypop2015.json';
-import speciesClass from '../libs/speciesClass.json';
+import averageData from '../libs/average_data.json';
 
 var grid = {
 	initGrid: function (textures,year, config){
@@ -16,10 +14,6 @@ var grid = {
 	    		counter++;
 			}
 	    }
-	    config['matrixData']['maxPopCell'] = {'value':-9999,'name':''};
-	    config['matrixData']['averages'] = {};
-	    initPopData(config,2011,maypop2011);
-	    initPopData(config,2015,maypop2015);
 
 		config['matrixData'].forEach(function(cell){
 			var color = (cell[year]['sst'] == -9999) ? "black":constants.TEMP_CS(cell[year]['sst']);
@@ -64,7 +58,7 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	mesh.position.set(xPos, yPos, 0);
 	group.add(mesh);
 
-	var scale = config['width'] / constants.getWidth(); console.log(scale);
+	var scale = config['width'] / constants.getWidth();
 	//Color Circle for chlorophyll 
 	var cholorMesh = drawCholorphyll(xPos,yPos,cell,year,scale);
 	group.add(cholorMesh);
@@ -129,99 +123,25 @@ function drawPopulation(xPos,yPos,config, cell,year, scale){
 	var barheight = 30 * scale;
 	var popcolor;
 	var popdegree = 0;
-	var averages = config['matrixData']['averages'][year];
-	// console.log(speciesClass);
-	//take the popChartData for this and map it such that it is the right ranking
 
-	cell[year]['popChartData'].forEach(function(pop){
-		if(pop['count'] > 0){
-			popcolor = constants.POP_CS(pop['name']);
-			var stats = averages[pop['name']];
-			var average = stats['sum'] / stats['count'];
-			var heightScale = pop['count'] / average;
-			var height = (barheight / 2) * heightScale;
-			height = (height > barheight) ? barheight : height;
+	var popInfo = cell[year]['popInfo'];
+	if('popInfo' in cell[year]){
+		popInfo['levelOne'].forEach(function(species){
+			var count = popInfo['levelOneMap'][species];
+			popcolor = constants.POP_CS(species);
+			if(count > 0){
+				var species_avg = averageData[year]['L1'][species]['average'];
+				var delta = count / species_avg;
+				var height = barheight * delta;
+				height = (height > barheight)? barheight: height;
 
-			var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, pop['degree'],scale);//right
-			cell[year]['popGroup'].add(popMesh);
-		}
-		
-	});
-}
-
-function initPopData(config,year,mayPopData){
-	var species = Object.keys(mayPopData[0]);
-	var populations = [];
-	var averages = {};
-
-	//all 17 species
-	species.forEach(function(key){
-		if(key != 'lat' && key != 'lon'){
-			populations.push(key);
-			averages[key] = {'count':0,'sum':0,'average':0} 
-		}
-	});
-
-
-	var maxValue = -9999;
-	var maxName = '';
-	config['matrixData'].forEach(function(cell){
-		var popChartData = [];
-		var degree = 0;
-		var degreeInc = 360/populations.length;
-		
-
-		var popCounts = {};
-		populations.forEach(function(pop){
-			popCounts[pop] = 0;
+				var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, popdegree, scale);
+				popdegree = popdegree + (360 / popInfo['levelOne'].length);
+				cell[year]['popGroup'].add(popMesh);
+			}
 		});
-		for (var i = 0; i < mayPopData.length; i++) {
-			var popCell = mayPopData[i]
-			var popCellLat = mayPopData[i]["lat"];
-			var popCellLon = mayPopData[i]["lon"];
+	}
 	
-			if (popCellLat >= cell["latRange"][0] && popCellLat < cell["latRange"][1] && popCellLon >= cell["lonRange"][0] && popCellLon < cell["lonRange"][1]) {
-				populations.forEach(function(p){
-					popCounts[p] = popCounts[p] + popCell[p];
-					
-				});
-			}
-		}
-		var degree = 0;
-		populations.forEach(function(d){
-			var populationData = {
-						'name': '',
-						'degree':0,
-						'count': 0,
-						'height':0
-					};
-
-			 populationData['count'] = popCounts[d];
-			 populationData['degree'] = degree;
-			 populationData['height'] = popCounts[d];
-			 populationData['name'] = d;
-
-			 degree = degree + 360/17;
-
-			 if(popCounts[d] > 0){
-				popChartData.push(populationData);
-				averages[d]['sum'] = averages[d]['sum'] + popCounts[d];
-				averages[d]['count'] = averages[d]['count'] + 1;
-			}
-
-
-			 //Metrics:
-			 
-			 maxName =  (maxValue < popCounts[d])? d: maxName;
-			 maxValue = (maxValue < popCounts[d])? popCounts[d]: maxValue;
-		});
-		cell[year]['popChartData'] = popChartData;
-	});
-	config['matrixData']['maxPopCell']['name'] = (config['matrixData']['maxPopCell']['value'] < maxValue)? maxName : config['matrixData']['maxPopCell']['name'];
-	config['matrixData']['maxPopCell']['value'] =(config['matrixData']['maxPopCell']['value'] < maxValue)? maxValue : config['matrixData']['maxPopCell']['value'];
-	config['matrixData']['averages'][year] = averages;
 }
-
-
 
 export default grid;
