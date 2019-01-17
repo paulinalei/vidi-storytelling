@@ -30,6 +30,25 @@ var scene = {
 		config['renderer'].setSize(config['width'], config['height'] );
 		document.getElementById(config['containerID']).appendChild( config['renderer'].domElement ); 
 		loadMesh(config);
+	},
+	remove: function() {
+    	var divCanvas = document.getElementById('panels');
+		while (divCanvas.getElementsByTagName('canvas')[0]) {
+			var element = divCanvas.getElementsByTagName('canvas')[0];
+			element.remove();
+		}
+		while (divCanvas.getElementsByClassName('block')[0]) {
+			var element = divCanvas.getElementsByClassName('block')[0];
+			element.remove();
+		}
+	    while (divCanvas.getElementsByClassName('canvas-img')[0]) {
+			var element = divCanvas.getElementsByClassName('canvas-img')[0];
+			element.remove();
+		}
+	    while (divCanvas.getElementsByTagName('img')[0]) {
+			var element = divCanvas.getElementsByTagName('img')[0];
+			element.remove();
+		}
 	}
 }
 

@@ -1,7 +1,5 @@
 body { 
 	margin: auto;
-	overflow: none;
- 
     font-family: 'Lato', sans-serif;
 }
 canvas { width: 100%; height: 100% }
@@ -26,12 +24,13 @@ canvas { width: 100%; height: 100% }
 
 #blockA {
 	width: 25%;
+	height: 100vh;
 	background-color: red;
 }
 
 #blockB {
 	width: 50%;
-	overflow-x: scroll;
+	height: 100vh;
 }
 
 #blockB1 {
@@ -43,15 +42,22 @@ canvas { width: 100%; height: 100% }
 	white-space: nowrap;
 }
 
+#panel-1 {
+	white-space: nowrap;
+	display: inline-block;
+}
+
+#panel-2 {
+	white-space: nowrap;
+	display: inline-block;
+}
+
 #blockC {
 	width: 25%;
 	display: inline-block;
 }
 
 /* Grid CSS */
-#grid {
-	display: inline-block;
-}
 
 
 /* Legend CSS */
