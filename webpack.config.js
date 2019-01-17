@@ -42,7 +42,10 @@ const config = {
             use: ['style-loader', 'css-loader']
         }
         ]
-    }
+    },
+    externals: {
+      jquery: 'jQuery'
+    }   
 };
 // Exports
 module.exports = config;

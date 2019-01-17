@@ -7,12 +7,12 @@ import speciesClass from '../libs/speciesClass.json';
 var grid = {
 	initGrid: function (textures,year, config){
 		var i=0, j=0, counter = 0;
-	    var leftX = (-(config['width']) / 2) + (constants.CELLWIDTH / 2); //left
-	    var topY = ((config['height']) / 2) - (constants.CELLHEIGHT / 2);//top
+	    var leftX = (-(config['width']) / 2) + (constants.getCellWidth() / 2); //left
+	    var topY = ((config['height']) / 2) - (constants.getCellHeight() / 2);//top
 	   	var lat=0,lon=0;
 	   	console.log(config['matrixData']);
-		for(i=topY; i > -(config['height']/2), lat < constants.SIZE; lat++, i = i - constants.CELLHEIGHT){
-	    	for(lon=0,j = leftX; j < (config['width'] / 2), lon < constants.SIZE; lon++, j=j + constants.CELLWIDTH){
+		for(i=topY; i > -(config['height']/2), lat < constants.SIZE; lat++, i = i - constants.getCellHeight()){
+	    	for(lon=0,j = leftX; j < (config['width'] / 2), lon < constants.SIZE; lon++, j=j + constants.getCellWidth()){
 	    		config['matrixData'][counter]['pos'] = [j,i];
 	    		counter++;
 			}
@@ -34,6 +34,18 @@ var grid = {
 			cell['mesh'] = mesh;
 			config['scene'].add(mesh);
 		});
+	},
+	updateGrid: function(config, year) {
+		config['matrixData'].forEach(function(cell){
+		    var color = (cell[year]['sst'] == -9999) ? "black":constants.TEMP_CS(cell[year]['sst']);
+		    cell['mesh'].material.color.set(color);
+		});
+
+		//TODO:Update Wind
+
+		//TODO:Update Chlorophyll
+
+		config['renderer'].render( fullScreenConfig['scene'], fullScreenConfig['camera'] );
 	}
 }
 
@@ -47,7 +59,7 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	//Sea Surface Temperature
 	textures['cloth'].anisotropy = config['renderer'].getMaxAnisotropy();
 	textures['cloth'].magFilter = THREE.NearestFilter;
-	var geometry = new THREE.BoxGeometry( constants.CELLWIDTH, constants.CELLHEIGHT, 1 );
+	var geometry = new THREE.BoxGeometry( constants.getCellWidth(), constants.getCellHeight(), 1 );
 	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color: color});
 	var mesh = new THREE.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 0);
@@ -188,7 +200,7 @@ function drawPopulation(xPos,yPos,config, cell,year){
 	var popcolor;
 	var popdegree = 0;
 	var averages = config['matrixData']['averages'][year];
-	console.log(speciesClass);
+	// console.log(speciesClass);
 	//take the popChartData for this and map it such that it is the right ranking
 
 	cell[year]['popChartData'].forEach(function(pop){
@@ -205,20 +217,6 @@ function drawPopulation(xPos,yPos,config, cell,year){
 		}
 		
 	});
-}
-
-//deprecated
-function updateCells(year) {
-	fullScreenConfig['matrixData'].forEach(function(cell){
-	    var color = (cell[year]['sst'] == -9999) ? "black":constants.TEMP_CS(cell[year]['sst']);
-	    cell['mesh'].material.color.set(color);
-	});
-
-	//TODO:Update Wind
-
-	//TODO:Update Chlorophyll
-
-	fullScreenConfig['renderer'].render( fullScreenConfig['scene'], fullScreenConfig['camera'] );
 }
 
 export default grid;
