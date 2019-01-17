@@ -1,6 +1,5 @@
 import * as constants from './constants';
 import * as d3 from 'd3';
-import {sliderHorizontal} from 'd3-simple-slider';
 import {legendColor, legendSize} from 'd3-svg-legend';
 import speciesClass from './libs/speciesClass.json';
 

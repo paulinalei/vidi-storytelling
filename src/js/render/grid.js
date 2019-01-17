@@ -7,12 +7,12 @@ import speciesClass from '../libs/speciesClass.json';
 var grid = {
 	initGrid: function (textures,year, config){
 		var i=0, j=0, counter = 0;
-	    var leftX = (-(config['width']) / 2) + (constants.getCellWidth() / 2); //left
-	    var topY = ((config['height']) / 2) - (constants.getCellHeight() / 2);//top
+	    var leftX = (-(config['width']) / 2) + (config['cellWidth']  / 2); //left
+	    var topY = ((config['height']) / 2) - (config['cellHeight'] / 2);//top
 	   	var lat=0,lon=0;
 	   	console.log(config['matrixData']);
-		for(i=topY; i > -(config['height']/2), lat < constants.SIZE; lat++, i = i - constants.getCellHeight()){
-	    	for(lon=0,j = leftX; j < (config['width'] / 2), lon < constants.SIZE; lon++, j=j + constants.getCellWidth()){
+		for(i=topY; i > -(config['height']/2), lat < constants.SIZE; lat++, i = i - config['cellHeight']){
+	    	for(lon=0,j = leftX; j < (config['width'] / 2), lon < constants.SIZE; lon++, j=j + config['cellWidth']){
 	    		config['matrixData'][counter]['pos'] = [j,i];
 	    		counter++;
 			}
@@ -59,57 +59,61 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	//Sea Surface Temperature
 	textures['cloth'].anisotropy = config['renderer'].getMaxAnisotropy();
 	textures['cloth'].magFilter = THREE.NearestFilter;
-	var geometry = new THREE.BoxGeometry( constants.getCellWidth(), constants.getCellHeight(), 1 );
+	var geometry = new THREE.BoxGeometry( config['cellWidth'], config['cellHeight'], 1 );
 	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color: color});
 	var mesh = new THREE.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 0);
 	group.add(mesh);
 
+	var scale = config['width'] / constants.getWidth(); console.log(scale);
 	//Color Circle for chlorophyll 
-	var cholorMesh = drawCholorphyll(xPos,yPos,cell,year);
+	var cholorMesh = drawCholorphyll(xPos,yPos,cell,year,scale);
 	group.add(cholorMesh);
 
 	//Wind direction on top
-	var windMesh = drawWind(xPos,yPos,textures['wave'], degree);
+	var windMesh = drawWind(xPos,yPos,textures['wave'], degree,scale);
 	group.add(windMesh);
 
 	//Population Bars
-	var populationMesh = drawPopulation(xPos,yPos,config,cell,year);
+	var populationMesh = drawPopulation(xPos,yPos,config,cell,year,scale);
 	group.add(cell[year]['popGroup']);
 
 	return group;
 }
 
 
-function drawWind(xPos,yPos,texture, degree){
+function drawWind(xPos,yPos,texture, degree, scale){
 	//based on x_wind, y_wind create the vector and determine degree to rotate
 	var material = new THREE.SpriteMaterial( {  color: 0xffffff, map: texture, rotation: degree} );
 	// material.opacity = 0.25;
 	var sprite = new THREE.Sprite( material );
-	sprite.scale.set(15,15,1.0);
+	var k = 15 * scale;
+	sprite.scale.set(k,k,1.0);
 	if(!degree){sprite.scale.set(1 ,1,1.0);}
 	sprite.position.set(xPos, yPos, 4);
 
 	return sprite
 }
 
-function drawCholorphyll(xPos,yPos,cell,year){
+function drawCholorphyll(xPos,yPos,cell,year, scale){
 	var cColor = constants.CHLORO_CS(cell[year]['chloro']);
-	var geometry = new THREE.CircleGeometry( 15, 64 );
+
+	var radius = scale * 15;
+	var geometry = new THREE.CircleGeometry( radius, 64 );
 	var material = new THREE.MeshBasicMaterial( { color: cColor } );
 	var circle = new THREE.Mesh( geometry, material );
 	circle.position.set(xPos, yPos, 3);
 	return circle;
 }
 
-function drawRect(xPos, yPos, color, height, width, degree) {
+function drawRect(xPos, yPos, color, height, width, degree, scale) {
 	var geometry = new THREE.BoxGeometry(height, width, 0);
 	var material = new THREE.MeshBasicMaterial({color: color});
 	var mesh = new THREE.Mesh(geometry, material);
 	
 	mesh.position.set(xPos, yPos, 1);
 	var radians = Math.radians(degree);
-	var r = 20;
+	var r = 20 * scale;
 	var move = [r*Math.cos(radians),r*Math.sin(radians)];
 
 	mesh.translateX(move[0]);
@@ -118,6 +122,32 @@ function drawRect(xPos, yPos, color, height, width, degree) {
 	mesh.rotation.z = ((degree+90)*Math.PI)/180;
 
 	return mesh;
+}
+
+function drawPopulation(xPos,yPos,config, cell,year, scale){
+		//Population 
+	var barwidth =5 * scale;
+	var barheight = 30 * scale;
+	var popcolor;
+	var popdegree = 0;
+	var averages = config['matrixData']['averages'][year];
+	// console.log(speciesClass);
+	//take the popChartData for this and map it such that it is the right ranking
+
+	cell[year]['popChartData'].forEach(function(pop){
+		if(pop['count'] > 0){
+			popcolor = constants.POP_CS(pop['name']);
+			var stats = averages[pop['name']];
+			var average = stats['sum'] / stats['count'];
+			var heightScale = pop['count'] / average;
+			var height = (barheight / 2) * heightScale;
+			height = (height > barheight) ? barheight : height;
+
+			var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, pop['degree'],scale);//right
+			cell[year]['popGroup'].add(popMesh);
+		}
+		
+	});
 }
 
 function initPopData(config,year,mayPopData){
@@ -193,30 +223,6 @@ function initPopData(config,year,mayPopData){
 	config['matrixData']['averages'][year] = averages;
 }
 
-function drawPopulation(xPos,yPos,config, cell,year){
-		//Population 
-	var barwidth =5;
-	var barheight = 30;
-	var popcolor;
-	var popdegree = 0;
-	var averages = config['matrixData']['averages'][year];
-	// console.log(speciesClass);
-	//take the popChartData for this and map it such that it is the right ranking
 
-	cell[year]['popChartData'].forEach(function(pop){
-		if(pop['count'] > 0){
-			popcolor = constants.POP_CS(pop['name']);
-			var stats = averages[pop['name']];
-			var average = stats['sum'] / stats['count'];
-			var heightScale = pop['count'] / average;
-			var height = (barheight / 2) * heightScale;
-			height = (height > barheight) ? barheight : height;
-
-			var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, pop['degree']);//right
-			cell[year]['popGroup'].add(popMesh);
-		}
-		
-	});
-}
 
 export default grid;
