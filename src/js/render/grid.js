@@ -10,7 +10,6 @@ var grid = {
 	    var leftX = (-(config['width']) / 2) + (constants.CELLWIDTH / 2); //left
 	    var topY = ((config['height']) / 2) - (constants.CELLHEIGHT / 2);//top
 	   	var lat=0,lon=0;
-	   	console.log(config['matrixData']);
 		for(i=topY; i > -(config['height']/2), lat < constants.SIZE; lat++, i = i - constants.CELLHEIGHT){
 	    	for(lon=0,j = leftX; j < (config['width'] / 2), lon < constants.SIZE; lon++, j=j + constants.CELLWIDTH){
 	    		config['matrixData'][counter]['pos'] = [j,i];
@@ -188,7 +187,6 @@ function drawPopulation(xPos,yPos,config, cell,year){
 	var popcolor;
 	var popdegree = 0;
 	var averages = config['matrixData']['averages'][year];
-	console.log(speciesClass);
 	//take the popChartData for this and map it such that it is the right ranking
 
 	cell[year]['popChartData'].forEach(function(pop){
