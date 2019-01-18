@@ -1,38 +1,48 @@
 export const stories = [
     {
-        'title': 'Periodic temperature effects on biodiversity'
+        'title': 'Periodic Temperature Effects on Biodiversity'
     },
     {
-        'title': 'Marine biodiversity is threatened by climate change and increasing human-related stressors'
+        'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors',
+        'image': './src/img/biodiversity.jpg',
+        'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
     },
     {
-        'title': 'Periodic changes of sea surface temperature -- El Nino and La Nina -- in the Pacific Ocean have impacts all over the globe. How is biodiversity affected by climate change?', 
-        'explanation': 'We know that changes in ocean temperature can affect species, but is there a correlation between a rise in certain species during certain changes in the ocean?',
-        'image': 'https://www.petmd.com/sites/default/files/types-of-hamsters.jpg',
+        'explanation': 'Periodic changes of sea surface temperature -- El Nino and La Nina -- in the Pacific Ocean have impacts all over the globe. How is biodiversity affected by climate change?', 
+        'explanation-src': "https://www.americangeosciences.org/critical-issues/faq/what-are-el-nino-and-la-nina", 
+        'image': './src/img/biodiversity.jpg',
+        'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
+    },
+    {
+        'title': 'We know that changes in ocean temperature can affect species...',
+        'explanation': 'But is there a correlation between a rise in certain species during certain changes in the ocean?'
+    }, 
+    {
+        'title': 'We will be exploring the relationship between species and climate change.',
+        'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.'
+    },
+    {
+        'explanation': 'We will be observing from the period of 2009 - 2015 a range of the ocean in the San Francisco Bay Area.',
+        'image': './src/img/sfBay.jpg',
+        'image-src':'https://eoimages.gsfc.nasa.gov/images/imagerecords/81000/81238/sfbay_oli_2013106_lrg.jpg'
+    },
+    {
+        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area.',
         'canvas': [
             {
                 'containerID': 'panel-1',
                 'initialYear': 2011,
-            },
-            {
-                'containerID': 'panel-2',
-                'initialYear': 2015,
             }
         ]
-    }, 
-    {
-        'title': 'We will be exploring the relationship between species and climate change.',
-        'explanation': 'There are thousands of marine species. We have grouped them into [insert number] groups following the specific categories provided by NOAA.'
     },
     {
-        'title': 'We will be exploring the relationship between species and climate change.',
-        'explanation': 'We explored biodiversity in the San Francisco bay area from 35 degrees latitude to 39 degrees latitude north and from 121 degrees longitude to 125 degrees longitude east. We decided to partition the area into 100 cells to show the wind direction, sea surface temperature, chlorophyll level, and biodiversity of each cell. Each cell is [insert number here] degrees wide and [insert number here] degrees tall.'
-    },
-    {
-        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area.'
-    },
-    {
-        'title': 'Here we see in [insert year] the corresponding sea surface temperatures and diversity of marine populations.'
+        'title': 'Here we see in 2009 the corresponding sea surface temperatures and diversity of marine populations.',
+        'canvas': [
+            {
+                'containerID': 'panel-1',
+                'initialYear': 2009,
+            }
+        ]
     },
     {
         'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish.'
@@ -41,9 +51,33 @@ export const stories = [
         'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species.'
     },
     {
-        'title': 'From 2010 to 2014, there was an abundance in krill, which is represented by the euphausiids group.'
+        'title': 'From 2010 to 2014, there was an abundance in krill, which is represented by the euphausiids group.',
+        'canvas': [
+            {
+                'containerID': 'panel-1',
+                'initialYear': 2011,
+            },
+            {
+                'containerID': 'panel-2',
+                'initialYear': 2012,
+            },
+            {
+                'containerID': 'panel-3',
+                'initialYear': 2013,
+            },
+            {
+                'containerID': 'panel-4',
+                'initialYear': 2014,
+            }
+        ]
     },
     {
-        'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.'
+        'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.',
+        'canvas': [
+            {
+                'containerID': 'panel-1',
+                'initialYear': 2015,
+            }
+        ]
     }
 ]

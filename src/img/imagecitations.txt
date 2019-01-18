@@ -1,0 +1,11 @@
+cephalopod: https://en.wikipedia.org/wiki/Cephalopod
+crustacean: http://www.scienceclarified.com/photos/crustaceans-2987.jpg
+euphausiid: https://en.wikipedia.org/wiki/File:Meganyctiphanes_norvegica2.jpg
+gelatinous: http://planktonchronicles.org/wp-content/uploads/2016/01/4_Le_ctenaire_Beroe_ovata_C_et_N_Sardet-1.png
+groundfish: https://swfsc.noaa.gov/uploadedImages/Divisions/FRD/InSituSurveys/Rockfish/DSCN9462%281%29.jpg
+jellyfish: https://en.wikipedia.org/wiki/Jellyfish
+salmonid: http://necropsymanual.net/wp-content/uploads/2014/11/Trout-1.jpg
+smallfish: https://www.inlandseafood.com/uploads/image/image/269/898b312474df697e.jpg
+
+biodiversity: https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg
+

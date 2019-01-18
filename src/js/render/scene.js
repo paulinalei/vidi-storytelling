@@ -17,6 +17,7 @@ function loadMesh(config) {
 		var textures = result[0];
 	    grid.initGrid(textures,config['initialYear'],config);
 		config['renderer'].render( config['scene'], config['camera'] );
+		console.log("rendering...");
 		// return new THREE.Mesh(result[0], result[1]);
 	});
 }
