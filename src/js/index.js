@@ -46,6 +46,13 @@ var panel2Config = {
 // }
 // load();
 
+function hideBlocks(){
+	$('#blockA').toggleClass('hide');
+	$('#blockB').toggleClass('hide');
+	$('#blockC').toggleClass('hide');
+}
+hideBlocks();
+
 //Window on resize
 $(window).resize(function () {
 	clearTimeout(window.resizedFinished);
