@@ -39,25 +39,10 @@ var panel2Config = {
 	'cellHeight': constants.getCellHeight()
 }
 
-function hideBlocks(){
-	$('#blockA').addClass('hide');
-	$('#blockB').addClass('hide');
-	$('#blockC').addClass('hide');
-}
-//hideBlocks();
-
-function hideTitle(){
-	$('#titlePage').toggleClass('hide');
-}
-hideTitle();
-
-
-
 //Window on resize
 $(window).resize(function () {
 	clearTimeout(window.resizedFinished);
 	window.resizedFinished = setTimeout(function () {
-		console.log(window.innerHeight);
 
 	}, 250);
 });

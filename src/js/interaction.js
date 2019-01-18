@@ -7,7 +7,10 @@ var interaction = {
         
         // if no image and no canvas
         if (!currentStory['image'] && !currentStory['canvas']) {
+            hideBlocks();
+            hideExplanation();
             if (currentStory['title']) {
+                showTitle();
                 $('#title').html(currentStory['title']);
             } else {
                 $('#title').html('');
@@ -17,6 +20,19 @@ var interaction = {
             } else {
                 $('#explanation').html('');
             }
+        }
+
+        //if image 
+        if (currentStory['image']) {
+            hideTitle();
+            hideBlocks();
+            if (currentStory['explanation']) {
+                showExplanation();
+                $('#image-explanation').html(currentStory['explanation']);
+            } else {
+                $('#image-explanation').html('');
+            }
+            $('#image').attr('src', currentStory['image']);
         }
         
         // if canvas
@@ -34,9 +50,31 @@ var interaction = {
     }
 }
 
+function hideTitle(){
+	$('#titlePage').addClass('hide');
+}
+
+function showTitle(){
+	$('#titlePage').removeClass('hide');
+}
+
+function hideExplanation() {
+    $('#imageExplanation').addClass('hide');
+}
+
+function showExplanation() {
+    $('#imageExplanation').removeClass('hide');
+}
+
 function hideBlocks(){
-	$('#blockA').toggleClass('hide');
-	$('#blockB').toggleClass('hide');
-	$('#blockC').toggleClass('hide');
+	$('#blockA').addClass('hide');
+	$('#blockB').addClass('hide');
+	$('#blockC').addClass('hide');
+}
+
+function showBlocks(){
+	$('#blockA').removeClass('hide');
+	$('#blockB').removeClass('hide');
+	$('#blockC').removeClass('hide');
 }
 export default interaction;

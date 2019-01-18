@@ -90,10 +90,6 @@ img{
 	height: 90vh;
 }
 
-#image {
-	width: 100%;
-}
-
 #blockC {
 	width: 25vw;
 	height: 100vh;
@@ -130,11 +126,11 @@ img{
 
 /* Grid CSS */
 
-#title {
+h1 {
 	font-color: white;
 }
 
-#explanation {
+p {
 	font-color: white;
 }
 
