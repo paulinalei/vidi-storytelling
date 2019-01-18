@@ -47,6 +47,10 @@ canvas { width: 100%; height: 100% }
 	height: 90vh;
 }
 
+#image {
+	width: 100%;
+}
+
 #blockC {
 	width: 25vw;
 	height: 100vh;
@@ -60,7 +64,6 @@ canvas { width: 100%; height: 100% }
 #blockC2 {
 	height: 30vh;
 }
-
 
 #panels {
 	overflow-x: scroll;
@@ -77,10 +80,21 @@ canvas { width: 100%; height: 100% }
 	display: inline-block;
 }
 
+.hide {
+	display: none;
+}
+
 
 
 /* Grid CSS */
 
+#title {
+	font-color: white;
+}
+
+#explanation {
+	font-color: white;
+}
 
 /* Legend CSS */
 

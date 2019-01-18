@@ -4,6 +4,8 @@ import * as constants from './constants';
 import gui from './gui';
 import scene from './render/scene'
 import * as jQuery from 'jquery';
+import interaction from './interaction';
+import * as story from './story';
 
 /*TODO: 
 		(4) Toggle between wind / unique species count
@@ -38,32 +40,56 @@ var panel2Config = {
 }
 
 
-function load(){
-	scene.draw(panel1Config); 
-	scene.draw(panel2Config); 
-}
-load();
+// function load() {
+// 	scene.draw(panel1Config);
+// 	scene.draw(panel2Config);
+// }
+// load();
 
 //Window on resize
-$(window).resize(function() {
-    clearTimeout(window.resizedFinished);
-    window.resizedFinished = setTimeout(function(){
-    	console.log(window.innerHeight);
+$(window).resize(function () {
+	clearTimeout(window.resizedFinished);
+	window.resizedFinished = setTimeout(function () {
+		console.log(window.innerHeight);
 
-    }, 250);
+	}, 250);
 });
 
 
 //Function for toggling the centerMark
-$('input[name=centerMark]').click(function(e){
-	  var status = $('input[name=centerMark]:checked', '#centerMark').val();
-	  scene.remove();
-	  panel2Config['width'] = 100;
-	  panel2Config['height'] = 100;
-	  panel2Config['cellWidth'] = panel2Config['width'] / constants.getSize();
-	  panel2Config['cellHeight'] = panel2Config['height'] / constants.getSize();
-      load();
+$('input[name=centerMark]').click(function (e) {
+	var status = $('input[name=centerMark]:checked', '#centerMark').val();
+	scene.remove();
+	panel2Config['width'] = 100;
+	panel2Config['height'] = 100;
+	panel2Config['cellWidth'] = panel2Config['width'] / constants.getSize();
+	panel2Config['cellHeight'] = panel2Config['height'] / constants.getSize();
+	load();
 });
 
 //Function for moving through slides
-
+let storyNum = 0;
+$(document).on('keydown', function(event) {
+    if(event.keyCode == 37) {
+		event.preventDefault();
+		if (storyNum < story.stories.length) {
+			if (storyNum <= 0) {
+				storyNum = 0;
+			} else {
+				storyNum--;
+			}
+    		interaction.updateStory(storyNum, story.stories);
+    	}
+    }
+    else if(event.keyCode == 39) {
+    	event.preventDefault();
+    	if (storyNum < story.stories.length) {
+			if (storyNum >= story.stories.length - 1) {
+				storyNum = story.stories.length - 1;
+			} else {
+				storyNum++;
+			}
+    		interaction.updateStory(storyNum, story.stories);
+    	}
+    }
+});
