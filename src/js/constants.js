@@ -2,16 +2,14 @@ import * as d3 from 'd3';
 import data from './libs/data.json';
 
 //bugged to hell for date updates
-var WIDTH = 1000;
-var HEIGHT = 1000;
-
+var N = 200;
 export const SIZE = Math.sqrt(data.length);
-var CELLWIDTH = WIDTH/SIZE;
-var CELLHEIGHT = HEIGHT/SIZE;
+var CELLWIDTH = N/SIZE;
+var CELLHEIGHT = N/SIZE;
 
 
-export function getWidth(){return WIDTH;}
-export function getHeight(){return HEIGHT;}
+export function getWidth(){return N;}
+export function getHeight(){return N;}
 export function getSize(){return SIZE;}
 export function getCellWidth(){return CELLWIDTH;}
 export function getCellHeight(){return CELLHEIGHT;}

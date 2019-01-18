@@ -58,7 +58,7 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	mesh.position.set(xPos, yPos, 0);
 	group.add(mesh);
 
-	var scale = config['width'] / constants.getWidth();
+	var scale = config['width'] / 1000;
 	//Color Circle for chlorophyll 
 	var cholorMesh = drawCholorphyll(xPos,yPos,cell,year,scale);
 	group.add(cholorMesh);
