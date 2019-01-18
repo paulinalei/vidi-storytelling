@@ -76,6 +76,7 @@ $('input[name=centerMark]').click(function (e) {
 
 //Function for moving through slides
 let storyNum = 0;
+interaction.updateStory(storyNum, story.stories);
 $(document).on('keydown', function(event) {
     if(event.keyCode == 37) {
 		event.preventDefault();
