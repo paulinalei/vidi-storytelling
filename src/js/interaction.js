@@ -29,6 +29,13 @@ var interaction = {
             } else {
                 $('#explanation').html('');
             }
+
+            if (currentStory['explanation']) {
+                // $('#title-explanation-src').html([*]reference);
+                // $('#title-explanation-src').href(currentStory['explanation-src']);
+            } else {
+                $('#title-explanation-src').html('');
+            }
         }
 
         //if image 

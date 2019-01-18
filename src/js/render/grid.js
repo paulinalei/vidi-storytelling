@@ -106,7 +106,7 @@ function drawRect(xPos, yPos, color, height, width, degree, scale) {
 	
 	mesh.position.set(xPos, yPos, 1);
 	var radians = Math.radians(degree);
-	var r = 20 * scale;
+	var r = 15 * scale;
 	var move = [r*Math.cos(radians),r*Math.sin(radians)];
 
 	mesh.translateX(move[0]);
@@ -124,6 +124,18 @@ function drawPopulation(xPos,yPos,config, cell,year, scale){
 	var popcolor;
 	var popdegree = 0;
 
+	var degreeObj = {
+		"Fish": 0,
+		"Ground Fish": (360 / 9),
+		"Salmonid": (360 / 9) * 2,
+		"Small Fish": (360 / 9) * 3,
+		"Cephalopod": (360 /9) * 4,
+		"Crustacean": (360 / 9) * 5,
+		"Jellyfish": (360 / 9) * 6,
+		"Gelatinous": (360 / 9) * 7,
+		"Euphausiid": (360 / 9) * 8
+	}
+
 	var popInfo = cell[year]['popInfo'];
 	if('popInfo' in cell[year]){
 		popInfo['levelOne'].forEach(function(species){
@@ -135,8 +147,7 @@ function drawPopulation(xPos,yPos,config, cell,year, scale){
 				var height = barheight * delta;
 				height = (height > barheight)? barheight: height;
 
-				var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, popdegree, scale);
-				popdegree = popdegree + (360 / popInfo['levelOne'].length);
+				var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, degreeObj[species], scale);
 				cell[year]['popGroup'].add(popMesh);
 			}
 		});

@@ -21,7 +21,8 @@ export const stories = [
     }, 
     {
         'title': 'We will be exploring the relationship between species and climate change using data from NOAA[*].',
-        'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.'
+        'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.',
+        'explanation-src':'https://coastwatch.pfeg.noaa.gov/data.html'
     },
     {
         'explanation': 'We will be observing a range of the ocean in the San Francisco Bay Area from the period of 2009 - 2015.',
