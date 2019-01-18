@@ -20,7 +20,7 @@ export const stories = [
         'explanation': 'But is there a correlation between a rise in certain species during certain changes in the ocean?'
     }, 
     {
-        'title': 'We will be exploring the relationship between species and climate change.',
+        'title': 'We will be exploring the relationship between species and climate change using data from NOAA[*].',
         'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.'
     },
     {
