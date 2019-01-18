@@ -81,7 +81,7 @@ export const stories = [
         'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species.'
     },
     {
-        'title': 'From 2010 to 2014, there was an abundance in krill, which is represented by the euphausiids group.',
+        'title': 'From 2011 to 2014, (left to right) we see sea surface temperatures increase as well as diversity and abundance of species.',
         'canvas': [
             {
                 'containerID': 'panel-1',
