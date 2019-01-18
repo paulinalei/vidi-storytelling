@@ -40,7 +40,17 @@ const config = {
         {
             test: /\.css$/,
             use: ['style-loader', 'css-loader']
-        }
+        },
+        {
+            test: require.resolve('jquery'),
+            use: [{
+                loader: 'expose-loader',
+                options: 'jQuery'
+            },{
+                loader: 'expose-loader',
+                options: '$'
+            }]
+          }
         ]
     },
     externals: {

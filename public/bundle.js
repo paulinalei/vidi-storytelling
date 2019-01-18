@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f47f5107fb1cc41466eb";
+/******/ 	var hotCurrentHash = "88fd00f37809efca4884";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -793,28 +793,6 @@
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./data-processing/population-data/maypop2011.json":
-/*!*********************************************************!*\
-  !*** ./data-processing/population-data/maypop2011.json ***!
-  \*********************************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, default */
-/***/ (function(module) {
-
-module.exports = [{"other groundfish":1,"flatfish":14,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":0,"rockfish":6,"other rockfish":0,"deep-sea smelt":1,"elasmobranch":0,"myctophid":0,"cephalopod":2,"crustacean":98,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":2840,"lat":39.1325,"lon":236.2197},{"other groundfish":34,"flatfish":26,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":16,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":5,"cephalopod":78,"crustacean":12,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":169,"lat":39.1333,"lon":235.9985},{"other groundfish":1507,"flatfish":137,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":26,"other rockfish":2,"deep-sea smelt":1,"elasmobranch":0,"myctophid":400,"cephalopod":193,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":9984,"lat":38.4692,"lon":235.9492},{"other groundfish":352,"flatfish":82,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":26,"other rockfish":0,"deep-sea smelt":13,"elasmobranch":0,"myctophid":200,"cephalopod":32,"crustacean":187,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":3265,"lat":38.4737,"lon":236.2837},{"other groundfish":0,"flatfish":19,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":6,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1,"crustacean":502,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":6400,"lat":38.4675,"lon":236.6172},{"other groundfish":0,"flatfish":214,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":4,"fish":2,"rockfish":8,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":10200,"lat":38.4707,"lon":236.7568},{"other groundfish":2,"flatfish":31,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":10,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":9,"crustacean":0,"jellyfish":351,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":74124,"lat":37.7,"lon":237.0957},{"other groundfish":0,"flatfish":1,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":2,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":0,"crustacean":3,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1940,"lat":37.8855,"lon":236.677},{"other groundfish":0,"flatfish":6,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":8,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":0,"crustacean":1,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":3556,"lat":37.7477,"lon":236.8577},{"other groundfish":29,"flatfish":36,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":8,"other rockfish":0,"deep-sea smelt":5,"elasmobranch":0,"myctophid":93,"cephalopod":24,"crustacean":250,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":46180,"lat":37.6622,"lon":236.7963},{"other groundfish":0,"flatfish":5,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":4,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":49280,"lat":37.6643,"lon":236.9422},{"other groundfish":1,"flatfish":1,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":0,"other rockfish":0,"deep-sea smelt":1,"elasmobranch":0,"myctophid":0,"cephalopod":5,"crustacean":5,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":9650,"lat":37.2737,"lon":236.845},{"other groundfish":7,"flatfish":8,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":9,"other rockfish":1,"deep-sea smelt":49,"elasmobranch":0,"myctophid":332,"cephalopod":12,"crustacean":322,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":7488,"lat":37.2717,"lon":237.015},{"other groundfish":123,"flatfish":90,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":2,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":0,"crustacean":1,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":17172,"lat":37.2705,"lon":237.1815},{"other groundfish":46,"flatfish":463,"cottid":5,"clupeoid":0,"salmonid":0,"smelt":0,"fish":12,"rockfish":6,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":2,"myctophid":0,"cephalopod":81,"crustacean":0,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":44064,"lat":37.2735,"lon":237.366},{"other groundfish":116,"flatfish":46,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":16,"other rockfish":0,"deep-sea smelt":1,"elasmobranch":0,"myctophid":38,"cephalopod":63,"crustacean":109,"jellyfish":4,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":24960,"lat":36.985,"lon":237.2417},{"other groundfish":4,"flatfish":26,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":8,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":4,"cephalopod":14,"crustacean":47,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":75296,"lat":36.9857,"lon":237.4068},{"other groundfish":1,"flatfish":36,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":27,"other rockfish":0,"deep-sea smelt":20,"elasmobranch":0,"myctophid":8,"cephalopod":5,"crustacean":1,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":38214,"lat":36.9827,"lon":237.5718},{"other groundfish":0,"flatfish":55,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":40,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":1,"cephalopod":2,"crustacean":1,"jellyfish":6,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":34947,"lat":36.9822,"lon":237.6252},{"other groundfish":3,"flatfish":60,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":0,"fish":9,"rockfish":20,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":177,"crustacean":0,"jellyfish":158,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":72,"lat":36.9828,"lon":237.7098},{"other groundfish":0,"flatfish":15,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":15,"rockfish":4,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":104,"crustacean":0,"jellyfish":112,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":47664,"lat":36.8493,"lon":238.014},{"other groundfish":10,"flatfish":122,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":9,"other rockfish":1,"deep-sea smelt":1,"elasmobranch":0,"myctophid":0,"cephalopod":6,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":15808,"lat":36.7432,"lon":238.025},{"other groundfish":18,"flatfish":97,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":40,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":2,"myctophid":0,"cephalopod":83,"crustacean":2,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":136488,"lat":36.7687,"lon":238.131},{"other groundfish":2,"flatfish":200,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":1239,"other rockfish":5,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":177,"crustacean":0,"jellyfish":89,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":7704,"lat":36.7133,"lon":238.0905},{"other groundfish":0,"flatfish":28,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":5,"rockfish":238,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":54,"crustacean":0,"jellyfish":905,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":72216,"lat":36.6643,"lon":238.0517},{"other groundfish":14,"flatfish":35,"cottid":6,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":10,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":5,"crustacean":0,"jellyfish":3,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":105408,"lat":36.5835,"lon":237.966},{"other groundfish":110,"flatfish":81,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":124,"other rockfish":4,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":11,"crustacean":216,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":18620,"lat":36.5835,"lon":237.8267},{"other groundfish":18,"flatfish":75,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":43,"other rockfish":3,"deep-sea smelt":1,"elasmobranch":0,"myctophid":0,"cephalopod":5,"crustacean":24,"jellyfish":4,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":10944,"lat":36.6487,"lon":237.9475},{"other groundfish":4,"flatfish":48,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":10,"other rockfish":2,"deep-sea smelt":0,"elasmobranch":0,"myctophid":4,"cephalopod":1,"crustacean":6,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":11160,"lat":36.6992,"lon":237.8947},{"other groundfish":10,"flatfish":18,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":50,"other rockfish":0,"deep-sea smelt":46,"elasmobranch":0,"myctophid":399,"cephalopod":3,"crustacean":377,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1808,"lat":37.6628,"lon":236.7948},{"other groundfish":36,"flatfish":71,"cottid":8,"clupeoid":0,"salmonid":0,"smelt":0,"fish":12,"rockfish":113,"other rockfish":3,"deep-sea smelt":0,"elasmobranch":0,"myctophid":6,"cephalopod":229,"crustacean":9,"jellyfish":5,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":165208,"lat":37.7415,"lon":236.8648},{"other groundfish":16,"flatfish":108,"cottid":3,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":39,"other rockfish":1,"deep-sea smelt":2,"elasmobranch":0,"myctophid":0,"cephalopod":4,"crustacean":23,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":12640,"lat":37.8828,"lon":236.6847},{"other groundfish":49,"flatfish":52,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":8,"other rockfish":0,"deep-sea smelt":3,"elasmobranch":0,"myctophid":0,"cephalopod":4,"crustacean":26,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":75520,"lat":37.8825,"lon":236.5047},{"other groundfish":4,"flatfish":83,"cottid":2,"clupeoid":0,"salmonid":0,"smelt":145,"fish":10,"rockfish":14,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":5,"crustacean":65,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":260803,"lat":38.1733,"lon":237.0052},{"other groundfish":1,"flatfish":55,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":5,"fish":1,"rockfish":12,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":0,"crustacean":1,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":28944,"lat":38.167,"lon":236.8362},{"other groundfish":9,"flatfish":25,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":2,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":0,"crustacean":39,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":17072,"lat":38.1682,"lon":236.6337},{"other groundfish":13,"flatfish":5,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":0,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":5,"crustacean":62,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":12936,"lat":38.1643,"lon":236.5172},{"other groundfish":7,"flatfish":13,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":4,"other rockfish":2,"deep-sea smelt":0,"elasmobranch":0,"myctophid":2,"cephalopod":1,"crustacean":336,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":19840,"lat":36.6993,"lon":237.8948},{"other groundfish":5,"flatfish":30,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":19,"other rockfish":5,"deep-sea smelt":0,"elasmobranch":0,"myctophid":2,"cephalopod":15,"crustacean":10,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":67760,"lat":36.6482,"lon":237.9443},{"other groundfish":0,"flatfish":16,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":8,"other rockfish":2,"deep-sea smelt":0,"elasmobranch":0,"myctophid":5,"cephalopod":5,"crustacean":22,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":53760,"lat":36.5838,"lon":237.8263},{"other groundfish":3,"flatfish":4,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":2,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":3,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":20054,"lat":36.5833,"lon":237.9673},{"other groundfish":5,"flatfish":20,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":306,"other rockfish":18,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":2,"crustacean":0,"jellyfish":8,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1017,"lat":36.6547,"lon":238.057},{"other groundfish":8,"flatfish":104,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":286,"other rockfish":12,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":0,"crustacean":0,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":54720,"lat":36.7105,"lon":238.086},{"other groundfish":3,"flatfish":26,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":1,"other rockfish":1,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":7,"crustacean":6,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":13644,"lat":36.7403,"lon":238.0217},{"other groundfish":0,"flatfish":20,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":16,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":2,"crustacean":2,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":7956,"lat":36.771,"lon":238.1322},{"other groundfish":15,"flatfish":242,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":31,"rockfish":216,"other rockfish":8,"deep-sea smelt":2,"elasmobranch":0,"myctophid":0,"cephalopod":50,"crustacean":0,"jellyfish":12,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":15520,"lat":36.8493,"lon":238.021},{"other groundfish":0,"flatfish":3,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":4,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":96,"crustacean":0,"jellyfish":8,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":0,"lat":36.982,"lon":237.7098},{"other groundfish":22,"flatfish":85,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":462,"other rockfish":46,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":0,"crustacean":0,"jellyfish":3,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":18760,"lat":36.9818,"lon":237.623},{"other groundfish":39,"flatfish":14,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":8,"other rockfish":2,"deep-sea smelt":1,"elasmobranch":0,"myctophid":0,"cephalopod":8,"crustacean":1,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":5616,"lat":36.9777,"lon":237.5695},{"other groundfish":7,"flatfish":80,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":34,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":284,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1011000,"lat":37.6985,"lon":237.0915},{"other groundfish":181,"flatfish":16,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":0,"rockfish":90,"other rockfish":0,"deep-sea smelt":107,"elasmobranch":0,"myctophid":41,"cephalopod":11,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":20640,"lat":37.6602,"lon":236.7943},{"other groundfish":17,"flatfish":24,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":16,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":1,"cephalopod":118,"crustacean":37,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":13824,"lat":38.162,"lon":236.512},{"other groundfish":109,"flatfish":54,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":85,"other rockfish":1,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":3,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":19355,"lat":38.1645,"lon":236.6443},{"other groundfish":6,"flatfish":35,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":1,"fish":1,"rockfish":38,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":21120,"lat":38.1662,"lon":236.8318}];
-
-/***/ }),
-
-/***/ "./data-processing/population-data/maypop2015.json":
-/*!*********************************************************!*\
-  !*** ./data-processing/population-data/maypop2015.json ***!
-  \*********************************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, default */
-/***/ (function(module) {
-
-module.exports = [{"other groundfish":62,"flatfish":393,"cottid":2,"clupeoid":4,"salmonid":0,"smelt":0,"fish":7,"rockfish":68,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":2,"myctophid":0,"cephalopod":170,"crustacean":0,"jellyfish":0,"hyperiid amphipod":2,"gelatinous":0,"euphausiid":36,"lat":37.7788,"lon":237.1473},{"other groundfish":107,"flatfish":815,"cottid":2,"clupeoid":26,"salmonid":0,"smelt":0,"fish":9,"rockfish":217,"other rockfish":5,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":317,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":7943,"lat":37.6993,"lon":237.106},{"other groundfish":8,"flatfish":145,"cottid":0,"clupeoid":24,"salmonid":0,"smelt":0,"fish":2,"rockfish":30,"other rockfish":2,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":41,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":14,"euphausiid":3450,"lat":37.5935,"lon":237.1755},{"other groundfish":17,"flatfish":291,"cottid":0,"clupeoid":56,"salmonid":0,"smelt":0,"fish":1,"rockfish":22,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":1,"myctophid":0,"cephalopod":31,"crustacean":0,"jellyfish":0,"hyperiid amphipod":1,"gelatinous":127,"euphausiid":2703,"lat":38.4648,"lon":236.6247},{"other groundfish":17,"flatfish":87,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":7,"rockfish":6,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":188,"cephalopod":220,"crustacean":97,"jellyfish":0,"hyperiid amphipod":1,"gelatinous":885,"euphausiid":17200,"lat":38.4713,"lon":236.2798},{"other groundfish":338,"flatfish":99,"cottid":6,"clupeoid":0,"salmonid":0,"smelt":0,"fish":47,"rockfish":140,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":187,"cephalopod":338,"crustacean":134,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":3168,"euphausiid":847,"lat":38.4702,"lon":235.9313},{"other groundfish":2,"flatfish":200,"cottid":0,"clupeoid":5,"salmonid":0,"smelt":0,"fish":1,"rockfish":75,"other rockfish":3,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":14,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":3,"euphausiid":5888,"lat":39.138,"lon":236.2148},{"other groundfish":6911,"flatfish":2065,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":6,"rockfish":1555,"other rockfish":101,"deep-sea smelt":0,"elasmobranch":0,"myctophid":10,"cephalopod":120,"crustacean":116,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":592,"euphausiid":3119,"lat":39.146,"lon":235.9925},{"other groundfish":0,"flatfish":55,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":381,"other rockfish":37,"deep-sea smelt":1,"elasmobranch":0,"myctophid":1710,"cephalopod":656,"crustacean":37,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":215,"euphausiid":33811,"lat":39.1378,"lon":235.6752},{"other groundfish":461,"flatfish":151,"cottid":1,"clupeoid":338,"salmonid":0,"smelt":0,"fish":38,"rockfish":569,"other rockfish":5,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":32,"crustacean":2,"jellyfish":0,"hyperiid amphipod":3,"gelatinous":1674,"euphausiid":0,"lat":36.6557,"lon":238.0523},{"other groundfish":3,"flatfish":60,"cottid":3,"clupeoid":21,"salmonid":0,"smelt":0,"fish":13,"rockfish":534,"other rockfish":6,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":48,"crustacean":0,"jellyfish":1,"hyperiid amphipod":56,"gelatinous":599,"euphausiid":90,"lat":36.7112,"lon":238.0765},{"other groundfish":30,"flatfish":54,"cottid":0,"clupeoid":48,"salmonid":0,"smelt":0,"fish":9,"rockfish":104,"other rockfish":2,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":22,"crustacean":1,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":745,"euphausiid":132300,"lat":36.7453,"lon":238.0157},{"other groundfish":9,"flatfish":57,"cottid":0,"clupeoid":407,"salmonid":0,"smelt":0,"fish":28,"rockfish":218,"other rockfish":8,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1628,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":1744,"euphausiid":3346,"lat":36.7678,"lon":238.1227},{"other groundfish":2,"flatfish":64,"cottid":0,"clupeoid":444,"salmonid":0,"smelt":0,"fish":22,"rockfish":101,"other rockfish":5,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":215,"crustacean":2,"jellyfish":0,"hyperiid amphipod":42,"gelatinous":4775,"euphausiid":0,"lat":36.831,"lon":238.038},{"other groundfish":0,"flatfish":274,"cottid":0,"clupeoid":216,"salmonid":0,"smelt":0,"fish":32,"rockfish":130,"other rockfish":18,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":774,"crustacean":12,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":1710,"euphausiid":1260,"lat":36.9833,"lon":237.7078},{"other groundfish":4,"flatfish":179,"cottid":0,"clupeoid":27,"salmonid":0,"smelt":0,"fish":14,"rockfish":441,"other rockfish":117,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":57,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":2193,"euphausiid":39,"lat":36.9835,"lon":237.6357},{"other groundfish":91,"flatfish":281,"cottid":0,"clupeoid":16,"salmonid":0,"smelt":0,"fish":14,"rockfish":132,"other rockfish":32,"deep-sea smelt":1,"elasmobranch":0,"myctophid":3,"cephalopod":29,"crustacean":1,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":1682,"euphausiid":3623,"lat":36.9835,"lon":237.5848},{"other groundfish":248,"flatfish":131,"cottid":0,"clupeoid":18,"salmonid":0,"smelt":0,"fish":5,"rockfish":175,"other rockfish":7,"deep-sea smelt":0,"elasmobranch":0,"myctophid":21,"cephalopod":24,"crustacean":116,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":2166,"euphausiid":42672,"lat":36.9848,"lon":237.4208},{"other groundfish":2,"flatfish":73,"cottid":0,"clupeoid":104,"salmonid":0,"smelt":0,"fish":12,"rockfish":43,"other rockfish":11,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":149,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":38,"euphausiid":6,"lat":37.2757,"lon":237.4343},{"other groundfish":7,"flatfish":113,"cottid":0,"clupeoid":15,"salmonid":0,"smelt":0,"fish":1,"rockfish":30,"other rockfish":12,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":62,"crustacean":0,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":810,"euphausiid":67,"lat":37.2755,"lon":237.3685},{"other groundfish":61,"flatfish":149,"cottid":0,"clupeoid":25,"salmonid":0,"smelt":0,"fish":6,"rockfish":44,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":296,"crustacean":0,"jellyfish":0,"hyperiid amphipod":4,"gelatinous":455,"euphausiid":38220,"lat":37.2817,"lon":237.1577},{"other groundfish":61,"flatfish":86,"cottid":0,"clupeoid":56,"salmonid":0,"smelt":0,"fish":0,"rockfish":36,"other rockfish":0,"deep-sea smelt":2,"elasmobranch":0,"myctophid":9,"cephalopod":237,"crustacean":5,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":2398,"euphausiid":31350,"lat":37.2842,"lon":237.0118},{"other groundfish":131,"flatfish":262,"cottid":0,"clupeoid":40,"salmonid":0,"smelt":0,"fish":5,"rockfish":302,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":11,"cephalopod":2072,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":35237,"euphausiid":1776,"lat":37.2787,"lon":236.8468},{"other groundfish":493,"flatfish":522,"cottid":2,"clupeoid":6,"salmonid":0,"smelt":0,"fish":16,"rockfish":666,"other rockfish":12,"deep-sea smelt":11,"elasmobranch":0,"myctophid":155,"cephalopod":62,"crustacean":398,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":35052,"euphausiid":5016,"lat":36.713,"lon":237.8772},{"other groundfish":897,"flatfish":330,"cottid":0,"clupeoid":11,"salmonid":0,"smelt":0,"fish":5,"rockfish":20,"other rockfish":0,"deep-sea smelt":2,"elasmobranch":0,"myctophid":17,"cephalopod":27,"crustacean":1838,"jellyfish":0,"hyperiid amphipod":2,"gelatinous":7762,"euphausiid":81315,"lat":36.5923,"lon":237.9605},{"other groundfish":1443,"flatfish":1111,"cottid":0,"clupeoid":1305,"salmonid":0,"smelt":0,"fish":12,"rockfish":4305,"other rockfish":75,"deep-sea smelt":0,"elasmobranch":0,"myctophid":29,"cephalopod":455,"crustacean":66,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":20252,"euphausiid":475200,"lat":36.5925,"lon":237.8222},{"other groundfish":846,"flatfish":195,"cottid":0,"clupeoid":25,"salmonid":0,"smelt":0,"fish":91,"rockfish":21195,"other rockfish":65,"deep-sea smelt":2,"elasmobranch":0,"myctophid":404,"cephalopod":295,"crustacean":172,"jellyfish":0,"hyperiid amphipod":97,"gelatinous":242617,"euphausiid":681,"lat":36.5865,"lon":237.6702},{"other groundfish":161,"flatfish":1419,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":33,"rockfish":2490,"other rockfish":0,"deep-sea smelt":7,"elasmobranch":0,"myctophid":133,"cephalopod":133,"crustacean":2450,"jellyfish":0,"hyperiid amphipod":29,"gelatinous":88978,"euphausiid":1857,"lat":36.585,"lon":237.8163},{"other groundfish":62,"flatfish":146,"cottid":0,"clupeoid":65,"salmonid":0,"smelt":0,"fish":29,"rockfish":98,"other rockfish":0,"deep-sea smelt":2,"elasmobranch":0,"myctophid":2,"cephalopod":1477,"crustacean":387,"jellyfish":2,"hyperiid amphipod":7,"gelatinous":14191,"euphausiid":392805,"lat":36.5828,"lon":237.9678},{"other groundfish":5,"flatfish":93,"cottid":0,"clupeoid":215,"salmonid":0,"smelt":0,"fish":11,"rockfish":247,"other rockfish":15,"deep-sea smelt":0,"elasmobranch":2,"myctophid":29,"cephalopod":444,"crustacean":12,"jellyfish":0,"hyperiid amphipod":21,"gelatinous":3738,"euphausiid":115020,"lat":36.7097,"lon":237.8845},{"other groundfish":2,"flatfish":40,"cottid":0,"clupeoid":2,"salmonid":0,"smelt":0,"fish":7,"rockfish":27,"other rockfish":5,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":5,"crustacean":0,"jellyfish":5,"hyperiid amphipod":2,"gelatinous":0,"euphausiid":510,"lat":37.2803,"lon":237.4135},{"other groundfish":0,"flatfish":14,"cottid":0,"clupeoid":9,"salmonid":0,"smelt":0,"fish":8,"rockfish":84,"other rockfish":6,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":10,"crustacean":0,"jellyfish":32,"hyperiid amphipod":0,"gelatinous":1486,"euphausiid":72,"lat":37.2773,"lon":237.3472},{"other groundfish":47,"flatfish":409,"cottid":0,"clupeoid":35,"salmonid":0,"smelt":0,"fish":5,"rockfish":393,"other rockfish":13,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1009,"crustacean":0,"jellyfish":0,"hyperiid amphipod":3,"gelatinous":62780,"euphausiid":33930,"lat":37.2855,"lon":237.1712},{"other groundfish":2644,"flatfish":807,"cottid":2,"clupeoid":2,"salmonid":0,"smelt":0,"fish":6,"rockfish":42165,"other rockfish":13,"deep-sea smelt":0,"elasmobranch":0,"myctophid":38,"cephalopod":154,"crustacean":43,"jellyfish":0,"hyperiid amphipod":3,"gelatinous":52338,"euphausiid":1193,"lat":37.2817,"lon":237.0068},{"other groundfish":94,"flatfish":723,"cottid":3,"clupeoid":3,"salmonid":0,"smelt":0,"fish":6,"rockfish":1227,"other rockfish":11,"deep-sea smelt":0,"elasmobranch":0,"myctophid":5,"cephalopod":92,"crustacean":0,"jellyfish":0,"hyperiid amphipod":48,"gelatinous":9495,"euphausiid":214,"lat":37.2783,"lon":236.8557},{"other groundfish":380,"flatfish":236,"cottid":0,"clupeoid":98,"salmonid":0,"smelt":0,"fish":20,"rockfish":1109,"other rockfish":251,"deep-sea smelt":10,"elasmobranch":0,"myctophid":16,"cephalopod":134,"crustacean":3,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":2689,"euphausiid":386100,"lat":37.8828,"lon":236.4927},{"other groundfish":10,"flatfish":116,"cottid":0,"clupeoid":108,"salmonid":0,"smelt":0,"fish":22,"rockfish":133,"other rockfish":27,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":71,"crustacean":0,"jellyfish":0,"hyperiid amphipod":2,"gelatinous":18,"euphausiid":508032,"lat":37.8828,"lon":236.6633},{"other groundfish":164,"flatfish":138,"cottid":0,"clupeoid":6,"salmonid":0,"smelt":0,"fish":17,"rockfish":126,"other rockfish":42,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":4,"crustacean":0,"jellyfish":0,"hyperiid amphipod":2,"gelatinous":1487,"euphausiid":12365,"lat":37.7445,"lon":236.8597},{"other groundfish":42,"flatfish":238,"cottid":0,"clupeoid":11,"salmonid":0,"smelt":0,"fish":14,"rockfish":197,"other rockfish":9,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":93,"crustacean":0,"jellyfish":0,"hyperiid amphipod":35,"gelatinous":26018,"euphausiid":12628,"lat":37.6657,"lon":236.947},{"other groundfish":4,"flatfish":67,"cottid":0,"clupeoid":17,"salmonid":0,"smelt":0,"fish":5,"rockfish":333,"other rockfish":21,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":374,"crustacean":0,"jellyfish":35,"hyperiid amphipod":0,"gelatinous":56,"euphausiid":84,"lat":37.5968,"lon":237.177},{"other groundfish":2,"flatfish":14,"cottid":0,"clupeoid":6,"salmonid":0,"smelt":0,"fish":13,"rockfish":238,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":18,"crustacean":0,"jellyfish":5,"hyperiid amphipod":0,"gelatinous":273,"euphausiid":12,"lat":37.7105,"lon":237.0847},{"other groundfish":11,"flatfish":403,"cottid":0,"clupeoid":8,"salmonid":0,"smelt":0,"fish":62,"rockfish":263,"other rockfish":17,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":255,"crustacean":0,"jellyfish":11,"hyperiid amphipod":0,"gelatinous":2,"euphausiid":72,"lat":37.8002,"lon":237.1217},{"other groundfish":1562,"flatfish":907,"cottid":0,"clupeoid":21,"salmonid":0,"smelt":0,"fish":5,"rockfish":47,"other rockfish":3,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":3,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":3,"euphausiid":81432,"lat":38.471,"lon":236.6088},{"other groundfish":1601,"flatfish":999,"cottid":0,"clupeoid":10,"salmonid":0,"smelt":0,"fish":4,"rockfish":62,"other rockfish":8,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":4,"crustacean":0,"jellyfish":0,"hyperiid amphipod":2,"gelatinous":168,"euphausiid":19125,"lat":38.4727,"lon":236.6068},{"other groundfish":152,"flatfish":234,"cottid":9,"clupeoid":94,"salmonid":0,"smelt":0,"fish":0,"rockfish":357,"other rockfish":9,"deep-sea smelt":19,"elasmobranch":0,"myctophid":60,"cephalopod":152,"crustacean":12,"jellyfish":0,"hyperiid amphipod":2,"gelatinous":18,"euphausiid":584640,"lat":38.4742,"lon":236.2817},{"other groundfish":0,"flatfish":26,"cottid":0,"clupeoid":5,"salmonid":0,"smelt":0,"fish":0,"rockfish":12,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":0,"crustacean":0,"jellyfish":0,"hyperiid amphipod":7,"gelatinous":14,"euphausiid":0,"lat":39.1325,"lon":236.2168},{"other groundfish":3,"flatfish":351,"cottid":0,"clupeoid":3,"salmonid":0,"smelt":0,"fish":0,"rockfish":108,"other rockfish":1,"deep-sea smelt":0,"elasmobranch":0,"myctophid":24,"cephalopod":95,"crustacean":3,"jellyfish":2,"hyperiid amphipod":2,"gelatinous":781,"euphausiid":145,"lat":39.1402,"lon":236.0012},{"other groundfish":0,"flatfish":39,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":4,"rockfish":14,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":1,"cephalopod":22,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":10011,"euphausiid":8400,"lat":39.143,"lon":235.677},{"other groundfish":0,"flatfish":2,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":0,"other rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":2,"cephalopod":14,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":6394,"euphausiid":4723,"lat":39.1352,"lon":235.681},{"other groundfish":4,"flatfish":1025,"cottid":8,"clupeoid":165,"salmonid":0,"smelt":0,"fish":349,"rockfish":166,"other rockfish":12,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":166,"crustacean":2,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":10,"lat":38.1697,"lon":236.9907},{"other groundfish":396,"flatfish":1580,"cottid":0,"clupeoid":9,"salmonid":0,"smelt":1,"fish":7,"rockfish":554,"other rockfish":132,"deep-sea smelt":1,"elasmobranch":0,"myctophid":0,"cephalopod":28,"crustacean":0,"jellyfish":9,"hyperiid amphipod":0,"gelatinous":97,"euphausiid":0,"lat":38.1723,"lon":236.8255},{"other groundfish":17,"flatfish":174,"cottid":0,"clupeoid":15,"salmonid":0,"smelt":0,"fish":3,"rockfish":170,"other rockfish":4,"deep-sea smelt":3,"elasmobranch":0,"myctophid":0,"cephalopod":4,"crustacean":50,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":68,"euphausiid":2285,"lat":38.1717,"lon":236.5103},{"other groundfish":192,"flatfish":573,"cottid":0,"clupeoid":2,"salmonid":0,"smelt":0,"fish":10,"rockfish":117,"other rockfish":3,"deep-sea smelt":0,"elasmobranch":0,"myctophid":8,"cephalopod":22,"crustacean":0,"jellyfish":0,"hyperiid amphipod":3,"gelatinous":2203,"euphausiid":620,"lat":37.8867,"lon":236.5002},{"other groundfish":0,"flatfish":61,"cottid":0,"clupeoid":2,"salmonid":0,"smelt":0,"fish":2,"rockfish":81,"other rockfish":3,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":8,"crustacean":0,"jellyfish":0,"hyperiid amphipod":2,"gelatinous":51,"euphausiid":399,"lat":37.8848,"lon":236.6857}];
-
-/***/ }),
 
 /***/ "./node_modules/d3-array/src/array.js":
 /*!********************************************!*\
@@ -23253,1801 +23231,6 @@ var c = -0.5,
 
 /***/ }),
 
-/***/ "./node_modules/d3-simple-slider/index.js":
-/*!************************************************!*\
-  !*** ./node_modules/d3-simple-slider/index.js ***!
-  \************************************************/
-/*! exports provided: sliderHorizontal, sliderVertical, sliderTop, sliderRight, sliderBottom, sliderLeft */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _src_slider_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/slider.js */ "./node_modules/d3-simple-slider/src/slider.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sliderHorizontal", function() { return _src_slider_js__WEBPACK_IMPORTED_MODULE_0__["sliderHorizontal"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sliderVertical", function() { return _src_slider_js__WEBPACK_IMPORTED_MODULE_0__["sliderVertical"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sliderTop", function() { return _src_slider_js__WEBPACK_IMPORTED_MODULE_0__["sliderTop"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sliderRight", function() { return _src_slider_js__WEBPACK_IMPORTED_MODULE_0__["sliderRight"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sliderBottom", function() { return _src_slider_js__WEBPACK_IMPORTED_MODULE_0__["sliderBottom"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sliderLeft", function() { return _src_slider_js__WEBPACK_IMPORTED_MODULE_0__["sliderLeft"]; });
-
-
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/array.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/array.js ***!
-  \**************************************************************************/
-/*! exports provided: slice, map */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slice", function() { return slice; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "map", function() { return map; });
-var array = Array.prototype;
-
-var slice = array.slice;
-var map = array.map;
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ascending.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/ascending.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(a, b) {
-  return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/bisect.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/bisect.js ***!
-  \***************************************************************************/
-/*! exports provided: bisectRight, bisectLeft, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "bisectRight", function() { return bisectRight; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "bisectLeft", function() { return bisectLeft; });
-/* harmony import */ var _ascending__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ascending */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ascending.js");
-/* harmony import */ var _bisector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bisector */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/bisector.js");
-
-
-
-var ascendingBisect = Object(_bisector__WEBPACK_IMPORTED_MODULE_1__["default"])(_ascending__WEBPACK_IMPORTED_MODULE_0__["default"]);
-var bisectRight = ascendingBisect.right;
-var bisectLeft = ascendingBisect.left;
-/* harmony default export */ __webpack_exports__["default"] = (bisectRight);
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/bisector.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/bisector.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ascending__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ascending */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ascending.js");
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function(compare) {
-  if (compare.length === 1) compare = ascendingComparator(compare);
-  return {
-    left: function(a, x, lo, hi) {
-      if (lo == null) lo = 0;
-      if (hi == null) hi = a.length;
-      while (lo < hi) {
-        var mid = lo + hi >>> 1;
-        if (compare(a[mid], x) < 0) lo = mid + 1;
-        else hi = mid;
-      }
-      return lo;
-    },
-    right: function(a, x, lo, hi) {
-      if (lo == null) lo = 0;
-      if (hi == null) hi = a.length;
-      while (lo < hi) {
-        var mid = lo + hi >>> 1;
-        if (compare(a[mid], x) > 0) hi = mid;
-        else lo = mid + 1;
-      }
-      return lo;
-    }
-  };
-});
-
-function ascendingComparator(f) {
-  return function(d, x) {
-    return Object(_ascending__WEBPACK_IMPORTED_MODULE_0__["default"])(f(d), x);
-  };
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/constant.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/constant.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(x) {
-  return function() {
-    return x;
-  };
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/cross.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/cross.js ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return cross; });
-function length(array) {
-  return array.length | 0;
-}
-
-function empty(length) {
-  return !(length > 0);
-}
-
-function arrayify(values) {
-  return typeof values !== "object" || "length" in values ? values : Array.from(values);
-}
-
-function reducer(reduce) {
-  return values => reduce(...values);
-}
-
-function cross(...values) {
-  const reduce = typeof values[values.length - 1] === "function" && reducer(values.pop());
-  values = values.map(arrayify);
-  const lengths = values.map(length);
-  const j = values.length - 1;
-  const index = new Array(j + 1).fill(0);
-  const product = [];
-  if (j < 0 || lengths.some(empty)) return product;
-  while (true) {
-    product.push(index.map((j, i) => values[i][j]));
-    var i = j;
-    while (++index[i] === lengths[i]) {
-      if (i === 0) return reduce ? product.map(reduce) : product;
-      index[i--] = 0;
-    }
-  }
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/descending.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/descending.js ***!
-  \*******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(a, b) {
-  return b < a ? -1 : b > a ? 1 : b >= a ? 0 : NaN;
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/deviation.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/deviation.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return deviation; });
-/* harmony import */ var _variance__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./variance */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/variance.js");
-
-
-function deviation(values, valueof) {
-  const v = Object(_variance__WEBPACK_IMPORTED_MODULE_0__["default"])(values, valueof);
-  return v ? Math.sqrt(v) : v;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/extent.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/extent.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(values, valueof) {
-  let min;
-  let max;
-  if (valueof === undefined) {
-    for (let value of values) {
-      if (value != null && value >= value) {
-        if (min === undefined) {
-          min = max = value;
-        } else {
-          if (min > value) min = value;
-          if (max < value) max = value;
-        }
-      }
-    }
-  } else {
-    let index = -1;
-    for (let value of values) {
-      if ((value = valueof(value, ++index, values)) != null && value >= value) {
-        if (min === undefined) {
-          min = max = value;
-        } else {
-          if (min > value) min = value;
-          if (max < value) max = value;
-        }
-      }
-    }
-  }
-  return [min, max];
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/group.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/group.js ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return group; });
-/* harmony import */ var _identity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./identity */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/identity.js");
-/* harmony import */ var _rollup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./rollup */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/rollup.js");
-
-
-
-function group(values, ...keys) {
-  return Object(_rollup__WEBPACK_IMPORTED_MODULE_1__["default"])(values, _identity__WEBPACK_IMPORTED_MODULE_0__["default"], ...keys);
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/histogram.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/histogram.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./array */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/array.js");
-/* harmony import */ var _bisect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bisect */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/bisect.js");
-/* harmony import */ var _constant__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constant */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/constant.js");
-/* harmony import */ var _extent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./extent */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/extent.js");
-/* harmony import */ var _identity__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./identity */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/identity.js");
-/* harmony import */ var _range__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./range */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/range.js");
-/* harmony import */ var _ticks__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ticks */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ticks.js");
-/* harmony import */ var _threshold_sturges__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./threshold/sturges */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/sturges.js");
-
-
-
-
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function() {
-  var value = _identity__WEBPACK_IMPORTED_MODULE_4__["default"],
-      domain = _extent__WEBPACK_IMPORTED_MODULE_3__["default"],
-      threshold = _threshold_sturges__WEBPACK_IMPORTED_MODULE_7__["default"];
-
-  function histogram(data) {
-    var i,
-        n = data.length,
-        x,
-        values = Array.from(data, value),
-        xz = domain(values),
-        x0 = xz[0],
-        x1 = xz[1],
-        tz = threshold(values, x0, x1);
-
-    // Convert number of thresholds into uniform thresholds.
-    if (!Array.isArray(tz)) {
-      tz = Object(_ticks__WEBPACK_IMPORTED_MODULE_6__["tickStep"])(x0, x1, tz);
-      tz = Object(_range__WEBPACK_IMPORTED_MODULE_5__["default"])(Math.ceil(x0 / tz) * tz, x1, tz); // exclusive
-    }
-
-    // Remove any thresholds outside the domain.
-    var m = tz.length;
-    while (tz[0] <= x0) tz.shift(), --m;
-    while (tz[m - 1] > x1) tz.pop(), --m;
-
-    var bins = new Array(m + 1),
-        bin;
-
-    // Initialize bins.
-    for (i = 0; i <= m; ++i) {
-      bin = bins[i] = [];
-      bin.x0 = i > 0 ? tz[i - 1] : x0;
-      bin.x1 = i < m ? tz[i] : x1;
-    }
-
-    // Assign data to bins by value, ignoring any outside the domain.
-    for (i = 0; i < n; ++i) {
-      x = values[i];
-      if (x0 <= x && x <= x1) {
-        bins[Object(_bisect__WEBPACK_IMPORTED_MODULE_1__["default"])(tz, x, 0, m)].push(data[i]);
-      }
-    }
-
-    return bins;
-  }
-
-  histogram.value = function(_) {
-    return arguments.length ? (value = typeof _ === "function" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_2__["default"])(_), histogram) : value;
-  };
-
-  histogram.domain = function(_) {
-    return arguments.length ? (domain = typeof _ === "function" ? _ : Object(_constant__WEBPACK_IMPORTED_MODULE_2__["default"])([_[0], _[1]]), histogram) : domain;
-  };
-
-  histogram.thresholds = function(_) {
-    return arguments.length ? (threshold = typeof _ === "function" ? _ : Array.isArray(_) ? Object(_constant__WEBPACK_IMPORTED_MODULE_2__["default"])(_array__WEBPACK_IMPORTED_MODULE_0__["slice"].call(_)) : Object(_constant__WEBPACK_IMPORTED_MODULE_2__["default"])(_), histogram) : threshold;
-  };
-
-  return histogram;
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/identity.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/identity.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(x) {
-  return x;
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/index.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/index.js ***!
-  \**************************************************************************/
-/*! exports provided: bisect, bisectRight, bisectLeft, ascending, bisector, cross, descending, deviation, extent, group, histogram, thresholdFreedmanDiaconis, thresholdScott, thresholdSturges, max, mean, median, merge, min, pairs, permute, quantile, quickselect, range, rollup, scan, shuffle, sum, ticks, tickIncrement, tickStep, transpose, variance, zip */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _bisect__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bisect */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/bisect.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "bisect", function() { return _bisect__WEBPACK_IMPORTED_MODULE_0__["default"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "bisectRight", function() { return _bisect__WEBPACK_IMPORTED_MODULE_0__["bisectRight"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "bisectLeft", function() { return _bisect__WEBPACK_IMPORTED_MODULE_0__["bisectLeft"]; });
-
-/* harmony import */ var _ascending__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ascending */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ascending.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ascending", function() { return _ascending__WEBPACK_IMPORTED_MODULE_1__["default"]; });
-
-/* harmony import */ var _bisector__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./bisector */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/bisector.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "bisector", function() { return _bisector__WEBPACK_IMPORTED_MODULE_2__["default"]; });
-
-/* harmony import */ var _cross__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./cross */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/cross.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "cross", function() { return _cross__WEBPACK_IMPORTED_MODULE_3__["default"]; });
-
-/* harmony import */ var _descending__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./descending */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/descending.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "descending", function() { return _descending__WEBPACK_IMPORTED_MODULE_4__["default"]; });
-
-/* harmony import */ var _deviation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./deviation */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/deviation.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "deviation", function() { return _deviation__WEBPACK_IMPORTED_MODULE_5__["default"]; });
-
-/* harmony import */ var _extent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./extent */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/extent.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "extent", function() { return _extent__WEBPACK_IMPORTED_MODULE_6__["default"]; });
-
-/* harmony import */ var _group__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./group */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/group.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "group", function() { return _group__WEBPACK_IMPORTED_MODULE_7__["default"]; });
-
-/* harmony import */ var _histogram__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./histogram */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/histogram.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "histogram", function() { return _histogram__WEBPACK_IMPORTED_MODULE_8__["default"]; });
-
-/* harmony import */ var _threshold_freedmanDiaconis__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./threshold/freedmanDiaconis */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/freedmanDiaconis.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "thresholdFreedmanDiaconis", function() { return _threshold_freedmanDiaconis__WEBPACK_IMPORTED_MODULE_9__["default"]; });
-
-/* harmony import */ var _threshold_scott__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./threshold/scott */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/scott.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "thresholdScott", function() { return _threshold_scott__WEBPACK_IMPORTED_MODULE_10__["default"]; });
-
-/* harmony import */ var _threshold_sturges__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./threshold/sturges */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/sturges.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "thresholdSturges", function() { return _threshold_sturges__WEBPACK_IMPORTED_MODULE_11__["default"]; });
-
-/* harmony import */ var _max__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./max */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/max.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "max", function() { return _max__WEBPACK_IMPORTED_MODULE_12__["default"]; });
-
-/* harmony import */ var _mean__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./mean */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/mean.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "mean", function() { return _mean__WEBPACK_IMPORTED_MODULE_13__["default"]; });
-
-/* harmony import */ var _median__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./median */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/median.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "median", function() { return _median__WEBPACK_IMPORTED_MODULE_14__["default"]; });
-
-/* harmony import */ var _merge__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./merge */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/merge.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "merge", function() { return _merge__WEBPACK_IMPORTED_MODULE_15__["default"]; });
-
-/* harmony import */ var _min__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./min */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/min.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "min", function() { return _min__WEBPACK_IMPORTED_MODULE_16__["default"]; });
-
-/* harmony import */ var _pairs__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pairs */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/pairs.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "pairs", function() { return _pairs__WEBPACK_IMPORTED_MODULE_17__["default"]; });
-
-/* harmony import */ var _permute__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./permute */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/permute.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "permute", function() { return _permute__WEBPACK_IMPORTED_MODULE_18__["default"]; });
-
-/* harmony import */ var _quantile__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./quantile */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/quantile.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "quantile", function() { return _quantile__WEBPACK_IMPORTED_MODULE_19__["default"]; });
-
-/* harmony import */ var _quickselect__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./quickselect */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/quickselect.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "quickselect", function() { return _quickselect__WEBPACK_IMPORTED_MODULE_20__["default"]; });
-
-/* harmony import */ var _range__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./range */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/range.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "range", function() { return _range__WEBPACK_IMPORTED_MODULE_21__["default"]; });
-
-/* harmony import */ var _rollup__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./rollup */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/rollup.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rollup", function() { return _rollup__WEBPACK_IMPORTED_MODULE_22__["default"]; });
-
-/* harmony import */ var _scan__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./scan */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/scan.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "scan", function() { return _scan__WEBPACK_IMPORTED_MODULE_23__["default"]; });
-
-/* harmony import */ var _shuffle__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./shuffle */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/shuffle.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "shuffle", function() { return _shuffle__WEBPACK_IMPORTED_MODULE_24__["default"]; });
-
-/* harmony import */ var _sum__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./sum */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/sum.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sum", function() { return _sum__WEBPACK_IMPORTED_MODULE_25__["default"]; });
-
-/* harmony import */ var _ticks__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./ticks */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ticks.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ticks", function() { return _ticks__WEBPACK_IMPORTED_MODULE_26__["default"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "tickIncrement", function() { return _ticks__WEBPACK_IMPORTED_MODULE_26__["tickIncrement"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "tickStep", function() { return _ticks__WEBPACK_IMPORTED_MODULE_26__["tickStep"]; });
-
-/* harmony import */ var _transpose__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./transpose */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/transpose.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "transpose", function() { return _transpose__WEBPACK_IMPORTED_MODULE_27__["default"]; });
-
-/* harmony import */ var _variance__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./variance */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/variance.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "variance", function() { return _variance__WEBPACK_IMPORTED_MODULE_28__["default"]; });
-
-/* harmony import */ var _zip__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./zip */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/zip.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "zip", function() { return _zip__WEBPACK_IMPORTED_MODULE_29__["default"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/max.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/max.js ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return max; });
-function max(values, valueof) {
-  let max;
-  if (valueof === undefined) {
-    for (let value of values) {
-      if (value != null
-          && value >= value
-          && (max === undefined || max < value)) {
-        max = value;
-      }
-    }
-  } else {
-    let index = -1;
-    for (let value of values) {
-      if ((value = valueof(value, ++index, values)) != null
-          && value >= value
-          && (max === undefined || max < value)) {
-        max = value;
-      }
-    }
-  }
-  return max;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/mean.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/mean.js ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return mean; });
-function mean(values, valueof) {
-  let count = 0;
-  let sum = 0;
-  if (valueof === undefined) {
-    for (let value of values) {
-      if (value != null && (value = +value) >= value) {
-        ++count, sum += value;
-      }
-    }
-  } else {
-    let index = -1;
-    for (let value of values) {
-      if ((value = valueof(value, ++index, values)) != null && (value = +value) >= value) {
-        ++count, sum += value;
-      }
-    }
-  }
-  if (count) return sum / count;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/median.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/median.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _quantile__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./quantile */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/quantile.js");
-/* harmony import */ var _quickselect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./quickselect */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/quickselect.js");
-
-
-
-function* numbers(values, valueof) {
-  if (valueof === undefined) {
-    for (let value of values) {
-      if (value != null && (value = +value) >= value) {
-        yield value;
-      }
-    }
-  } else {
-    let index = -1;
-    for (let value of values) {
-      if ((value = valueof(value, ++index, values)) != null && (value = +value) >= value) {
-        yield value;
-      }
-    }
-  }
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (function(values, valueof) {
-  values = Float64Array.from(numbers(values, valueof));
-  if (!values.length) return;
-  const n = values.length;
-  const i = n >> 1;
-  Object(_quickselect__WEBPACK_IMPORTED_MODULE_1__["default"])(values, i - 1, 0);
-  if ((n & 1) === 0) Object(_quickselect__WEBPACK_IMPORTED_MODULE_1__["default"])(values, i, i);
-  return Object(_quantile__WEBPACK_IMPORTED_MODULE_0__["default"])(values, 0.5);
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/merge.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/merge.js ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return merge; });
-function* flatten(arrays) {
-  for (const array of arrays) {
-    yield* array;
-  }
-}
-
-function merge(arrays) {
-  return Array.from(flatten(arrays));
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/min.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/min.js ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return min; });
-function min(values, valueof) {
-  let min;
-  if (valueof === undefined) {
-    for (let value of values) {
-      if (value != null
-          && value >= value
-          && (min === undefined || min > value)) {
-        min = value;
-      }
-    }
-  } else {
-    let index = -1;
-    for (let value of values) {
-      if ((value = valueof(value, ++index, values)) != null
-          && value >= value
-          && (min === undefined || min > value)) {
-        min = value;
-      }
-    }
-  }
-  return min;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/number.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/number.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(x) {
-  return x === null ? NaN : +x;
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/pairs.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/pairs.js ***!
-  \**************************************************************************/
-/*! exports provided: default, pair */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return pairs; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pair", function() { return pair; });
-function pairs(values, pairof = pair) {
-  const pairs = [];
-  let previous;
-  let first = false;
-  for (const value of values) {
-    if (first) pairs.push(pairof(previous, value));
-    previous = value;
-    first = true;
-  }
-  return pairs;
-}
-
-function pair(a, b) {
-  return [a, b];
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/permute.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/permute.js ***!
-  \****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(array, indexes) {
-  var i = indexes.length, permutes = new Array(i);
-  while (i--) permutes[i] = array[indexes[i]];
-  return permutes;
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/quantile.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/quantile.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return quantile; });
-/* harmony import */ var _number__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./number */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/number.js");
-
-
-function quantile(values, p, valueof = _number__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-  if (!(n = values.length)) return;
-  if ((p = +p) <= 0 || n < 2) return +valueof(values[0], 0, values);
-  if (p >= 1) return +valueof(values[n - 1], n - 1, values);
-  var n,
-      i = (n - 1) * p,
-      i0 = Math.floor(i),
-      value0 = +valueof(values[i0], i0, values),
-      value1 = +valueof(values[i0 + 1], i0 + 1, values);
-  return value0 + (value1 - value0) * (i - i0);
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/quickselect.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/quickselect.js ***!
-  \********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return quickselect; });
-/* harmony import */ var _ascending__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ascending */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ascending.js");
-
-
-// Based on https://github.com/mourner/quickselect
-// ISC license, Copyright 2018 Vladimir Agafonkin.
-function quickselect(array, k, left = 0, right = array.length - 1, compare = _ascending__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-  while (right > left) {
-    if (right - left > 600) {
-      const n = right - left + 1;
-      const m = k - left + 1;
-      const z = Math.log(n);
-      const s = 0.5 * Math.exp(2 * z / 3);
-      const sd = 0.5 * Math.sqrt(z * s * (n - s) / n) * (m - n / 2 < 0 ? -1 : 1);
-      const newLeft = Math.max(left, Math.floor(k - m * s / n + sd));
-      const newRight = Math.min(right, Math.floor(k + (n - m) * s / n + sd));
-      quickselect(array, k, newLeft, newRight, compare);
-    }
-
-    const t = array[k];
-    let i = left;
-    let j = right;
-
-    swap(array, left, k);
-    if (compare(array[right], t) > 0) swap(array, left, right);
-
-    while (i < j) {
-      swap(array, i, j), ++i, --j;
-      while (compare(array[i], t) < 0) ++i;
-      while (compare(array[j], t) > 0) --j;
-    }
-
-    if (compare(array[left], t) === 0) swap(array, left, j);
-    else ++j, swap(array, j, right);
-
-    if (j <= k) left = j + 1;
-    if (k <= j) right = j - 1;
-  }
-  return array;
-}
-
-function swap(array, i, j) {
-  const t = array[i];
-  array[i] = array[j];
-  array[j] = t;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/range.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/range.js ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(start, stop, step) {
-  start = +start, stop = +stop, step = (n = arguments.length) < 2 ? (stop = start, start = 0, 1) : n < 3 ? 1 : +step;
-
-  var i = -1,
-      n = Math.max(0, Math.ceil((stop - start) / step)) | 0,
-      range = new Array(n);
-
-  while (++i < n) {
-    range[i] = start + i * step;
-  }
-
-  return range;
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/rollup.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/rollup.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return rollup; });
-function dogroup(values, keyof) {
-  const map = new Map();
-  let index = -1;
-  for (const value of values) {
-    const key = keyof(value, ++index, values);
-    const group = map.get(key);
-    if (group) group.push(value);
-    else map.set(key, [value]);
-  }
-  return map;
-}
-
-function rollup(values, reduce, ...keys) {
-  return (function regroup(values, i) {
-    if (i >= keys.length) return reduce(values);
-    const map = dogroup(values, keys[i]);
-    return new Map(Array.from(map, ([k, v]) => [k, regroup(v, i + 1)]));
-  })(values, 0);
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/scan.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/scan.js ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return scan; });
-/* harmony import */ var _ascending__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ascending */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ascending.js");
-
-
-function scan(values, compare = _ascending__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-  let min;
-  let minIndex;
-  let index = -1;
-  for (const value of values) {
-    ++index;
-    if (minIndex === undefined
-        ? compare(value, value) === 0
-        : compare(value, min) < 0) {
-      min = value;
-      minIndex = index;
-    }
-  }
-  return minIndex;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/shuffle.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/shuffle.js ***!
-  \****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return shuffle; });
-function shuffle(array, i0 = 0, i1 = array.length) {
-  var m = i1 - (i0 = +i0),
-      t,
-      i;
-
-  while (m) {
-    i = Math.random() * m-- | 0;
-    t = array[m + i0];
-    array[m + i0] = array[i + i0];
-    array[i + i0] = t;
-  }
-
-  return array;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/sum.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/sum.js ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return sum; });
-function sum(values, valueof) {
-  let sum = 0;
-  if (valueof === undefined) {
-    for (let value of values) {
-      if (value = +value) {
-        sum += value;
-      }
-    }
-  } else {
-    let index = -1;
-    for (let value of values) {
-      if (value = +valueof(value, ++index, values)) {
-        sum += value;
-      }
-    }
-  }
-  return sum;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/freedmanDiaconis.js":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/freedmanDiaconis.js ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../array */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/array.js");
-/* harmony import */ var _ascending__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ascending */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ascending.js");
-/* harmony import */ var _number__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../number */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/number.js");
-/* harmony import */ var _quantile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../quantile */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/quantile.js");
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function(values, min, max) {
-  values = _array__WEBPACK_IMPORTED_MODULE_0__["map"].call(values, _number__WEBPACK_IMPORTED_MODULE_2__["default"]).sort(_ascending__WEBPACK_IMPORTED_MODULE_1__["default"]);
-  return Math.ceil((max - min) / (2 * (Object(_quantile__WEBPACK_IMPORTED_MODULE_3__["default"])(values, 0.75) - Object(_quantile__WEBPACK_IMPORTED_MODULE_3__["default"])(values, 0.25)) * Math.pow(values.length, -1 / 3)));
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/scott.js":
-/*!************************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/scott.js ***!
-  \************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _deviation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../deviation */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/deviation.js");
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function(values, min, max) {
-  return Math.ceil((max - min) / (3.5 * Object(_deviation__WEBPACK_IMPORTED_MODULE_0__["default"])(values) * Math.pow(values.length, -1 / 3)));
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/sturges.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/threshold/sturges.js ***!
-  \**************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function(values) {
-  return Math.ceil(Math.log(values.length) / Math.LN2) + 1;
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/ticks.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/ticks.js ***!
-  \**************************************************************************/
-/*! exports provided: default, tickIncrement, tickStep */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tickIncrement", function() { return tickIncrement; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tickStep", function() { return tickStep; });
-var e10 = Math.sqrt(50),
-    e5 = Math.sqrt(10),
-    e2 = Math.sqrt(2);
-
-/* harmony default export */ __webpack_exports__["default"] = (function(start, stop, count) {
-  var reverse,
-      i = -1,
-      n,
-      ticks,
-      step;
-
-  stop = +stop, start = +start, count = +count;
-  if (start === stop && count > 0) return [start];
-  if (reverse = stop < start) n = start, start = stop, stop = n;
-  if ((step = tickIncrement(start, stop, count)) === 0 || !isFinite(step)) return [];
-
-  if (step > 0) {
-    start = Math.ceil(start / step);
-    stop = Math.floor(stop / step);
-    ticks = new Array(n = Math.ceil(stop - start + 1));
-    while (++i < n) ticks[i] = (start + i) * step;
-  } else {
-    start = Math.floor(start * step);
-    stop = Math.ceil(stop * step);
-    ticks = new Array(n = Math.ceil(start - stop + 1));
-    while (++i < n) ticks[i] = (start - i) / step;
-  }
-
-  if (reverse) ticks.reverse();
-
-  return ticks;
-});
-
-function tickIncrement(start, stop, count) {
-  var step = (stop - start) / Math.max(0, count),
-      power = Math.floor(Math.log(step) / Math.LN10),
-      error = step / Math.pow(10, power);
-  return power >= 0
-      ? (error >= e10 ? 10 : error >= e5 ? 5 : error >= e2 ? 2 : 1) * Math.pow(10, power)
-      : -Math.pow(10, -power) / (error >= e10 ? 10 : error >= e5 ? 5 : error >= e2 ? 2 : 1);
-}
-
-function tickStep(start, stop, count) {
-  var step0 = Math.abs(stop - start) / Math.max(0, count),
-      step1 = Math.pow(10, Math.floor(Math.log(step0) / Math.LN10)),
-      error = step0 / step1;
-  if (error >= e10) step1 *= 10;
-  else if (error >= e5) step1 *= 5;
-  else if (error >= e2) step1 *= 2;
-  return stop < start ? -step1 : step1;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/transpose.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/transpose.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _min__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./min */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/min.js");
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function(matrix) {
-  if (!(n = matrix.length)) return [];
-  for (var i = -1, m = Object(_min__WEBPACK_IMPORTED_MODULE_0__["default"])(matrix, length), transpose = new Array(m); ++i < m;) {
-    for (var j = -1, n, row = transpose[i] = new Array(n); ++j < n;) {
-      row[j] = matrix[j][i];
-    }
-  }
-  return transpose;
-});
-
-function length(d) {
-  return d.length;
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/variance.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/variance.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return variance; });
-function variance(values, valueof) {
-  let count = 0;
-  let delta;
-  let mean = 0;
-  let sum = 0;
-  if (valueof === undefined) {
-    for (let value of values) {
-      if (value != null && (value = +value) >= value) {
-        delta = value - mean;
-        mean += delta / ++count;
-        sum += delta * (value - mean);
-      }
-    }
-  } else {
-    let index = -1;
-    for (let value of values) {
-      if ((value = valueof(value, ++index, values)) != null && (value = +value) >= value) {
-        delta = value - mean;
-        mean += delta / ++count;
-        sum += delta * (value - mean);
-      }
-    }
-  }
-  if (count > 1) return sum / (count - 1);
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/node_modules/d3-array/src/zip.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/d3-simple-slider/node_modules/d3-array/src/zip.js ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _transpose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./transpose */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/transpose.js");
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function() {
-  return Object(_transpose__WEBPACK_IMPORTED_MODULE_0__["default"])(arguments);
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/d3-simple-slider/src/slider.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/d3-simple-slider/src/slider.js ***!
-  \*****************************************************/
-/*! exports provided: sliderHorizontal, sliderVertical, sliderTop, sliderRight, sliderBottom, sliderLeft */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sliderHorizontal", function() { return sliderHorizontal; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sliderVertical", function() { return sliderVertical; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sliderTop", function() { return sliderTop; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sliderRight", function() { return sliderRight; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sliderBottom", function() { return sliderBottom; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sliderLeft", function() { return sliderLeft; });
-/* harmony import */ var d3_array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! d3-array */ "./node_modules/d3-simple-slider/node_modules/d3-array/src/index.js");
-/* harmony import */ var d3_axis__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! d3-axis */ "./node_modules/d3-axis/src/index.js");
-/* harmony import */ var d3_dispatch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-dispatch */ "./node_modules/d3-dispatch/src/index.js");
-/* harmony import */ var d3_drag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! d3-drag */ "./node_modules/d3-drag/src/index.js");
-/* harmony import */ var d3_ease__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! d3-ease */ "./node_modules/d3-ease/src/index.js");
-/* harmony import */ var d3_scale__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! d3-scale */ "./node_modules/d3-scale/src/index.js");
-/* harmony import */ var d3_selection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! d3-selection */ "./node_modules/d3-selection/src/index.js");
-
-
-
-
-
-
-
-
-var UPDATE_DURATION = 200;
-var SLIDER_END_PADDING = 8;
-
-var top = 1;
-var right = 2;
-var bottom = 3;
-var left = 4;
-
-function translateX(x) {
-  return 'translate(' + x + ',0)';
-}
-
-function translateY(y) {
-  return 'translate(0,' + y + ')';
-}
-
-function slider(orientation, scale) {
-  scale = typeof scale !== 'undefined' ? scale : null;
-
-  var value = 0;
-  var defaultValue = 0;
-  var domain = [0, 10];
-  var width = 100;
-  var height = 100;
-  var displayValue = true;
-  var handle = 'M-5.5,-5.5v10l6,5.5l6,-5.5v-10z';
-  var step = null;
-  var tickValues = null;
-  var marks = null;
-  var tickFormat = null;
-  var ticks = null;
-  var displayFormat = null;
-  var fill = null;
-
-  var listeners = Object(d3_dispatch__WEBPACK_IMPORTED_MODULE_2__["dispatch"])('onchange', 'start', 'end', 'drag');
-
-  var selection = null;
-  var identityClamped = null;
-
-  var k = orientation === top || orientation === left ? -1 : 1;
-  var x = orientation === left || orientation === right ? 'y' : 'x';
-  var y = orientation === left || orientation === right ? 'x' : 'y';
-
-  var transformAlong =
-    orientation === top || orientation === bottom ? translateX : translateY;
-
-  var transformAcross =
-    orientation === top || orientation === bottom ? translateY : translateX;
-
-  var axisFunction = null;
-
-  switch (orientation) {
-    case top:
-      axisFunction = d3_axis__WEBPACK_IMPORTED_MODULE_1__["axisTop"];
-      break;
-    case right:
-      axisFunction = d3_axis__WEBPACK_IMPORTED_MODULE_1__["axisRight"];
-      break;
-    case bottom:
-      axisFunction = d3_axis__WEBPACK_IMPORTED_MODULE_1__["axisBottom"];
-      break;
-    case left:
-      axisFunction = d3_axis__WEBPACK_IMPORTED_MODULE_1__["axisLeft"];
-      break;
-  }
-
-  var handleSelection = null;
-  var fillSelection = null;
-  var textSelection = null;
-
-  function slider(context) {
-    selection = context.selection ? context.selection() : context;
-
-    if (scale) {
-      domain = [Object(d3_array__WEBPACK_IMPORTED_MODULE_0__["min"])(scale.domain()), Object(d3_array__WEBPACK_IMPORTED_MODULE_0__["max"])(scale.domain())];
-      scale = scale.clamp(true);
-    } else {
-      scale = domain[0] instanceof Date ? Object(d3_scale__WEBPACK_IMPORTED_MODULE_5__["scaleTime"])() : Object(d3_scale__WEBPACK_IMPORTED_MODULE_5__["scaleLinear"])();
-
-      scale = scale
-        .domain(domain)
-        .range([
-          0,
-          orientation === top || orientation === bottom ? width : height,
-        ])
-        .clamp(true);
-    }
-
-    identityClamped = Object(d3_scale__WEBPACK_IMPORTED_MODULE_5__["scaleLinear"])()
-      .range(scale.range())
-      .domain(scale.range())
-      .clamp(true);
-
-    // Ensure value is valid
-    value = Object(d3_scale__WEBPACK_IMPORTED_MODULE_5__["scaleLinear"])()
-      .range(domain)
-      .domain(domain)
-      .clamp(true)(value);
-
-    tickFormat = tickFormat || scale.tickFormat();
-    displayFormat = displayFormat || tickFormat || scale.tickFormat();
-
-    var axis = selection.selectAll('.axis').data([null]);
-
-    axis
-      .enter()
-      .append('g')
-      .attr('transform', transformAcross(k * 7))
-      .attr('class', 'axis');
-
-    var slider = selection.selectAll('.slider').data([null]);
-
-    var sliderEnter = slider
-      .enter()
-      .append('g')
-      .attr('class', 'slider')
-      .attr(
-        'cursor',
-        orientation === top || orientation === bottom
-          ? 'ew-resize'
-          : 'ns-resize'
-      )
-      .call(
-        Object(d3_drag__WEBPACK_IMPORTED_MODULE_3__["drag"])()
-          .on('start', dragstarted)
-          .on('drag', dragged)
-          .on('end', dragended)
-      );
-
-    sliderEnter
-      .append('line')
-      .attr('class', 'track')
-      .attr(x + '1', scale.range()[0] - SLIDER_END_PADDING)
-      .attr('stroke', '#bbb')
-      .attr('stroke-width', 6)
-      .attr('stroke-linecap', 'round');
-
-    sliderEnter
-      .append('line')
-      .attr('class', 'track-inset')
-      .attr(x + '1', scale.range()[0] - SLIDER_END_PADDING)
-      .attr('stroke', '#eee')
-      .attr('stroke-width', 4)
-      .attr('stroke-linecap', 'round');
-
-    if (fill) {
-      sliderEnter
-        .append('line')
-        .attr('class', 'track-fill')
-        .attr(x + '1', scale.range()[0] - SLIDER_END_PADDING)
-        .attr('stroke', fill)
-        .attr('stroke-width', 4)
-        .attr('stroke-linecap', 'round');
-    }
-
-    sliderEnter
-      .append('line')
-      .attr('class', 'track-overlay')
-      .attr(x + '1', scale.range()[0] - SLIDER_END_PADDING)
-      .attr('stroke', 'transparent')
-      .attr('stroke-width', 40)
-      .attr('stroke-linecap', 'round')
-      .merge(slider.select('.track-overlay'));
-
-    var handleEnter = sliderEnter
-      .append('g')
-      .attr('class', 'parameter-value')
-      .attr('transform', transformAlong(scale(value)))
-      .attr('font-family', 'sans-serif')
-      .attr(
-        'text-anchor',
-        orientation === right
-          ? 'start'
-          : orientation === left
-          ? 'end'
-          : 'middle'
-      );
-
-    handleEnter
-      .append('path')
-      .attr('transform', 'rotate(' + (orientation + 1) * 90 + ')')
-      .attr('d', handle)
-      .attr('fill', 'white')
-      .attr('stroke', '#777');
-
-    if (displayValue) {
-      handleEnter
-        .append('text')
-        .attr('font-size', 10) // TODO: Remove coupling to font-size in d3-axis
-        .attr(y, k * 27)
-        .attr(
-          'dy',
-          orientation === top
-            ? '0em'
-            : orientation === bottom
-            ? '.71em'
-            : '.32em'
-        )
-        .text(tickFormat(value));
-    }
-
-    context
-      .select('.track')
-      .attr(x + '2', scale.range()[1] + SLIDER_END_PADDING);
-
-    context
-      .select('.track-inset')
-      .attr(x + '2', scale.range()[1] + SLIDER_END_PADDING);
-
-    if (fill) {
-      context.select('.track-fill').attr(x + '2', scale(value));
-    }
-
-    context
-      .select('.track-overlay')
-      .attr(x + '2', scale.range()[1] + SLIDER_END_PADDING);
-
-    context.select('.axis').call(
-      axisFunction(scale)
-        .tickFormat(tickFormat)
-        .ticks(ticks)
-        .tickValues(tickValues)
-    );
-
-    // https://bl.ocks.org/mbostock/4323929
-    selection
-      .select('.axis')
-      .select('.domain')
-      .remove();
-
-    context.select('.axis').attr('transform', transformAcross(k * 7));
-
-    context
-      .selectAll('.axis text')
-      .attr('fill', '#aaa')
-      .attr(y, k * 20)
-      .attr(
-        'dy',
-        orientation === top ? '0em' : orientation === bottom ? '.71em' : '.32em'
-      )
-      .attr(
-        'text-anchor',
-        orientation === right
-          ? 'start'
-          : orientation === left
-          ? 'end'
-          : 'middle'
-      );
-
-    context.selectAll('.axis line').attr('stroke', '#aaa');
-
-    context
-      .select('.parameter-value')
-      .attr('transform', transformAlong(scale(value)));
-
-    fadeTickText();
-
-    function dragstarted() {
-      Object(d3_selection__WEBPACK_IMPORTED_MODULE_6__["select"])(this).classed('active', true);
-
-      var pos = identityClamped(
-        orientation === bottom || orientation === top ? d3_selection__WEBPACK_IMPORTED_MODULE_6__["event"].x : d3_selection__WEBPACK_IMPORTED_MODULE_6__["event"].y
-      );
-
-      var newValue = alignedValue(scale.invert(pos));
-
-      updateHandle(newValue);
-      listeners.call('start', slider, newValue);
-      updateValue(newValue, true);
-    }
-
-    function dragged() {
-      var pos = identityClamped(
-        orientation === bottom || orientation === top ? d3_selection__WEBPACK_IMPORTED_MODULE_6__["event"].x : d3_selection__WEBPACK_IMPORTED_MODULE_6__["event"].y
-      );
-      var newValue = alignedValue(scale.invert(pos));
-
-      updateHandle(newValue);
-      listeners.call('drag', slider, newValue);
-      updateValue(newValue, true);
-    }
-
-    function dragended() {
-      Object(d3_selection__WEBPACK_IMPORTED_MODULE_6__["select"])(this).classed('active', false);
-      var pos = identityClamped(
-        orientation === bottom || orientation === top ? d3_selection__WEBPACK_IMPORTED_MODULE_6__["event"].x : d3_selection__WEBPACK_IMPORTED_MODULE_6__["event"].y
-      );
-      var newValue = alignedValue(scale.invert(pos));
-
-      updateHandle(newValue);
-      listeners.call('end', slider, newValue);
-      updateValue(newValue, true);
-    }
-
-    textSelection = selection.select('.parameter-value text');
-    handleSelection = selection.select('.parameter-value');
-    fillSelection = selection.select('.track-fill');
-  }
-
-  function fadeTickText() {
-    if (displayValue) {
-      var distances = [];
-
-      selection.selectAll('.axis .tick').each(function(d) {
-        distances.push(Math.abs(d - value));
-      });
-
-      var index = Object(d3_array__WEBPACK_IMPORTED_MODULE_0__["scan"])(distances);
-
-      selection.selectAll('.axis .tick text').attr('opacity', function(d, i) {
-        return i === index ? 0 : 1;
-      });
-    }
-  }
-
-  function alignedValue(newValue) {
-    if (step) {
-      var valueModStep = (newValue - domain[0]) % step;
-      var alignValue = newValue - valueModStep;
-
-      if (valueModStep * 2 > step) {
-        alignValue += step;
-      }
-
-      return newValue instanceof Date ? new Date(alignValue) : alignValue;
-    }
-
-    if (marks) {
-      var index = Object(d3_array__WEBPACK_IMPORTED_MODULE_0__["scan"])(
-        marks.map(function(d) {
-          return Math.abs(newValue - d);
-        })
-      );
-
-      return marks[index];
-    }
-
-    return newValue;
-  }
-
-  function updateValue(newValue, notifyListener) {
-    if (value !== newValue) {
-      value = newValue;
-
-      if (notifyListener) {
-        listeners.call('onchange', slider, newValue);
-      }
-
-      fadeTickText();
-    }
-  }
-
-  function updateHandle(newValue, animate) {
-    animate = typeof animate !== 'undefined' ? animate : false;
-
-    if (animate) {
-      handleSelection
-        .transition()
-        .ease(d3_ease__WEBPACK_IMPORTED_MODULE_4__["easeQuadOut"])
-        .duration(UPDATE_DURATION)
-        .attr('transform', transformAlong(scale(newValue)));
-
-      if (fill) {
-        fillSelection
-          .transition()
-          .ease(d3_ease__WEBPACK_IMPORTED_MODULE_4__["easeQuadOut"])
-          .duration(UPDATE_DURATION)
-          .attr(x + '1', scale(newValue));
-      }
-    } else {
-      handleSelection.attr('transform', transformAlong(scale(newValue)));
-
-      if (fill) {
-        fillSelection.attr(x + '2', scale(newValue));
-      }
-    }
-
-    if (displayValue) {
-      textSelection.text(displayFormat(newValue));
-    }
-  }
-
-  slider.min = function(_) {
-    if (!arguments.length) return domain[0];
-    domain[0] = _;
-    return slider;
-  };
-
-  slider.max = function(_) {
-    if (!arguments.length) return domain[1];
-    domain[1] = _;
-    return slider;
-  };
-
-  slider.domain = function(_) {
-    if (!arguments.length) return domain;
-    domain = _;
-    return slider;
-  };
-
-  slider.width = function(_) {
-    if (!arguments.length) return width;
-    width = _;
-    return slider;
-  };
-
-  slider.height = function(_) {
-    if (!arguments.length) return height;
-    height = _;
-    return slider;
-  };
-
-  slider.tickFormat = function(_) {
-    if (!arguments.length) return tickFormat;
-    tickFormat = _;
-    return slider;
-  };
-
-  slider.displayFormat = function(_) {
-    if (!arguments.length) return displayFormat;
-    displayFormat = _;
-    return slider;
-  };
-
-  slider.ticks = function(_) {
-    if (!arguments.length) return ticks;
-    ticks = _;
-    return slider;
-  };
-
-  slider.value = function(_) {
-    if (!arguments.length) return value;
-    var pos = identityClamped(scale(_));
-    var newValue = alignedValue(scale.invert(pos));
-
-    updateHandle(newValue, true);
-    updateValue(newValue, true);
-
-    return slider;
-  };
-
-  slider.silentValue = function(_) {
-    if (!arguments.length) return value;
-    var pos = identityClamped(scale(_));
-    var newValue = alignedValue(scale.invert(pos));
-
-    updateHandle(newValue, false);
-    updateValue(newValue, false);
-
-    return slider;
-  };
-
-  slider.default = function(_) {
-    if (!arguments.length) return defaultValue;
-    defaultValue = _;
-    value = _;
-    return slider;
-  };
-
-  slider.step = function(_) {
-    if (!arguments.length) return step;
-    step = _;
-    return slider;
-  };
-
-  slider.tickValues = function(_) {
-    if (!arguments.length) return tickValues;
-    tickValues = _;
-    return slider;
-  };
-
-  slider.marks = function(_) {
-    if (!arguments.length) return marks;
-    marks = _;
-    return slider;
-  };
-
-  slider.handle = function(_) {
-    if (!arguments.length) return handle;
-    handle = _;
-    return slider;
-  };
-
-  slider.displayValue = function(_) {
-    if (!arguments.length) return displayValue;
-    displayValue = _;
-    return slider;
-  };
-
-  slider.fill = function(_) {
-    if (!arguments.length) return fill;
-    fill = _;
-    return slider;
-  };
-
-  slider.on = function() {
-    var value = listeners.on.apply(listeners, arguments);
-    return value === listeners ? slider : value;
-  };
-
-  return slider;
-}
-
-function sliderHorizontal(scale) {
-  return slider(bottom, scale);
-}
-
-function sliderVertical(scale) {
-  return slider(left, scale);
-}
-
-function sliderTop(scale) {
-  return slider(top, scale);
-}
-
-function sliderRight(scale) {
-  return slider(right, scale);
-}
-
-function sliderBottom(scale) {
-  return slider(bottom, scale);
-}
-
-function sliderLeft(scale) {
-  return slider(left, scale);
-}
-
-
-/***/ }),
-
 /***/ "./node_modules/d3-svg-legend/indexRollupNext.js":
 /*!*******************************************************!*\
   !*** ./node_modules/d3-svg-legend/indexRollupNext.js ***!
@@ -36825,2541 +35008,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-/***/ }),
-
-/***/ "./node_modules/dat.gui/build/dat.gui.module.js":
-/*!******************************************************!*\
-  !*** ./node_modules/dat.gui/build/dat.gui.module.js ***!
-  \******************************************************/
-/*! exports provided: color, controllers, dom, gui, GUI, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "color", function() { return color; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "controllers", function() { return controllers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dom", function() { return dom$1; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gui", function() { return gui; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GUI", function() { return GUI$1; });
-/**
- * dat-gui JavaScript Controller Library
- * http://code.google.com/p/dat-gui
- *
- * Copyright 2011 Data Arts Team, Google Creative Lab
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- */
-
-function ___$insertStyle(css) {
-  if (!css) {
-    return;
-  }
-  if (typeof window === 'undefined') {
-    return;
-  }
-
-  var style = document.createElement('style');
-
-  style.setAttribute('type', 'text/css');
-  style.innerHTML = css;
-  document.head.appendChild(style);
-
-  return css;
-}
-
-function colorToString (color, forceCSSHex) {
-  var colorFormat = color.__state.conversionName.toString();
-  var r = Math.round(color.r);
-  var g = Math.round(color.g);
-  var b = Math.round(color.b);
-  var a = color.a;
-  var h = Math.round(color.h);
-  var s = color.s.toFixed(1);
-  var v = color.v.toFixed(1);
-  if (forceCSSHex || colorFormat === 'THREE_CHAR_HEX' || colorFormat === 'SIX_CHAR_HEX') {
-    var str = color.hex.toString(16);
-    while (str.length < 6) {
-      str = '0' + str;
-    }
-    return '#' + str;
-  } else if (colorFormat === 'CSS_RGB') {
-    return 'rgb(' + r + ',' + g + ',' + b + ')';
-  } else if (colorFormat === 'CSS_RGBA') {
-    return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
-  } else if (colorFormat === 'HEX') {
-    return '0x' + color.hex.toString(16);
-  } else if (colorFormat === 'RGB_ARRAY') {
-    return '[' + r + ',' + g + ',' + b + ']';
-  } else if (colorFormat === 'RGBA_ARRAY') {
-    return '[' + r + ',' + g + ',' + b + ',' + a + ']';
-  } else if (colorFormat === 'RGB_OBJ') {
-    return '{r:' + r + ',g:' + g + ',b:' + b + '}';
-  } else if (colorFormat === 'RGBA_OBJ') {
-    return '{r:' + r + ',g:' + g + ',b:' + b + ',a:' + a + '}';
-  } else if (colorFormat === 'HSV_OBJ') {
-    return '{h:' + h + ',s:' + s + ',v:' + v + '}';
-  } else if (colorFormat === 'HSVA_OBJ') {
-    return '{h:' + h + ',s:' + s + ',v:' + v + ',a:' + a + '}';
-  }
-  return 'unknown format';
-}
-
-var ARR_EACH = Array.prototype.forEach;
-var ARR_SLICE = Array.prototype.slice;
-var Common = {
-  BREAK: {},
-  extend: function extend(target) {
-    this.each(ARR_SLICE.call(arguments, 1), function (obj) {
-      var keys = this.isObject(obj) ? Object.keys(obj) : [];
-      keys.forEach(function (key) {
-        if (!this.isUndefined(obj[key])) {
-          target[key] = obj[key];
-        }
-      }.bind(this));
-    }, this);
-    return target;
-  },
-  defaults: function defaults(target) {
-    this.each(ARR_SLICE.call(arguments, 1), function (obj) {
-      var keys = this.isObject(obj) ? Object.keys(obj) : [];
-      keys.forEach(function (key) {
-        if (this.isUndefined(target[key])) {
-          target[key] = obj[key];
-        }
-      }.bind(this));
-    }, this);
-    return target;
-  },
-  compose: function compose() {
-    var toCall = ARR_SLICE.call(arguments);
-    return function () {
-      var args = ARR_SLICE.call(arguments);
-      for (var i = toCall.length - 1; i >= 0; i--) {
-        args = [toCall[i].apply(this, args)];
-      }
-      return args[0];
-    };
-  },
-  each: function each(obj, itr, scope) {
-    if (!obj) {
-      return;
-    }
-    if (ARR_EACH && obj.forEach && obj.forEach === ARR_EACH) {
-      obj.forEach(itr, scope);
-    } else if (obj.length === obj.length + 0) {
-      var key = void 0;
-      var l = void 0;
-      for (key = 0, l = obj.length; key < l; key++) {
-        if (key in obj && itr.call(scope, obj[key], key) === this.BREAK) {
-          return;
-        }
-      }
-    } else {
-      for (var _key in obj) {
-        if (itr.call(scope, obj[_key], _key) === this.BREAK) {
-          return;
-        }
-      }
-    }
-  },
-  defer: function defer(fnc) {
-    setTimeout(fnc, 0);
-  },
-  debounce: function debounce(func, threshold, callImmediately) {
-    var timeout = void 0;
-    return function () {
-      var obj = this;
-      var args = arguments;
-      function delayed() {
-        timeout = null;
-        if (!callImmediately) func.apply(obj, args);
-      }
-      var callNow = callImmediately || !timeout;
-      clearTimeout(timeout);
-      timeout = setTimeout(delayed, threshold);
-      if (callNow) {
-        func.apply(obj, args);
-      }
-    };
-  },
-  toArray: function toArray(obj) {
-    if (obj.toArray) return obj.toArray();
-    return ARR_SLICE.call(obj);
-  },
-  isUndefined: function isUndefined(obj) {
-    return obj === undefined;
-  },
-  isNull: function isNull(obj) {
-    return obj === null;
-  },
-  isNaN: function (_isNaN) {
-    function isNaN(_x) {
-      return _isNaN.apply(this, arguments);
-    }
-    isNaN.toString = function () {
-      return _isNaN.toString();
-    };
-    return isNaN;
-  }(function (obj) {
-    return isNaN(obj);
-  }),
-  isArray: Array.isArray || function (obj) {
-    return obj.constructor === Array;
-  },
-  isObject: function isObject(obj) {
-    return obj === Object(obj);
-  },
-  isNumber: function isNumber(obj) {
-    return obj === obj + 0;
-  },
-  isString: function isString(obj) {
-    return obj === obj + '';
-  },
-  isBoolean: function isBoolean(obj) {
-    return obj === false || obj === true;
-  },
-  isFunction: function isFunction(obj) {
-    return Object.prototype.toString.call(obj) === '[object Function]';
-  }
-};
-
-var INTERPRETATIONS = [
-{
-  litmus: Common.isString,
-  conversions: {
-    THREE_CHAR_HEX: {
-      read: function read(original) {
-        var test = original.match(/^#([A-F0-9])([A-F0-9])([A-F0-9])$/i);
-        if (test === null) {
-          return false;
-        }
-        return {
-          space: 'HEX',
-          hex: parseInt('0x' + test[1].toString() + test[1].toString() + test[2].toString() + test[2].toString() + test[3].toString() + test[3].toString(), 0)
-        };
-      },
-      write: colorToString
-    },
-    SIX_CHAR_HEX: {
-      read: function read(original) {
-        var test = original.match(/^#([A-F0-9]{6})$/i);
-        if (test === null) {
-          return false;
-        }
-        return {
-          space: 'HEX',
-          hex: parseInt('0x' + test[1].toString(), 0)
-        };
-      },
-      write: colorToString
-    },
-    CSS_RGB: {
-      read: function read(original) {
-        var test = original.match(/^rgb\(\s*(.+)\s*,\s*(.+)\s*,\s*(.+)\s*\)/);
-        if (test === null) {
-          return false;
-        }
-        return {
-          space: 'RGB',
-          r: parseFloat(test[1]),
-          g: parseFloat(test[2]),
-          b: parseFloat(test[3])
-        };
-      },
-      write: colorToString
-    },
-    CSS_RGBA: {
-      read: function read(original) {
-        var test = original.match(/^rgba\(\s*(.+)\s*,\s*(.+)\s*,\s*(.+)\s*,\s*(.+)\s*\)/);
-        if (test === null) {
-          return false;
-        }
-        return {
-          space: 'RGB',
-          r: parseFloat(test[1]),
-          g: parseFloat(test[2]),
-          b: parseFloat(test[3]),
-          a: parseFloat(test[4])
-        };
-      },
-      write: colorToString
-    }
-  }
-},
-{
-  litmus: Common.isNumber,
-  conversions: {
-    HEX: {
-      read: function read(original) {
-        return {
-          space: 'HEX',
-          hex: original,
-          conversionName: 'HEX'
-        };
-      },
-      write: function write(color) {
-        return color.hex;
-      }
-    }
-  }
-},
-{
-  litmus: Common.isArray,
-  conversions: {
-    RGB_ARRAY: {
-      read: function read(original) {
-        if (original.length !== 3) {
-          return false;
-        }
-        return {
-          space: 'RGB',
-          r: original[0],
-          g: original[1],
-          b: original[2]
-        };
-      },
-      write: function write(color) {
-        return [color.r, color.g, color.b];
-      }
-    },
-    RGBA_ARRAY: {
-      read: function read(original) {
-        if (original.length !== 4) return false;
-        return {
-          space: 'RGB',
-          r: original[0],
-          g: original[1],
-          b: original[2],
-          a: original[3]
-        };
-      },
-      write: function write(color) {
-        return [color.r, color.g, color.b, color.a];
-      }
-    }
-  }
-},
-{
-  litmus: Common.isObject,
-  conversions: {
-    RGBA_OBJ: {
-      read: function read(original) {
-        if (Common.isNumber(original.r) && Common.isNumber(original.g) && Common.isNumber(original.b) && Common.isNumber(original.a)) {
-          return {
-            space: 'RGB',
-            r: original.r,
-            g: original.g,
-            b: original.b,
-            a: original.a
-          };
-        }
-        return false;
-      },
-      write: function write(color) {
-        return {
-          r: color.r,
-          g: color.g,
-          b: color.b,
-          a: color.a
-        };
-      }
-    },
-    RGB_OBJ: {
-      read: function read(original) {
-        if (Common.isNumber(original.r) && Common.isNumber(original.g) && Common.isNumber(original.b)) {
-          return {
-            space: 'RGB',
-            r: original.r,
-            g: original.g,
-            b: original.b
-          };
-        }
-        return false;
-      },
-      write: function write(color) {
-        return {
-          r: color.r,
-          g: color.g,
-          b: color.b
-        };
-      }
-    },
-    HSVA_OBJ: {
-      read: function read(original) {
-        if (Common.isNumber(original.h) && Common.isNumber(original.s) && Common.isNumber(original.v) && Common.isNumber(original.a)) {
-          return {
-            space: 'HSV',
-            h: original.h,
-            s: original.s,
-            v: original.v,
-            a: original.a
-          };
-        }
-        return false;
-      },
-      write: function write(color) {
-        return {
-          h: color.h,
-          s: color.s,
-          v: color.v,
-          a: color.a
-        };
-      }
-    },
-    HSV_OBJ: {
-      read: function read(original) {
-        if (Common.isNumber(original.h) && Common.isNumber(original.s) && Common.isNumber(original.v)) {
-          return {
-            space: 'HSV',
-            h: original.h,
-            s: original.s,
-            v: original.v
-          };
-        }
-        return false;
-      },
-      write: function write(color) {
-        return {
-          h: color.h,
-          s: color.s,
-          v: color.v
-        };
-      }
-    }
-  }
-}];
-var result = void 0;
-var toReturn = void 0;
-var interpret = function interpret() {
-  toReturn = false;
-  var original = arguments.length > 1 ? Common.toArray(arguments) : arguments[0];
-  Common.each(INTERPRETATIONS, function (family) {
-    if (family.litmus(original)) {
-      Common.each(family.conversions, function (conversion, conversionName) {
-        result = conversion.read(original);
-        if (toReturn === false && result !== false) {
-          toReturn = result;
-          result.conversionName = conversionName;
-          result.conversion = conversion;
-          return Common.BREAK;
-        }
-      });
-      return Common.BREAK;
-    }
-  });
-  return toReturn;
-};
-
-var tmpComponent = void 0;
-var ColorMath = {
-  hsv_to_rgb: function hsv_to_rgb(h, s, v) {
-    var hi = Math.floor(h / 60) % 6;
-    var f = h / 60 - Math.floor(h / 60);
-    var p = v * (1.0 - s);
-    var q = v * (1.0 - f * s);
-    var t = v * (1.0 - (1.0 - f) * s);
-    var c = [[v, t, p], [q, v, p], [p, v, t], [p, q, v], [t, p, v], [v, p, q]][hi];
-    return {
-      r: c[0] * 255,
-      g: c[1] * 255,
-      b: c[2] * 255
-    };
-  },
-  rgb_to_hsv: function rgb_to_hsv(r, g, b) {
-    var min = Math.min(r, g, b);
-    var max = Math.max(r, g, b);
-    var delta = max - min;
-    var h = void 0;
-    var s = void 0;
-    if (max !== 0) {
-      s = delta / max;
-    } else {
-      return {
-        h: NaN,
-        s: 0,
-        v: 0
-      };
-    }
-    if (r === max) {
-      h = (g - b) / delta;
-    } else if (g === max) {
-      h = 2 + (b - r) / delta;
-    } else {
-      h = 4 + (r - g) / delta;
-    }
-    h /= 6;
-    if (h < 0) {
-      h += 1;
-    }
-    return {
-      h: h * 360,
-      s: s,
-      v: max / 255
-    };
-  },
-  rgb_to_hex: function rgb_to_hex(r, g, b) {
-    var hex = this.hex_with_component(0, 2, r);
-    hex = this.hex_with_component(hex, 1, g);
-    hex = this.hex_with_component(hex, 0, b);
-    return hex;
-  },
-  component_from_hex: function component_from_hex(hex, componentIndex) {
-    return hex >> componentIndex * 8 & 0xFF;
-  },
-  hex_with_component: function hex_with_component(hex, componentIndex, value) {
-    return value << (tmpComponent = componentIndex * 8) | hex & ~(0xFF << tmpComponent);
-  }
-};
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
-  return typeof obj;
-} : function (obj) {
-  return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-};
-
-
-
-
-
-
-
-
-
-
-
-var classCallCheck = function (instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-};
-
-var createClass = function () {
-  function defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
-      var descriptor = props[i];
-      descriptor.enumerable = descriptor.enumerable || false;
-      descriptor.configurable = true;
-      if ("value" in descriptor) descriptor.writable = true;
-      Object.defineProperty(target, descriptor.key, descriptor);
-    }
-  }
-
-  return function (Constructor, protoProps, staticProps) {
-    if (protoProps) defineProperties(Constructor.prototype, protoProps);
-    if (staticProps) defineProperties(Constructor, staticProps);
-    return Constructor;
-  };
-}();
-
-
-
-
-
-
-
-var get = function get(object, property, receiver) {
-  if (object === null) object = Function.prototype;
-  var desc = Object.getOwnPropertyDescriptor(object, property);
-
-  if (desc === undefined) {
-    var parent = Object.getPrototypeOf(object);
-
-    if (parent === null) {
-      return undefined;
-    } else {
-      return get(parent, property, receiver);
-    }
-  } else if ("value" in desc) {
-    return desc.value;
-  } else {
-    var getter = desc.get;
-
-    if (getter === undefined) {
-      return undefined;
-    }
-
-    return getter.call(receiver);
-  }
-};
-
-var inherits = function (subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
-  }
-
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      enumerable: false,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-};
-
-
-
-
-
-
-
-
-
-
-
-var possibleConstructorReturn = function (self, call) {
-  if (!self) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return call && (typeof call === "object" || typeof call === "function") ? call : self;
-};
-
-var Color = function () {
-  function Color() {
-    classCallCheck(this, Color);
-    this.__state = interpret.apply(this, arguments);
-    if (this.__state === false) {
-      throw new Error('Failed to interpret color arguments');
-    }
-    this.__state.a = this.__state.a || 1;
-  }
-  createClass(Color, [{
-    key: 'toString',
-    value: function toString() {
-      return colorToString(this);
-    }
-  }, {
-    key: 'toHexString',
-    value: function toHexString() {
-      return colorToString(this, true);
-    }
-  }, {
-    key: 'toOriginal',
-    value: function toOriginal() {
-      return this.__state.conversion.write(this);
-    }
-  }]);
-  return Color;
-}();
-function defineRGBComponent(target, component, componentHexIndex) {
-  Object.defineProperty(target, component, {
-    get: function get$$1() {
-      if (this.__state.space === 'RGB') {
-        return this.__state[component];
-      }
-      Color.recalculateRGB(this, component, componentHexIndex);
-      return this.__state[component];
-    },
-    set: function set$$1(v) {
-      if (this.__state.space !== 'RGB') {
-        Color.recalculateRGB(this, component, componentHexIndex);
-        this.__state.space = 'RGB';
-      }
-      this.__state[component] = v;
-    }
-  });
-}
-function defineHSVComponent(target, component) {
-  Object.defineProperty(target, component, {
-    get: function get$$1() {
-      if (this.__state.space === 'HSV') {
-        return this.__state[component];
-      }
-      Color.recalculateHSV(this);
-      return this.__state[component];
-    },
-    set: function set$$1(v) {
-      if (this.__state.space !== 'HSV') {
-        Color.recalculateHSV(this);
-        this.__state.space = 'HSV';
-      }
-      this.__state[component] = v;
-    }
-  });
-}
-Color.recalculateRGB = function (color, component, componentHexIndex) {
-  if (color.__state.space === 'HEX') {
-    color.__state[component] = ColorMath.component_from_hex(color.__state.hex, componentHexIndex);
-  } else if (color.__state.space === 'HSV') {
-    Common.extend(color.__state, ColorMath.hsv_to_rgb(color.__state.h, color.__state.s, color.__state.v));
-  } else {
-    throw new Error('Corrupted color state');
-  }
-};
-Color.recalculateHSV = function (color) {
-  var result = ColorMath.rgb_to_hsv(color.r, color.g, color.b);
-  Common.extend(color.__state, {
-    s: result.s,
-    v: result.v
-  });
-  if (!Common.isNaN(result.h)) {
-    color.__state.h = result.h;
-  } else if (Common.isUndefined(color.__state.h)) {
-    color.__state.h = 0;
-  }
-};
-Color.COMPONENTS = ['r', 'g', 'b', 'h', 's', 'v', 'hex', 'a'];
-defineRGBComponent(Color.prototype, 'r', 2);
-defineRGBComponent(Color.prototype, 'g', 1);
-defineRGBComponent(Color.prototype, 'b', 0);
-defineHSVComponent(Color.prototype, 'h');
-defineHSVComponent(Color.prototype, 's');
-defineHSVComponent(Color.prototype, 'v');
-Object.defineProperty(Color.prototype, 'a', {
-  get: function get$$1() {
-    return this.__state.a;
-  },
-  set: function set$$1(v) {
-    this.__state.a = v;
-  }
-});
-Object.defineProperty(Color.prototype, 'hex', {
-  get: function get$$1() {
-    if (!this.__state.space !== 'HEX') {
-      this.__state.hex = ColorMath.rgb_to_hex(this.r, this.g, this.b);
-    }
-    return this.__state.hex;
-  },
-  set: function set$$1(v) {
-    this.__state.space = 'HEX';
-    this.__state.hex = v;
-  }
-});
-
-var Controller = function () {
-  function Controller(object, property) {
-    classCallCheck(this, Controller);
-    this.initialValue = object[property];
-    this.domElement = document.createElement('div');
-    this.object = object;
-    this.property = property;
-    this.__onChange = undefined;
-    this.__onFinishChange = undefined;
-  }
-  createClass(Controller, [{
-    key: 'onChange',
-    value: function onChange(fnc) {
-      this.__onChange = fnc;
-      return this;
-    }
-  }, {
-    key: 'onFinishChange',
-    value: function onFinishChange(fnc) {
-      this.__onFinishChange = fnc;
-      return this;
-    }
-  }, {
-    key: 'setValue',
-    value: function setValue(newValue) {
-      this.object[this.property] = newValue;
-      if (this.__onChange) {
-        this.__onChange.call(this, newValue);
-      }
-      this.updateDisplay();
-      return this;
-    }
-  }, {
-    key: 'getValue',
-    value: function getValue() {
-      return this.object[this.property];
-    }
-  }, {
-    key: 'updateDisplay',
-    value: function updateDisplay() {
-      return this;
-    }
-  }, {
-    key: 'isModified',
-    value: function isModified() {
-      return this.initialValue !== this.getValue();
-    }
-  }]);
-  return Controller;
-}();
-
-var EVENT_MAP = {
-  HTMLEvents: ['change'],
-  MouseEvents: ['click', 'mousemove', 'mousedown', 'mouseup', 'mouseover'],
-  KeyboardEvents: ['keydown']
-};
-var EVENT_MAP_INV = {};
-Common.each(EVENT_MAP, function (v, k) {
-  Common.each(v, function (e) {
-    EVENT_MAP_INV[e] = k;
-  });
-});
-var CSS_VALUE_PIXELS = /(\d+(\.\d+)?)px/;
-function cssValueToPixels(val) {
-  if (val === '0' || Common.isUndefined(val)) {
-    return 0;
-  }
-  var match = val.match(CSS_VALUE_PIXELS);
-  if (!Common.isNull(match)) {
-    return parseFloat(match[1]);
-  }
-  return 0;
-}
-var dom = {
-  makeSelectable: function makeSelectable(elem, selectable) {
-    if (elem === undefined || elem.style === undefined) return;
-    elem.onselectstart = selectable ? function () {
-      return false;
-    } : function () {};
-    elem.style.MozUserSelect = selectable ? 'auto' : 'none';
-    elem.style.KhtmlUserSelect = selectable ? 'auto' : 'none';
-    elem.unselectable = selectable ? 'on' : 'off';
-  },
-  makeFullscreen: function makeFullscreen(elem, hor, vert) {
-    var vertical = vert;
-    var horizontal = hor;
-    if (Common.isUndefined(horizontal)) {
-      horizontal = true;
-    }
-    if (Common.isUndefined(vertical)) {
-      vertical = true;
-    }
-    elem.style.position = 'absolute';
-    if (horizontal) {
-      elem.style.left = 0;
-      elem.style.right = 0;
-    }
-    if (vertical) {
-      elem.style.top = 0;
-      elem.style.bottom = 0;
-    }
-  },
-  fakeEvent: function fakeEvent(elem, eventType, pars, aux) {
-    var params = pars || {};
-    var className = EVENT_MAP_INV[eventType];
-    if (!className) {
-      throw new Error('Event type ' + eventType + ' not supported.');
-    }
-    var evt = document.createEvent(className);
-    switch (className) {
-      case 'MouseEvents':
-        {
-          var clientX = params.x || params.clientX || 0;
-          var clientY = params.y || params.clientY || 0;
-          evt.initMouseEvent(eventType, params.bubbles || false, params.cancelable || true, window, params.clickCount || 1, 0,
-          0,
-          clientX,
-          clientY,
-          false, false, false, false, 0, null);
-          break;
-        }
-      case 'KeyboardEvents':
-        {
-          var init = evt.initKeyboardEvent || evt.initKeyEvent;
-          Common.defaults(params, {
-            cancelable: true,
-            ctrlKey: false,
-            altKey: false,
-            shiftKey: false,
-            metaKey: false,
-            keyCode: undefined,
-            charCode: undefined
-          });
-          init(eventType, params.bubbles || false, params.cancelable, window, params.ctrlKey, params.altKey, params.shiftKey, params.metaKey, params.keyCode, params.charCode);
-          break;
-        }
-      default:
-        {
-          evt.initEvent(eventType, params.bubbles || false, params.cancelable || true);
-          break;
-        }
-    }
-    Common.defaults(evt, aux);
-    elem.dispatchEvent(evt);
-  },
-  bind: function bind(elem, event, func, newBool) {
-    var bool = newBool || false;
-    if (elem.addEventListener) {
-      elem.addEventListener(event, func, bool);
-    } else if (elem.attachEvent) {
-      elem.attachEvent('on' + event, func);
-    }
-    return dom;
-  },
-  unbind: function unbind(elem, event, func, newBool) {
-    var bool = newBool || false;
-    if (elem.removeEventListener) {
-      elem.removeEventListener(event, func, bool);
-    } else if (elem.detachEvent) {
-      elem.detachEvent('on' + event, func);
-    }
-    return dom;
-  },
-  addClass: function addClass(elem, className) {
-    if (elem.className === undefined) {
-      elem.className = className;
-    } else if (elem.className !== className) {
-      var classes = elem.className.split(/ +/);
-      if (classes.indexOf(className) === -1) {
-        classes.push(className);
-        elem.className = classes.join(' ').replace(/^\s+/, '').replace(/\s+$/, '');
-      }
-    }
-    return dom;
-  },
-  removeClass: function removeClass(elem, className) {
-    if (className) {
-      if (elem.className === className) {
-        elem.removeAttribute('class');
-      } else {
-        var classes = elem.className.split(/ +/);
-        var index = classes.indexOf(className);
-        if (index !== -1) {
-          classes.splice(index, 1);
-          elem.className = classes.join(' ');
-        }
-      }
-    } else {
-      elem.className = undefined;
-    }
-    return dom;
-  },
-  hasClass: function hasClass(elem, className) {
-    return new RegExp('(?:^|\\s+)' + className + '(?:\\s+|$)').test(elem.className) || false;
-  },
-  getWidth: function getWidth(elem) {
-    var style = getComputedStyle(elem);
-    return cssValueToPixels(style['border-left-width']) + cssValueToPixels(style['border-right-width']) + cssValueToPixels(style['padding-left']) + cssValueToPixels(style['padding-right']) + cssValueToPixels(style.width);
-  },
-  getHeight: function getHeight(elem) {
-    var style = getComputedStyle(elem);
-    return cssValueToPixels(style['border-top-width']) + cssValueToPixels(style['border-bottom-width']) + cssValueToPixels(style['padding-top']) + cssValueToPixels(style['padding-bottom']) + cssValueToPixels(style.height);
-  },
-  getOffset: function getOffset(el) {
-    var elem = el;
-    var offset = { left: 0, top: 0 };
-    if (elem.offsetParent) {
-      do {
-        offset.left += elem.offsetLeft;
-        offset.top += elem.offsetTop;
-        elem = elem.offsetParent;
-      } while (elem);
-    }
-    return offset;
-  },
-  isActive: function isActive(elem) {
-    return elem === document.activeElement && (elem.type || elem.href);
-  }
-};
-
-var BooleanController = function (_Controller) {
-  inherits(BooleanController, _Controller);
-  function BooleanController(object, property) {
-    classCallCheck(this, BooleanController);
-    var _this2 = possibleConstructorReturn(this, (BooleanController.__proto__ || Object.getPrototypeOf(BooleanController)).call(this, object, property));
-    var _this = _this2;
-    _this2.__prev = _this2.getValue();
-    _this2.__checkbox = document.createElement('input');
-    _this2.__checkbox.setAttribute('type', 'checkbox');
-    function onChange() {
-      _this.setValue(!_this.__prev);
-    }
-    dom.bind(_this2.__checkbox, 'change', onChange, false);
-    _this2.domElement.appendChild(_this2.__checkbox);
-    _this2.updateDisplay();
-    return _this2;
-  }
-  createClass(BooleanController, [{
-    key: 'setValue',
-    value: function setValue(v) {
-      var toReturn = get(BooleanController.prototype.__proto__ || Object.getPrototypeOf(BooleanController.prototype), 'setValue', this).call(this, v);
-      if (this.__onFinishChange) {
-        this.__onFinishChange.call(this, this.getValue());
-      }
-      this.__prev = this.getValue();
-      return toReturn;
-    }
-  }, {
-    key: 'updateDisplay',
-    value: function updateDisplay() {
-      if (this.getValue() === true) {
-        this.__checkbox.setAttribute('checked', 'checked');
-        this.__checkbox.checked = true;
-        this.__prev = true;
-      } else {
-        this.__checkbox.checked = false;
-        this.__prev = false;
-      }
-      return get(BooleanController.prototype.__proto__ || Object.getPrototypeOf(BooleanController.prototype), 'updateDisplay', this).call(this);
-    }
-  }]);
-  return BooleanController;
-}(Controller);
-
-var OptionController = function (_Controller) {
-  inherits(OptionController, _Controller);
-  function OptionController(object, property, opts) {
-    classCallCheck(this, OptionController);
-    var _this2 = possibleConstructorReturn(this, (OptionController.__proto__ || Object.getPrototypeOf(OptionController)).call(this, object, property));
-    var options = opts;
-    var _this = _this2;
-    _this2.__select = document.createElement('select');
-    if (Common.isArray(options)) {
-      var map = {};
-      Common.each(options, function (element) {
-        map[element] = element;
-      });
-      options = map;
-    }
-    Common.each(options, function (value, key) {
-      var opt = document.createElement('option');
-      opt.innerHTML = key;
-      opt.setAttribute('value', value);
-      _this.__select.appendChild(opt);
-    });
-    _this2.updateDisplay();
-    dom.bind(_this2.__select, 'change', function () {
-      var desiredValue = this.options[this.selectedIndex].value;
-      _this.setValue(desiredValue);
-    });
-    _this2.domElement.appendChild(_this2.__select);
-    return _this2;
-  }
-  createClass(OptionController, [{
-    key: 'setValue',
-    value: function setValue(v) {
-      var toReturn = get(OptionController.prototype.__proto__ || Object.getPrototypeOf(OptionController.prototype), 'setValue', this).call(this, v);
-      if (this.__onFinishChange) {
-        this.__onFinishChange.call(this, this.getValue());
-      }
-      return toReturn;
-    }
-  }, {
-    key: 'updateDisplay',
-    value: function updateDisplay() {
-      if (dom.isActive(this.__select)) return this;
-      this.__select.value = this.getValue();
-      return get(OptionController.prototype.__proto__ || Object.getPrototypeOf(OptionController.prototype), 'updateDisplay', this).call(this);
-    }
-  }]);
-  return OptionController;
-}(Controller);
-
-var StringController = function (_Controller) {
-  inherits(StringController, _Controller);
-  function StringController(object, property) {
-    classCallCheck(this, StringController);
-    var _this2 = possibleConstructorReturn(this, (StringController.__proto__ || Object.getPrototypeOf(StringController)).call(this, object, property));
-    var _this = _this2;
-    function onChange() {
-      _this.setValue(_this.__input.value);
-    }
-    function onBlur() {
-      if (_this.__onFinishChange) {
-        _this.__onFinishChange.call(_this, _this.getValue());
-      }
-    }
-    _this2.__input = document.createElement('input');
-    _this2.__input.setAttribute('type', 'text');
-    dom.bind(_this2.__input, 'keyup', onChange);
-    dom.bind(_this2.__input, 'change', onChange);
-    dom.bind(_this2.__input, 'blur', onBlur);
-    dom.bind(_this2.__input, 'keydown', function (e) {
-      if (e.keyCode === 13) {
-        this.blur();
-      }
-    });
-    _this2.updateDisplay();
-    _this2.domElement.appendChild(_this2.__input);
-    return _this2;
-  }
-  createClass(StringController, [{
-    key: 'updateDisplay',
-    value: function updateDisplay() {
-      if (!dom.isActive(this.__input)) {
-        this.__input.value = this.getValue();
-      }
-      return get(StringController.prototype.__proto__ || Object.getPrototypeOf(StringController.prototype), 'updateDisplay', this).call(this);
-    }
-  }]);
-  return StringController;
-}(Controller);
-
-function numDecimals(x) {
-  var _x = x.toString();
-  if (_x.indexOf('.') > -1) {
-    return _x.length - _x.indexOf('.') - 1;
-  }
-  return 0;
-}
-var NumberController = function (_Controller) {
-  inherits(NumberController, _Controller);
-  function NumberController(object, property, params) {
-    classCallCheck(this, NumberController);
-    var _this = possibleConstructorReturn(this, (NumberController.__proto__ || Object.getPrototypeOf(NumberController)).call(this, object, property));
-    var _params = params || {};
-    _this.__min = _params.min;
-    _this.__max = _params.max;
-    _this.__step = _params.step;
-    if (Common.isUndefined(_this.__step)) {
-      if (_this.initialValue === 0) {
-        _this.__impliedStep = 1;
-      } else {
-        _this.__impliedStep = Math.pow(10, Math.floor(Math.log(Math.abs(_this.initialValue)) / Math.LN10)) / 10;
-      }
-    } else {
-      _this.__impliedStep = _this.__step;
-    }
-    _this.__precision = numDecimals(_this.__impliedStep);
-    return _this;
-  }
-  createClass(NumberController, [{
-    key: 'setValue',
-    value: function setValue(v) {
-      var _v = v;
-      if (this.__min !== undefined && _v < this.__min) {
-        _v = this.__min;
-      } else if (this.__max !== undefined && _v > this.__max) {
-        _v = this.__max;
-      }
-      if (this.__step !== undefined && _v % this.__step !== 0) {
-        _v = Math.round(_v / this.__step) * this.__step;
-      }
-      return get(NumberController.prototype.__proto__ || Object.getPrototypeOf(NumberController.prototype), 'setValue', this).call(this, _v);
-    }
-  }, {
-    key: 'min',
-    value: function min(minValue) {
-      this.__min = minValue;
-      return this;
-    }
-  }, {
-    key: 'max',
-    value: function max(maxValue) {
-      this.__max = maxValue;
-      return this;
-    }
-  }, {
-    key: 'step',
-    value: function step(stepValue) {
-      this.__step = stepValue;
-      this.__impliedStep = stepValue;
-      this.__precision = numDecimals(stepValue);
-      return this;
-    }
-  }]);
-  return NumberController;
-}(Controller);
-
-function roundToDecimal(value, decimals) {
-  var tenTo = Math.pow(10, decimals);
-  return Math.round(value * tenTo) / tenTo;
-}
-var NumberControllerBox = function (_NumberController) {
-  inherits(NumberControllerBox, _NumberController);
-  function NumberControllerBox(object, property, params) {
-    classCallCheck(this, NumberControllerBox);
-    var _this2 = possibleConstructorReturn(this, (NumberControllerBox.__proto__ || Object.getPrototypeOf(NumberControllerBox)).call(this, object, property, params));
-    _this2.__truncationSuspended = false;
-    var _this = _this2;
-    var prevY = void 0;
-    function onChange() {
-      var attempted = parseFloat(_this.__input.value);
-      if (!Common.isNaN(attempted)) {
-        _this.setValue(attempted);
-      }
-    }
-    function onFinish() {
-      if (_this.__onFinishChange) {
-        _this.__onFinishChange.call(_this, _this.getValue());
-      }
-    }
-    function onBlur() {
-      onFinish();
-    }
-    function onMouseDrag(e) {
-      var diff = prevY - e.clientY;
-      _this.setValue(_this.getValue() + diff * _this.__impliedStep);
-      prevY = e.clientY;
-    }
-    function onMouseUp() {
-      dom.unbind(window, 'mousemove', onMouseDrag);
-      dom.unbind(window, 'mouseup', onMouseUp);
-      onFinish();
-    }
-    function onMouseDown(e) {
-      dom.bind(window, 'mousemove', onMouseDrag);
-      dom.bind(window, 'mouseup', onMouseUp);
-      prevY = e.clientY;
-    }
-    _this2.__input = document.createElement('input');
-    _this2.__input.setAttribute('type', 'text');
-    dom.bind(_this2.__input, 'change', onChange);
-    dom.bind(_this2.__input, 'blur', onBlur);
-    dom.bind(_this2.__input, 'mousedown', onMouseDown);
-    dom.bind(_this2.__input, 'keydown', function (e) {
-      if (e.keyCode === 13) {
-        _this.__truncationSuspended = true;
-        this.blur();
-        _this.__truncationSuspended = false;
-        onFinish();
-      }
-    });
-    _this2.updateDisplay();
-    _this2.domElement.appendChild(_this2.__input);
-    return _this2;
-  }
-  createClass(NumberControllerBox, [{
-    key: 'updateDisplay',
-    value: function updateDisplay() {
-      this.__input.value = this.__truncationSuspended ? this.getValue() : roundToDecimal(this.getValue(), this.__precision);
-      return get(NumberControllerBox.prototype.__proto__ || Object.getPrototypeOf(NumberControllerBox.prototype), 'updateDisplay', this).call(this);
-    }
-  }]);
-  return NumberControllerBox;
-}(NumberController);
-
-function map(v, i1, i2, o1, o2) {
-  return o1 + (o2 - o1) * ((v - i1) / (i2 - i1));
-}
-var NumberControllerSlider = function (_NumberController) {
-  inherits(NumberControllerSlider, _NumberController);
-  function NumberControllerSlider(object, property, min, max, step) {
-    classCallCheck(this, NumberControllerSlider);
-    var _this2 = possibleConstructorReturn(this, (NumberControllerSlider.__proto__ || Object.getPrototypeOf(NumberControllerSlider)).call(this, object, property, { min: min, max: max, step: step }));
-    var _this = _this2;
-    _this2.__background = document.createElement('div');
-    _this2.__foreground = document.createElement('div');
-    dom.bind(_this2.__background, 'mousedown', onMouseDown);
-    dom.bind(_this2.__background, 'touchstart', onTouchStart);
-    dom.addClass(_this2.__background, 'slider');
-    dom.addClass(_this2.__foreground, 'slider-fg');
-    function onMouseDown(e) {
-      document.activeElement.blur();
-      dom.bind(window, 'mousemove', onMouseDrag);
-      dom.bind(window, 'mouseup', onMouseUp);
-      onMouseDrag(e);
-    }
-    function onMouseDrag(e) {
-      e.preventDefault();
-      var bgRect = _this.__background.getBoundingClientRect();
-      _this.setValue(map(e.clientX, bgRect.left, bgRect.right, _this.__min, _this.__max));
-      return false;
-    }
-    function onMouseUp() {
-      dom.unbind(window, 'mousemove', onMouseDrag);
-      dom.unbind(window, 'mouseup', onMouseUp);
-      if (_this.__onFinishChange) {
-        _this.__onFinishChange.call(_this, _this.getValue());
-      }
-    }
-    function onTouchStart(e) {
-      if (e.touches.length !== 1) {
-        return;
-      }
-      dom.bind(window, 'touchmove', onTouchMove);
-      dom.bind(window, 'touchend', onTouchEnd);
-      onTouchMove(e);
-    }
-    function onTouchMove(e) {
-      var clientX = e.touches[0].clientX;
-      var bgRect = _this.__background.getBoundingClientRect();
-      _this.setValue(map(clientX, bgRect.left, bgRect.right, _this.__min, _this.__max));
-    }
-    function onTouchEnd() {
-      dom.unbind(window, 'touchmove', onTouchMove);
-      dom.unbind(window, 'touchend', onTouchEnd);
-      if (_this.__onFinishChange) {
-        _this.__onFinishChange.call(_this, _this.getValue());
-      }
-    }
-    _this2.updateDisplay();
-    _this2.__background.appendChild(_this2.__foreground);
-    _this2.domElement.appendChild(_this2.__background);
-    return _this2;
-  }
-  createClass(NumberControllerSlider, [{
-    key: 'updateDisplay',
-    value: function updateDisplay() {
-      var pct = (this.getValue() - this.__min) / (this.__max - this.__min);
-      this.__foreground.style.width = pct * 100 + '%';
-      return get(NumberControllerSlider.prototype.__proto__ || Object.getPrototypeOf(NumberControllerSlider.prototype), 'updateDisplay', this).call(this);
-    }
-  }]);
-  return NumberControllerSlider;
-}(NumberController);
-
-var FunctionController = function (_Controller) {
-  inherits(FunctionController, _Controller);
-  function FunctionController(object, property, text) {
-    classCallCheck(this, FunctionController);
-    var _this2 = possibleConstructorReturn(this, (FunctionController.__proto__ || Object.getPrototypeOf(FunctionController)).call(this, object, property));
-    var _this = _this2;
-    _this2.__button = document.createElement('div');
-    _this2.__button.innerHTML = text === undefined ? 'Fire' : text;
-    dom.bind(_this2.__button, 'click', function (e) {
-      e.preventDefault();
-      _this.fire();
-      return false;
-    });
-    dom.addClass(_this2.__button, 'button');
-    _this2.domElement.appendChild(_this2.__button);
-    return _this2;
-  }
-  createClass(FunctionController, [{
-    key: 'fire',
-    value: function fire() {
-      if (this.__onChange) {
-        this.__onChange.call(this);
-      }
-      this.getValue().call(this.object);
-      if (this.__onFinishChange) {
-        this.__onFinishChange.call(this, this.getValue());
-      }
-    }
-  }]);
-  return FunctionController;
-}(Controller);
-
-var ColorController = function (_Controller) {
-  inherits(ColorController, _Controller);
-  function ColorController(object, property) {
-    classCallCheck(this, ColorController);
-    var _this2 = possibleConstructorReturn(this, (ColorController.__proto__ || Object.getPrototypeOf(ColorController)).call(this, object, property));
-    _this2.__color = new Color(_this2.getValue());
-    _this2.__temp = new Color(0);
-    var _this = _this2;
-    _this2.domElement = document.createElement('div');
-    dom.makeSelectable(_this2.domElement, false);
-    _this2.__selector = document.createElement('div');
-    _this2.__selector.className = 'selector';
-    _this2.__saturation_field = document.createElement('div');
-    _this2.__saturation_field.className = 'saturation-field';
-    _this2.__field_knob = document.createElement('div');
-    _this2.__field_knob.className = 'field-knob';
-    _this2.__field_knob_border = '2px solid ';
-    _this2.__hue_knob = document.createElement('div');
-    _this2.__hue_knob.className = 'hue-knob';
-    _this2.__hue_field = document.createElement('div');
-    _this2.__hue_field.className = 'hue-field';
-    _this2.__input = document.createElement('input');
-    _this2.__input.type = 'text';
-    _this2.__input_textShadow = '0 1px 1px ';
-    dom.bind(_this2.__input, 'keydown', function (e) {
-      if (e.keyCode === 13) {
-        onBlur.call(this);
-      }
-    });
-    dom.bind(_this2.__input, 'blur', onBlur);
-    dom.bind(_this2.__selector, 'mousedown', function ()        {
-      dom.addClass(this, 'drag').bind(window, 'mouseup', function ()        {
-        dom.removeClass(_this.__selector, 'drag');
-      });
-    });
-    dom.bind(_this2.__selector, 'touchstart', function ()        {
-      dom.addClass(this, 'drag').bind(window, 'touchend', function ()        {
-        dom.removeClass(_this.__selector, 'drag');
-      });
-    });
-    var valueField = document.createElement('div');
-    Common.extend(_this2.__selector.style, {
-      width: '122px',
-      height: '102px',
-      padding: '3px',
-      backgroundColor: '#222',
-      boxShadow: '0px 1px 3px rgba(0,0,0,0.3)'
-    });
-    Common.extend(_this2.__field_knob.style, {
-      position: 'absolute',
-      width: '12px',
-      height: '12px',
-      border: _this2.__field_knob_border + (_this2.__color.v < 0.5 ? '#fff' : '#000'),
-      boxShadow: '0px 1px 3px rgba(0,0,0,0.5)',
-      borderRadius: '12px',
-      zIndex: 1
-    });
-    Common.extend(_this2.__hue_knob.style, {
-      position: 'absolute',
-      width: '15px',
-      height: '2px',
-      borderRight: '4px solid #fff',
-      zIndex: 1
-    });
-    Common.extend(_this2.__saturation_field.style, {
-      width: '100px',
-      height: '100px',
-      border: '1px solid #555',
-      marginRight: '3px',
-      display: 'inline-block',
-      cursor: 'pointer'
-    });
-    Common.extend(valueField.style, {
-      width: '100%',
-      height: '100%',
-      background: 'none'
-    });
-    linearGradient(valueField, 'top', 'rgba(0,0,0,0)', '#000');
-    Common.extend(_this2.__hue_field.style, {
-      width: '15px',
-      height: '100px',
-      border: '1px solid #555',
-      cursor: 'ns-resize',
-      position: 'absolute',
-      top: '3px',
-      right: '3px'
-    });
-    hueGradient(_this2.__hue_field);
-    Common.extend(_this2.__input.style, {
-      outline: 'none',
-      textAlign: 'center',
-      color: '#fff',
-      border: 0,
-      fontWeight: 'bold',
-      textShadow: _this2.__input_textShadow + 'rgba(0,0,0,0.7)'
-    });
-    dom.bind(_this2.__saturation_field, 'mousedown', fieldDown);
-    dom.bind(_this2.__saturation_field, 'touchstart', fieldDown);
-    dom.bind(_this2.__field_knob, 'mousedown', fieldDown);
-    dom.bind(_this2.__field_knob, 'touchstart', fieldDown);
-    dom.bind(_this2.__hue_field, 'mousedown', fieldDownH);
-    dom.bind(_this2.__hue_field, 'touchstart', fieldDownH);
-    function fieldDown(e) {
-      setSV(e);
-      dom.bind(window, 'mousemove', setSV);
-      dom.bind(window, 'touchmove', setSV);
-      dom.bind(window, 'mouseup', fieldUpSV);
-      dom.bind(window, 'touchend', fieldUpSV);
-    }
-    function fieldDownH(e) {
-      setH(e);
-      dom.bind(window, 'mousemove', setH);
-      dom.bind(window, 'touchmove', setH);
-      dom.bind(window, 'mouseup', fieldUpH);
-      dom.bind(window, 'touchend', fieldUpH);
-    }
-    function fieldUpSV() {
-      dom.unbind(window, 'mousemove', setSV);
-      dom.unbind(window, 'touchmove', setSV);
-      dom.unbind(window, 'mouseup', fieldUpSV);
-      dom.unbind(window, 'touchend', fieldUpSV);
-      onFinish();
-    }
-    function fieldUpH() {
-      dom.unbind(window, 'mousemove', setH);
-      dom.unbind(window, 'touchmove', setH);
-      dom.unbind(window, 'mouseup', fieldUpH);
-      dom.unbind(window, 'touchend', fieldUpH);
-      onFinish();
-    }
-    function onBlur() {
-      var i = interpret(this.value);
-      if (i !== false) {
-        _this.__color.__state = i;
-        _this.setValue(_this.__color.toOriginal());
-      } else {
-        this.value = _this.__color.toString();
-      }
-    }
-    function onFinish() {
-      if (_this.__onFinishChange) {
-        _this.__onFinishChange.call(_this, _this.__color.toOriginal());
-      }
-    }
-    _this2.__saturation_field.appendChild(valueField);
-    _this2.__selector.appendChild(_this2.__field_knob);
-    _this2.__selector.appendChild(_this2.__saturation_field);
-    _this2.__selector.appendChild(_this2.__hue_field);
-    _this2.__hue_field.appendChild(_this2.__hue_knob);
-    _this2.domElement.appendChild(_this2.__input);
-    _this2.domElement.appendChild(_this2.__selector);
-    _this2.updateDisplay();
-    function setSV(e) {
-      if (e.type.indexOf('touch') === -1) {
-        e.preventDefault();
-      }
-      var fieldRect = _this.__saturation_field.getBoundingClientRect();
-      var _ref = e.touches && e.touches[0] || e,
-          clientX = _ref.clientX,
-          clientY = _ref.clientY;
-      var s = (clientX - fieldRect.left) / (fieldRect.right - fieldRect.left);
-      var v = 1 - (clientY - fieldRect.top) / (fieldRect.bottom - fieldRect.top);
-      if (v > 1) {
-        v = 1;
-      } else if (v < 0) {
-        v = 0;
-      }
-      if (s > 1) {
-        s = 1;
-      } else if (s < 0) {
-        s = 0;
-      }
-      _this.__color.v = v;
-      _this.__color.s = s;
-      _this.setValue(_this.__color.toOriginal());
-      return false;
-    }
-    function setH(e) {
-      if (e.type.indexOf('touch') === -1) {
-        e.preventDefault();
-      }
-      var fieldRect = _this.__hue_field.getBoundingClientRect();
-      var _ref2 = e.touches && e.touches[0] || e,
-          clientY = _ref2.clientY;
-      var h = 1 - (clientY - fieldRect.top) / (fieldRect.bottom - fieldRect.top);
-      if (h > 1) {
-        h = 1;
-      } else if (h < 0) {
-        h = 0;
-      }
-      _this.__color.h = h * 360;
-      _this.setValue(_this.__color.toOriginal());
-      return false;
-    }
-    return _this2;
-  }
-  createClass(ColorController, [{
-    key: 'updateDisplay',
-    value: function updateDisplay() {
-      var i = interpret(this.getValue());
-      if (i !== false) {
-        var mismatch = false;
-        Common.each(Color.COMPONENTS, function (component) {
-          if (!Common.isUndefined(i[component]) && !Common.isUndefined(this.__color.__state[component]) && i[component] !== this.__color.__state[component]) {
-            mismatch = true;
-            return {};
-          }
-        }, this);
-        if (mismatch) {
-          Common.extend(this.__color.__state, i);
-        }
-      }
-      Common.extend(this.__temp.__state, this.__color.__state);
-      this.__temp.a = 1;
-      var flip = this.__color.v < 0.5 || this.__color.s > 0.5 ? 255 : 0;
-      var _flip = 255 - flip;
-      Common.extend(this.__field_knob.style, {
-        marginLeft: 100 * this.__color.s - 7 + 'px',
-        marginTop: 100 * (1 - this.__color.v) - 7 + 'px',
-        backgroundColor: this.__temp.toHexString(),
-        border: this.__field_knob_border + 'rgb(' + flip + ',' + flip + ',' + flip + ')'
-      });
-      this.__hue_knob.style.marginTop = (1 - this.__color.h / 360) * 100 + 'px';
-      this.__temp.s = 1;
-      this.__temp.v = 1;
-      linearGradient(this.__saturation_field, 'left', '#fff', this.__temp.toHexString());
-      this.__input.value = this.__color.toString();
-      Common.extend(this.__input.style, {
-        backgroundColor: this.__color.toHexString(),
-        color: 'rgb(' + flip + ',' + flip + ',' + flip + ')',
-        textShadow: this.__input_textShadow + 'rgba(' + _flip + ',' + _flip + ',' + _flip + ',.7)'
-      });
-    }
-  }]);
-  return ColorController;
-}(Controller);
-var vendors = ['-moz-', '-o-', '-webkit-', '-ms-', ''];
-function linearGradient(elem, x, a, b) {
-  elem.style.background = '';
-  Common.each(vendors, function (vendor) {
-    elem.style.cssText += 'background: ' + vendor + 'linear-gradient(' + x + ', ' + a + ' 0%, ' + b + ' 100%); ';
-  });
-}
-function hueGradient(elem) {
-  elem.style.background = '';
-  elem.style.cssText += 'background: -moz-linear-gradient(top,  #ff0000 0%, #ff00ff 17%, #0000ff 34%, #00ffff 50%, #00ff00 67%, #ffff00 84%, #ff0000 100%);';
-  elem.style.cssText += 'background: -webkit-linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);';
-  elem.style.cssText += 'background: -o-linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);';
-  elem.style.cssText += 'background: -ms-linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);';
-  elem.style.cssText += 'background: linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);';
-}
-
-var css = {
-  load: function load(url, indoc) {
-    var doc = indoc || document;
-    var link = doc.createElement('link');
-    link.type = 'text/css';
-    link.rel = 'stylesheet';
-    link.href = url;
-    doc.getElementsByTagName('head')[0].appendChild(link);
-  },
-  inject: function inject(cssContent, indoc) {
-    var doc = indoc || document;
-    var injected = document.createElement('style');
-    injected.type = 'text/css';
-    injected.innerHTML = cssContent;
-    var head = doc.getElementsByTagName('head')[0];
-    try {
-      head.appendChild(injected);
-    } catch (e) {
-    }
-  }
-};
-
-var saveDialogContents = "<div id=\"dg-save\" class=\"dg dialogue\">\n\n  Here's the new load parameter for your <code>GUI</code>'s constructor:\n\n  <textarea id=\"dg-new-constructor\"></textarea>\n\n  <div id=\"dg-save-locally\">\n\n    <input id=\"dg-local-storage\" type=\"checkbox\"/> Automatically save\n    values to <code>localStorage</code> on exit.\n\n    <div id=\"dg-local-explain\">The values saved to <code>localStorage</code> will\n      override those passed to <code>dat.GUI</code>'s constructor. This makes it\n      easier to work incrementally, but <code>localStorage</code> is fragile,\n      and your friends may not see the same values you do.\n\n    </div>\n\n  </div>\n\n</div>";
-
-var ControllerFactory = function ControllerFactory(object, property) {
-  var initialValue = object[property];
-  if (Common.isArray(arguments[2]) || Common.isObject(arguments[2])) {
-    return new OptionController(object, property, arguments[2]);
-  }
-  if (Common.isNumber(initialValue)) {
-    if (Common.isNumber(arguments[2]) && Common.isNumber(arguments[3])) {
-      if (Common.isNumber(arguments[4])) {
-        return new NumberControllerSlider(object, property, arguments[2], arguments[3], arguments[4]);
-      }
-      return new NumberControllerSlider(object, property, arguments[2], arguments[3]);
-    }
-    if (Common.isNumber(arguments[4])) {
-      return new NumberControllerBox(object, property, { min: arguments[2], max: arguments[3], step: arguments[4] });
-    }
-    return new NumberControllerBox(object, property, { min: arguments[2], max: arguments[3] });
-  }
-  if (Common.isString(initialValue)) {
-    return new StringController(object, property);
-  }
-  if (Common.isFunction(initialValue)) {
-    return new FunctionController(object, property, '');
-  }
-  if (Common.isBoolean(initialValue)) {
-    return new BooleanController(object, property);
-  }
-  return null;
-};
-
-function requestAnimationFrame(callback) {
-  setTimeout(callback, 1000 / 60);
-}
-var requestAnimationFrame$1 = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || requestAnimationFrame;
-
-var CenteredDiv = function () {
-  function CenteredDiv() {
-    classCallCheck(this, CenteredDiv);
-    this.backgroundElement = document.createElement('div');
-    Common.extend(this.backgroundElement.style, {
-      backgroundColor: 'rgba(0,0,0,0.8)',
-      top: 0,
-      left: 0,
-      display: 'none',
-      zIndex: '1000',
-      opacity: 0,
-      WebkitTransition: 'opacity 0.2s linear',
-      transition: 'opacity 0.2s linear'
-    });
-    dom.makeFullscreen(this.backgroundElement);
-    this.backgroundElement.style.position = 'fixed';
-    this.domElement = document.createElement('div');
-    Common.extend(this.domElement.style, {
-      position: 'fixed',
-      display: 'none',
-      zIndex: '1001',
-      opacity: 0,
-      WebkitTransition: '-webkit-transform 0.2s ease-out, opacity 0.2s linear',
-      transition: 'transform 0.2s ease-out, opacity 0.2s linear'
-    });
-    document.body.appendChild(this.backgroundElement);
-    document.body.appendChild(this.domElement);
-    var _this = this;
-    dom.bind(this.backgroundElement, 'click', function () {
-      _this.hide();
-    });
-  }
-  createClass(CenteredDiv, [{
-    key: 'show',
-    value: function show() {
-      var _this = this;
-      this.backgroundElement.style.display = 'block';
-      this.domElement.style.display = 'block';
-      this.domElement.style.opacity = 0;
-      this.domElement.style.webkitTransform = 'scale(1.1)';
-      this.layout();
-      Common.defer(function () {
-        _this.backgroundElement.style.opacity = 1;
-        _this.domElement.style.opacity = 1;
-        _this.domElement.style.webkitTransform = 'scale(1)';
-      });
-    }
-  }, {
-    key: 'hide',
-    value: function hide() {
-      var _this = this;
-      var hide = function hide() {
-        _this.domElement.style.display = 'none';
-        _this.backgroundElement.style.display = 'none';
-        dom.unbind(_this.domElement, 'webkitTransitionEnd', hide);
-        dom.unbind(_this.domElement, 'transitionend', hide);
-        dom.unbind(_this.domElement, 'oTransitionEnd', hide);
-      };
-      dom.bind(this.domElement, 'webkitTransitionEnd', hide);
-      dom.bind(this.domElement, 'transitionend', hide);
-      dom.bind(this.domElement, 'oTransitionEnd', hide);
-      this.backgroundElement.style.opacity = 0;
-      this.domElement.style.opacity = 0;
-      this.domElement.style.webkitTransform = 'scale(1.1)';
-    }
-  }, {
-    key: 'layout',
-    value: function layout() {
-      this.domElement.style.left = window.innerWidth / 2 - dom.getWidth(this.domElement) / 2 + 'px';
-      this.domElement.style.top = window.innerHeight / 2 - dom.getHeight(this.domElement) / 2 + 'px';
-    }
-  }]);
-  return CenteredDiv;
-}();
-
-var styleSheet = ___$insertStyle(".dg ul{list-style:none;margin:0;padding:0;width:100%;clear:both}.dg.ac{position:fixed;top:0;left:0;right:0;height:0;z-index:0}.dg:not(.ac) .main{overflow:hidden}.dg.main{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear}.dg.main.taller-than-window{overflow-y:auto}.dg.main.taller-than-window .close-button{opacity:1;margin-top:-1px;border-top:1px solid #2c2c2c}.dg.main ul.closed .close-button{opacity:1 !important}.dg.main:hover .close-button,.dg.main .close-button.drag{opacity:1}.dg.main .close-button{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear;border:0;line-height:19px;height:20px;cursor:pointer;text-align:center;background-color:#000}.dg.main .close-button.close-top{position:relative}.dg.main .close-button.close-bottom{position:absolute}.dg.main .close-button:hover{background-color:#111}.dg.a{float:right;margin-right:15px;overflow-y:visible}.dg.a.has-save>ul.close-top{margin-top:0}.dg.a.has-save>ul.close-bottom{margin-top:27px}.dg.a.has-save>ul.closed{margin-top:0}.dg.a .save-row{top:0;z-index:1002}.dg.a .save-row.close-top{position:relative}.dg.a .save-row.close-bottom{position:fixed}.dg li{-webkit-transition:height .1s ease-out;-o-transition:height .1s ease-out;-moz-transition:height .1s ease-out;transition:height .1s ease-out;-webkit-transition:overflow .1s linear;-o-transition:overflow .1s linear;-moz-transition:overflow .1s linear;transition:overflow .1s linear}.dg li:not(.folder){cursor:auto;height:27px;line-height:27px;padding:0 4px 0 5px}.dg li.folder{padding:0;border-left:4px solid rgba(0,0,0,0)}.dg li.title{cursor:pointer;margin-left:-4px}.dg .closed li:not(.title),.dg .closed ul li,.dg .closed ul li>*{height:0;overflow:hidden;border:0}.dg .cr{clear:both;padding-left:3px;height:27px;overflow:hidden}.dg .property-name{cursor:default;float:left;clear:left;width:40%;overflow:hidden;text-overflow:ellipsis}.dg .c{float:left;width:60%;position:relative}.dg .c input[type=text]{border:0;margin-top:4px;padding:3px;width:100%;float:right}.dg .has-slider input[type=text]{width:30%;margin-left:0}.dg .slider{float:left;width:66%;margin-left:-5px;margin-right:0;height:19px;margin-top:4px}.dg .slider-fg{height:100%}.dg .c input[type=checkbox]{margin-top:7px}.dg .c select{margin-top:5px}.dg .cr.function,.dg .cr.function .property-name,.dg .cr.function *,.dg .cr.boolean,.dg .cr.boolean *{cursor:pointer}.dg .cr.color{overflow:visible}.dg .selector{display:none;position:absolute;margin-left:-9px;margin-top:23px;z-index:10}.dg .c:hover .selector,.dg .selector.drag{display:block}.dg li.save-row{padding:0}.dg li.save-row .button{display:inline-block;padding:0px 6px}.dg.dialogue{background-color:#222;width:460px;padding:15px;font-size:13px;line-height:15px}#dg-new-constructor{padding:10px;color:#222;font-family:Monaco, monospace;font-size:10px;border:0;resize:none;box-shadow:inset 1px 1px 1px #888;word-wrap:break-word;margin:12px 0;display:block;width:440px;overflow-y:scroll;height:100px;position:relative}#dg-local-explain{display:none;font-size:11px;line-height:17px;border-radius:3px;background-color:#333;padding:8px;margin-top:10px}#dg-local-explain code{font-size:10px}#dat-gui-save-locally{display:none}.dg{color:#eee;font:11px 'Lucida Grande', sans-serif;text-shadow:0 -1px 0 #111}.dg.main::-webkit-scrollbar{width:5px;background:#1a1a1a}.dg.main::-webkit-scrollbar-corner{height:0;display:none}.dg.main::-webkit-scrollbar-thumb{border-radius:5px;background:#676767}.dg li:not(.folder){background:#1a1a1a;border-bottom:1px solid #2c2c2c}.dg li.save-row{line-height:25px;background:#dad5cb;border:0}.dg li.save-row select{margin-left:5px;width:108px}.dg li.save-row .button{margin-left:5px;margin-top:1px;border-radius:2px;font-size:9px;line-height:7px;padding:4px 4px 5px 4px;background:#c5bdad;color:#fff;text-shadow:0 1px 0 #b0a58f;box-shadow:0 -1px 0 #b0a58f;cursor:pointer}.dg li.save-row .button.gears{background:#c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;height:7px;width:8px}.dg li.save-row .button:hover{background-color:#bab19e;box-shadow:0 -1px 0 #b0a58f}.dg li.folder{border-bottom:0}.dg li.title{padding-left:16px;background:#000 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;cursor:pointer;border-bottom:1px solid rgba(255,255,255,0.2)}.dg .closed li.title{background-image:url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==)}.dg .cr.boolean{border-left:3px solid #806787}.dg .cr.color{border-left:3px solid}.dg .cr.function{border-left:3px solid #e61d5f}.dg .cr.number{border-left:3px solid #2FA1D6}.dg .cr.number input[type=text]{color:#2FA1D6}.dg .cr.string{border-left:3px solid #1ed36f}.dg .cr.string input[type=text]{color:#1ed36f}.dg .cr.function:hover,.dg .cr.boolean:hover{background:#111}.dg .c input[type=text]{background:#303030;outline:none}.dg .c input[type=text]:hover{background:#3c3c3c}.dg .c input[type=text]:focus{background:#494949;color:#fff}.dg .c .slider{background:#303030;cursor:ew-resize}.dg .c .slider-fg{background:#2FA1D6;max-width:100%}.dg .c .slider:hover{background:#3c3c3c}.dg .c .slider:hover .slider-fg{background:#44abda}\n");
-
-css.inject(styleSheet);
-var CSS_NAMESPACE = 'dg';
-var HIDE_KEY_CODE = 72;
-var CLOSE_BUTTON_HEIGHT = 20;
-var DEFAULT_DEFAULT_PRESET_NAME = 'Default';
-var SUPPORTS_LOCAL_STORAGE = function () {
-  try {
-    return !!window.localStorage;
-  } catch (e) {
-    return false;
-  }
-}();
-var SAVE_DIALOGUE = void 0;
-var autoPlaceVirgin = true;
-var autoPlaceContainer = void 0;
-var hide = false;
-var hideableGuis = [];
-var GUI = function GUI(pars) {
-  var _this = this;
-  var params = pars || {};
-  this.domElement = document.createElement('div');
-  this.__ul = document.createElement('ul');
-  this.domElement.appendChild(this.__ul);
-  dom.addClass(this.domElement, CSS_NAMESPACE);
-  this.__folders = {};
-  this.__controllers = [];
-  this.__rememberedObjects = [];
-  this.__rememberedObjectIndecesToControllers = [];
-  this.__listening = [];
-  params = Common.defaults(params, {
-    closeOnTop: false,
-    autoPlace: true,
-    width: GUI.DEFAULT_WIDTH
-  });
-  params = Common.defaults(params, {
-    resizable: params.autoPlace,
-    hideable: params.autoPlace
-  });
-  if (!Common.isUndefined(params.load)) {
-    if (params.preset) {
-      params.load.preset = params.preset;
-    }
-  } else {
-    params.load = { preset: DEFAULT_DEFAULT_PRESET_NAME };
-  }
-  if (Common.isUndefined(params.parent) && params.hideable) {
-    hideableGuis.push(this);
-  }
-  params.resizable = Common.isUndefined(params.parent) && params.resizable;
-  if (params.autoPlace && Common.isUndefined(params.scrollable)) {
-    params.scrollable = true;
-  }
-  var useLocalStorage = SUPPORTS_LOCAL_STORAGE && localStorage.getItem(getLocalStorageHash(this, 'isLocal')) === 'true';
-  var saveToLocalStorage = void 0;
-  var titleRow = void 0;
-  Object.defineProperties(this,
-  {
-    parent: {
-      get: function get$$1() {
-        return params.parent;
-      }
-    },
-    scrollable: {
-      get: function get$$1() {
-        return params.scrollable;
-      }
-    },
-    autoPlace: {
-      get: function get$$1() {
-        return params.autoPlace;
-      }
-    },
-    closeOnTop: {
-      get: function get$$1() {
-        return params.closeOnTop;
-      }
-    },
-    preset: {
-      get: function get$$1() {
-        if (_this.parent) {
-          return _this.getRoot().preset;
-        }
-        return params.load.preset;
-      },
-      set: function set$$1(v) {
-        if (_this.parent) {
-          _this.getRoot().preset = v;
-        } else {
-          params.load.preset = v;
-        }
-        setPresetSelectIndex(this);
-        _this.revert();
-      }
-    },
-    width: {
-      get: function get$$1() {
-        return params.width;
-      },
-      set: function set$$1(v) {
-        params.width = v;
-        setWidth(_this, v);
-      }
-    },
-    name: {
-      get: function get$$1() {
-        return params.name;
-      },
-      set: function set$$1(v) {
-        params.name = v;
-        if (titleRow) {
-          titleRow.innerHTML = params.name;
-        }
-      }
-    },
-    closed: {
-      get: function get$$1() {
-        return params.closed;
-      },
-      set: function set$$1(v) {
-        params.closed = v;
-        if (params.closed) {
-          dom.addClass(_this.__ul, GUI.CLASS_CLOSED);
-        } else {
-          dom.removeClass(_this.__ul, GUI.CLASS_CLOSED);
-        }
-        this.onResize();
-        if (_this.__closeButton) {
-          _this.__closeButton.innerHTML = v ? GUI.TEXT_OPEN : GUI.TEXT_CLOSED;
-        }
-      }
-    },
-    load: {
-      get: function get$$1() {
-        return params.load;
-      }
-    },
-    useLocalStorage: {
-      get: function get$$1() {
-        return useLocalStorage;
-      },
-      set: function set$$1(bool) {
-        if (SUPPORTS_LOCAL_STORAGE) {
-          useLocalStorage = bool;
-          if (bool) {
-            dom.bind(window, 'unload', saveToLocalStorage);
-          } else {
-            dom.unbind(window, 'unload', saveToLocalStorage);
-          }
-          localStorage.setItem(getLocalStorageHash(_this, 'isLocal'), bool);
-        }
-      }
-    }
-  });
-  if (Common.isUndefined(params.parent)) {
-    this.closed = params.closed || false;
-    dom.addClass(this.domElement, GUI.CLASS_MAIN);
-    dom.makeSelectable(this.domElement, false);
-    if (SUPPORTS_LOCAL_STORAGE) {
-      if (useLocalStorage) {
-        _this.useLocalStorage = true;
-        var savedGui = localStorage.getItem(getLocalStorageHash(this, 'gui'));
-        if (savedGui) {
-          params.load = JSON.parse(savedGui);
-        }
-      }
-    }
-    this.__closeButton = document.createElement('div');
-    this.__closeButton.innerHTML = GUI.TEXT_CLOSED;
-    dom.addClass(this.__closeButton, GUI.CLASS_CLOSE_BUTTON);
-    if (params.closeOnTop) {
-      dom.addClass(this.__closeButton, GUI.CLASS_CLOSE_TOP);
-      this.domElement.insertBefore(this.__closeButton, this.domElement.childNodes[0]);
-    } else {
-      dom.addClass(this.__closeButton, GUI.CLASS_CLOSE_BOTTOM);
-      this.domElement.appendChild(this.__closeButton);
-    }
-    dom.bind(this.__closeButton, 'click', function () {
-      _this.closed = !_this.closed;
-    });
-  } else {
-    if (params.closed === undefined) {
-      params.closed = true;
-    }
-    var titleRowName = document.createTextNode(params.name);
-    dom.addClass(titleRowName, 'controller-name');
-    titleRow = addRow(_this, titleRowName);
-    var onClickTitle = function onClickTitle(e) {
-      e.preventDefault();
-      _this.closed = !_this.closed;
-      return false;
-    };
-    dom.addClass(this.__ul, GUI.CLASS_CLOSED);
-    dom.addClass(titleRow, 'title');
-    dom.bind(titleRow, 'click', onClickTitle);
-    if (!params.closed) {
-      this.closed = false;
-    }
-  }
-  if (params.autoPlace) {
-    if (Common.isUndefined(params.parent)) {
-      if (autoPlaceVirgin) {
-        autoPlaceContainer = document.createElement('div');
-        dom.addClass(autoPlaceContainer, CSS_NAMESPACE);
-        dom.addClass(autoPlaceContainer, GUI.CLASS_AUTO_PLACE_CONTAINER);
-        document.body.appendChild(autoPlaceContainer);
-        autoPlaceVirgin = false;
-      }
-      autoPlaceContainer.appendChild(this.domElement);
-      dom.addClass(this.domElement, GUI.CLASS_AUTO_PLACE);
-    }
-    if (!this.parent) {
-      setWidth(_this, params.width);
-    }
-  }
-  this.__resizeHandler = function () {
-    _this.onResizeDebounced();
-  };
-  dom.bind(window, 'resize', this.__resizeHandler);
-  dom.bind(this.__ul, 'webkitTransitionEnd', this.__resizeHandler);
-  dom.bind(this.__ul, 'transitionend', this.__resizeHandler);
-  dom.bind(this.__ul, 'oTransitionEnd', this.__resizeHandler);
-  this.onResize();
-  if (params.resizable) {
-    addResizeHandle(this);
-  }
-  saveToLocalStorage = function saveToLocalStorage() {
-    if (SUPPORTS_LOCAL_STORAGE && localStorage.getItem(getLocalStorageHash(_this, 'isLocal')) === 'true') {
-      localStorage.setItem(getLocalStorageHash(_this, 'gui'), JSON.stringify(_this.getSaveObject()));
-    }
-  };
-  this.saveToLocalStorageIfPossible = saveToLocalStorage;
-  function resetWidth() {
-    var root = _this.getRoot();
-    root.width += 1;
-    Common.defer(function () {
-      root.width -= 1;
-    });
-  }
-  if (!params.parent) {
-    resetWidth();
-  }
-};
-GUI.toggleHide = function () {
-  hide = !hide;
-  Common.each(hideableGuis, function (gui) {
-    gui.domElement.style.display = hide ? 'none' : '';
-  });
-};
-GUI.CLASS_AUTO_PLACE = 'a';
-GUI.CLASS_AUTO_PLACE_CONTAINER = 'ac';
-GUI.CLASS_MAIN = 'main';
-GUI.CLASS_CONTROLLER_ROW = 'cr';
-GUI.CLASS_TOO_TALL = 'taller-than-window';
-GUI.CLASS_CLOSED = 'closed';
-GUI.CLASS_CLOSE_BUTTON = 'close-button';
-GUI.CLASS_CLOSE_TOP = 'close-top';
-GUI.CLASS_CLOSE_BOTTOM = 'close-bottom';
-GUI.CLASS_DRAG = 'drag';
-GUI.DEFAULT_WIDTH = 245;
-GUI.TEXT_CLOSED = 'Close Controls';
-GUI.TEXT_OPEN = 'Open Controls';
-GUI._keydownHandler = function (e) {
-  if (document.activeElement.type !== 'text' && (e.which === HIDE_KEY_CODE || e.keyCode === HIDE_KEY_CODE)) {
-    GUI.toggleHide();
-  }
-};
-dom.bind(window, 'keydown', GUI._keydownHandler, false);
-Common.extend(GUI.prototype,
-{
-  add: function add(object, property) {
-    return _add(this, object, property, {
-      factoryArgs: Array.prototype.slice.call(arguments, 2)
-    });
-  },
-  addColor: function addColor(object, property) {
-    return _add(this, object, property, {
-      color: true
-    });
-  },
-  remove: function remove(controller) {
-    this.__ul.removeChild(controller.__li);
-    this.__controllers.splice(this.__controllers.indexOf(controller), 1);
-    var _this = this;
-    Common.defer(function () {
-      _this.onResize();
-    });
-  },
-  destroy: function destroy() {
-    if (this.parent) {
-      throw new Error('Only the root GUI should be removed with .destroy(). ' + 'For subfolders, use gui.removeFolder(folder) instead.');
-    }
-    if (this.autoPlace) {
-      autoPlaceContainer.removeChild(this.domElement);
-    }
-    var _this = this;
-    Common.each(this.__folders, function (subfolder) {
-      _this.removeFolder(subfolder);
-    });
-    dom.unbind(window, 'keydown', GUI._keydownHandler, false);
-    removeListeners(this);
-  },
-  addFolder: function addFolder(name) {
-    if (this.__folders[name] !== undefined) {
-      throw new Error('You already have a folder in this GUI by the' + ' name "' + name + '"');
-    }
-    var newGuiParams = { name: name, parent: this };
-    newGuiParams.autoPlace = this.autoPlace;
-    if (this.load &&
-    this.load.folders &&
-    this.load.folders[name]) {
-      newGuiParams.closed = this.load.folders[name].closed;
-      newGuiParams.load = this.load.folders[name];
-    }
-    var gui = new GUI(newGuiParams);
-    this.__folders[name] = gui;
-    var li = addRow(this, gui.domElement);
-    dom.addClass(li, 'folder');
-    return gui;
-  },
-  removeFolder: function removeFolder(folder) {
-    this.__ul.removeChild(folder.domElement.parentElement);
-    delete this.__folders[folder.name];
-    if (this.load &&
-    this.load.folders &&
-    this.load.folders[folder.name]) {
-      delete this.load.folders[folder.name];
-    }
-    removeListeners(folder);
-    var _this = this;
-    Common.each(folder.__folders, function (subfolder) {
-      folder.removeFolder(subfolder);
-    });
-    Common.defer(function () {
-      _this.onResize();
-    });
-  },
-  open: function open() {
-    this.closed = false;
-  },
-  close: function close() {
-    this.closed = true;
-  },
-  onResize: function onResize() {
-    var root = this.getRoot();
-    if (root.scrollable) {
-      var top = dom.getOffset(root.__ul).top;
-      var h = 0;
-      Common.each(root.__ul.childNodes, function (node) {
-        if (!(root.autoPlace && node === root.__save_row)) {
-          h += dom.getHeight(node);
-        }
-      });
-      if (window.innerHeight - top - CLOSE_BUTTON_HEIGHT < h) {
-        dom.addClass(root.domElement, GUI.CLASS_TOO_TALL);
-        root.__ul.style.height = window.innerHeight - top - CLOSE_BUTTON_HEIGHT + 'px';
-      } else {
-        dom.removeClass(root.domElement, GUI.CLASS_TOO_TALL);
-        root.__ul.style.height = 'auto';
-      }
-    }
-    if (root.__resize_handle) {
-      Common.defer(function () {
-        root.__resize_handle.style.height = root.__ul.offsetHeight + 'px';
-      });
-    }
-    if (root.__closeButton) {
-      root.__closeButton.style.width = root.width + 'px';
-    }
-  },
-  onResizeDebounced: Common.debounce(function () {
-    this.onResize();
-  }, 50),
-  remember: function remember() {
-    if (Common.isUndefined(SAVE_DIALOGUE)) {
-      SAVE_DIALOGUE = new CenteredDiv();
-      SAVE_DIALOGUE.domElement.innerHTML = saveDialogContents;
-    }
-    if (this.parent) {
-      throw new Error('You can only call remember on a top level GUI.');
-    }
-    var _this = this;
-    Common.each(Array.prototype.slice.call(arguments), function (object) {
-      if (_this.__rememberedObjects.length === 0) {
-        addSaveMenu(_this);
-      }
-      if (_this.__rememberedObjects.indexOf(object) === -1) {
-        _this.__rememberedObjects.push(object);
-      }
-    });
-    if (this.autoPlace) {
-      setWidth(this, this.width);
-    }
-  },
-  getRoot: function getRoot() {
-    var gui = this;
-    while (gui.parent) {
-      gui = gui.parent;
-    }
-    return gui;
-  },
-  getSaveObject: function getSaveObject() {
-    var toReturn = this.load;
-    toReturn.closed = this.closed;
-    if (this.__rememberedObjects.length > 0) {
-      toReturn.preset = this.preset;
-      if (!toReturn.remembered) {
-        toReturn.remembered = {};
-      }
-      toReturn.remembered[this.preset] = getCurrentPreset(this);
-    }
-    toReturn.folders = {};
-    Common.each(this.__folders, function (element, key) {
-      toReturn.folders[key] = element.getSaveObject();
-    });
-    return toReturn;
-  },
-  save: function save() {
-    if (!this.load.remembered) {
-      this.load.remembered = {};
-    }
-    this.load.remembered[this.preset] = getCurrentPreset(this);
-    markPresetModified(this, false);
-    this.saveToLocalStorageIfPossible();
-  },
-  saveAs: function saveAs(presetName) {
-    if (!this.load.remembered) {
-      this.load.remembered = {};
-      this.load.remembered[DEFAULT_DEFAULT_PRESET_NAME] = getCurrentPreset(this, true);
-    }
-    this.load.remembered[presetName] = getCurrentPreset(this);
-    this.preset = presetName;
-    addPresetOption(this, presetName, true);
-    this.saveToLocalStorageIfPossible();
-  },
-  revert: function revert(gui) {
-    Common.each(this.__controllers, function (controller) {
-      if (!this.getRoot().load.remembered) {
-        controller.setValue(controller.initialValue);
-      } else {
-        recallSavedValue(gui || this.getRoot(), controller);
-      }
-      if (controller.__onFinishChange) {
-        controller.__onFinishChange.call(controller, controller.getValue());
-      }
-    }, this);
-    Common.each(this.__folders, function (folder) {
-      folder.revert(folder);
-    });
-    if (!gui) {
-      markPresetModified(this.getRoot(), false);
-    }
-  },
-  listen: function listen(controller) {
-    var init = this.__listening.length === 0;
-    this.__listening.push(controller);
-    if (init) {
-      updateDisplays(this.__listening);
-    }
-  },
-  updateDisplay: function updateDisplay() {
-    Common.each(this.__controllers, function (controller) {
-      controller.updateDisplay();
-    });
-    Common.each(this.__folders, function (folder) {
-      folder.updateDisplay();
-    });
-  }
-});
-function addRow(gui, newDom, liBefore) {
-  var li = document.createElement('li');
-  if (newDom) {
-    li.appendChild(newDom);
-  }
-  if (liBefore) {
-    gui.__ul.insertBefore(li, liBefore);
-  } else {
-    gui.__ul.appendChild(li);
-  }
-  gui.onResize();
-  return li;
-}
-function removeListeners(gui) {
-  dom.unbind(window, 'resize', gui.__resizeHandler);
-  if (gui.saveToLocalStorageIfPossible) {
-    dom.unbind(window, 'unload', gui.saveToLocalStorageIfPossible);
-  }
-}
-function markPresetModified(gui, modified) {
-  var opt = gui.__preset_select[gui.__preset_select.selectedIndex];
-  if (modified) {
-    opt.innerHTML = opt.value + '*';
-  } else {
-    opt.innerHTML = opt.value;
-  }
-}
-function augmentController(gui, li, controller) {
-  controller.__li = li;
-  controller.__gui = gui;
-  Common.extend(controller,                                   {
-    options: function options(_options) {
-      if (arguments.length > 1) {
-        var nextSibling = controller.__li.nextElementSibling;
-        controller.remove();
-        return _add(gui, controller.object, controller.property, {
-          before: nextSibling,
-          factoryArgs: [Common.toArray(arguments)]
-        });
-      }
-      if (Common.isArray(_options) || Common.isObject(_options)) {
-        var _nextSibling = controller.__li.nextElementSibling;
-        controller.remove();
-        return _add(gui, controller.object, controller.property, {
-          before: _nextSibling,
-          factoryArgs: [_options]
-        });
-      }
-    },
-    name: function name(_name) {
-      controller.__li.firstElementChild.firstElementChild.innerHTML = _name;
-      return controller;
-    },
-    listen: function listen() {
-      controller.__gui.listen(controller);
-      return controller;
-    },
-    remove: function remove() {
-      controller.__gui.remove(controller);
-      return controller;
-    }
-  });
-  if (controller instanceof NumberControllerSlider) {
-    var box = new NumberControllerBox(controller.object, controller.property, { min: controller.__min, max: controller.__max, step: controller.__step });
-    Common.each(['updateDisplay', 'onChange', 'onFinishChange', 'step', 'min', 'max'], function (method) {
-      var pc = controller[method];
-      var pb = box[method];
-      controller[method] = box[method] = function () {
-        var args = Array.prototype.slice.call(arguments);
-        pb.apply(box, args);
-        return pc.apply(controller, args);
-      };
-    });
-    dom.addClass(li, 'has-slider');
-    controller.domElement.insertBefore(box.domElement, controller.domElement.firstElementChild);
-  } else if (controller instanceof NumberControllerBox) {
-    var r = function r(returned) {
-      if (Common.isNumber(controller.__min) && Common.isNumber(controller.__max)) {
-        var oldName = controller.__li.firstElementChild.firstElementChild.innerHTML;
-        var wasListening = controller.__gui.__listening.indexOf(controller) > -1;
-        controller.remove();
-        var newController = _add(gui, controller.object, controller.property, {
-          before: controller.__li.nextElementSibling,
-          factoryArgs: [controller.__min, controller.__max, controller.__step]
-        });
-        newController.name(oldName);
-        if (wasListening) newController.listen();
-        return newController;
-      }
-      return returned;
-    };
-    controller.min = Common.compose(r, controller.min);
-    controller.max = Common.compose(r, controller.max);
-  } else if (controller instanceof BooleanController) {
-    dom.bind(li, 'click', function () {
-      dom.fakeEvent(controller.__checkbox, 'click');
-    });
-    dom.bind(controller.__checkbox, 'click', function (e) {
-      e.stopPropagation();
-    });
-  } else if (controller instanceof FunctionController) {
-    dom.bind(li, 'click', function () {
-      dom.fakeEvent(controller.__button, 'click');
-    });
-    dom.bind(li, 'mouseover', function () {
-      dom.addClass(controller.__button, 'hover');
-    });
-    dom.bind(li, 'mouseout', function () {
-      dom.removeClass(controller.__button, 'hover');
-    });
-  } else if (controller instanceof ColorController) {
-    dom.addClass(li, 'color');
-    controller.updateDisplay = Common.compose(function (val) {
-      li.style.borderLeftColor = controller.__color.toString();
-      return val;
-    }, controller.updateDisplay);
-    controller.updateDisplay();
-  }
-  controller.setValue = Common.compose(function (val) {
-    if (gui.getRoot().__preset_select && controller.isModified()) {
-      markPresetModified(gui.getRoot(), true);
-    }
-    return val;
-  }, controller.setValue);
-}
-function recallSavedValue(gui, controller) {
-  var root = gui.getRoot();
-  var matchedIndex = root.__rememberedObjects.indexOf(controller.object);
-  if (matchedIndex !== -1) {
-    var controllerMap = root.__rememberedObjectIndecesToControllers[matchedIndex];
-    if (controllerMap === undefined) {
-      controllerMap = {};
-      root.__rememberedObjectIndecesToControllers[matchedIndex] = controllerMap;
-    }
-    controllerMap[controller.property] = controller;
-    if (root.load && root.load.remembered) {
-      var presetMap = root.load.remembered;
-      var preset = void 0;
-      if (presetMap[gui.preset]) {
-        preset = presetMap[gui.preset];
-      } else if (presetMap[DEFAULT_DEFAULT_PRESET_NAME]) {
-        preset = presetMap[DEFAULT_DEFAULT_PRESET_NAME];
-      } else {
-        return;
-      }
-      if (preset[matchedIndex] && preset[matchedIndex][controller.property] !== undefined) {
-        var value = preset[matchedIndex][controller.property];
-        controller.initialValue = value;
-        controller.setValue(value);
-      }
-    }
-  }
-}
-function _add(gui, object, property, params) {
-  if (object[property] === undefined) {
-    throw new Error('Object "' + object + '" has no property "' + property + '"');
-  }
-  var controller = void 0;
-  if (params.color) {
-    controller = new ColorController(object, property);
-  } else {
-    var factoryArgs = [object, property].concat(params.factoryArgs);
-    controller = ControllerFactory.apply(gui, factoryArgs);
-  }
-  if (params.before instanceof Controller) {
-    params.before = params.before.__li;
-  }
-  recallSavedValue(gui, controller);
-  dom.addClass(controller.domElement, 'c');
-  var name = document.createElement('span');
-  dom.addClass(name, 'property-name');
-  name.innerHTML = controller.property;
-  var container = document.createElement('div');
-  container.appendChild(name);
-  container.appendChild(controller.domElement);
-  var li = addRow(gui, container, params.before);
-  dom.addClass(li, GUI.CLASS_CONTROLLER_ROW);
-  if (controller instanceof ColorController) {
-    dom.addClass(li, 'color');
-  } else {
-    dom.addClass(li, _typeof(controller.getValue()));
-  }
-  augmentController(gui, li, controller);
-  gui.__controllers.push(controller);
-  return controller;
-}
-function getLocalStorageHash(gui, key) {
-  return document.location.href + '.' + key;
-}
-function addPresetOption(gui, name, setSelected) {
-  var opt = document.createElement('option');
-  opt.innerHTML = name;
-  opt.value = name;
-  gui.__preset_select.appendChild(opt);
-  if (setSelected) {
-    gui.__preset_select.selectedIndex = gui.__preset_select.length - 1;
-  }
-}
-function showHideExplain(gui, explain) {
-  explain.style.display = gui.useLocalStorage ? 'block' : 'none';
-}
-function addSaveMenu(gui) {
-  var div = gui.__save_row = document.createElement('li');
-  dom.addClass(gui.domElement, 'has-save');
-  gui.__ul.insertBefore(div, gui.__ul.firstChild);
-  dom.addClass(div, 'save-row');
-  var gears = document.createElement('span');
-  gears.innerHTML = '&nbsp;';
-  dom.addClass(gears, 'button gears');
-  var button = document.createElement('span');
-  button.innerHTML = 'Save';
-  dom.addClass(button, 'button');
-  dom.addClass(button, 'save');
-  var button2 = document.createElement('span');
-  button2.innerHTML = 'New';
-  dom.addClass(button2, 'button');
-  dom.addClass(button2, 'save-as');
-  var button3 = document.createElement('span');
-  button3.innerHTML = 'Revert';
-  dom.addClass(button3, 'button');
-  dom.addClass(button3, 'revert');
-  var select = gui.__preset_select = document.createElement('select');
-  if (gui.load && gui.load.remembered) {
-    Common.each(gui.load.remembered, function (value, key) {
-      addPresetOption(gui, key, key === gui.preset);
-    });
-  } else {
-    addPresetOption(gui, DEFAULT_DEFAULT_PRESET_NAME, false);
-  }
-  dom.bind(select, 'change', function () {
-    for (var index = 0; index < gui.__preset_select.length; index++) {
-      gui.__preset_select[index].innerHTML = gui.__preset_select[index].value;
-    }
-    gui.preset = this.value;
-  });
-  div.appendChild(select);
-  div.appendChild(gears);
-  div.appendChild(button);
-  div.appendChild(button2);
-  div.appendChild(button3);
-  if (SUPPORTS_LOCAL_STORAGE) {
-    var explain = document.getElementById('dg-local-explain');
-    var localStorageCheckBox = document.getElementById('dg-local-storage');
-    var saveLocally = document.getElementById('dg-save-locally');
-    saveLocally.style.display = 'block';
-    if (localStorage.getItem(getLocalStorageHash(gui, 'isLocal')) === 'true') {
-      localStorageCheckBox.setAttribute('checked', 'checked');
-    }
-    showHideExplain(gui, explain);
-    dom.bind(localStorageCheckBox, 'change', function () {
-      gui.useLocalStorage = !gui.useLocalStorage;
-      showHideExplain(gui, explain);
-    });
-  }
-  var newConstructorTextArea = document.getElementById('dg-new-constructor');
-  dom.bind(newConstructorTextArea, 'keydown', function (e) {
-    if (e.metaKey && (e.which === 67 || e.keyCode === 67)) {
-      SAVE_DIALOGUE.hide();
-    }
-  });
-  dom.bind(gears, 'click', function () {
-    newConstructorTextArea.innerHTML = JSON.stringify(gui.getSaveObject(), undefined, 2);
-    SAVE_DIALOGUE.show();
-    newConstructorTextArea.focus();
-    newConstructorTextArea.select();
-  });
-  dom.bind(button, 'click', function () {
-    gui.save();
-  });
-  dom.bind(button2, 'click', function () {
-    var presetName = prompt('Enter a new preset name.');
-    if (presetName) {
-      gui.saveAs(presetName);
-    }
-  });
-  dom.bind(button3, 'click', function () {
-    gui.revert();
-  });
-}
-function addResizeHandle(gui) {
-  var pmouseX = void 0;
-  gui.__resize_handle = document.createElement('div');
-  Common.extend(gui.__resize_handle.style, {
-    width: '6px',
-    marginLeft: '-3px',
-    height: '200px',
-    cursor: 'ew-resize',
-    position: 'absolute'
-  });
-  function drag(e) {
-    e.preventDefault();
-    gui.width += pmouseX - e.clientX;
-    gui.onResize();
-    pmouseX = e.clientX;
-    return false;
-  }
-  function dragStop() {
-    dom.removeClass(gui.__closeButton, GUI.CLASS_DRAG);
-    dom.unbind(window, 'mousemove', drag);
-    dom.unbind(window, 'mouseup', dragStop);
-  }
-  function dragStart(e) {
-    e.preventDefault();
-    pmouseX = e.clientX;
-    dom.addClass(gui.__closeButton, GUI.CLASS_DRAG);
-    dom.bind(window, 'mousemove', drag);
-    dom.bind(window, 'mouseup', dragStop);
-    return false;
-  }
-  dom.bind(gui.__resize_handle, 'mousedown', dragStart);
-  dom.bind(gui.__closeButton, 'mousedown', dragStart);
-  gui.domElement.insertBefore(gui.__resize_handle, gui.domElement.firstElementChild);
-}
-function setWidth(gui, w) {
-  gui.domElement.style.width = w + 'px';
-  if (gui.__save_row && gui.autoPlace) {
-    gui.__save_row.style.width = w + 'px';
-  }
-  if (gui.__closeButton) {
-    gui.__closeButton.style.width = w + 'px';
-  }
-}
-function getCurrentPreset(gui, useInitialValues) {
-  var toReturn = {};
-  Common.each(gui.__rememberedObjects, function (val, index) {
-    var savedValues = {};
-    var controllerMap = gui.__rememberedObjectIndecesToControllers[index];
-    Common.each(controllerMap, function (controller, property) {
-      savedValues[property] = useInitialValues ? controller.initialValue : controller.getValue();
-    });
-    toReturn[index] = savedValues;
-  });
-  return toReturn;
-}
-function setPresetSelectIndex(gui) {
-  for (var index = 0; index < gui.__preset_select.length; index++) {
-    if (gui.__preset_select[index].value === gui.preset) {
-      gui.__preset_select.selectedIndex = index;
-    }
-  }
-}
-function updateDisplays(controllerArray) {
-  if (controllerArray.length !== 0) {
-    requestAnimationFrame$1.call(window, function () {
-      updateDisplays(controllerArray);
-    });
-  }
-  Common.each(controllerArray, function (c) {
-    c.updateDisplay();
-  });
-}
-
-var color = {
-  Color: Color,
-  math: ColorMath,
-  interpret: interpret
-};
-var controllers = {
-  Controller: Controller,
-  BooleanController: BooleanController,
-  OptionController: OptionController,
-  StringController: StringController,
-  NumberController: NumberController,
-  NumberControllerBox: NumberControllerBox,
-  NumberControllerSlider: NumberControllerSlider,
-  FunctionController: FunctionController,
-  ColorController: ColorController
-};
-var dom$1 = { dom: dom };
-var gui = { GUI: GUI };
-var GUI$1 = GUI;
-var index = {
-  color: color,
-  controllers: controllers,
-  dom: dom$1,
-  gui: gui,
-  GUI: GUI$1
-};
-
-
-/* harmony default export */ __webpack_exports__["default"] = (index);
-//# sourceMappingURL=dat.gui.module.js.map
 
 
 /***/ }),
@@ -81134,16 +76782,17 @@ if (true) {
 /*!*****************************!*\
   !*** ./src/js/constants.js ***!
   \*****************************/
-/*! exports provided: WIDTH, HEIGHT, SIZE, CELLWIDTH, CELLHEIGHT, TEMP_CS, POP_CS, CHLORO_CS */
+/*! exports provided: SIZE, getWidth, getHeight, getSize, getCellWidth, getCellHeight, TEMP_CS, POP_CS, CHLORO_CS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WIDTH", function() { return WIDTH; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HEIGHT", function() { return HEIGHT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SIZE", function() { return SIZE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CELLWIDTH", function() { return CELLWIDTH; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CELLHEIGHT", function() { return CELLHEIGHT; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getWidth", function() { return getWidth; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getHeight", function() { return getHeight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getSize", function() { return getSize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getCellWidth", function() { return getCellWidth; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getCellHeight", function() { return getCellHeight; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TEMP_CS", function() { return TEMP_CS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "POP_CS", function() { return POP_CS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CHLORO_CS", function() { return CHLORO_CS; });
@@ -81153,12 +76802,18 @@ var _libs_data_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webp
 
 
 
-const WIDTH = 1000;
-const HEIGHT = 1000;
+//bugged to hell for date updates
+var N = 200;
 const SIZE = Math.sqrt(_libs_data_json__WEBPACK_IMPORTED_MODULE_1__.length);
+var CELLWIDTH = N/SIZE;
+var CELLHEIGHT = N/SIZE;
 
-const CELLWIDTH = WIDTH/SIZE;
-const CELLHEIGHT = HEIGHT/SIZE;
+
+function getWidth(){return N;}
+function getHeight(){return N;}
+function getSize(){return SIZE;}
+function getCellWidth(){return CELLWIDTH;}
+function getCellHeight(){return CELLHEIGHT;}
 
 var steps = 5, speciesNum = 18;
 const TEMP_CS = d3__WEBPACK_IMPORTED_MODULE_0__["scaleQuantile"]()
@@ -81167,8 +76822,8 @@ const TEMP_CS = d3__WEBPACK_IMPORTED_MODULE_0__["scaleQuantile"]()
 // var speciesNum = 11;
 // export const POP_CS = d3.scaleOrdinal(d3.schemeSpectral[speciesNum]);
 
-const POP_CS = d3__WEBPACK_IMPORTED_MODULE_0__["scaleOrdinal"](d3__WEBPACK_IMPORTED_MODULE_0__["schemeSpectral"][11]);
-const CHLORO_CS = d3__WEBPACK_IMPORTED_MODULE_0__["scaleSequential"](d3__WEBPACK_IMPORTED_MODULE_0__["interpolatePlasma"]).domain([0.03,30]);
+const POP_CS = d3__WEBPACK_IMPORTED_MODULE_0__["scaleOrdinal"](['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999']);
+const CHLORO_CS = d3__WEBPACK_IMPORTED_MODULE_0__["scaleSequential"](d3__WEBPACK_IMPORTED_MODULE_0__["interpolateYlGn"]).domain([30,0.03]);
 
 /***/ }),
 
@@ -81183,11 +76838,9 @@ const CHLORO_CS = d3__WEBPACK_IMPORTED_MODULE_0__["scaleSequential"](d3__WEBPACK
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
 /* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! d3 */ "./node_modules/d3/index.js");
-/* harmony import */ var d3_simple_slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-simple-slider */ "./node_modules/d3-simple-slider/index.js");
-/* harmony import */ var d3_svg_legend__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! d3-svg-legend */ "./node_modules/d3-svg-legend/indexRollupNext.js");
-/* harmony import */ var _libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./libs/speciesClass.json */ "./src/js/libs/speciesClass.json");
-var _libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./libs/speciesClass.json */ "./src/js/libs/speciesClass.json", 1);
-
+/* harmony import */ var d3_svg_legend__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! d3-svg-legend */ "./node_modules/d3-svg-legend/indexRollupNext.js");
+/* harmony import */ var _libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./libs/speciesClass.json */ "./src/js/libs/speciesClass.json");
+var _libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./libs/speciesClass.json */ "./src/js/libs/speciesClass.json", 1);
 
 
 
@@ -81195,7 +76848,7 @@ var _libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__
 
 var gui = {
 	drawTL : function() {
-		var tempColorLegend = Object(d3_svg_legend__WEBPACK_IMPORTED_MODULE_3__["legendColor"])()
+		var tempColorLegend = Object(d3_svg_legend__WEBPACK_IMPORTED_MODULE_2__["legendColor"])()
 		  .labelFormat(d3__WEBPACK_IMPORTED_MODULE_1__["format"](".2f"))
 		  .classPrefix('legend')
 		  .scale(_constants__WEBPACK_IMPORTED_MODULE_0__["TEMP_CS"])
@@ -81210,8 +76863,8 @@ var gui = {
 	},
 	drawPop : function(){
 		var popKeys = []
-		Object.keys(_libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_4__[1]).forEach(function (key) {
-				popKeys.push(_libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_4__[1][key]);
+		Object.keys(_libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_3__[1]).forEach(function (key) {
+				popKeys.push(_libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_3__[1][key]);
 		 });
 
 		var popLegendSize = d3__WEBPACK_IMPORTED_MODULE_1__["select"]("#pop-legend")
@@ -81250,7 +76903,7 @@ var gui = {
 	},
 	drawSlider: function(){
 		// slider
-		var slider = Object(d3_simple_slider__WEBPACK_IMPORTED_MODULE_2__["sliderHorizontal"])()
+		var slider = sliderHorizontal()
 		  .min(2009)
 		  .max(2018)
 		  .step(1)
@@ -81359,50 +77012,234 @@ var gui = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _libs_data_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./libs/data.json */ "./src/js/libs/data.json");
 var _libs_data_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./libs/data.json */ "./src/js/libs/data.json", 1);
-/* harmony import */ var dat_gui__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dat.gui */ "./node_modules/dat.gui/build/dat.gui.module.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
-/* harmony import */ var _gui__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./gui */ "./src/js/gui.js");
-/* harmony import */ var _render_scene__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./render/scene */ "./src/js/render/scene.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var _gui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./gui */ "./src/js/gui.js");
+/* harmony import */ var _interaction__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./interaction */ "./src/js/interaction.js");
+/* harmony import */ var _story__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./story */ "./src/js/story.js");
 
 
 
+// import * as jQuery from 'jquery';
 
 
 
-
-/*TODO: (1) Add slide code from last years entry
-		(2) Data for 2 other cases
-		(3) Unqiue species count per cell
+/*TODO: 
 		(4) Toggle between wind / unique species count
 		(5) Bars to illustrate growth per population from previous year
-		(6) Clean up UI & GUI (legend)
 		(7) Blending for each grid cell *
-		(8) Update Grid function (so it displays toggle inputs)
 */
 
 // initialize and create fullscreen version
 var matrixData = _libs_data_json__WEBPACK_IMPORTED_MODULE_0__;
-_gui__WEBPACK_IMPORTED_MODULE_3__["default"].drawTL();
-_gui__WEBPACK_IMPORTED_MODULE_3__["default"].drawPop();
+_gui__WEBPACK_IMPORTED_MODULE_2__["default"].drawTL();
+_gui__WEBPACK_IMPORTED_MODULE_2__["default"].drawPop();
 
-var panel1Config = {
-	'containerID': 'panel-1',
-	'matrixData': matrixData,
-	'height': _constants__WEBPACK_IMPORTED_MODULE_2__["HEIGHT"],
-	'initialYear': 2011,
-	'width': _constants__WEBPACK_IMPORTED_MODULE_2__["WIDTH"]
+// var panel1Config = {
+// 	'containerID': 'panel-1',
+// 	'matrixData': matrixData,
+// 	'height': constants.getHeight(),
+// 	'initialYear': 2011,
+// 	'width': constants.getWidth(),
+// 	'cellWidth': constants.getCellWidth(),
+// 	'cellHeight': constants.getCellHeight()
+// }
+
+// var panel2Config = {
+// 	'containerID': 'panel-2',
+// 	'matrixData': matrixData,
+// 	'height': constants.getHeight(),
+// 	'initialYear': 2015,
+// 	'width': constants.getWidth(),
+// 	'cellWidth': constants.getCellWidth(),
+// 	'cellHeight': constants.getCellHeight()
+// }
+
+//Window on resize
+// $(window).resize(function () {
+// 	clearTimeout(window.resizedFinished);
+// 	window.resizedFinished = setTimeout(function () {
+
+// 	}, 250);
+// });
+
+
+//Function for toggling the centerMark
+// $('input[name=centerMark]').click(function (e) {
+// 	var status = $('input[name=centerMark]:checked', '#centerMark').val();
+// 	scene.remove();
+// 	panel2Config['width'] = 100;
+// 	panel2Config['height'] = 100;
+// 	panel2Config['cellWidth'] = panel2Config['width'] / constants.getSize();
+// 	panel2Config['cellHeight'] = panel2Config['height'] / constants.getSize();
+// 	load();
+// });
+
+//Function for moving through slides
+let storyNum = 0;
+_interaction__WEBPACK_IMPORTED_MODULE_3__["default"].updateStory(storyNum, _story__WEBPACK_IMPORTED_MODULE_4__["stories"]);
+$(document).on('keydown', function(event) {
+    if(event.keyCode == 37) {
+		event.preventDefault();
+		if (storyNum < _story__WEBPACK_IMPORTED_MODULE_4__["stories"].length) {
+			if (storyNum <= 0) {
+				storyNum = 0;
+			} else {
+				storyNum--;
+			}
+    		_interaction__WEBPACK_IMPORTED_MODULE_3__["default"].updateStory(storyNum, _story__WEBPACK_IMPORTED_MODULE_4__["stories"]);
+    	}
+    }
+    else if(event.keyCode == 39) {
+    	event.preventDefault();
+    	if (storyNum < _story__WEBPACK_IMPORTED_MODULE_4__["stories"].length) {
+			if (storyNum >= _story__WEBPACK_IMPORTED_MODULE_4__["stories"].length - 1) {
+				storyNum = _story__WEBPACK_IMPORTED_MODULE_4__["stories"].length - 1;
+			} else {
+				storyNum++;
+			}
+    		_interaction__WEBPACK_IMPORTED_MODULE_3__["default"].updateStory(storyNum, _story__WEBPACK_IMPORTED_MODULE_4__["stories"]);
+    	}
+    }
+});
+
+
+/***/ }),
+
+/***/ "./src/js/interaction.js":
+/*!*******************************!*\
+  !*** ./src/js/interaction.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _libs_data_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./libs/data.json */ "./src/js/libs/data.json");
+var _libs_data_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./libs/data.json */ "./src/js/libs/data.json", 1);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var _render_scene__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./render/scene */ "./src/js/render/scene.js");
+
+
+
+
+let matrixData = _libs_data_json__WEBPACK_IMPORTED_MODULE_0__;
+var interaction = {
+    updateStory: function(storyNum, stories) {
+        var currentStory = stories[storyNum];
+        
+        // if no image and no canvas
+        if (!currentStory['image'] && !currentStory['canvas']) {
+            hideBlocks();
+            hideExplanation();
+            if (currentStory['title']) {
+                showTitle();
+                $('#title').html(currentStory['title']);
+            } else {
+                $('#title').html('');
+            }
+
+            if (currentStory['titlePage']) {
+                $('#title').addClass('largeF');
+            } else{
+                 $('#title').removeClass('largeF');
+            }
+
+            if (currentStory['explanation']) {
+                $('#explanation').html(currentStory['explanation']);
+            } else {
+                $('#explanation').html('');
+            }
+        }
+
+        //if image 
+        if (currentStory['image']) {
+            hideTitle();
+            hideBlocks();
+            if (currentStory['explanation']) {
+                showExplanation();
+                $('#image-explanation').html(currentStory['explanation']);
+            } else {
+                $('#image-explanation').html('');
+            }
+
+            if (currentStory['image-src']) {
+                $('#imgSrc').html(currentStory['image-src']);
+            } else {
+                $('#imgSrc').html('');
+            }
+            $('#image').attr('src', currentStory['image']);
+        }
+        
+        // if canvas
+        if (currentStory['canvas']) {
+            hideExplanation();
+            hideTitle();
+            showBlocks();
+            $("#grid").empty();
+
+            if (currentStory['title']) {
+                $('#blockExplanation').html(currentStory['title']);
+            } else {
+                $('#blockExplanation').html('');
+            }
+            for (var i = 0; i < currentStory['canvas'].length; i++) {
+                var panel = document.createElement('div');
+                var config = currentStory['canvas'][i];
+                panel.id = config['containerID'];
+                panel.className = 'panel';
+                $("#grid").append(panel);
+                var sections = ( currentStory['canvas'].length > 1)? 2 : 1;
+                var dimension = (window.innerHeight * .85) / sections;
+                config['matrixData'] = matrixData;
+                config['height'] = dimension;
+                config['width'] = dimension;
+                config['cellWidth'] = dimension / _constants__WEBPACK_IMPORTED_MODULE_1__["SIZE"];
+                config['cellHeight'] = dimension / _constants__WEBPACK_IMPORTED_MODULE_1__["SIZE"];
+                _render_scene__WEBPACK_IMPORTED_MODULE_2__["default"].draw(config);
+            }
+        }
+    }
 }
 
-var panel2Config = {
-	'containerID': 'panel-2',
-	'matrixData': matrixData,
-	'height': _constants__WEBPACK_IMPORTED_MODULE_2__["HEIGHT"],
-	'initialYear': 2015,
-	'width': _constants__WEBPACK_IMPORTED_MODULE_2__["WIDTH"]
+function hideTitle(){
+	$('#titlePage').addClass('hide');
 }
 
-_render_scene__WEBPACK_IMPORTED_MODULE_4__["default"].draw(panel1Config); 
-_render_scene__WEBPACK_IMPORTED_MODULE_4__["default"].draw(panel2Config); 
+function showTitle(){
+	$('#titlePage').removeClass('hide');
+}
+
+function hideExplanation() {
+    $('#imageExplanation').addClass('hide');
+}
+
+function showExplanation() {
+    $('#imageExplanation').removeClass('hide');
+}
+
+function hideBlocks(){
+	$('#blockA').addClass('hide');
+	$('#blockB').addClass('hide');
+	$('#blockC').addClass('hide');
+}
+
+function showBlocks(){
+	$('#blockA').removeClass('hide');
+	$('#blockB').removeClass('hide');
+	$('#blockC').removeClass('hide');
+}
+/* harmony default export */ __webpack_exports__["default"] = (interaction);
+
+/***/ }),
+
+/***/ "./src/js/libs/average_data.json":
+/*!***************************************!*\
+  !*** ./src/js/libs/average_data.json ***!
+  \***************************************/
+/*! exports provided: 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, default */
+/***/ (function(module) {
+
+module.exports = {"2009":{"L1":{"Euphausiid":{"sum":4032031,"count":16,"average":252001.9375},"Cephalopod":{"sum":1305,"count":16,"average":81.5625},"Crustacean":{"sum":6523,"count":16,"average":407.6875},"Salmonid":{"sum":3,"count":16,"average":0.1875},"Fish":{"sum":1121,"count":16,"average":70.0625},"Gelatinous":{"sum":0,"count":16,"average":0},"Ground Fish":{"sum":4878,"count":16,"average":304.875},"Small Fish":{"sum":12959,"count":16,"average":809.9375},"Jellyfish":{"sum":150,"count":16,"average":9.375}},"L2":{"cottid":{"sum":25,"count":16,"average":1.5625},"fish":{"sum":1121,"count":16,"average":70.0625},"deep-sea smelt":{"sum":91,"count":16,"average":5.6875},"gelatinous":{"sum":0,"count":16,"average":0},"other rockfish":{"sum":14,"count":16,"average":0.875},"rockfish":{"sum":2171,"count":16,"average":135.6875},"cephalopod":{"sum":1305,"count":16,"average":81.5625},"euphausiid":{"sum":4032031,"count":16,"average":252001.9375},"hyperiid amphipod":{"sum":0,"count":16,"average":0},"myctophid":{"sum":12810,"count":16,"average":800.625},"flatfish":{"sum":265,"count":16,"average":16.5625},"salmonid":{"sum":3,"count":16,"average":0.1875},"elasmobranch":{"sum":6,"count":16,"average":0.375},"other groundfish":{"sum":2422,"count":16,"average":151.375},"jellyfish":{"sum":150,"count":16,"average":9.375},"crustacean":{"sum":6523,"count":16,"average":407.6875},"clupeoid":{"sum":16,"count":16,"average":1},"smelt":{"sum":17,"count":16,"average":1.0625}}},"2010":{"L1":{"Euphausiid":{"sum":2377672,"count":16,"average":148604.5},"Cephalopod":{"sum":2021,"count":16,"average":126.3125},"Crustacean":{"sum":5481,"count":16,"average":342.5625},"Salmonid":{"sum":0,"count":16,"average":0},"Fish":{"sum":153,"count":16,"average":9.5625},"Gelatinous":{"sum":0,"count":16,"average":0},"Ground Fish":{"sum":6216,"count":16,"average":388.5},"Small Fish":{"sum":37031,"count":16,"average":2314.4375},"Jellyfish":{"sum":263,"count":16,"average":16.4375}},"L2":{"cottid":{"sum":17,"count":16,"average":1.0625},"fish":{"sum":153,"count":16,"average":9.5625},"deep-sea smelt":{"sum":1283,"count":16,"average":80.1875},"gelatinous":{"sum":0,"count":16,"average":0},"other rockfish":{"sum":38,"count":16,"average":2.375},"rockfish":{"sum":1526,"count":16,"average":95.375},"cephalopod":{"sum":2021,"count":16,"average":126.3125},"euphausiid":{"sum":2377672,"count":16,"average":148604.5},"hyperiid amphipod":{"sum":0,"count":16,"average":0},"myctophid":{"sum":35707,"count":16,"average":2231.6875},"flatfish":{"sum":1468,"count":16,"average":91.75},"salmonid":{"sum":0,"count":16,"average":0},"elasmobranch":{"sum":4,"count":16,"average":0.25},"other groundfish":{"sum":3180,"count":16,"average":198.75},"jellyfish":{"sum":263,"count":16,"average":16.4375},"crustacean":{"sum":5481,"count":16,"average":342.5625},"clupeoid":{"sum":12,"count":16,"average":0.75},"smelt":{"sum":12,"count":16,"average":0.75}}},"2011":{"L1":{"Euphausiid":{"sum":2812337,"count":14,"average":200881.2142857143},"Cephalopod":{"sum":1729,"count":14,"average":123.5},"Crustacean":{"sum":2693,"count":14,"average":192.35714285714286},"Salmonid":{"sum":0,"count":14,"average":0},"Fish":{"sum":123,"count":14,"average":8.785714285714286},"Gelatinous":{"sum":0,"count":14,"average":0},"Ground Fish":{"sum":8379,"count":14,"average":598.5},"Small Fish":{"sum":1573,"count":14,"average":112.35714285714286},"Jellyfish":{"sum":1682,"count":14,"average":120.14285714285714}},"L2":{"cottid":{"sum":29,"count":14,"average":2.0714285714285716},"fish":{"sum":123,"count":14,"average":8.785714285714286},"deep-sea smelt":{"sum":252,"count":14,"average":18},"gelatinous":{"sum":0,"count":14,"average":0},"other rockfish":{"sum":120,"count":14,"average":8.571428571428571},"rockfish":{"sum":3750,"count":14,"average":267.85714285714283},"cephalopod":{"sum":1729,"count":14,"average":123.5},"euphausiid":{"sum":2812337,"count":14,"average":200881.2142857143},"hyperiid amphipod":{"sum":0,"count":14,"average":0},"myctophid":{"sum":1136,"count":14,"average":81.14285714285714},"flatfish":{"sum":3083,"count":14,"average":220.21428571428572},"salmonid":{"sum":0,"count":14,"average":0},"elasmobranch":{"sum":4,"count":14,"average":0.2857142857142857},"other groundfish":{"sum":1422,"count":14,"average":101.57142857142857},"jellyfish":{"sum":1682,"count":14,"average":120.14285714285714},"crustacean":{"sum":2693,"count":14,"average":192.35714285714286},"clupeoid":{"sum":1,"count":14,"average":0.07142857142857142},"smelt":{"sum":155,"count":14,"average":11.071428571428571}}},"2012":{"L1":{"Euphausiid":{"sum":3378449,"count":14,"average":241317.7857142857},"Cephalopod":{"sum":8727,"count":14,"average":623.3571428571429},"Crustacean":{"sum":9514,"count":14,"average":679.5714285714286},"Salmonid":{"sum":3,"count":14,"average":0.21428571428571427},"Fish":{"sum":61,"count":14,"average":4.357142857142857},"Gelatinous":{"sum":319474,"count":14,"average":22819.571428571428},"Ground Fish":{"sum":2821,"count":14,"average":201.5},"Small Fish":{"sum":1913,"count":14,"average":136.64285714285714},"Jellyfish":{"sum":127,"count":14,"average":9.071428571428571}},"L2":{"cottid":{"sum":10,"count":14,"average":0.7142857142857143},"fish":{"sum":61,"count":14,"average":4.357142857142857},"deep-sea smelt":{"sum":75,"count":14,"average":5.357142857142857},"gelatinous":{"sum":319474,"count":14,"average":22819.571428571428},"other rockfish":{"sum":4,"count":14,"average":0.2857142857142857},"rockfish":{"sum":400,"count":14,"average":28.571428571428573},"cephalopod":{"sum":8727,"count":14,"average":623.3571428571429},"euphausiid":{"sum":3378449,"count":14,"average":241317.7857142857},"hyperiid amphipod":{"sum":0,"count":14,"average":0},"myctophid":{"sum":425,"count":14,"average":30.357142857142858},"flatfish":{"sum":1588,"count":14,"average":113.42857142857143},"salmonid":{"sum":3,"count":14,"average":0.21428571428571427},"elasmobranch":{"sum":12,"count":14,"average":0.8571428571428571},"other groundfish":{"sum":817,"count":14,"average":58.357142857142854},"jellyfish":{"sum":127,"count":14,"average":9.071428571428571},"crustacean":{"sum":9514,"count":14,"average":679.5714285714286},"clupeoid":{"sum":8,"count":14,"average":0.5714285714285714},"smelt":{"sum":1395,"count":14,"average":99.64285714285714}}},"2013":{"L1":{"Euphausiid":{"sum":8081511,"count":19,"average":425342.6842105263},"Cephalopod":{"sum":12431,"count":19,"average":654.2631578947369},"Crustacean":{"sum":41844,"count":19,"average":2202.315789473684},"Salmonid":{"sum":2,"count":19,"average":0.10526315789473684},"Fish":{"sum":322,"count":19,"average":16.94736842105263},"Gelatinous":{"sum":2946,"count":19,"average":155.05263157894737},"Ground Fish":{"sum":76169,"count":19,"average":4008.8947368421054},"Small Fish":{"sum":16294,"count":19,"average":857.578947368421},"Jellyfish":{"sum":374,"count":19,"average":19.68421052631579}},"L2":{"cottid":{"sum":55,"count":19,"average":2.8947368421052633},"fish":{"sum":322,"count":19,"average":16.94736842105263},"deep-sea smelt":{"sum":2193,"count":19,"average":115.42105263157895},"gelatinous":{"sum":2946,"count":19,"average":155.05263157894737},"other rockfish":{"sum":16,"count":19,"average":0.8421052631578947},"rockfish":{"sum":59383,"count":19,"average":3125.4210526315787},"cephalopod":{"sum":12431,"count":19,"average":654.2631578947369},"euphausiid":{"sum":8081511,"count":19,"average":425342.6842105263},"hyperiid amphipod":{"sum":0,"count":19,"average":0},"myctophid":{"sum":8560,"count":19,"average":450.5263157894737},"flatfish":{"sum":11904,"count":19,"average":626.5263157894736},"salmonid":{"sum":2,"count":19,"average":0.10526315789473684},"elasmobranch":{"sum":3,"count":19,"average":0.15789473684210525},"other groundfish":{"sum":4863,"count":19,"average":255.94736842105263},"jellyfish":{"sum":374,"count":19,"average":19.68421052631579},"crustacean":{"sum":41844,"count":19,"average":2202.315789473684},"clupeoid":{"sum":97,"count":19,"average":5.105263157894737},"smelt":{"sum":5389,"count":19,"average":283.63157894736844}}},"2014":{"L1":{"Euphausiid":{"sum":8848212,"count":19,"average":465695.36842105264},"Cephalopod":{"sum":33284,"count":19,"average":1751.7894736842106},"Crustacean":{"sum":3958,"count":19,"average":208.31578947368422},"Salmonid":{"sum":1,"count":19,"average":0.05263157894736842},"Fish":{"sum":460,"count":19,"average":24.210526315789473},"Gelatinous":{"sum":18192,"count":19,"average":957.4736842105264},"Ground Fish":{"sum":15309,"count":19,"average":805.7368421052631},"Small Fish":{"sum":18165,"count":19,"average":956.0526315789474},"Jellyfish":{"sum":166,"count":19,"average":8.736842105263158}},"L2":{"cottid":{"sum":28,"count":19,"average":1.4736842105263157},"fish":{"sum":460,"count":19,"average":24.210526315789473},"deep-sea smelt":{"sum":13020,"count":19,"average":685.2631578947369},"gelatinous":{"sum":18192,"count":19,"average":957.4736842105264},"other rockfish":{"sum":21,"count":19,"average":1.105263157894737},"rockfish":{"sum":5275,"count":19,"average":277.63157894736844},"cephalopod":{"sum":33284,"count":19,"average":1751.7894736842106},"euphausiid":{"sum":8848212,"count":19,"average":465695.36842105264},"hyperiid amphipod":{"sum":0,"count":19,"average":0},"myctophid":{"sum":4979,"count":19,"average":262.05263157894734},"flatfish":{"sum":9042,"count":19,"average":475.89473684210526},"salmonid":{"sum":1,"count":19,"average":0.05263157894736842},"elasmobranch":{"sum":5,"count":19,"average":0.2631578947368421},"other groundfish":{"sum":966,"count":19,"average":50.8421052631579},"jellyfish":{"sum":166,"count":19,"average":8.736842105263158},"crustacean":{"sum":3958,"count":19,"average":208.31578947368422},"clupeoid":{"sum":37,"count":19,"average":1.9473684210526316},"smelt":{"sum":101,"count":19,"average":5.315789473684211}}},"2015":{"L1":{"Euphausiid":{"sum":2994494,"count":17,"average":176146.70588235295},"Cephalopod":{"sum":11519,"count":17,"average":677.5882352941177},"Crustacean":{"sum":6170,"count":17,"average":362.94117647058823},"Salmonid":{"sum":0,"count":17,"average":0},"Fish":{"sum":956,"count":17,"average":56.23529411764706},"Gelatinous":{"sum":632258,"count":17,"average":37191.64705882353},"Ground Fish":{"sum":108068,"count":17,"average":6356.941176470588},"Small Fish":{"sum":5507,"count":17,"average":323.94117647058823},"Jellyfish":{"sum":92,"count":17,"average":5.411764705882353}},"L2":{"cottid":{"sum":34,"count":17,"average":2},"fish":{"sum":956,"count":17,"average":56.23529411764706},"deep-sea smelt":{"sum":60,"count":17,"average":3.5294117647058822},"gelatinous":{"sum":632258,"count":17,"average":37191.64705882353},"other rockfish":{"sum":1001,"count":17,"average":58.88235294117647},"rockfish":{"sum":79664,"count":17,"average":4686.117647058823},"cephalopod":{"sum":11519,"count":17,"average":677.5882352941177},"euphausiid":{"sum":2994494,"count":17,"average":176146.70588235295},"hyperiid amphipod":{"sum":367,"count":17,"average":21.58823529411765},"myctophid":{"sum":1315,"count":17,"average":77.3529411764706},"flatfish":{"sum":14727,"count":17,"average":866.2941176470588},"salmonid":{"sum":0,"count":17,"average":0},"elasmobranch":{"sum":3,"count":17,"average":0.17647058823529413},"other groundfish":{"sum":12673,"count":17,"average":745.4705882352941},"jellyfish":{"sum":92,"count":17,"average":5.411764705882353},"crustacean":{"sum":5803,"count":17,"average":341.3529411764706},"clupeoid":{"sum":4097,"count":17,"average":241},"smelt":{"sum":1,"count":17,"average":0.058823529411764705}}},"2016":{"L1":{},"L2":{}},"2017":{"L1":{},"L2":{}},"2018":{"L1":{},"L2":{}}};
 
 /***/ }),
 
@@ -81413,7 +77250,7 @@ _render_scene__WEBPACK_IMPORTED_MODULE_4__["default"].draw(panel2Config);
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, default */
 /***/ (function(module) {
 
-module.exports = [{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-49.719220258227914},"2010":{"chloro":-9999,"sst":-9999,"windDegree":46.16051282090083},"2011":{"chloro":0.2566,"sst":13.3366,"windDegree":-76.93208748518201},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-50.052108988163155},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-78.01428210489628},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-78.59122351344351},"2015":{"chloro":0.2347,"sst":12.9796,"windDegree":-51.106840220889666},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-82.12673472493668},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-88.52408595720108},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-69.94635230819601},"lonRange":[235.5625,235.8693],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-50.35853537700364},"2010":{"chloro":-9999,"sst":-9999,"windDegree":41.476596400158286},"2011":{"chloro":0.2737,"sst":13.2123,"windDegree":-77.21591241554627},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-49.99558057712326},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-78.37699045899592},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-81.12425994140763},"2015":{"chloro":0.3205,"sst":12.2551,"windDegree":-47.44010131787303},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-83.33159572042065},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-83.62590882454896},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.31918749291859},"lonRange":[235.8693,236.1761],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-50.66409943476014},"2010":{"chloro":-9999,"sst":-9999,"windDegree":31.10666645926748},"2011":{"chloro":0.2727,"sst":13.1239,"windDegree":-78.92520182892342},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-49.632199251505256},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-76.81252851579166},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-85.15179192793686},"2015":{"chloro":0.5286,"sst":12.2781,"windDegree":-51.268482688251325},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-83.82189366793399},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-79.12216217143043},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.55008279253067},"lonRange":[236.1761,236.483],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-43.065983638411254},"2010":{"chloro":-9999,"sst":-9999,"windDegree":15.93716180099557},"2011":{"chloro":0.2887,"sst":12.9658,"windDegree":-76.63666752991989},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-57.51388775169181},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-73.01920185285337},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-85.93149978547142},"2015":{"chloro":0.3996,"sst":12.4285,"windDegree":-56.9951131535638},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-74.17610364425775},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-78.24351617338273},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-69.23054581302291},"lonRange":[236.483,236.7898],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-36.25636530395127},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-21.730306337393927},"2011":{"chloro":0.2685,"sst":12.7914,"windDegree":-77.0317494383254},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-56.38474455411764},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-72.22731737604103},"2014":{"chloro":-9999,"sst":-9999,"windDegree":48.19193211295495},"2015":{"chloro":0.2686,"sst":13.2791,"windDegree":-55.95639417091617},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-75.90625495729842},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-79.83541700621386},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-70.79071163355435},"lonRange":[236.7898,237.0966],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-53.41372634388643},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-30.76849641618356},"2011":{"chloro":0.3501,"sst":12.6665,"windDegree":-74.94063432218861},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-57.80273853305841},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-71.46976253620711},"2014":{"chloro":-9999,"sst":-9999,"windDegree":8.460411450397368},"2015":{"chloro":0.2629,"sst":13.4926,"windDegree":-57.71538219878284},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-78.21785437103253},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-77.23125902698978},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-70.590552972339},"lonRange":[237.0966,237.4034],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-42.85691018212391},"2011":{"chloro":0.2713,"sst":13.0051,"windDegree":-72.14730042707787},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-63.05251394508021},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-69.67034483587946},"2014":{"chloro":-9999,"sst":-9999,"windDegree":0.35116814268168484},"2015":{"chloro":0.2493,"sst":13.4388,"windDegree":-57.60164189224905},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-76.87788788213524},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-77.0338993856815},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.69022731713204},"lonRange":[237.4034,237.7102],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-60.13745957278446},"2011":{"chloro":0.235,"sst":12.7261,"windDegree":-63.49715233947924},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-57.56904063253226},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-67.46780138924174},"2014":{"chloro":-9999,"sst":-9999,"windDegree":56.91860477087876},"2015":{"chloro":0.2855,"sst":13.3364,"windDegree":-56.900866158209496},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-68.19887297502362},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-72.21762713140707},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-61.83100361013235},"lonRange":[237.7102,238.017],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":0.3305,"sst":12.0752,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":0.3842,"sst":12.8726,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":0.6275,"sst":11.6593,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":2.1317,"sst":11.9882,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[35.775,36.0818]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-51.04041135477255},"2010":{"chloro":-9999,"sst":-9999,"windDegree":47.90944208881301},"2011":{"chloro":0.2651,"sst":13.0249,"windDegree":-78.5667358806505},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-48.4711637180688},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-76.52157286316898},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-76.33769955278542},"2015":{"chloro":0.2349,"sst":13.2112,"windDegree":-50.48369178072931},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-83.05506183301159},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-88.89243543161346},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-69.16392383495385},"lonRange":[235.5625,235.8693],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-32.43778780217447},"2010":{"chloro":-9999,"sst":-9999,"windDegree":35.190004935784586},"2011":{"chloro":0.3008,"sst":12.8558,"windDegree":-76.66073921628582},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-51.215179098114525},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-76.66580533233218},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-79.75775572422057},"2015":{"chloro":0.3198,"sst":12.5322,"windDegree":-48.48092931790115},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-81.51032664566249},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-86.48656373460217},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-67.78186676637402},"lonRange":[235.8693,236.1761],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-49.61853080868627},"2010":{"chloro":-9999,"sst":-9999,"windDegree":27.657837813161123},"2011":{"chloro":0.3634,"sst":12.7777,"windDegree":-76.21254525448002},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-58.89372736314279},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-74.51373122064572},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-79.6908819003415},"2015":{"chloro":0.4971,"sst":12.3672,"windDegree":-47.41534673099565},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-83.5012630689098},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-82.34127220411176},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-67.46523098532047},"lonRange":[236.1761,236.483],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-48.03330591856735},"2010":{"chloro":-9999,"sst":-9999,"windDegree":3.6549254678576926},"2011":{"chloro":0.4163,"sst":12.8489,"windDegree":-74.57701429634771},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-50.01418471572077},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-72.31331978653755},"2014":{"chloro":-9999,"sst":-9999,"windDegree":82.07052162222034},"2015":{"chloro":0.7725,"sst":12.1588,"windDegree":-52.96341247162468},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-76.33766517129659},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-82.75936163964575},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.83828366994477},"lonRange":[236.483,236.7898],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-44.61366367639646},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-3.290103728186456},"2011":{"chloro":0.2983,"sst":12.7848,"windDegree":-77.61122597058471},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-50.92807909155715},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-72.85634150839613},"2014":{"chloro":-9999,"sst":-9999,"windDegree":27.923420978234642},"2015":{"chloro":0.402,"sst":12.4108,"windDegree":-51.81168705978252},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-75.94736071104201},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-81.02297780628922},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-70.29324776723091},"lonRange":[236.7898,237.0966],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-44.485150789591685},"2011":{"chloro":0.3986,"sst":12.3799,"windDegree":-80.46606487101414},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-56.81034829166003},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-72.49421126754333},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-12.487852220978873},"2015":{"chloro":0.2789,"sst":12.7806,"windDegree":-58.73155335782701},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-78.71545895010694},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-80.88772391519231},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-71.85301433223432},"lonRange":[237.0966,237.4034],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-66.63462442560312},"2011":{"chloro":0.295,"sst":12.196,"windDegree":-74.39076036744306},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-62.42263267538245},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-73.24946018190289},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-2.4996738659642053},"2015":{"chloro":0.3356,"sst":12.5631,"windDegree":-59.5975117743589},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-81.89294476548294},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-82.34148305650903},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-71.13590066378612},"lonRange":[237.4034,237.7102],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-48.947260929212696},"2011":{"chloro":0.2556,"sst":11.6626,"windDegree":-67.46027215963656},"2012":{"chloro":-9999,"sst":-9999,"windDegree":30.13950422352521},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-77.74480803163264},"2014":{"chloro":-9999,"sst":-9999,"windDegree":12.771858408635815},"2015":{"chloro":0.3464,"sst":12.3375,"windDegree":-67.48436169454685},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-81.12690226210647},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-78.2418624397973},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.21859734002825},"lonRange":[237.7102,238.017],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":0.5513,"sst":10.9786,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":0.5704,"sst":11.5551,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":0.5413,"sst":11.4777,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":8.0584,"sst":11.3975,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[36.0818,36.3886]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-51.75151225682391},"2010":{"chloro":-9999,"sst":-9999,"windDegree":69.40175689321468},"2011":{"chloro":0.2072,"sst":12.9176,"windDegree":-78.55974461838417},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-56.837520709180694},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-76.06042672226032},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-76.11251155508185},"2015":{"chloro":0.263,"sst":13.1735,"windDegree":-46.618673104316095},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-82.77173835272559},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-86.59193979955626},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.35085017423435},"lonRange":[235.5625,235.8693],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-21.926281976421198},"2010":{"chloro":-9999,"sst":-9999,"windDegree":65.05973129640743},"2011":{"chloro":0.2453,"sst":12.7344,"windDegree":-75.34240799966764},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-53.043518213845346},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-73.43317860858457},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-80.64170088344758},"2015":{"chloro":0.321,"sst":12.4344,"windDegree":-48.97907822593555},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-82.14754520788736},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-83.9509880839495},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.77013391882741},"lonRange":[235.8693,236.1761],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-36.387029017585505},"2010":{"chloro":-9999,"sst":-9999,"windDegree":43.43206395709353},"2011":{"chloro":0.3432,"sst":12.6318,"windDegree":-74.6885991749026},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-56.771243529419},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-72.691054452317},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-75.7662222699711},"2015":{"chloro":0.5406,"sst":12.3917,"windDegree":-47.272563598270246},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-75.60331129436953},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-84.66364711827002},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-67.19962201278413},"lonRange":[236.1761,236.483],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-41.091822747448},"2010":{"chloro":-9999,"sst":-9999,"windDegree":31.56287888394771},"2011":{"chloro":0.4599,"sst":12.6217,"windDegree":-73.81071020621894},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-51.605442384835776},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-72.5774879139672},"2014":{"chloro":-9999,"sst":-9999,"windDegree":75.42224060634645},"2015":{"chloro":0.541,"sst":12.1,"windDegree":-52.16615490068532},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-75.25424500116365},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-85.44271510164714},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.3228450769225},"lonRange":[236.483,236.7898],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-41.538052297549086},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-2.44831946181214},"2011":{"chloro":0.3683,"sst":12.6775,"windDegree":-77.5302312344233},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-46.313007560809645},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-73.83334583018409},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-18.545247736743455},"2015":{"chloro":0.2905,"sst":12.0817,"windDegree":-51.37496934448958},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-74.44635301701115},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-85.79098661799624},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-67.70896033172669},"lonRange":[236.7898,237.0966],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":57.763598542459135},"2011":{"chloro":0.2599,"sst":12.7397,"windDegree":-80.19076261099757},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-48.363121924623336},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-76.73425407197271},"2014":{"chloro":-9999,"sst":-9999,"windDegree":6.3974375063323885},"2015":{"chloro":0.2501,"sst":12.1555,"windDegree":-53.432588129922415},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-84.54035126548476},"2017":{"chloro":-9999,"sst":-9999,"windDegree":89.57963283753465},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-72.6446646323441},"lonRange":[237.0966,237.4034],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-76.70609994744449},"2011":{"chloro":0.2891,"sst":12.4241,"windDegree":-80.50101391644063},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-42.47538538919976},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-77.66290376505086},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-27.930525779149896},"2015":{"chloro":0.5279,"sst":11.9785,"windDegree":-59.10969209810128},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-86.28802571633744},"2017":{"chloro":-9999,"sst":-9999,"windDegree":85.13887741720933},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.29768119793347},"lonRange":[237.4034,237.7102],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":23.371304855171058},"2011":{"chloro":0.3438,"sst":11.5578,"windDegree":-79.7546522305597},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-48.77995524228003},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-59.81008476850914},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":1.7554,"sst":12.0357,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.7102,238.017],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":2.7395,"sst":11.7261,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":7.6182,"sst":12.0606,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[36.3886,36.6955]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-38.0364001347113},"2010":{"chloro":-9999,"sst":-9999,"windDegree":68.79980084199265},"2011":{"chloro":0.1922,"sst":12.9907,"windDegree":-75.43475412383361},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-52.00724388176221},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-70.92491756275659},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-86.18410701660196},"2015":{"chloro":0.3085,"sst":12.8696,"windDegree":-40.473712489699494},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-77.56968665831829},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-83.59760694391518},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-69.28899794025979},"lonRange":[235.5625,235.8693],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-29.501528780125565},"2010":{"chloro":-9999,"sst":-9999,"windDegree":69.32625289946515},"2011":{"chloro":0.212,"sst":12.7196,"windDegree":-76.66849623499598},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-52.28155881413481},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-70.20189997768391},"2014":{"chloro":-9999,"sst":-9999,"windDegree":77.46131274058745},"2015":{"chloro":0.4163,"sst":11.7342,"windDegree":-42.752996994547544},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-76.23578754071747},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-85.06320388821851},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-67.87069834966279},"lonRange":[235.8693,236.1761],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-37.29616986786036},"2010":{"chloro":-9999,"sst":-9999,"windDegree":68.73022887650272},"2011":{"chloro":0.3451,"sst":12.3084,"windDegree":-70.5687587928095},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-49.86251706311758},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-71.75481619738194},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-82.8004446332375},"2015":{"chloro":0.5336,"sst":11.712,"windDegree":-39.95535762683823},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-72.78247784624584},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-82.41653593489269},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-64.57675217742343},"lonRange":[236.1761,236.483],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-31.559081153877916},"2010":{"chloro":-9999,"sst":-9999,"windDegree":80.12152192060762},"2011":{"chloro":0.4233,"sst":12.2337,"windDegree":-75.45543860757603},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-41.02699192173486},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-71.12336325721216},"2014":{"chloro":-9999,"sst":-9999,"windDegree":60.68390954776768},"2015":{"chloro":0.6691,"sst":11.9129,"windDegree":-47.025494323027104},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-73.5023200191228},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-87.87445046627195},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-64.07004280001303},"lonRange":[236.483,236.7898],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-32.021507500131676},"2010":{"chloro":-9999,"sst":-9999,"windDegree":4.93784996950216},"2011":{"chloro":0.4362,"sst":12.47,"windDegree":-71.64480600205282},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-46.142751724449695},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-71.48935817911091},"2014":{"chloro":-9999,"sst":-9999,"windDegree":13.95671950497835},"2015":{"chloro":0.4351,"sst":11.7258,"windDegree":-50.320459617913926},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-76.56149880365685},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-85.01450182342342},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-65.49390667171429},"lonRange":[236.7898,237.0966],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":58.97233391863777},"2011":{"chloro":0.4652,"sst":12.1401,"windDegree":-81.00616181915296},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-51.02537934849013},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-68.97399699941947},"2014":{"chloro":-9999,"sst":-9999,"windDegree":7.364694735788655},"2015":{"chloro":0.4276,"sst":12.0179,"windDegree":-45.42927197735488},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-79.02383590240204},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-86.01651668622058},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-67.50063557124454},"lonRange":[237.0966,237.4034],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-5.539921423350361},"2011":{"chloro":0.4921,"sst":11.6607,"windDegree":-80.84725907171261},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-40.02517901935213},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-76.80564297906007},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-8.466136713862566},"2015":{"chloro":4.0493,"sst":11.7414,"windDegree":-58.05117228910683},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-80.42462452462868},"2017":{"chloro":-9999,"sst":-9999,"windDegree":81.39508112518311},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.66907658741286},"lonRange":[237.4034,237.7102],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-58.639783113793996},"2011":{"chloro":3.0525,"sst":11.2285,"windDegree":-79.34007209923239},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-61.46350738673646},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-42.45193183436321},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":5.0861,"sst":11.9912,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.7102,238.017],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":13.1111,"sst":12.2689,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":10.4764,"sst":12.7993,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[36.6955,37.0023]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-50.635640493313076},"2010":{"chloro":-9999,"sst":-9999,"windDegree":71.23899690131186},"2011":{"chloro":0.1732,"sst":12.7839,"windDegree":-69.91235167735654},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-47.20397892060152},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-68.48524276297154},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-77.93336021262121},"2015":{"chloro":0.468,"sst":12.3288,"windDegree":-42.456360379585895},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-75.84311184568539},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-83.30675262128761},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-68.78157071334395},"lonRange":[235.5625,235.8693],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-48.75764630507712},"2010":{"chloro":-9999,"sst":-9999,"windDegree":60.73844636871008},"2011":{"chloro":0.1792,"sst":12.7169,"windDegree":-71.45722396865793},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-49.40620737462316},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-68.61396091513566},"2014":{"chloro":-9999,"sst":-9999,"windDegree":80.29434718415541},"2015":{"chloro":0.4748,"sst":11.6822,"windDegree":-37.55951153335105},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-75.08435857040338},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-83.09976371218232},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-65.15252871858533},"lonRange":[235.8693,236.1761],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-38.894762760630684},"2010":{"chloro":-9999,"sst":-9999,"windDegree":76.48087154551415},"2011":{"chloro":0.302,"sst":12.223,"windDegree":-70.8011539448281},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-49.137868841515484},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-70.35516188670246},"2014":{"chloro":-9999,"sst":-9999,"windDegree":74.74725672767534},"2015":{"chloro":0.5761,"sst":11.5164,"windDegree":-33.75122378828491},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-74.38069313595209},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-81.99745989325689},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-61.6287533258614},"lonRange":[236.1761,236.483],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-45.37159756957291},"2010":{"chloro":-9999,"sst":-9999,"windDegree":65.57690659268725},"2011":{"chloro":0.4335,"sst":11.8904,"windDegree":-73.97992773528061},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-40.24075955759008},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-73.58431792538993},"2014":{"chloro":-9999,"sst":-9999,"windDegree":7.291976149919983},"2015":{"chloro":0.444,"sst":11.7896,"windDegree":-41.77635013352522},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-80.33724713283453},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-84.7735421967058},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-61.37169932551093},"lonRange":[236.483,236.7898],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-35.573878530663734},"2010":{"chloro":-9999,"sst":-9999,"windDegree":51.5359354673368},"2011":{"chloro":0.4275,"sst":11.9801,"windDegree":-75.7078065609243},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-33.17866071428697},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-70.8249806266134},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-16.336973962683214},"2015":{"chloro":0.351,"sst":11.6085,"windDegree":-47.994529391558224},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-77.52796779560839},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-87.0226819248243},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-61.05957277976312},"lonRange":[236.7898,237.0966],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":0.7173,"sst":11.5721,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-67.06811511395105},"2015":{"chloro":5.1493,"sst":11.5735,"windDegree":-73.38878452064777},"2016":{"chloro":-9999,"sst":-9999,"windDegree":81.27802113768473},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-43.39229458372397},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-80.5986563055448},"lonRange":[237.0966,237.4034],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":4.6523,"sst":11.1268,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":12.1562,"sst":11.7803,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.4034,237.7102],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":6.7054,"sst":10.4977,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":4.6944,"sst":11.3802,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.7102,238.017],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[37.0023,37.3091]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-73.75168277529751},"2010":{"chloro":-9999,"sst":-9999,"windDegree":87.73843247940242},"2011":{"chloro":0.1482,"sst":12.8282,"windDegree":-68.61085004166262},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-51.2142776426229},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-68.7625544706714},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-77.18338182324963},"2015":{"chloro":0.6135,"sst":12.0831,"windDegree":-43.26922918684302},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-74.7400647411954},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-82.12961248201447},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-66.49321379895225},"lonRange":[235.5625,235.8693],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-56.29707095055686},"2010":{"chloro":-9999,"sst":-9999,"windDegree":50.39487946636441},"2011":{"chloro":0.1789,"sst":12.6976,"windDegree":-70.60391784360002},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-46.57433282492319},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-69.03544585653337},"2014":{"chloro":-9999,"sst":-9999,"windDegree":82.80374837832831},"2015":{"chloro":0.5327,"sst":11.5086,"windDegree":-37.16957982188712},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-74.5720434679527},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-86.79087461998701},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-63.35784334133603},"lonRange":[235.8693,236.1761],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-89.30649232740775},"2010":{"chloro":-9999,"sst":-9999,"windDegree":82.27833668510027},"2011":{"chloro":0.2582,"sst":12.2727,"windDegree":-70.60476530883106},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-45.69876564204663},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-69.80075473229019},"2014":{"chloro":-9999,"sst":-9999,"windDegree":35.03735940010969},"2015":{"chloro":0.4082,"sst":11.6147,"windDegree":-31.53619036300204},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-79.32618779656713},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-82.7180149804041},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-58.17417162487432},"lonRange":[236.1761,236.483],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":87.93804006784863},"2010":{"chloro":-9999,"sst":-9999,"windDegree":59.19660046736714},"2011":{"chloro":0.4106,"sst":11.5023,"windDegree":-76.39880151864683},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-41.34864785580077},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-76.92544464538555},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-48.60032885328506},"2015":{"chloro":0.3803,"sst":11.6154,"windDegree":-28.741236099198282},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-84.41984865125384},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-87.91353624849695},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-58.52633559799313},"lonRange":[236.483,236.7898],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-78.75442347800598},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-89.03613825829336},"2011":{"chloro":0.4528,"sst":11.441,"windDegree":-75.93987156120633},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-34.981941120434605},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-75.83540640007905},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-47.55926154817173},"2015":{"chloro":2.4841,"sst":11.3482,"windDegree":-43.66068031801576},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-80.97136293798665},"2017":{"chloro":-9999,"sst":-9999,"windDegree":88.37830587459587},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-57.14532200627891},"lonRange":[236.7898,237.0966],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":1.7694,"sst":11.5038,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":10.1669,"sst":11.5783,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.0966,237.4034],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":7.6138,"sst":11.4701,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":22.098,"sst":12.2916,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.4034,237.7102],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":13.351,"sst":15.1825,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":10.1364,"sst":17.6011,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.7102,238.017],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[37.3091,37.6159]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":51.503453285801406},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-79.49117973417351},"2011":{"chloro":0.2725,"sst":12.4331,"windDegree":-66.04127047559399},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-49.76207096811637},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-68.49037551364681},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-73.0045689053651},"2015":{"chloro":0.6205,"sst":11.9112,"windDegree":-42.87851242126988},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-74.0238185558535},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-80.94697853182761},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-64.80921363755242},"lonRange":[235.5625,235.8693],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-13.917654051504798},"2010":{"chloro":-9999,"sst":-9999,"windDegree":84.54698586644203},"2011":{"chloro":0.4998,"sst":12.1878,"windDegree":-66.23670273272622},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-48.14114107924846},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-66.47256569365467},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-88.87732634489637},"2015":{"chloro":0.5563,"sst":11.4215,"windDegree":-33.3001943865368},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-73.3506328439503},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-84.1838642032783},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-61.19030339678759},"lonRange":[235.8693,236.1761],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":58.12279970868638},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-83.56060254850811},"2011":{"chloro":0.649,"sst":12.178,"windDegree":-67.71896150859571},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-46.11874346677126},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-66.15176561053293},"2014":{"chloro":-9999,"sst":-9999,"windDegree":23.97661582958327},"2015":{"chloro":0.7601,"sst":11.3833,"windDegree":-32.276450827365295},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-81.19727663989816},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-87.03442872968279},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-57.292522617317786},"lonRange":[236.1761,236.483],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":45.464868656156476},"2010":{"chloro":-9999,"sst":-9999,"windDegree":79.0258228830184},"2011":{"chloro":0.4334,"sst":11.176,"windDegree":-67.10858481503217},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-41.78822558800307},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-71.42729991479062},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-38.16982295503773},"2015":{"chloro":1.0215,"sst":11.104,"windDegree":-23.089359022870674},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-77.05618104391789},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-88.62603182140327},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-54.35766779145655},"lonRange":[236.483,236.7898],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":46.6478246019639},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-82.03728454523673},"2011":{"chloro":0.9776,"sst":10.8871,"windDegree":-63.937074695526455},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-27.525913985451314},"2013":{"chloro":-9999,"sst":-9999,"windDegree":15.328097359584042},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-13.881238038239012},"2015":{"chloro":6.4061,"sst":10.8619,"windDegree":-57.54426178276215},"2016":{"chloro":-9999,"sst":-9999,"windDegree":70.81276124043484},"2017":{"chloro":-9999,"sst":-9999,"windDegree":68.24438342837513},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-48.940455635498864},"lonRange":[236.7898,237.0966],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":3.8174,"sst":11.3937,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":15.0412,"sst":11.153,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.0966,237.4034],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":13.7267,"sst":13.4941,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":19.1075,"sst":13.9199,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.4034,237.7102],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":13.3485,"sst":15.2041,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":9.0319,"sst":16.4039,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.7102,238.017],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[37.6159,37.9227]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-0.39862299219257274},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-68.19218038599256},"2011":{"chloro":0.5533,"sst":11.5327,"windDegree":-70.38770609748467},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-52.63617395222085},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-70.56700093697638},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-80.33921120409836},"2015":{"chloro":1.009,"sst":12.1441,"windDegree":-39.96828035319759},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-80.26724553151595},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-78.21277349295963},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-63.602447808736684},"lonRange":[235.5625,235.8693],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":30.8080897249165},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-75.90779949864904},"2011":{"chloro":0.5386,"sst":11.378,"windDegree":-67.10872965691613},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-52.79402621851301},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-68.16686971114133},"2014":{"chloro":-9999,"sst":-9999,"windDegree":88.28338319474297},"2015":{"chloro":0.931,"sst":11.915,"windDegree":-42.67759149547174},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-75.92035674914385},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-81.99052946331418},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-61.72910826989515},"lonRange":[235.8693,236.1761],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":1.0689,"sst":11.1904,"windDegree":-56.35476128937668},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-67.73273632369308},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-2.145157362353484},"2015":{"chloro":1.7985,"sst":11.0465,"windDegree":-31.812318724721546},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-77.99143336751821},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-85.39984727000589},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-57.489043707746994},"lonRange":[236.1761,236.483],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":0.4348,"sst":10.3311,"windDegree":-44.98750684598923},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-71.22007182673607},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-8.269164972814288},"2015":{"chloro":5.5326,"sst":10.2223,"windDegree":-31.570560777763212},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-79.24326525151464},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-79.47359695295351},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-55.46424640200911},"lonRange":[236.483,236.7898],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":4.9349,"sst":10.4766,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":16.1817,"sst":10.3333,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[236.7898,237.0966],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":17.6689,"sst":11.1055,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":12.6134,"sst":10.0955,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.0966,237.4034],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":14.2328,"sst":15.2352,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":9.5144,"sst":16.3857,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.4034,237.7102],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":9.6172,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":10.8382,"sst":16.85,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.7102,238.017],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[37.9227,38.2295]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-37.97497842993868},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-71.80333075957085},"2011":{"chloro":0.2953,"sst":12.0774,"windDegree":-69.62677121696025},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-48.84592653066403},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-72.31645316868551},"2014":{"chloro":-9999,"sst":-9999,"windDegree":59.74299248032315},"2015":{"chloro":0.4099,"sst":12.5759,"windDegree":-42.567136965841776},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-85.1091896116001},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-81.1997021478406},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-67.18877311423799},"lonRange":[235.5625,235.8693],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-36.44599903375375},"2010":{"chloro":-9999,"sst":-9999,"windDegree":62.93897576927325},"2011":{"chloro":0.6005,"sst":11.8787,"windDegree":-68.06182628787163},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-57.421807514559575},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-71.87424231180792},"2014":{"chloro":-9999,"sst":-9999,"windDegree":22.719895510143292},"2015":{"chloro":0.5017,"sst":12.397,"windDegree":-43.42561474780685},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-85.4325139845539},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-81.08620988459083},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-62.06823160939857},"lonRange":[235.8693,236.1761],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":0.5398,"sst":10.9239,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-71.46613633491296},"2014":{"chloro":-9999,"sst":-9999,"windDegree":80.05362583751239},"2015":{"chloro":1.9148,"sst":11.4468,"windDegree":-44.180302830162255},"2016":{"chloro":-9999,"sst":-9999,"windDegree":63.86388681416336},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-73.40081891594662},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-62.50001690407795},"lonRange":[236.1761,236.483],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":0.6369,"sst":10.1528,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-45.42067148206549},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-30.100265665225468},"2015":{"chloro":10.7219,"sst":10.0738,"windDegree":-31.841064056647735},"2016":{"chloro":-9999,"sst":-9999,"windDegree":79.36573260002238},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-88.28116023593982},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-54.88026898932968},"lonRange":[236.483,236.7898],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":12.8762,"sst":10.0206,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":23.1952,"sst":10.3666,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[236.7898,237.0966],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.0966,237.4034],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.4034,237.7102],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.7102,238.017],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[38.2295,38.5364]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-35.85876106275939},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-78.06091526009914},"2011":{"chloro":0.4061,"sst":11.5703,"windDegree":-73.91661542484081},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-59.894883882128646},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-73.13419852381188},"2014":{"chloro":-9999,"sst":-9999,"windDegree":38.36829837026039},"2015":{"chloro":2.7348,"sst":11.9567,"windDegree":-46.247452512119644},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-84.41715059012998},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-81.28606970428888},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-69.89763101984526},"lonRange":[235.5625,235.8693],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-40.38718678333074},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-64.19279958698455},"2011":{"chloro":0.6752,"sst":11.2388,"windDegree":-72.93650023641014},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-65.56632174871035},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-65.57487751151398},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-56.38904935659142},"2015":{"chloro":4.0792,"sst":11.672,"windDegree":-70.49881417925609},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-68.29884526207289},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-55.999057869122844},"lonRange":[235.8693,236.1761],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":1.6526,"sst":10.3065,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":7.065,"sst":10.5153,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[236.1761,236.483],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":4.2768,"sst":9.9055,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":10.5398,"sst":9.7533,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[236.483,236.7898],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[236.7898,237.0966],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.0966,237.4034],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.4034,237.7102],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[237.7102,238.017],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.017,238.3239],"latRange":[38.5364,38.8432]},{"2009":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2010":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2011":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2012":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2013":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2014":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2015":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2016":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2017":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"2018":{"chloro":-9999,"sst":-9999,"windDegree":-9999},"lonRange":[238.3239,238.6307],"latRange":[38.5364,38.8432]}];
+module.exports = [{"2009":{"sst":12.7558,"windDegree":-49.719220258227914,"chloro":0.8601},"2010":{"sst":13.3159,"windDegree":46.16051282090083,"chloro":0.4885},"2011":{"sst":13.3366,"windDegree":-76.93208748518201,"chloro":0.2566},"2012":{"sst":13.049,"windDegree":-50.052108988163155,"chloro":0.5785},"2013":{"sst":13.8355,"windDegree":-78.01428210489628,"chloro":0.4216},"2014":{"sst":15.4744,"windDegree":-78.59122351344351,"chloro":0.2372},"2015":{"sst":12.9796,"windDegree":-51.106840220889666,"chloro":0.2347},"2016":{"sst":-9999,"windDegree":-82.12673472493668,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-88.52408595720108,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-69.94635230819601,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[235.5625,235.8693]},{"2009":{"sst":12.8777,"windDegree":-50.35853537700364,"chloro":0.8397},"2010":{"sst":12.9284,"windDegree":41.476596400158286,"chloro":3.1237},"2011":{"sst":13.2123,"windDegree":-77.21591241554627,"chloro":0.2737},"2012":{"sst":12.9017,"windDegree":-49.99558057712326,"chloro":1.0259},"2013":{"sst":13.9155,"windDegree":-78.37699045899592,"chloro":0.414},"2014":{"sst":15.4543,"windDegree":-81.12425994140763,"chloro":0.2811},"2015":{"sst":12.2551,"windDegree":-47.44010131787303,"chloro":0.3205},"2016":{"sst":-9999,"windDegree":-83.33159572042065,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-83.62590882454896,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.31918749291859,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[235.8693,236.1761]},{"2009":{"sst":13.1066,"windDegree":-50.66409943476014,"chloro":0.6315},"2010":{"sst":12.9901,"windDegree":31.10666645926748,"chloro":2.3348},"2011":{"sst":13.1239,"windDegree":-78.92520182892342,"chloro":0.2727},"2012":{"sst":12.8625,"windDegree":-49.632199251505256,"chloro":0.8666},"2013":{"sst":13.6096,"windDegree":-76.81252851579166,"chloro":0.4879},"2014":{"sst":15.3907,"windDegree":-85.15179192793686,"chloro":0.2959},"2015":{"sst":12.2781,"windDegree":-51.268482688251325,"chloro":0.5286},"2016":{"sst":-9999,"windDegree":-83.82189366793399,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-79.12216217143043,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.55008279253067,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[236.1761,236.483]},{"2009":{"sst":12.7501,"windDegree":-43.065983638411254,"chloro":0.6872},"2010":{"sst":13.2667,"windDegree":15.93716180099557,"chloro":1.1317},"2011":{"sst":12.9658,"windDegree":-76.63666752991989,"chloro":0.2887},"2012":{"sst":12.8913,"windDegree":-57.51388775169181,"chloro":0.9076},"2013":{"sst":13.5338,"windDegree":-73.01920185285337,"chloro":0.5508},"2014":{"sst":15.23,"windDegree":-85.93149978547142,"chloro":0.2837},"2015":{"sst":12.4285,"windDegree":-56.9951131535638,"chloro":0.3996},"2016":{"sst":-9999,"windDegree":-74.17610364425775,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-78.24351617338273,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-69.23054581302291,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[236.483,236.7898]},{"2009":{"sst":12.352,"windDegree":-36.25636530395127,"chloro":0.9225},"2010":{"sst":13.1114,"windDegree":-21.730306337393927,"chloro":1.4325},"2011":{"sst":12.7914,"windDegree":-77.0317494383254,"chloro":0.2685},"2012":{"sst":13.0413,"windDegree":-56.38474455411764,"chloro":0.7838},"2013":{"sst":13.2672,"windDegree":-72.22731737604103,"chloro":1.61},"2014":{"sst":15.26,"windDegree":48.19193211295495,"chloro":0.267},"2015":{"sst":13.2791,"windDegree":-55.95639417091617,"chloro":0.2686},"2016":{"sst":-9999,"windDegree":-75.90625495729842,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-79.83541700621386,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-70.79071163355435,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[236.7898,237.0966]},{"2009":{"sst":12.5999,"windDegree":-53.41372634388643,"chloro":0.8047},"2010":{"sst":12.8424,"windDegree":-30.76849641618356,"chloro":0.8324},"2011":{"sst":12.6665,"windDegree":-74.94063432218861,"chloro":0.3501},"2012":{"sst":12.7459,"windDegree":-57.80273853305841,"chloro":0.605},"2013":{"sst":13.1185,"windDegree":-71.46976253620711,"chloro":2.2273},"2014":{"sst":15.1241,"windDegree":8.460411450397368,"chloro":0.2985},"2015":{"sst":13.4926,"windDegree":-57.71538219878284,"chloro":0.2629},"2016":{"sst":-9999,"windDegree":-78.21785437103253,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-77.23125902698978,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-70.590552972339,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[237.0966,237.4034]},{"2009":{"sst":12.3478,"windDegree":-9999,"chloro":0.8525},"2010":{"sst":12.5248,"windDegree":-42.85691018212391,"chloro":0.8242},"2011":{"sst":13.0051,"windDegree":-72.14730042707787,"chloro":0.2713},"2012":{"sst":12.186,"windDegree":-63.05251394508021,"chloro":2.2073},"2013":{"sst":13.1357,"windDegree":-69.67034483587946,"chloro":1.1988},"2014":{"sst":14.587,"windDegree":0.35116814268168484,"chloro":0.3801},"2015":{"sst":13.4388,"windDegree":-57.60164189224905,"chloro":0.2493},"2016":{"sst":-9999,"windDegree":-76.87788788213524,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-77.0338993856815,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.69022731713204,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[237.4034,237.7102]},{"2009":{"sst":12.0426,"windDegree":-9999,"chloro":2.4529},"2010":{"sst":12.5695,"windDegree":-60.13745957278446,"chloro":0.8202},"2011":{"sst":12.7261,"windDegree":-63.49715233947924,"chloro":0.235},"2012":{"sst":12.0061,"windDegree":-57.56904063253226,"chloro":5.266},"2013":{"sst":13.0069,"windDegree":-67.46780138924174,"chloro":1.4187},"2014":{"sst":13.422,"windDegree":56.91860477087876,"chloro":1.3889},"2015":{"sst":13.3364,"windDegree":-56.900866158209496,"chloro":0.2855},"2016":{"sst":-9999,"windDegree":-68.19887297502362,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-72.21762713140707,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-61.83100361013235,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[237.7102,238.017]},{"2009":{"sst":11.7034,"windDegree":-9999,"chloro":3.026},"2010":{"sst":12.317,"windDegree":-9999,"chloro":1.1232},"2011":{"sst":12.0752,"windDegree":-9999,"chloro":0.3305},"2012":{"sst":11.5695,"windDegree":-9999,"chloro":1.7495},"2013":{"sst":12.2868,"windDegree":-9999,"chloro":4.7235},"2014":{"sst":12.848,"windDegree":-9999,"chloro":6.3389},"2015":{"sst":12.8726,"windDegree":-9999,"chloro":0.3842},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[238.017,238.3239]},{"2009":{"sst":11.4695,"windDegree":-9999,"chloro":1.5655},"2010":{"sst":11.3909,"windDegree":-9999,"chloro":1.2882},"2011":{"sst":11.6593,"windDegree":-9999,"chloro":0.6275},"2012":{"sst":10.9813,"windDegree":-9999,"chloro":2.0083},"2013":{"sst":12.1491,"windDegree":-9999,"chloro":12.7195},"2014":{"sst":11.9613,"windDegree":-9999,"chloro":16.5202},"2015":{"sst":11.9882,"windDegree":-9999,"chloro":2.1317},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[35.775,36.0818],"lonRange":[238.3239,238.6307]},{"2009":{"sst":12.3137,"windDegree":-51.04041135477255,"chloro":1.1194},"2010":{"sst":12.9297,"windDegree":47.90944208881301,"chloro":0.4781},"2011":{"sst":13.0249,"windDegree":-78.5667358806505,"chloro":0.2651},"2012":{"sst":12.9862,"windDegree":-48.4711637180688,"chloro":0.4808},"2013":{"sst":13.6002,"windDegree":-76.52157286316898,"chloro":0.4033},"2014":{"sst":15.1315,"windDegree":-76.33769955278542,"chloro":0.2036},"2015":{"sst":13.2112,"windDegree":-50.48369178072931,"chloro":0.2349},"2016":{"sst":-9999,"windDegree":-83.05506183301159,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-88.89243543161346,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-69.16392383495385,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[235.5625,235.8693]},{"2009":{"sst":12.2084,"windDegree":-32.43778780217447,"chloro":1.1683},"2010":{"sst":12.7368,"windDegree":35.190004935784586,"chloro":1.2615},"2011":{"sst":12.8558,"windDegree":-76.66073921628582,"chloro":0.3008},"2012":{"sst":12.7964,"windDegree":-51.215179098114525,"chloro":0.9294},"2013":{"sst":13.5919,"windDegree":-76.66580533233218,"chloro":0.4147},"2014":{"sst":15.2951,"windDegree":-79.75775572422057,"chloro":0.2352},"2015":{"sst":12.5322,"windDegree":-48.48092931790115,"chloro":0.3198},"2016":{"sst":-9999,"windDegree":-81.51032664566249,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-86.48656373460217,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-67.78186676637402,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[235.8693,236.1761]},{"2009":{"sst":12.1438,"windDegree":-49.61853080868627,"chloro":1.2709},"2010":{"sst":12.5655,"windDegree":27.657837813161123,"chloro":2.9126},"2011":{"sst":12.7777,"windDegree":-76.21254525448002,"chloro":0.3634},"2012":{"sst":12.8658,"windDegree":-58.89372736314279,"chloro":1.1335},"2013":{"sst":13.432,"windDegree":-74.51373122064572,"chloro":0.4069},"2014":{"sst":15.0427,"windDegree":-79.6908819003415,"chloro":0.2621},"2015":{"sst":12.3672,"windDegree":-47.41534673099565,"chloro":0.4971},"2016":{"sst":-9999,"windDegree":-83.5012630689098,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-82.34127220411176,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-67.46523098532047,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[236.1761,236.483]},{"2009":{"sst":12.1651,"windDegree":-48.03330591856735,"chloro":1.0477},"2010":{"sst":12.6593,"windDegree":3.6549254678576926,"chloro":2.2581},"2011":{"sst":12.8489,"windDegree":-74.57701429634771,"chloro":0.4163},"2012":{"sst":12.8968,"windDegree":-50.01418471572077,"chloro":1.3291},"2013":{"sst":13.3389,"windDegree":-72.31331978653755,"chloro":0.4108},"2014":{"sst":14.7751,"windDegree":82.07052162222034,"chloro":0.2787},"2015":{"sst":12.1588,"windDegree":-52.96341247162468,"chloro":0.7725},"2016":{"sst":-9999,"windDegree":-76.33766517129659,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-82.75936163964575,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.83828366994477,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[236.483,236.7898]},{"2009":{"sst":12.2605,"windDegree":-44.61366367639646,"chloro":1.0391},"2010":{"sst":12.2897,"windDegree":-3.290103728186456,"chloro":2.2376},"2011":{"sst":12.7848,"windDegree":-77.61122597058471,"chloro":0.2983},"2012":{"sst":12.6078,"windDegree":-50.92807909155715,"chloro":1.1343},"2013":{"sst":13.0465,"windDegree":-72.85634150839613,"chloro":2.3432},"2014":{"sst":14.6467,"windDegree":27.923420978234642,"chloro":0.2755},"2015":{"sst":12.4108,"windDegree":-51.81168705978252,"chloro":0.402},"2016":{"sst":-9999,"windDegree":-75.94736071104201,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-81.02297780628922,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-70.29324776723091,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[236.7898,237.0966]},{"2009":{"sst":12.2658,"windDegree":-9999,"chloro":1.0565},"2010":{"sst":12.2556,"windDegree":-44.485150789591685,"chloro":1.6248},"2011":{"sst":12.3799,"windDegree":-80.46606487101414,"chloro":0.3986},"2012":{"sst":12.1745,"windDegree":-56.81034829166003,"chloro":0.7025},"2013":{"sst":12.9095,"windDegree":-72.49421126754333,"chloro":5.4366},"2014":{"sst":14.6165,"windDegree":-12.487852220978873,"chloro":0.3282},"2015":{"sst":12.7806,"windDegree":-58.73155335782701,"chloro":0.2789},"2016":{"sst":-9999,"windDegree":-78.71545895010694,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-80.88772391519231,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-71.85301433223432,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[237.0966,237.4034]},{"2009":{"sst":11.9662,"windDegree":-9999,"chloro":2.2872},"2010":{"sst":11.9543,"windDegree":-66.63462442560312,"chloro":2.4287},"2011":{"sst":12.196,"windDegree":-74.39076036744306,"chloro":0.295},"2012":{"sst":11.4405,"windDegree":-62.42263267538245,"chloro":4.9955},"2013":{"sst":12.6155,"windDegree":-73.24946018190289,"chloro":7.3996},"2014":{"sst":13.7634,"windDegree":-2.4996738659642053,"chloro":4.2256},"2015":{"sst":12.5631,"windDegree":-59.5975117743589,"chloro":0.3356},"2016":{"sst":-9999,"windDegree":-81.89294476548294,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-82.34148305650903,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-71.13590066378612,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[237.4034,237.7102]},{"2009":{"sst":11.5941,"windDegree":-9999,"chloro":2.6684},"2010":{"sst":11.534,"windDegree":-48.947260929212696,"chloro":2.7762},"2011":{"sst":11.6626,"windDegree":-67.46027215963656,"chloro":0.2556},"2012":{"sst":11.0766,"windDegree":30.13950422352521,"chloro":6.7804},"2013":{"sst":12.2298,"windDegree":-77.74480803163264,"chloro":6.3691,"popInfo":{"other rockfish":0,"other groundfish":148,"flatfish":481,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":3,"rockfish":2688,"deep-sea smelt":23,"elasmobranch":0,"myctophid":345,"cephalopod":906,"crustacean":299,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":47,"euphausiid":130445,"latRange":[36.0818,36.3886],"lonRange":[237.7102,238.017],"cellID":"17","lat":36.2978,"lon":237.9807,"uniqueSpecies":["REX SOLE YOY","BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MARKET SQUID","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","OCTOPUS","PACIFIC SANDDAB YOY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","BOCACCIO YOY","THETYS SALP","SALP","MOON JELLY","NORTHERN ANCHOVY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":28,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":369,"Ground Fish":3317,"Crustacean":299,"Euphausiid":130445,"Fish":3,"Gelatinous":47,"Cephalopod":906,"Salmonid":0}}},"2014":{"sst":12.2756,"windDegree":12.771858408635815,"chloro":10.1453,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":101,"cottid":0,"clupeoid":2,"salmonid":0,"smelt":0,"fish":3,"rockfish":72,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":106,"crustacean":2,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":266,"euphausiid":270,"latRange":[36.0818,36.3886],"lonRange":[237.7102,238.017],"cellID":"17","lat":36.3007,"lon":237.9873,"uniqueSpecies":["YELLOWTAIL ROCKFISH YOY","SHRIMP","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","ROSY ROCKFISH GROUP YOY","GREENSTRIPED ROCKFISH YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","OLIVE ROCKFISH YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","GOBY","BOCACCIO YOY","SALP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":23,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":2,"Ground Fish":173,"Crustacean":2,"Euphausiid":270,"Fish":3,"Gelatinous":266,"Cephalopod":106,"Salmonid":0}}},"2015":{"sst":12.3375,"windDegree":-67.48436169454685,"chloro":0.3464},"2016":{"sst":-9999,"windDegree":-81.12690226210647,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-78.2418624397973,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.21859734002825,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[237.7102,238.017]},{"2009":{"sst":11.1418,"windDegree":-9999,"chloro":3.3616},"2010":{"sst":11.2131,"windDegree":-9999,"chloro":1.9541},"2011":{"sst":10.9786,"windDegree":-9999,"chloro":0.5513},"2012":{"sst":10.6725,"windDegree":-9999,"chloro":1.1327},"2013":{"sst":12.193,"windDegree":-9999,"chloro":5.685,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":12,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":92,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":0,"latRange":[36.0818,36.3886],"lonRange":[238.017,238.3239],"cellID":"18","lat":36.3022,"lon":238.055,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","CHILIPEPPER YOY","COMBFISH","OLIVE ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","MARKET SQUID","SHORTBELLY ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY"],"uniqueSpeciesCount":12,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":104,"Crustacean":0,"Euphausiid":0,"Fish":1,"Gelatinous":0,"Cephalopod":1,"Salmonid":0}}},"2014":{"sst":11.849,"windDegree":-9999,"chloro":11.8102,"popInfo":{"other rockfish":0,"other groundfish":5,"flatfish":344,"cottid":1,"clupeoid":1,"salmonid":0,"smelt":0,"fish":23,"rockfish":60,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":51,"crustacean":0,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":66,"euphausiid":0,"latRange":[36.0818,36.3886],"lonRange":[238.017,238.3239],"cellID":"18","lat":36.3017,"lon":238.0633,"uniqueSpecies":["LINGCOD YOY","STRIPETAIL ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","CALICO ROCKFISH YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","SCULPIN YOY","MARKET SQUID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","PACIFIC ARGENTINE","OCTOPUS","SAND SOLE YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","GOBY","PIPEFISH","SALP","MOON JELLY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":23,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":2,"Ground Fish":409,"Crustacean":0,"Euphausiid":0,"Fish":23,"Gelatinous":66,"Cephalopod":51,"Salmonid":0}}},"2015":{"sst":11.5551,"windDegree":-9999,"chloro":0.5704},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[238.017,238.3239]},{"2009":{"sst":11.1094,"windDegree":-9999,"chloro":3.4965},"2010":{"sst":11.6378,"windDegree":-9999,"chloro":4.5361},"2011":{"sst":11.4777,"windDegree":-9999,"chloro":0.5413},"2012":{"sst":11.4709,"windDegree":-9999,"chloro":8.373},"2013":{"sst":13.189,"windDegree":-9999,"chloro":9.28},"2014":{"sst":12.7643,"windDegree":-9999,"chloro":13.9706},"2015":{"sst":11.3975,"windDegree":-9999,"chloro":8.0584},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[36.0818,36.3886],"lonRange":[238.3239,238.6307]},{"2009":{"sst":12.0148,"windDegree":-51.75151225682391,"chloro":1.626},"2010":{"sst":12.8839,"windDegree":69.40175689321468,"chloro":0.4935},"2011":{"sst":12.9176,"windDegree":-78.55974461838417,"chloro":0.2072},"2012":{"sst":13.1465,"windDegree":-56.837520709180694,"chloro":0.2145},"2013":{"sst":13.3369,"windDegree":-76.06042672226032,"chloro":0.4846},"2014":{"sst":14.7692,"windDegree":-76.11251155508185,"chloro":0.2514},"2015":{"sst":13.1735,"windDegree":-46.618673104316095,"chloro":0.263},"2016":{"sst":-9999,"windDegree":-82.77173835272559,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-86.59193979955626,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.35085017423435,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[235.5625,235.8693]},{"2009":{"sst":11.7565,"windDegree":-21.926281976421198,"chloro":2.523},"2010":{"sst":12.6914,"windDegree":65.05973129640743,"chloro":0.5042},"2011":{"sst":12.7344,"windDegree":-75.34240799966764,"chloro":0.2453},"2012":{"sst":12.6889,"windDegree":-53.043518213845346,"chloro":1.8536},"2013":{"sst":13.195,"windDegree":-73.43317860858457,"chloro":0.4788},"2014":{"sst":14.8346,"windDegree":-80.64170088344758,"chloro":0.2551},"2015":{"sst":12.4344,"windDegree":-48.97907822593555,"chloro":0.321},"2016":{"sst":-9999,"windDegree":-82.14754520788736,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-83.9509880839495,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.77013391882741,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[235.8693,236.1761]},{"2009":{"sst":11.7555,"windDegree":-36.387029017585505,"chloro":3.532},"2010":{"sst":12.4385,"windDegree":43.43206395709353,"chloro":1.2371},"2011":{"sst":12.6318,"windDegree":-74.6885991749026,"chloro":0.3432},"2012":{"sst":12.4256,"windDegree":-56.771243529419,"chloro":1.0349},"2013":{"sst":13.2562,"windDegree":-72.691054452317,"chloro":0.4248},"2014":{"sst":14.769,"windDegree":-75.7662222699711,"chloro":0.2542},"2015":{"sst":12.3917,"windDegree":-47.272563598270246,"chloro":0.5406},"2016":{"sst":-9999,"windDegree":-75.60331129436953,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-84.66364711827002,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-67.19962201278413,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[236.1761,236.483]},{"2009":{"sst":11.7844,"windDegree":-41.091822747448,"chloro":2.0833},"2010":{"sst":12.3705,"windDegree":31.56287888394771,"chloro":3.1278},"2011":{"sst":12.6217,"windDegree":-73.81071020621894,"chloro":0.4599},"2012":{"sst":12.2879,"windDegree":-51.605442384835776,"chloro":1.3321},"2013":{"sst":13.0756,"windDegree":-72.5774879139672,"chloro":0.4912},"2014":{"sst":14.4017,"windDegree":75.42224060634645,"chloro":0.28},"2015":{"sst":12.1,"windDegree":-52.16615490068532,"chloro":0.541},"2016":{"sst":-9999,"windDegree":-75.25424500116365,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-85.44271510164714,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.3228450769225,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[236.483,236.7898]},{"2009":{"sst":11.9304,"windDegree":-41.538052297549086,"chloro":1.3745},"2010":{"sst":11.8368,"windDegree":-2.44831946181214,"chloro":2.3488},"2011":{"sst":12.6775,"windDegree":-77.5302312344233,"chloro":0.3683},"2012":{"sst":12.1845,"windDegree":-46.313007560809645,"chloro":1.1249},"2013":{"sst":12.9083,"windDegree":-73.83334583018409,"chloro":3.2049},"2014":{"sst":13.9729,"windDegree":-18.545247736743455,"chloro":0.8075},"2015":{"sst":12.0817,"windDegree":-51.37496934448958,"chloro":0.2905},"2016":{"sst":-9999,"windDegree":-74.44635301701115,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-85.79098661799624,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-67.70896033172669,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[236.7898,237.0966]},{"2009":{"sst":11.9529,"windDegree":-9999,"chloro":2.7626},"2010":{"sst":11.5854,"windDegree":57.763598542459135,"chloro":4.4018},"2011":{"sst":12.7397,"windDegree":-80.19076261099757,"chloro":0.2599},"2012":{"sst":11.7627,"windDegree":-48.363121924623336,"chloro":0.9967},"2013":{"sst":12.7064,"windDegree":-76.73425407197271,"chloro":5.5873},"2014":{"sst":13.5468,"windDegree":6.3974375063323885,"chloro":4.0415},"2015":{"sst":12.1555,"windDegree":-53.432588129922415,"chloro":0.2501},"2016":{"sst":-9999,"windDegree":-84.54035126548476,"chloro":-9999},"2017":{"sst":-9999,"windDegree":89.57963283753465,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-72.6446646323441,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[237.0966,237.4034]},{"2009":{"sst":11.8529,"windDegree":-9999,"chloro":11.8529},"2010":{"sst":11.3285,"windDegree":-76.70609994744449,"chloro":6.4224},"2011":{"sst":12.4241,"windDegree":-80.50101391644063,"chloro":0.2891},"2012":{"sst":11.3698,"windDegree":-42.47538538919976,"chloro":1.7501},"2013":{"sst":12.239,"windDegree":-77.66290376505086,"chloro":8.3654},"2014":{"sst":12.9802,"windDegree":-27.930525779149896,"chloro":3.0838},"2015":{"sst":11.9785,"windDegree":-59.10969209810128,"chloro":0.5279,"popInfo":{"other rockfish":69,"other groundfish":842,"flatfish":195,"cottid":0,"clupeoid":25,"salmonid":0,"smelt":0,"fish":91,"rockfish":21195,"deep-sea smelt":2,"elasmobranch":0,"myctophid":404,"cephalopod":295,"crustacean":172,"jellyfish":0,"hyperiid amphipod":97,"gelatinous":242617,"euphausiid":681,"latRange":[36.3886,36.6955],"lonRange":[237.4034,237.7102],"cellID":"26","lat":36.5865,"lon":237.6702,"uniqueSpecies":["CANARY ROCKFISH YOY","ARMHOOK SQUID","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","DARKBLOTCHED ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","WOLF EEL YOY","BLUE ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","MEDUSAFISH","PYROSOMA","PHRONIMA","ROSY ROCKFISH GROUP YOY","OCTOPUS","PAINTED GREENLING YOY","PELAGIC RED CRAB","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","CALIFORNIA LANTERNFISH","PACIFIC HAKE YOY","KING-OF-THE-SALMON","HETEROPOD","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","GOBY","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","THETYS SALP","SALP","BARRACUDINA","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":44,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":431,"Ground Fish":22301,"Crustacean":269,"Euphausiid":681,"Fish":91,"Gelatinous":242617,"Cephalopod":295,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-86.28802571633744,"chloro":-9999},"2017":{"sst":-9999,"windDegree":85.13887741720933,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.29768119793347,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[237.4034,237.7102]},{"2009":{"sst":11.5668,"windDegree":-9999,"chloro":6.4473,"popInfo":{"other rockfish":0,"other groundfish":89,"flatfish":16,"cottid":2,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":252,"deep-sea smelt":53,"elasmobranch":0,"myctophid":3055,"cephalopod":193,"crustacean":2440,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":102840,"latRange":[36.3886,36.6955],"lonRange":[237.7102,238.017],"cellID":"27","lat":36.5862,"lon":237.8357,"uniqueSpecies":["LIGHTFISH","CANARY ROCKFISH YOY","BASEBALL SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","CALIFORNIA LANTERNFISH","CABEZON YOY","PACIFIC HAKE YOY","COWCOD YOY","BLUE LANTERNFISH","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":34,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":3110,"Ground Fish":357,"Crustacean":2440,"Euphausiid":102840,"Fish":1,"Gelatinous":0,"Cephalopod":193,"Salmonid":0}}},"2010":{"sst":11.258,"windDegree":23.371304855171058,"chloro":10.1573,"popInfo":{"other rockfish":8,"other groundfish":326,"flatfish":216,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":6,"rockfish":246,"deep-sea smelt":881,"elasmobranch":1,"myctophid":11904,"cephalopod":328,"crustacean":2577,"jellyfish":18,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":98647,"latRange":[36.3886,36.6955],"lonRange":[237.7102,238.017],"cellID":"27","lat":36.575,"lon":237.9705,"uniqueSpecies":["REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","LOOSEJAW","BLACKDRAGON","HALFBANDED ROCKFISH YOY","SQUID","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","NORTH PACIFIC SPINY DOGFISH","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","BLACKSMELT","ROSY ROCKFISH GROUP YOY","SEA NETTLE","PACIFIC SANDDAB YOY","CALIFORNIA LANTERNFISH","LONGFIN DRAGONFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","CALIFORNIA SMOOTHTONGUE","GLASS SHRIMP","BARRACUDINA","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":36,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":18,"Small Fish":12785,"Ground Fish":797,"Crustacean":2577,"Euphausiid":98647,"Fish":6,"Gelatinous":0,"Cephalopod":328,"Salmonid":0}}},"2011":{"sst":11.5578,"windDegree":-79.7546522305597,"chloro":0.3438,"popInfo":{"other rockfish":14,"other groundfish":150,"flatfish":241,"cottid":6,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":206,"deep-sea smelt":1,"elasmobranch":0,"myctophid":7,"cephalopod":44,"crustacean":272,"jellyfish":8,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":276546,"latRange":[36.3886,36.6955],"lonRange":[237.7102,238.017],"cellID":"27","lat":36.5835,"lon":237.966,"uniqueSpecies":["REX SOLE YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","MARKET SQUID","SCULPIN YOY","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","MEDUSAFISH","BLACKSMELT","OCTOPUS","SAND SOLE YOY","SEA NETTLE","PACIFIC SANDDAB YOY","COMBFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","MOON JELLY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":27,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":8,"Small Fish":14,"Ground Fish":611,"Crustacean":272,"Euphausiid":276546,"Fish":2,"Gelatinous":0,"Cephalopod":44,"Salmonid":0}}},"2012":{"sst":10.849,"windDegree":-48.77995524228003,"chloro":8.1964,"popInfo":{"other rockfish":2,"other groundfish":56,"flatfish":192,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":63,"deep-sea smelt":50,"elasmobranch":0,"myctophid":297,"cephalopod":601,"crustacean":1545,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":4740,"euphausiid":160939,"latRange":[36.3886,36.6955],"lonRange":[237.7102,238.017],"cellID":"27","lat":36.5852,"lon":237.819,"uniqueSpecies":["ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","OCTOPUS","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","FRIED EGG JELLY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","COWCOD YOY","BLUE LANTERNFISH","PACIFIC HAKE","PIPEFISH","CALIFORNIA SMOOTHTONGUE","BOCACCIO YOY","SALP","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":30,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":2,"Small Fish":347,"Ground Fish":313,"Crustacean":1545,"Euphausiid":160939,"Fish":2,"Gelatinous":4740,"Cephalopod":601,"Salmonid":0}}},"2013":{"sst":11.9232,"windDegree":-59.81008476850914,"chloro":12.9449,"popInfo":{"other rockfish":4,"other groundfish":1006,"flatfish":1208,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":20,"rockfish":3506,"deep-sea smelt":702,"elasmobranch":0,"myctophid":744,"cephalopod":1022,"crustacean":8339,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":61,"euphausiid":395438,"latRange":[36.3886,36.6955],"lonRange":[237.7102,238.017],"cellID":"27","lat":36.5872,"lon":237.825,"uniqueSpecies":["REX SOLE YOY","ARMHOOK SQUID","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MARKET SQUID","MYCTOPHID","WOLF EEL YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","OCTOPUS","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","KING-OF-THE-SALMON","PACIFIC HAKE YOY","COWCOD YOY","GOBY","CALIFORNIA SMOOTHTONGUE","BOCACCIO YOY","SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":30,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1446,"Ground Fish":5724,"Crustacean":8339,"Euphausiid":395438,"Fish":20,"Gelatinous":61,"Cephalopod":1022,"Salmonid":0}}},"2014":{"sst":12.2102,"windDegree":-9999,"chloro":19.6413,"popInfo":{"other rockfish":2,"other groundfish":37,"flatfish":935,"cottid":2,"clupeoid":0,"salmonid":0,"smelt":0,"fish":15,"rockfish":266,"deep-sea smelt":608,"elasmobranch":0,"myctophid":1789,"cephalopod":372,"crustacean":3133,"jellyfish":3,"hyperiid amphipod":0,"gelatinous":670,"euphausiid":490450,"latRange":[36.3886,36.6955],"lonRange":[237.7102,238.017],"cellID":"27","lat":36.5838,"lon":237.8242,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","REX SOLE YOY","BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","OCTOPUS","ROSY ROCKFISH GROUP YOY","SEA NETTLE","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","CABEZON YOY","KING-OF-THE-SALMON","PACIFIC HAKE YOY","COWCOD YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","GOBY","PIPEFISH","CALIFORNIA SMOOTHTONGUE","CALIFORNIA HEADLIGHTFISH","SALP","MOON JELLY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":39,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":3,"Small Fish":2399,"Ground Fish":1240,"Crustacean":3133,"Euphausiid":490450,"Fish":15,"Gelatinous":670,"Cephalopod":372,"Salmonid":0}}},"2015":{"sst":12.0357,"windDegree":-9999,"chloro":1.7554,"popInfo":{"other rockfish":80,"other groundfish":2558,"flatfish":3006,"cottid":0,"clupeoid":1381,"salmonid":0,"smelt":0,"fish":79,"rockfish":6913,"deep-sea smelt":11,"elasmobranch":0,"myctophid":181,"cephalopod":2092,"crustacean":4741,"jellyfish":2,"hyperiid amphipod":38,"gelatinous":131183,"euphausiid":951177,"latRange":[36.3886,36.6955],"lonRange":[237.7102,238.017],"cellID":"27","lat":36.5923,"lon":237.9605,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","CANARY ROCKFISH YOY","REX SOLE YOY","BASEBALL SQUID","RIGHT EYED FLATFISH YOY","BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWEYE ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SQUID","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","MEDUSAFISH","PHRONIMA","ROSY ROCKFISH GROUP YOY","SAND SOLE YOY","PAINTED GREENLING YOY","OCTOPUS","PELAGIC RED CRAB","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","FRIED EGG JELLY","OCTOPOTEUTHIS","KING-OF-THE-SALMON","PACIFIC HAKE YOY","HETEROPOD","COWCOD YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","GOBY","PIPEFISH","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","CALIFORNIA HEADLIGHTFISH","THETYS SALP","SALP","BARRACUDINA","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":56,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":2,"Small Fish":1573,"Ground Fish":12557,"Crustacean":4779,"Euphausiid":951177,"Fish":79,"Gelatinous":131183,"Cephalopod":2092,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[237.7102,238.017]},{"2009":{"sst":11.7104,"windDegree":-9999,"chloro":18.5512},"2010":{"sst":11.9564,"windDegree":-9999,"chloro":16.6162,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":12,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":36,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":25,"crustacean":0,"jellyfish":26,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":30912,"latRange":[36.3886,36.6955],"lonRange":[238.017,238.3239],"cellID":"28","lat":36.653,"lon":238.0565,"uniqueSpecies":["SLENDER SOLE YOY","OCTOPUS","TOTAL KRILL","POACHER","SEA NETTLE","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","MARKET SQUID","SHORTBELLY ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":10,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":26,"Small Fish":0,"Ground Fish":48,"Crustacean":0,"Euphausiid":30912,"Fish":1,"Gelatinous":0,"Cephalopod":25,"Salmonid":0}}},"2011":{"sst":11.7261,"windDegree":-9999,"chloro":2.7395,"popInfo":{"other rockfish":18,"other groundfish":5,"flatfish":48,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":7,"rockfish":544,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":56,"crustacean":0,"jellyfish":913,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":73233,"latRange":[36.3886,36.6955],"lonRange":[238.017,238.3239],"cellID":"28","lat":36.6643,"lon":238.0517,"uniqueSpecies":["COPPER ROCKFISH GROUP YOY","PACIFIC ARGENTINE","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","SAND SOLE YOY","POACHER","SEA NETTLE","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","RIGHT EYED FLATFISH YOY","PACIFIC SANDDAB YOY","CHILIPEPPER YOY","OTHER ROCKFISH YOY","LINGCOD YOY","MARKET SQUID","MOON JELLY","SHORTBELLY ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY"],"uniqueSpeciesCount":20,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":913,"Small Fish":0,"Ground Fish":615,"Crustacean":0,"Euphausiid":73233,"Fish":7,"Gelatinous":0,"Cephalopod":56,"Salmonid":0}}},"2012":{"sst":11.2889,"windDegree":-9999,"chloro":14.0448,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":20,"cottid":6,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":112,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1185,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":300,"euphausiid":147474,"latRange":[36.3886,36.6955],"lonRange":[238.017,238.3239],"cellID":"28","lat":36.654,"lon":238.0407,"uniqueSpecies":["PYROSOMA","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","BROWN ROCKFISH YOY","WIDOW ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC SANDDAB","SALP","CABEZON YOY","MARKET SQUID","TURBOT YOY","SHORTBELLY ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":15,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":6,"Ground Fish":132,"Crustacean":0,"Euphausiid":147474,"Fish":0,"Gelatinous":300,"Cephalopod":1185,"Salmonid":0}}},"2013":{"sst":12.1417,"windDegree":-9999,"chloro":17.7908,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":80,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":12,"rockfish":6394,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":19,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":0,"latRange":[36.3886,36.6955],"lonRange":[238.017,238.3239],"cellID":"28","lat":36.6532,"lon":238.0525,"uniqueSpecies":["PACIFIC ARGENTINE","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","CHILIPEPPER YOY","BLACK ROCKFISH YOY","OLIVE ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","MARKET SQUID","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY"],"uniqueSpeciesCount":16,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":6474,"Crustacean":0,"Euphausiid":0,"Fish":12,"Gelatinous":0,"Cephalopod":19,"Salmonid":0}}},"2014":{"sst":12.5523,"windDegree":-9999,"chloro":31.914,"popInfo":{"other rockfish":0,"other groundfish":16,"flatfish":16,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":330,"deep-sea smelt":0,"elasmobranch":1,"myctophid":0,"cephalopod":382,"crustacean":0,"jellyfish":6,"hyperiid amphipod":0,"gelatinous":32,"euphausiid":184800,"latRange":[36.3886,36.6955],"lonRange":[238.017,238.3239],"cellID":"28","lat":36.6567,"lon":238.0532,"uniqueSpecies":["PACIFIC ELECTRIC RAY","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SEA NETTLE","TOTAL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","PACIFIC SANDDAB","CHILIPEPPER YOY","LINGCOD YOY","PACIFIC POMPANO","SALP","STRIPETAIL ROCKFISH YOY","MARKET SQUID","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":17,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":6,"Small Fish":0,"Ground Fish":363,"Crustacean":0,"Euphausiid":184800,"Fish":2,"Gelatinous":32,"Cephalopod":382,"Salmonid":0}}},"2015":{"sst":12.0606,"windDegree":-9999,"chloro":7.6182,"popInfo":{"other rockfish":6,"other groundfish":460,"flatfish":151,"cottid":1,"clupeoid":338,"salmonid":0,"smelt":0,"fish":38,"rockfish":569,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":32,"crustacean":2,"jellyfish":0,"hyperiid amphipod":3,"gelatinous":1674,"euphausiid":0,"latRange":[36.3886,36.6955],"lonRange":[238.017,238.3239],"cellID":"28","lat":36.6557,"lon":238.0523,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","YELLOWEYE ROCKFISH YOY","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","SPINY LOBSTER LARVAE","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","PHRONIMA","ROSY ROCKFISH GROUP YOY","SAND SOLE YOY","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","OLIVE ROCKFISH YOY","CABEZON YOY","COWCOD YOY","COPPER ROCKFISH GROUP YOY","GOBY","BOCACCIO YOY","THETYS SALP","SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":31,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":339,"Ground Fish":1186,"Crustacean":5,"Euphausiid":0,"Fish":38,"Gelatinous":1674,"Cephalopod":32,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[238.017,238.3239]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[36.3886,36.6955],"lonRange":[238.3239,238.6307]},{"2009":{"sst":11.8793,"windDegree":-38.0364001347113,"chloro":0.8491},"2010":{"sst":12.8856,"windDegree":68.79980084199265,"chloro":0.478},"2011":{"sst":12.9907,"windDegree":-75.43475412383361,"chloro":0.1922},"2012":{"sst":13.2138,"windDegree":-52.00724388176221,"chloro":0.1984},"2013":{"sst":13.2152,"windDegree":-70.92491756275659,"chloro":0.4693},"2014":{"sst":14.7041,"windDegree":-86.18410701660196,"chloro":0.272},"2015":{"sst":12.8696,"windDegree":-40.473712489699494,"chloro":0.3085},"2016":{"sst":-9999,"windDegree":-77.56968665831829,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-83.59760694391518,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-69.28899794025979,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[235.5625,235.8693]},{"2009":{"sst":11.6905,"windDegree":-29.501528780125565,"chloro":1.1816},"2010":{"sst":12.5262,"windDegree":69.32625289946515,"chloro":0.6322},"2011":{"sst":12.7196,"windDegree":-76.66849623499598,"chloro":0.212},"2012":{"sst":12.8812,"windDegree":-52.28155881413481,"chloro":0.771},"2013":{"sst":13.0005,"windDegree":-70.20189997768391,"chloro":0.6267},"2014":{"sst":14.7974,"windDegree":77.46131274058745,"chloro":0.2869},"2015":{"sst":11.7342,"windDegree":-42.752996994547544,"chloro":0.4163},"2016":{"sst":-9999,"windDegree":-76.23578754071747,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-85.06320388821851,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-67.87069834966279,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[235.8693,236.1761]},{"2009":{"sst":11.7823,"windDegree":-37.29616986786036,"chloro":3.7703},"2010":{"sst":12.4523,"windDegree":68.73022887650272,"chloro":0.7282},"2011":{"sst":12.3084,"windDegree":-70.5687587928095,"chloro":0.3451},"2012":{"sst":12.8863,"windDegree":-49.86251706311758,"chloro":1.1909},"2013":{"sst":12.6908,"windDegree":-71.75481619738194,"chloro":0.7327},"2014":{"sst":14.4128,"windDegree":-82.8004446332375,"chloro":0.2748},"2015":{"sst":11.712,"windDegree":-39.95535762683823,"chloro":0.5336},"2016":{"sst":-9999,"windDegree":-72.78247784624584,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-82.41653593489269,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-64.57675217742343,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[236.1761,236.483]},{"2009":{"sst":11.7807,"windDegree":-31.559081153877916,"chloro":2.094},"2010":{"sst":12.4771,"windDegree":80.12152192060762,"chloro":1.3824},"2011":{"sst":12.2337,"windDegree":-75.45543860757603,"chloro":0.4233},"2012":{"sst":12.7479,"windDegree":-41.02699192173486,"chloro":1.8354},"2013":{"sst":12.7833,"windDegree":-71.12336325721216,"chloro":1.3249},"2014":{"sst":13.8142,"windDegree":60.68390954776768,"chloro":0.3803},"2015":{"sst":11.9129,"windDegree":-47.025494323027104,"chloro":0.6691},"2016":{"sst":-9999,"windDegree":-73.5023200191228,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-87.87445046627195,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-64.07004280001303,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[236.483,236.7898]},{"2009":{"sst":11.5116,"windDegree":-32.021507500131676,"chloro":1.7045},"2010":{"sst":12.2863,"windDegree":4.93784996950216,"chloro":1.5864},"2011":{"sst":12.47,"windDegree":-71.64480600205282,"chloro":0.4362},"2012":{"sst":12.1576,"windDegree":-46.142751724449695,"chloro":1.3733},"2013":{"sst":12.5625,"windDegree":-71.48935817911091,"chloro":2.839},"2014":{"sst":13.3755,"windDegree":13.95671950497835,"chloro":2.6524},"2015":{"sst":11.7258,"windDegree":-50.320459617913926,"chloro":0.4351},"2016":{"sst":-9999,"windDegree":-76.56149880365685,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-85.01450182342342,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-65.49390667171429,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[236.7898,237.0966]},{"2009":{"sst":11.3289,"windDegree":-9999,"chloro":8.7116,"popInfo":{"other rockfish":0,"other groundfish":600,"flatfish":3,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":60,"deep-sea smelt":0,"elasmobranch":0,"myctophid":1908,"cephalopod":9,"crustacean":256,"jellyfish":51,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":9664,"latRange":[36.6955,37.0023],"lonRange":[237.0966,237.4034],"cellID":"35","lat":36.9658,"lon":237.2528,"uniqueSpecies":["CANARY ROCKFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","PURPLE-STRIPED JELLY","SERGESTID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","OCTOPUS","PACIFIC SANDDAB YOY","HUMBOLDT SQUID","PACIFIC HAKE YOY","BLUE LANTERNFISH","BLACKTIP SQUID","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":22,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":51,"Small Fish":1908,"Ground Fish":663,"Crustacean":256,"Euphausiid":9664,"Fish":0,"Gelatinous":0,"Cephalopod":9,"Salmonid":0}}},"2010":{"sst":11.7547,"windDegree":58.97233391863777,"chloro":6.0418,"popInfo":{"other rockfish":3,"other groundfish":2,"flatfish":33,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":27,"rockfish":104,"deep-sea smelt":98,"elasmobranch":0,"myctophid":4306,"cephalopod":86,"crustacean":264,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":18135,"latRange":[36.6955,37.0023],"lonRange":[237.0966,237.4034],"cellID":"35","lat":36.9785,"lon":237.2438,"uniqueSpecies":["CANARY ROCKFISH YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","BLACKDRAGON","SQUID","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","OTHER ROCKFISH YOY","MYCTOPHID","WOLF EEL YOY","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","ROSY ROCKFISH GROUP YOY","SEA NETTLE","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","CALIFORNIA LANTERNFISH","LONGFIN DRAGONFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":32,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":2,"Small Fish":4404,"Ground Fish":142,"Crustacean":264,"Euphausiid":18135,"Fish":27,"Gelatinous":0,"Cephalopod":86,"Salmonid":0}}},"2011":{"sst":12.1401,"windDegree":-81.00616181915296,"chloro":0.4652,"popInfo":{"other rockfish":0,"other groundfish":116,"flatfish":46,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":16,"deep-sea smelt":1,"elasmobranch":0,"myctophid":38,"cephalopod":63,"crustacean":109,"jellyfish":4,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":24960,"latRange":[36.6955,37.0023],"lonRange":[237.0966,237.4034],"cellID":"35","lat":36.985,"lon":237.2417,"uniqueSpecies":["SLENDER SOLE YOY","BLACKSMELT","PACIFIC HAKE","BLUE LANTERNFISH","TOTAL ROCKFISH YOY","SEA NETTLE","TOTAL KRILL","SPECKLED SANDDAB YOY","BLACKTIP SQUID","RIGHT EYED FLATFISH YOY","PACIFIC SANDDAB YOY","CHILIPEPPER YOY","ARMHOOK SQUID","MOON JELLY","PACIFIC HAKE YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","CALIFORNIA HEADLIGHTFISH","SERGESTID"],"uniqueSpeciesCount":19,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":4,"Small Fish":39,"Ground Fish":178,"Crustacean":109,"Euphausiid":24960,"Fish":0,"Gelatinous":0,"Cephalopod":63,"Salmonid":0}}},"2012":{"sst":11.7669,"windDegree":-51.02537934849013,"chloro":1.2831,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":36,"cottid":0,"clupeoid":0,"salmonid":1,"smelt":0,"fish":0,"rockfish":6,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":3,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1733,"latRange":[36.6955,37.0023],"lonRange":[237.0966,237.4034],"cellID":"35","lat":36.9898,"lon":237.4005,"uniqueSpecies":["TOTAL KRILL","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","CHILIPEPPER YOY","KING SALMON","MARKET SQUID","SHORTBELLY ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":8,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":42,"Crustacean":0,"Euphausiid":1733,"Fish":0,"Gelatinous":0,"Cephalopod":3,"Salmonid":1}}},"2013":{"sst":12.3227,"windDegree":-68.97399699941947,"chloro":8.8683,"popInfo":{"other rockfish":0,"other groundfish":1680,"flatfish":412,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":13,"rockfish":6300,"deep-sea smelt":423,"elasmobranch":1,"myctophid":880,"cephalopod":136,"crustacean":862,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":210,"euphausiid":547230,"latRange":[36.6955,37.0023],"lonRange":[237.0966,237.4034],"cellID":"35","lat":36.9848,"lon":237.2513,"uniqueSpecies":["ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","NORTH PACIFIC SPINY DOGFISH","BLACK ROCKFISH YOY","RED SHRIMP","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","PACIFIC SANDDAB YOY","LONGFIN DRAGONFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","PACIFIC HAKE","CALIFORNIA SMOOTHTONGUE","BOCACCIO YOY","THETYS SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":27,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1303,"Ground Fish":8393,"Crustacean":862,"Euphausiid":547230,"Fish":13,"Gelatinous":210,"Cephalopod":136,"Salmonid":0}}},"2014":{"sst":13.0574,"windDegree":7.364694735788655,"chloro":13.0947,"popInfo":{"other rockfish":0,"other groundfish":2,"flatfish":50,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":62,"deep-sea smelt":0,"elasmobranch":0,"myctophid":77,"cephalopod":299,"crustacean":82,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":183,"euphausiid":101184,"latRange":[36.6955,37.0023],"lonRange":[237.0966,237.4034],"cellID":"35","lat":36.9838,"lon":237.2468,"uniqueSpecies":["COPPER ROCKFISH GROUP YOY","PYROSOMA","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","TOTAL ROCKFISH YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","ARMHOOK SQUID","SALP","MARKET SQUID","PACIFIC HAKE YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","TURBOT YOY","SERGESTID"],"uniqueSpeciesCount":18,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":77,"Ground Fish":114,"Crustacean":82,"Euphausiid":101184,"Fish":0,"Gelatinous":183,"Cephalopod":299,"Salmonid":0}}},"2015":{"sst":12.0179,"windDegree":-45.42927197735488,"chloro":0.4276},"2016":{"sst":-9999,"windDegree":-79.02383590240204,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-86.01651668622058,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-67.50063557124454,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[237.0966,237.4034]},{"2009":{"sst":11.1323,"windDegree":-9999,"chloro":10.0583,"popInfo":{"other rockfish":1,"other groundfish":376,"flatfish":12,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":53,"deep-sea smelt":1,"elasmobranch":0,"myctophid":1777,"cephalopod":53,"crustacean":2376,"jellyfish":54,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":107136,"latRange":[36.6955,37.0023],"lonRange":[237.4034,237.7102],"cellID":"36","lat":36.9795,"lon":237.6325,"uniqueSpecies":["ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","BLACK ROCKFISH YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","OCTOPUS","ROSY ROCKFISH GROUP YOY","SEA NETTLE","GREENSTRIPED ROCKFISH YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","COMBFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":29,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":54,"Small Fish":1778,"Ground Fish":442,"Crustacean":2376,"Euphausiid":107136,"Fish":1,"Gelatinous":0,"Cephalopod":53,"Salmonid":0}}},"2010":{"sst":11.2329,"windDegree":-5.539921423350361,"chloro":9.581,"popInfo":{"other rockfish":12,"other groundfish":270,"flatfish":150,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":9,"rockfish":195,"deep-sea smelt":18,"elasmobranch":3,"myctophid":523,"cephalopod":376,"crustacean":180,"jellyfish":93,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":285131,"latRange":[36.6955,37.0023],"lonRange":[237.4034,237.7102],"cellID":"36","lat":36.9785,"lon":237.6288,"uniqueSpecies":["LIGHTFISH","CANARY ROCKFISH YOY","POACHER","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","DARKBLOTCHED ROCKFISH YOY","PALLID EELPOUT","SERGESTID","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PACIFIC ELECTRIC RAY","OCTOPUS","SAND SOLE YOY","SEA NETTLE","PAINTED GREENLING YOY","CRANGON SHRIMP","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","COMBFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","GOBY","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","GLASS SHRIMP","BARRACUDINA","SLENDER SOLE","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":41,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":93,"Small Fish":541,"Ground Fish":630,"Crustacean":180,"Euphausiid":285131,"Fish":9,"Gelatinous":0,"Cephalopod":376,"Salmonid":0}}},"2011":{"sst":11.6607,"windDegree":-80.84725907171261,"chloro":0.4921,"popInfo":{"other rockfish":48,"other groundfish":69,"flatfish":279,"cottid":2,"clupeoid":0,"salmonid":0,"smelt":0,"fish":15,"rockfish":569,"deep-sea smelt":21,"elasmobranch":0,"myctophid":13,"cephalopod":302,"crustacean":50,"jellyfish":177,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":172905,"latRange":[36.6955,37.0023],"lonRange":[237.4034,237.7102],"cellID":"36","lat":36.9857,"lon":237.4068,"uniqueSpecies":["POACHER","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","SHORTBELLY ROCKFISH","MARKET SQUID","PLAINFIN MIDSHIPMAN","MYCTOPHID","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PACIFIC ARGENTINE","BLACKSMELT","SEA NETTLE","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","COMBFISH","CABEZON YOY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","GOBY","CALIFORNIA SMOOTHTONGUE","PANDALID SHRIMP","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY","TURBOT YOY"],"uniqueSpeciesCount":37,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":177,"Small Fish":36,"Ground Fish":965,"Crustacean":50,"Euphausiid":172905,"Fish":15,"Gelatinous":0,"Cephalopod":302,"Salmonid":0}}},"2012":{"sst":11.2498,"windDegree":-40.02517901935213,"chloro":1.9313,"popInfo":{"other rockfish":0,"other groundfish":21,"flatfish":476,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":8,"deep-sea smelt":1,"elasmobranch":0,"myctophid":0,"cephalopod":584,"crustacean":0,"jellyfish":7,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":110179,"latRange":[36.6955,37.0023],"lonRange":[237.4034,237.7102],"cellID":"36","lat":36.9845,"lon":237.7058,"uniqueSpecies":["OCTOPUS","GOBY","TOTAL KRILL","SEA NETTLE","CALIFORNIA SMOOTHTONGUE","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","PACIFIC SANDLANCE","CHILIPEPPER YOY","LINGCOD YOY","MARKET SQUID","SLENDER SOLE","PACIFIC HAKE YOY","SHORTBELLY ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":17,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":7,"Small Fish":1,"Ground Fish":505,"Crustacean":0,"Euphausiid":110179,"Fish":2,"Gelatinous":0,"Cephalopod":584,"Salmonid":0}}},"2013":{"sst":11.8718,"windDegree":-76.80564297906007,"chloro":11.8173,"popInfo":{"other rockfish":1,"other groundfish":53,"flatfish":1362,"cottid":2,"clupeoid":90,"salmonid":0,"smelt":0,"fish":53,"rockfish":22003,"deep-sea smelt":50,"elasmobranch":0,"myctophid":2069,"cephalopod":743,"crustacean":10540,"jellyfish":9,"hyperiid amphipod":0,"gelatinous":106,"euphausiid":2654923,"latRange":[36.6955,37.0023],"lonRange":[237.4034,237.7102],"cellID":"36","lat":36.984,"lon":237.577,"uniqueSpecies":["CANARY ROCKFISH YOY","POACHER","BOREAL CLUBHOOK SQUID","LINGCOD YOY","ARMHOOK SQUID","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","PALLID EELPOUT","YELLOWTAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PACIFIC ARGENTINE","PYROSOMA","BLACKSMELT","OCTOPUS","ROSY ROCKFISH GROUP YOY","SEA NETTLE","GREENSTRIPED ROCKFISH YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","COMBFISH","OLIVE ROCKFISH YOY","CABEZON YOY","PACIFIC HAKE YOY","COWCOD YOY","PACIFIC HAKE","CALIFORNIA SMOOTHTONGUE","BOCACCIO YOY","THETYS SALP","SALP","VERMILION ROCKFISH YOY","MOON JELLY","NORTHERN ANCHOVY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY","TURBOT YOY"],"uniqueSpeciesCount":50,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":9,"Small Fish":2211,"Ground Fish":23419,"Crustacean":10540,"Euphausiid":2654923,"Fish":53,"Gelatinous":106,"Cephalopod":743,"Salmonid":0}}},"2014":{"sst":12.8224,"windDegree":-8.466136713862566,"chloro":16.428,"popInfo":{"other rockfish":6,"other groundfish":96,"flatfish":407,"cottid":2,"clupeoid":0,"salmonid":0,"smelt":0,"fish":61,"rockfish":360,"deep-sea smelt":17,"elasmobranch":2,"myctophid":25,"cephalopod":8357,"crustacean":0,"jellyfish":31,"hyperiid amphipod":0,"gelatinous":103,"euphausiid":806829,"latRange":[36.6955,37.0023],"lonRange":[237.4034,237.7102],"cellID":"36","lat":36.9685,"lon":237.698,"uniqueSpecies":["LINGCOD YOY","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","PALLID EELPOUT","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","NORTH PACIFIC SPINY DOGFISH","CALIFORNIA TONGUEFISH","PACIFIC POMPANO","MARKET SQUID","PLAINFIN MIDSHIPMAN","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","OCTOPUS","SEA NETTLE","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","COMBFISH","CABEZON YOY","PACIFIC HAKE YOY","COWCOD YOY","SLENDER SOLE YOY","PACIFIC HAKE","PIPEFISH","CALIFORNIA SMOOTHTONGUE","SHARPCHIN ROCKFISH YOY","SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":38,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":31,"Small Fish":44,"Ground Fish":871,"Crustacean":0,"Euphausiid":806829,"Fish":61,"Gelatinous":103,"Cephalopod":8357,"Salmonid":0}}},"2015":{"sst":11.7414,"windDegree":-58.05117228910683,"chloro":4.0493,"popInfo":{"other rockfish":175,"other groundfish":342,"flatfish":865,"cottid":0,"clupeoid":277,"salmonid":0,"smelt":0,"fish":65,"rockfish":878,"deep-sea smelt":1,"elasmobranch":0,"myctophid":24,"cephalopod":884,"crustacean":129,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":7751,"euphausiid":47594,"latRange":[36.6955,37.0023],"lonRange":[237.4034,237.7102],"cellID":"36","lat":36.9833,"lon":237.7078,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","RONQUIL","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","PLAINFIN MIDSHIPMAN","MYCTOPHID","TOTAL ROCKFISH YOY","WOLF EEL YOY","PYROSOMA","PACIFIC ARGENTINE","OCTOPUS","SAND SOLE YOY","CRANGON SHRIMP","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","COMBFISH","KING-OF-THE-SALMON","PACIFIC HAKE YOY","COWCOD YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","GOBY","CALIFORNIA SMOOTHTONGUE","CALIFORNIA HEADLIGHTFISH","THETYS SALP","SALP","LINGCOD","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":44,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":302,"Ground Fish":2260,"Crustacean":129,"Euphausiid":47594,"Fish":65,"Gelatinous":7751,"Cephalopod":884,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-80.42462452462868,"chloro":-9999},"2017":{"sst":-9999,"windDegree":81.39508112518311,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.66907658741286,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[237.4034,237.7102]},{"2009":{"sst":11.6043,"windDegree":-9999,"chloro":10.2172,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":2,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":12,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":11,"crustacean":0,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1,"latRange":[36.6955,37.0023],"lonRange":[237.7102,238.017],"cellID":"37","lat":36.9682,"lon":237.714,"uniqueSpecies":["SLENDER SOLE YOY","TOTAL KRILL","SEA NETTLE","PACIFIC SANDDAB YOY","CHILIPEPPER YOY","STRIPETAIL ROCKFISH YOY","MOON JELLY","MARKET SQUID","WIDOW ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":10,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":2,"Small Fish":0,"Ground Fish":14,"Crustacean":0,"Euphausiid":1,"Fish":0,"Gelatinous":0,"Cephalopod":11,"Salmonid":0}}},"2010":{"sst":11.2093,"windDegree":-58.639783113793996,"chloro":10.2487,"popInfo":{"other rockfish":0,"other groundfish":7,"flatfish":95,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":4,"deep-sea smelt":9,"elasmobranch":0,"myctophid":585,"cephalopod":386,"crustacean":366,"jellyfish":35,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":23887,"latRange":[36.6955,37.0023],"lonRange":[237.7102,238.017],"cellID":"37","lat":36.9725,"lon":237.7147,"uniqueSpecies":["REX SOLE YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","SNAILFISH","SWORD-TAIL SQUID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","DOVER SOLE YOY","MARKET SQUID","MYCTOPHID","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","SEA NETTLE","PACIFIC SANDDAB YOY","CALIFORNIA LANTERNFISH","PACIFIC HAKE YOY","SLENDER SOLE YOY","CALIFORNIA SMOOTHTONGUE","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":22,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":35,"Small Fish":594,"Ground Fish":106,"Crustacean":366,"Euphausiid":23887,"Fish":2,"Gelatinous":0,"Cephalopod":386,"Salmonid":0}}},"2011":{"sst":11.2285,"windDegree":-79.34007209923239,"chloro":3.0525,"popInfo":{"other rockfish":4,"other groundfish":11,"flatfish":76,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":15,"rockfish":18,"deep-sea smelt":0,"elasmobranch":0,"myctophid":6,"cephalopod":106,"crustacean":342,"jellyfish":113,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":78664,"latRange":[36.6955,37.0023],"lonRange":[237.7102,238.017],"cellID":"37","lat":36.8493,"lon":238.014,"uniqueSpecies":["SLENDER SOLE YOY","BLUE LANTERNFISH","TOTAL KRILL","PACIFIC HAKE","SEA NETTLE","REX SOLE YOY","SPECKLED SANDDAB YOY","RIGHT EYED FLATFISH YOY","PACIFIC SANDDAB YOY","OTHER ROCKFISH YOY","ARMHOOK SQUID","COMBFISH","MARKET SQUID","MOON JELLY","PACIFIC HAKE YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","SERGESTID"],"uniqueSpeciesCount":19,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":113,"Small Fish":6,"Ground Fish":109,"Crustacean":342,"Euphausiid":78664,"Fish":15,"Gelatinous":0,"Cephalopod":106,"Salmonid":0}}},"2012":{"sst":10.8795,"windDegree":-61.46350738673646,"chloro":8.5633,"popInfo":{"other rockfish":0,"other groundfish":290,"flatfish":332,"cottid":2,"clupeoid":0,"salmonid":2,"smelt":0,"fish":30,"rockfish":42,"deep-sea smelt":1,"elasmobranch":2,"myctophid":88,"cephalopod":2564,"crustacean":1362,"jellyfish":33,"hyperiid amphipod":0,"gelatinous":27410,"euphausiid":993464,"latRange":[36.6955,37.0023],"lonRange":[237.7102,238.017],"cellID":"37","lat":36.8407,"lon":238.0102,"uniqueSpecies":["LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MARKET SQUID","PLAINFIN MIDSHIPMAN","MYCTOPHID","TOTAL ROCKFISH YOY","MEDUSAFISH","PYROSOMA","OCTOPUS","PACIFIC ELECTRIC RAY","SEA NETTLE","PACIFIC SANDDAB YOY","CABEZON YOY","PACIFIC HAKE YOY","BLUE LANTERNFISH","PACIFIC HAKE","GOBY","CALIFORNIA SMOOTHTONGUE","KING SALMON","THETYS SALP","SALP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":27,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":33,"Small Fish":91,"Ground Fish":666,"Crustacean":1362,"Euphausiid":993464,"Fish":30,"Gelatinous":27410,"Cephalopod":2564,"Salmonid":2}}},"2013":{"sst":11.8269,"windDegree":-42.45193183436321,"chloro":10.9502,"popInfo":{"other rockfish":1,"other groundfish":515,"flatfish":1831,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":33,"rockfish":5858,"deep-sea smelt":182,"elasmobranch":0,"myctophid":318,"cephalopod":431,"crustacean":794,"jellyfish":18,"hyperiid amphipod":0,"gelatinous":70,"euphausiid":172234,"latRange":[36.6955,37.0023],"lonRange":[237.7102,238.017],"cellID":"37","lat":36.846,"lon":238.0147,"uniqueSpecies":["LINGCOD YOY","ARMHOOK SQUID","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","BLACKDRAGON","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","WOLF EEL YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","MYCTOPHID","PYROSOMA","PACIFIC ARGENTINE","OCTOPUS","SEA NETTLE","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","GHOST SHRIMP","OLIVE ROCKFISH YOY","PACIFIC HAKE YOY","COWCOD YOY","CALIFORNIA SMOOTHTONGUE","PANDALID SHRIMP","GLASS SHRIMP","BOCACCIO YOY","THETYS SALP","SALP","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":37,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":18,"Small Fish":500,"Ground Fish":8205,"Crustacean":794,"Euphausiid":172234,"Fish":33,"Gelatinous":70,"Cephalopod":431,"Salmonid":0}}},"2014":{"sst":12.4794,"windDegree":-9999,"chloro":18.5266,"popInfo":{"other rockfish":0,"other groundfish":5,"flatfish":896,"cottid":5,"clupeoid":0,"salmonid":0,"smelt":0,"fish":11,"rockfish":80,"deep-sea smelt":640,"elasmobranch":0,"myctophid":256,"cephalopod":699,"crustacean":448,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":151,"euphausiid":393120,"latRange":[36.6955,37.0023],"lonRange":[237.7102,238.017],"cellID":"37","lat":36.7012,"lon":237.8948,"uniqueSpecies":["ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","MARKET SQUID","SCULPIN YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","OCTOPUS","PACIFIC SANDDAB YOY","KING-OF-THE-SALMON","PACIFIC HAKE YOY","BLUE LANTERNFISH","GOBY","CALIFORNIA SMOOTHTONGUE","THETYS SALP","SALP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":24,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":901,"Ground Fish":981,"Crustacean":448,"Euphausiid":393120,"Fish":11,"Gelatinous":151,"Cephalopod":699,"Salmonid":0}}},"2015":{"sst":11.9912,"windDegree":-9999,"chloro":5.0861,"popInfo":{"other rockfish":31,"other groundfish":526,"flatfish":669,"cottid":2,"clupeoid":269,"salmonid":0,"smelt":0,"fish":36,"rockfish":1017,"deep-sea smelt":11,"elasmobranch":2,"myctophid":184,"cephalopod":528,"crustacean":411,"jellyfish":0,"hyperiid amphipod":21,"gelatinous":39535,"euphausiid":252336,"latRange":[36.6955,37.0023],"lonRange":[237.7102,238.017],"cellID":"37","lat":36.7453,"lon":238.0157,"uniqueSpecies":["BLOB OCTOPUS","REX SOLE YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SHRIMP","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","WOLF EEL YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","MEDUSAFISH","OCTOPUS","ROSY ROCKFISH GROUP YOY","SAND SOLE YOY","PACIFIC ELECTRIC RAY","PHRONIMA","PELAGIC RED CRAB","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","OCTOPOTEUTHIS","CABEZON YOY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","COWCOD YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","GOBY","PIPEFISH","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","CALIFORNIA HEADLIGHTFISH","THETYS SALP","SALP","BARRACUDINA","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":50,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":466,"Ground Fish":2245,"Crustacean":432,"Euphausiid":252336,"Fish":36,"Gelatinous":39535,"Cephalopod":528,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[237.7102,238.017]},{"2009":{"sst":12.3842,"windDegree":-9999,"chloro":20.1502,"popInfo":{"other rockfish":1,"other groundfish":9,"flatfish":33,"cottid":4,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":88,"deep-sea smelt":0,"elasmobranch":2,"myctophid":0,"cephalopod":66,"crustacean":517,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":14084,"latRange":[36.6955,37.0023],"lonRange":[238.017,238.3239],"cellID":"38","lat":36.8332,"lon":238.0312,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","LINGCOD YOY","RONQUIL","PACIFIC MACKEREL","STRIPETAIL ROCKFISH YOY","PURPLE-STRIPED JELLY","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","MARKET SQUID","SCULPIN YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PACIFIC ELECTRIC RAY","OCTOPUS","SAND SOLE YOY","PAINTED GREENLING YOY","CRANGON SHRIMP","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","COMBFISH","PACIFIC HAKE YOY","SLENDER SOLE YOY","GLASS SHRIMP","BOCACCIO YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":31,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":2,"Small Fish":4,"Ground Fish":133,"Crustacean":517,"Euphausiid":14084,"Fish":3,"Gelatinous":0,"Cephalopod":66,"Salmonid":0}}},"2010":{"sst":12.0295,"windDegree":-9999,"chloro":29.8628,"popInfo":{"other rockfish":21,"other groundfish":139,"flatfish":356,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":34,"rockfish":226,"deep-sea smelt":72,"elasmobranch":5,"myctophid":454,"cephalopod":215,"crustacean":925,"jellyfish":124,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":143927,"latRange":[36.6955,37.0023],"lonRange":[238.017,238.3239],"cellID":"38","lat":36.8407,"lon":238.0345,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","POACHER","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","PURPLE-STRIPED JELLY","SERGESTID","TOTAL KRILL","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PACIFIC ARGENTINE","PACIFIC ELECTRIC RAY","OCTOPUS","SAND SOLE YOY","SEA NETTLE","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","COMBFISH","PACIFIC HAKE YOY","KING-OF-THE-SALMON","COWCOD YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","GOBY","CALIFORNIA SMOOTHTONGUE","PANDALID SHRIMP","GLASS SHRIMP","NORTHERN ANCHOVY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":40,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":124,"Small Fish":527,"Ground Fish":747,"Crustacean":925,"Euphausiid":143927,"Fish":34,"Gelatinous":0,"Cephalopod":215,"Salmonid":0}}},"2011":{"sst":12.2689,"windDegree":-9999,"chloro":13.1111,"popInfo":{"other rockfish":27,"other groundfish":56,"flatfish":811,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":39,"rockfish":1807,"deep-sea smelt":3,"elasmobranch":2,"myctophid":0,"cephalopod":325,"crustacean":10,"jellyfish":108,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":251840,"latRange":[36.6955,37.0023],"lonRange":[238.017,238.3239],"cellID":"38","lat":36.7432,"lon":238.025,"uniqueSpecies":["REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","SNAILFISH","SERGESTID","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","MARKET SQUID","OTHER ROCKFISH YOY","PLAINFIN MIDSHIPMAN","TOTAL ROCKFISH YOY","MEDUSAFISH","BLACKSMELT","OCTOPUS","PACIFIC ELECTRIC RAY","SAND SOLE YOY","SEA NETTLE","CRANGON SHRIMP","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","COMBFISH","PACIFIC HAKE YOY","COWCOD YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC HAKE","GOBY","BOCACCIO YOY","DOVER SOLE","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":37,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":108,"Small Fish":3,"Ground Fish":2703,"Crustacean":10,"Euphausiid":251840,"Fish":39,"Gelatinous":0,"Cephalopod":325,"Salmonid":0}}},"2012":{"sst":11.9632,"windDegree":-9999,"chloro":22.9426,"popInfo":{"other rockfish":0,"other groundfish":166,"flatfish":196,"cottid":2,"clupeoid":0,"salmonid":0,"smelt":0,"fish":21,"rockfish":58,"deep-sea smelt":23,"elasmobranch":10,"myctophid":16,"cephalopod":3439,"crustacean":8,"jellyfish":6,"hyperiid amphipod":0,"gelatinous":2560,"euphausiid":849725,"latRange":[36.6955,37.0023],"lonRange":[238.017,238.3239],"cellID":"38","lat":36.7688,"lon":238.1197,"uniqueSpecies":["ARMHOOK SQUID","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","PALLID EELPOUT","SERGESTID","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","MARKET SQUID","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","PACIFIC ELECTRIC RAY","SEA NETTLE","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","COMBFISH","CABEZON YOY","PACIFIC HAKE YOY","CALIFORNIA SMOOTHTONGUE","SALP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":24,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":6,"Small Fish":41,"Ground Fish":430,"Crustacean":8,"Euphausiid":849725,"Fish":21,"Gelatinous":2560,"Cephalopod":3439,"Salmonid":0}}},"2013":{"sst":12.7568,"windDegree":-9999,"chloro":23.4453,"popInfo":{"other rockfish":8,"other groundfish":752,"flatfish":1240,"cottid":15,"clupeoid":0,"salmonid":0,"smelt":0,"fish":29,"rockfish":12050,"deep-sea smelt":28,"elasmobranch":0,"myctophid":12,"cephalopod":3403,"crustacean":0,"jellyfish":4,"hyperiid amphipod":0,"gelatinous":31,"euphausiid":1711726,"latRange":[36.6955,37.0023],"lonRange":[238.017,238.3239],"cellID":"38","lat":36.7587,"lon":238.1292,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","BOREAL CLUBHOOK SQUID","LINGCOD YOY","ARMHOOK SQUID","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","PURPLE-STRIPED JELLY","DARKBLOTCHED ROCKFISH YOY","PALLID EELPOUT","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","WOLF EEL YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","MYCTOPHID","PACIFIC ARGENTINE","BLACKSMELT","PYROSOMA","OCTOPUS","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","OLIVE ROCKFISH YOY","CABEZON YOY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","COWCOD YOY","SLENDER SOLE YOY","PACIFIC HAKE","GOBY","CALIFORNIA SMOOTHTONGUE","BOCACCIO YOY","THETYS SALP","SALP","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":45,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":4,"Small Fish":55,"Ground Fish":14050,"Crustacean":0,"Euphausiid":1711726,"Fish":29,"Gelatinous":31,"Cephalopod":3403,"Salmonid":0}}},"2014":{"sst":13.2542,"windDegree":-9999,"chloro":34.5403,"popInfo":{"other rockfish":4,"other groundfish":279,"flatfish":784,"cottid":0,"clupeoid":31,"salmonid":0,"smelt":0,"fish":96,"rockfish":1794,"deep-sea smelt":750,"elasmobranch":2,"myctophid":36,"cephalopod":14283,"crustacean":0,"jellyfish":123,"hyperiid amphipod":0,"gelatinous":5387,"euphausiid":1139207,"latRange":[36.6955,37.0023],"lonRange":[238.017,238.3239],"cellID":"38","lat":36.7687,"lon":238.1313,"uniqueSpecies":["POACHER","LINGCOD YOY","ARMHOOK SQUID","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","PALLID EELPOUT","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","SABLEFISH YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","PACIFIC POMPANO","NORTHERN ANCHOVY YOY","MARKET SQUID","PLAINFIN MIDSHIPMAN","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","CURLFIN SOLE","PYROSOMA","PACIFIC ARGENTINE","MEDUSAFISH","PACIFIC ELECTRIC RAY","OCTOPUS","SEA NETTLE","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","FRIED EGG JELLY","COMBFISH","PACIFIC HAKE YOY","COWCOD YOY","COPPER ROCKFISH GROUP YOY","PACIFIC HAKE","GOBY","PIPEFISH","CALIFORNIA SMOOTHTONGUE","MOON JELLY","CALIFORNIA HEADLIGHTFISH","SALP","SLENDER SOLE","NORTHERN ANCHOVY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":51,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":123,"Small Fish":817,"Ground Fish":2863,"Crustacean":0,"Euphausiid":1139207,"Fish":96,"Gelatinous":5387,"Cephalopod":14283,"Salmonid":0}}},"2015":{"sst":12.7993,"windDegree":-9999,"chloro":10.4764,"popInfo":{"other rockfish":19,"other groundfish":14,"flatfish":181,"cottid":3,"clupeoid":872,"salmonid":0,"smelt":0,"fish":63,"rockfish":853,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1891,"crustacean":2,"jellyfish":1,"hyperiid amphipod":98,"gelatinous":7118,"euphausiid":3436,"latRange":[36.6955,37.0023],"lonRange":[238.017,238.3239],"cellID":"38","lat":36.7112,"lon":238.0765,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","PACIFIC ARGENTINE","PHRONIMA","SAND SOLE YOY","PACIFIC SANDDAB YOY","CABEZON YOY","KING-OF-THE-SALMON","PACIFIC HAKE YOY","COWCOD YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","GOBY","CALIFORNIA LIZARDFISH","THETYS SALP","SALP","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":35,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":875,"Ground Fish":1067,"Crustacean":100,"Euphausiid":3436,"Fish":63,"Gelatinous":7118,"Cephalopod":1891,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[238.017,238.3239]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[36.6955,37.0023],"lonRange":[238.3239,238.6307]},{"2009":{"sst":11.9458,"windDegree":-50.635640493313076,"chloro":0.7505},"2010":{"sst":12.5358,"windDegree":71.23899690131186,"chloro":0.5649},"2011":{"sst":12.7839,"windDegree":-69.91235167735654,"chloro":0.1732},"2012":{"sst":13.0568,"windDegree":-47.20397892060152,"chloro":0.3628},"2013":{"sst":12.6939,"windDegree":-68.48524276297154,"chloro":0.8176},"2014":{"sst":14.0927,"windDegree":-77.93336021262121,"chloro":0.3525},"2015":{"sst":12.3288,"windDegree":-42.456360379585895,"chloro":0.468},"2016":{"sst":-9999,"windDegree":-75.84311184568539,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-83.30675262128761,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-68.78157071334395,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[235.5625,235.8693]},{"2009":{"sst":11.6133,"windDegree":-48.75764630507712,"chloro":0.9925},"2010":{"sst":12.1346,"windDegree":60.73844636871008,"chloro":2.0046},"2011":{"sst":12.7169,"windDegree":-71.45722396865793,"chloro":0.1792},"2012":{"sst":13.0473,"windDegree":-49.40620737462316,"chloro":0.7986},"2013":{"sst":12.3393,"windDegree":-68.61396091513566,"chloro":1.1644},"2014":{"sst":14.0785,"windDegree":80.29434718415541,"chloro":0.5783},"2015":{"sst":11.6822,"windDegree":-37.55951153335105,"chloro":0.4748},"2016":{"sst":-9999,"windDegree":-75.08435857040338,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-83.09976371218232,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-65.15252871858533,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[235.8693,236.1761]},{"2009":{"sst":11.5307,"windDegree":-38.894762760630684,"chloro":1.9677},"2010":{"sst":12.013,"windDegree":76.48087154551415,"chloro":4.2107},"2011":{"sst":12.223,"windDegree":-70.8011539448281,"chloro":0.302},"2012":{"sst":12.8799,"windDegree":-49.137868841515484,"chloro":0.8034},"2013":{"sst":12.2085,"windDegree":-70.35516188670246,"chloro":1.3573},"2014":{"sst":13.5709,"windDegree":74.74725672767534,"chloro":2.738},"2015":{"sst":11.5164,"windDegree":-33.75122378828491,"chloro":0.5761},"2016":{"sst":-9999,"windDegree":-74.38069313595209,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-81.99745989325689,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-61.6287533258614,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[236.1761,236.483]},{"2009":{"sst":11.5018,"windDegree":-45.37159756957291,"chloro":2.081},"2010":{"sst":11.8245,"windDegree":65.57690659268725,"chloro":2.2517},"2011":{"sst":11.8904,"windDegree":-73.97992773528061,"chloro":0.4335},"2012":{"sst":12.9572,"windDegree":-40.24075955759008,"chloro":0.63},"2013":{"sst":12.3082,"windDegree":-73.58431792538993,"chloro":4.0669},"2014":{"sst":13.3254,"windDegree":7.291976149919983,"chloro":1.2988},"2015":{"sst":11.7896,"windDegree":-41.77635013352522,"chloro":0.444},"2016":{"sst":-9999,"windDegree":-80.33724713283453,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-84.7735421967058,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-61.37169932551093,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[236.483,236.7898]},{"2009":{"sst":11.3925,"windDegree":-35.573878530663734,"chloro":2.5954,"popInfo":{"other rockfish":0,"other groundfish":262,"flatfish":2,"cottid":0,"clupeoid":5,"salmonid":0,"smelt":0,"fish":0,"rockfish":136,"deep-sea smelt":8,"elasmobranch":0,"myctophid":1848,"cephalopod":147,"crustacean":228,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":52544,"latRange":[37.0023,37.3091],"lonRange":[236.7898,237.0966],"cellID":"44","lat":37.2613,"lon":237.0288,"uniqueSpecies":["CANARY ROCKFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","HUMBOLDT SQUID","PACIFIC HAKE YOY","BLUE LANTERNFISH","PACIFIC SARDINE","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":24,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1861,"Ground Fish":400,"Crustacean":228,"Euphausiid":52544,"Fish":0,"Gelatinous":0,"Cephalopod":147,"Salmonid":0}}},"2010":{"sst":11.603,"windDegree":51.5359354673368,"chloro":1.7141,"popInfo":{"other rockfish":4,"other groundfish":151,"flatfish":35,"cottid":2,"clupeoid":1,"salmonid":0,"smelt":0,"fish":12,"rockfish":155,"deep-sea smelt":132,"elasmobranch":0,"myctophid":9804,"cephalopod":184,"crustacean":952,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":323534,"latRange":[37.0023,37.3091],"lonRange":[236.7898,237.0966],"cellID":"44","lat":37.2713,"lon":236.8652,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","WIDOW ROCKFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","LOOSEJAW","BLACKDRAGON","SQUID","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","BLACKSMELT","SEA NETTLE","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","CALIFORNIA LANTERNFISH","LONGFIN DRAGONFISH","CABEZON YOY","PACIFIC HAKE YOY","BLUE LANTERNFISH","ARROWTOOTH FLOUNDER YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BARRACUDINA","HIGHFIN DRAGONFISH","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":39,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":9939,"Ground Fish":345,"Crustacean":952,"Euphausiid":323534,"Fish":12,"Gelatinous":0,"Cephalopod":184,"Salmonid":0}}},"2011":{"sst":11.9801,"windDegree":-75.7078065609243,"chloro":0.4275,"popInfo":{"other rockfish":1,"other groundfish":8,"flatfish":9,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":9,"deep-sea smelt":50,"elasmobranch":0,"myctophid":332,"cephalopod":17,"crustacean":327,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":17138,"latRange":[37.0023,37.3091],"lonRange":[236.7898,237.0966],"cellID":"44","lat":37.2737,"lon":236.845,"uniqueSpecies":["BLACKSMELT","SWORD-TAIL SQUID","PACIFIC HAKE","OCTOPUS","TOTAL KRILL","BLACKDRAGON","CALIFORNIA SMOOTHTONGUE","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","OTHER ROCKFISH YOY","ARMHOOK SQUID","PACIFIC HAKE YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","SERGESTID"],"uniqueSpeciesCount":18,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":382,"Ground Fish":27,"Crustacean":327,"Euphausiid":17138,"Fish":1,"Gelatinous":0,"Cephalopod":17,"Salmonid":0}}},"2012":{"sst":12.4252,"windDegree":-33.17866071428697,"chloro":0.8337,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":25,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":0,"rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":9,"cephalopod":24,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":36,"latRange":[37.0023,37.3091],"lonRange":[236.7898,237.0966],"cellID":"44","lat":37.2765,"lon":237.0125,"uniqueSpecies":["PACIFIC SARDINE","TOTAL KRILL","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","ARMHOOK SQUID","MYCTOPHID","BLUE LANTERNFISH"],"uniqueSpeciesCount":7,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":10,"Ground Fish":25,"Crustacean":0,"Euphausiid":36,"Fish":0,"Gelatinous":0,"Cephalopod":24,"Salmonid":0}}},"2013":{"sst":12.259,"windDegree":-70.8249806266134,"chloro":4.6542,"popInfo":{"other rockfish":1,"other groundfish":1515,"flatfish":937,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":14,"rockfish":2049,"deep-sea smelt":1051,"elasmobranch":0,"myctophid":3563,"cephalopod":718,"crustacean":19172,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":172,"euphausiid":778256,"latRange":[37.0023,37.3091],"lonRange":[236.7898,237.0966],"cellID":"44","lat":37.273,"lon":237.0342,"uniqueSpecies":["BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","LOOSEJAW","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","PACIFIC POMPANO","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","MEDUSAFISH","OCTOPUS","PACIFIC SANDDAB YOY","CALIFORNIA LANTERNFISH","PACIFIC HAKE YOY","KING-OF-THE-SALMON","BLUE LANTERNFISH","PACIFIC SARDINE","CALIFORNIA SMOOTHTONGUE","GLASS SHRIMP","BLACKTIP SQUID","BOCACCIO YOY","THETYS SALP","SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":36,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":4615,"Ground Fish":4502,"Crustacean":19172,"Euphausiid":778256,"Fish":14,"Gelatinous":172,"Cephalopod":718,"Salmonid":0}}},"2014":{"sst":13.3121,"windDegree":-16.336973962683214,"chloro":0.7855,"popInfo":{"other rockfish":4,"other groundfish":4,"flatfish":2290,"cottid":5,"clupeoid":0,"salmonid":0,"smelt":0,"fish":17,"rockfish":334,"deep-sea smelt":10980,"elasmobranch":0,"myctophid":1766,"cephalopod":3453,"crustacean":90,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":9005,"euphausiid":297120,"latRange":[37.0023,37.3091],"lonRange":[236.7898,237.0966],"cellID":"44","lat":37.2737,"lon":237.0223,"uniqueSpecies":["BLOB OCTOPUS","BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","HALFBANDED ROCKFISH YOY","BLACKDRAGON","SQUID","SPECKLED SANDDAB YOY","SABLEFISH YOY","CHILIPEPPER YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","MEDUSAFISH","OCTOPUS","ROSY ROCKFISH GROUP YOY","PACIFIC SANDDAB YOY","CALIFORNIA LANTERNFISH","CABEZON YOY","KING-OF-THE-SALMON","HETEROPOD","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","PIPEFISH","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","THETYS SALP","SALP","TURBOT YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":36,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":12751,"Ground Fish":2632,"Crustacean":90,"Euphausiid":297120,"Fish":17,"Gelatinous":9005,"Cephalopod":3453,"Salmonid":0}}},"2015":{"sst":11.6085,"windDegree":-47.994529391558224,"chloro":0.351,"popInfo":{"other rockfish":44,"other groundfish":2910,"flatfish":1878,"cottid":5,"clupeoid":101,"salmonid":0,"smelt":0,"fish":17,"rockfish":43730,"deep-sea smelt":2,"elasmobranch":0,"myctophid":63,"cephalopod":2555,"crustacean":48,"jellyfish":0,"hyperiid amphipod":51,"gelatinous":99468,"euphausiid":34533,"latRange":[37.0023,37.3091],"lonRange":[236.7898,237.0966],"cellID":"44","lat":37.2842,"lon":237.0118,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","CANARY ROCKFISH YOY","SMALLEYE SQUARETAIL","REX SOLE YOY","BASEBALL SQUID","RIGHT EYED FLATFISH YOY","BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","DARKBLOTCHED ROCKFISH YOY","YELLOWEYE ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SQUID","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BLACKGILL ROCKFISH YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","MEDUSAFISH","OCTOPUS","ROSY ROCKFISH GROUP YOY","SAND SOLE YOY","PAINTED GREENLING YOY","PHRONIMA","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","CALIFORNIA LANTERNFISH","CABEZON YOY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","HETEROPOD","COWCOD YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","PACIFIC SARDINE YOY","PIPEFISH","BLACKTIP SQUID","BOCACCIO YOY","THETYS SALP","SALP","BARRACUDINA","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":55,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":171,"Ground Fish":48562,"Crustacean":99,"Euphausiid":34533,"Fish":17,"Gelatinous":99468,"Cephalopod":2555,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-77.52796779560839,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-87.0226819248243,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-61.05957277976312,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[236.7898,237.0966]},{"2009":{"sst":11.165,"windDegree":-9999,"chloro":10.8726,"popInfo":{"other rockfish":0,"other groundfish":11,"flatfish":74,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":0,"fish":65,"rockfish":40,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":78,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":338112,"latRange":[37.0023,37.3091],"lonRange":[237.0966,237.4034],"cellID":"45","lat":37.2647,"lon":237.3632,"uniqueSpecies":["SCULPIN YOY","CANARY ROCKFISH YOY","OCTOPUS","TOTAL KRILL","PACIFIC HAKE YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","DOVER SOLE YOY","PACIFIC SANDDAB","CHILIPEPPER YOY","LINGCOD YOY","COMBFISH","HUMBOLDT SQUID","STRIPETAIL ROCKFISH YOY","SLENDER SOLE","MARKET SQUID","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":20,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1,"Ground Fish":125,"Crustacean":0,"Euphausiid":338112,"Fish":65,"Gelatinous":0,"Cephalopod":78,"Salmonid":0}}},"2010":{"sst":11.3912,"windDegree":-9999,"chloro":8.5391,"popInfo":{"other rockfish":0,"other groundfish":284,"flatfish":262,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":13,"rockfish":68,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":15,"crustacean":2,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":232816,"latRange":[37.0023,37.3091],"lonRange":[237.0966,237.4034],"cellID":"45","lat":37.266,"lon":237.358,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SNAILFISH","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","TOTAL ROCKFISH YOY","OCTOPUS","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","COMBFISH","PACIFIC HAKE YOY","KING-OF-THE-SALMON","ENGLISH SOLE","COPPER ROCKFISH GROUP YOY","PANDALID SHRIMP","BARRACUDINA","SLENDER SOLE","NORTHERN ANCHOVY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":31,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1,"Ground Fish":614,"Crustacean":2,"Euphausiid":232816,"Fish":13,"Gelatinous":0,"Cephalopod":15,"Salmonid":0}}},"2011":{"sst":11.5721,"windDegree":-9999,"chloro":0.7173,"popInfo":{"other rockfish":0,"other groundfish":169,"flatfish":553,"cottid":5,"clupeoid":0,"salmonid":0,"smelt":0,"fish":13,"rockfish":8,"deep-sea smelt":0,"elasmobranch":2,"myctophid":0,"cephalopod":81,"crustacean":1,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":61236,"latRange":[37.0023,37.3091],"lonRange":[237.0966,237.4034],"cellID":"45","lat":37.2705,"lon":237.1815,"uniqueSpecies":["RIGHT EYED FLATFISH YOY","SERGESTID","TOTAL KRILL","BLACKDRAGON","SPECKLED SANDDAB YOY","DOVER SOLE YOY","NORTH PACIFIC SPINY DOGFISH","PACIFIC POMPANO","MARKET SQUID","SCULPIN YOY","TOTAL ROCKFISH YOY","SEA NETTLE","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","COMBFISH","PACIFIC HAKE YOY","ENGLISH SOLE","SLENDER SOLE YOY","PACIFIC HAKE","MOON JELLY","SLENDER SOLE","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":22,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":2,"Small Fish":5,"Ground Fish":732,"Crustacean":1,"Euphausiid":61236,"Fish":13,"Gelatinous":0,"Cephalopod":81,"Salmonid":0}}},"2012":{"sst":11.5056,"windDegree":-9999,"chloro":6.7368,"popInfo":{"other rockfish":1,"other groundfish":12,"flatfish":20,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":1,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":3,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":29889,"latRange":[37.0023,37.3091],"lonRange":[237.0966,237.4034],"cellID":"45","lat":37.2695,"lon":237.1667,"uniqueSpecies":["TOTAL KRILL","GOBY","TOTAL ROCKFISH YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","MARKET SQUID","PACIFIC HAKE YOY","OTHER ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":9,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":34,"Crustacean":0,"Euphausiid":29889,"Fish":1,"Gelatinous":0,"Cephalopod":3,"Salmonid":0}}},"2013":{"sst":12.1045,"windDegree":-9999,"chloro":12.5011,"popInfo":{"other rockfish":0,"other groundfish":321,"flatfish":860,"cottid":3,"clupeoid":4,"salmonid":0,"smelt":0,"fish":28,"rockfish":897,"deep-sea smelt":63,"elasmobranch":3,"myctophid":494,"cephalopod":386,"crustacean":1959,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":209,"euphausiid":794126,"latRange":[37.0023,37.3091],"lonRange":[237.0966,237.4034],"cellID":"45","lat":37.0032,"lon":237.3927,"uniqueSpecies":["BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","BLACKDRAGON","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","NORTH PACIFIC SPINY DOGFISH","MARKET SQUID","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","MEDUSAFISH","PYROSOMA","SHARPCHIN ROCKFISH","OCTOPUS","BLACKSMELT","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","LONGFIN DRAGONFISH","COMBFISH","CABEZON YOY","KING-OF-THE-SALMON","PACIFIC HAKE YOY","COWCOD YOY","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","THETYS SALP","NORTHERN ANCHOVY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY"],"uniqueSpeciesCount":40,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":564,"Ground Fish":2081,"Crustacean":1959,"Euphausiid":794126,"Fish":28,"Gelatinous":209,"Cephalopod":386,"Salmonid":0}}},"2014":{"sst":12.7018,"windDegree":-67.06811511395105,"chloro":4.9938,"popInfo":{"other rockfish":1,"other groundfish":2,"flatfish":229,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":31,"rockfish":128,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":458,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":942,"euphausiid":394140,"latRange":[37.0023,37.3091],"lonRange":[237.0966,237.4034],"cellID":"45","lat":37.273,"lon":237.3525,"uniqueSpecies":["REX SOLE YOY","BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","BANK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","DARKBLOTCHED ROCKFISH YOY","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","PLAINFIN MIDSHIPMAN","WOLF EEL YOY","TOTAL ROCKFISH YOY","PYROSOMA","OCTOPUS","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","OLIVE ROCKFISH YOY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","COPPER ROCKFISH GROUP YOY","GOBY","BOCACCIO YOY","THETYS SALP","SALP","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":30,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":360,"Crustacean":0,"Euphausiid":394140,"Fish":31,"Gelatinous":942,"Cephalopod":458,"Salmonid":0}}},"2015":{"sst":11.5735,"windDegree":-73.38878452064777,"chloro":5.1493,"popInfo":{"other rockfish":32,"other groundfish":114,"flatfish":685,"cottid":0,"clupeoid":84,"salmonid":0,"smelt":0,"fish":20,"rockfish":551,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1377,"crustacean":0,"jellyfish":33,"hyperiid amphipod":7,"gelatinous":65531,"euphausiid":72289,"latRange":[37.0023,37.3091],"lonRange":[237.0966,237.4034],"cellID":"45","lat":37.2755,"lon":237.3685,"uniqueSpecies":["CANARY ROCKFISH YOY","SPLITNOSE ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","BOREAL CLUBHOOK SQUID","JACK MACKEREL","STRIPETAIL ROCKFISH YOY","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","WOLF EEL YOY","TOTAL ROCKFISH YOY","PYROSOMA","MEDUSAFISH","PHRONIMA","OCTOPUS","SAND SOLE YOY","PACIFIC SANDDAB YOY","FRIED EGG JELLY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","HETEROPOD","COWCOD YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","GOBY","PIPEFISH","BLACKTIP SQUID","BOCACCIO YOY","THETYS SALP","SALP","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":40,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":33,"Small Fish":84,"Ground Fish":1382,"Crustacean":7,"Euphausiid":72289,"Fish":20,"Gelatinous":65531,"Cephalopod":1377,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":81.27802113768473,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-43.39229458372397,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-80.5986563055448,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[237.0966,237.4034]},{"2009":{"sst":10.9865,"windDegree":-9999,"chloro":28.8319,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":27,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":9,"rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":25,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":89,"latRange":[37.0023,37.3091],"lonRange":[237.4034,237.7102],"cellID":"46","lat":37.2632,"lon":237.4317,"uniqueSpecies":["SWORD-TAIL SQUID","TOTAL KRILL","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","PACIFIC POMPANO","COMBFISH","MARKET SQUID"],"uniqueSpeciesCount":8,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":27,"Crustacean":0,"Euphausiid":89,"Fish":9,"Gelatinous":0,"Cephalopod":25,"Salmonid":0}}},"2010":{"sst":11.1183,"windDegree":-9999,"chloro":13.0412,"popInfo":{"other rockfish":0,"other groundfish":3,"flatfish":48,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":4,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":95,"crustacean":0,"jellyfish":4,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":5472,"latRange":[37.0023,37.3091],"lonRange":[237.4034,237.7102],"cellID":"46","lat":37.266,"lon":237.4405,"uniqueSpecies":["SWORD-TAIL SQUID","OCTOPUS","CANARY ROCKFISH YOY","TOTAL KRILL","SEA NETTLE","SPECKLED SANDDAB YOY","BLACKTIP SQUID","RIGHT EYED FLATFISH YOY","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","CHILIPEPPER YOY","LINGCOD YOY","COMBFISH","MARKET SQUID","PACIFIC HAKE YOY","TOTAL ROCKFISH YOY","SNAILFISH"],"uniqueSpeciesCount":17,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":4,"Small Fish":0,"Ground Fish":55,"Crustacean":0,"Euphausiid":5472,"Fish":2,"Gelatinous":0,"Cephalopod":95,"Salmonid":0}}},"2011":{"sst":11.1268,"windDegree":-9999,"chloro":4.6523},"2012":{"sst":10.8788,"windDegree":-9999,"chloro":9.6289,"popInfo":{"other rockfish":0,"other groundfish":1,"flatfish":211,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":108,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":176,"crustacean":0,"jellyfish":4,"hyperiid amphipod":0,"gelatinous":196680,"euphausiid":646482,"latRange":[37.0023,37.3091],"lonRange":[237.4034,237.7102],"cellID":"46","lat":37.2778,"lon":237.4257,"uniqueSpecies":["PYROSOMA","TOTAL KRILL","SEA NETTLE","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","SALP","MARKET SQUID","SLENDER SOLE","PACIFIC HAKE YOY","SHORTBELLY ROCKFISH YOY","TOTAL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY"],"uniqueSpeciesCount":14,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":4,"Small Fish":0,"Ground Fish":320,"Crustacean":0,"Euphausiid":646482,"Fish":0,"Gelatinous":196680,"Cephalopod":176,"Salmonid":0}}},"2013":{"sst":11.6569,"windDegree":-9999,"chloro":12.2576,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":379,"cottid":9,"clupeoid":0,"salmonid":0,"smelt":0,"fish":30,"rockfish":2776,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":115,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":11,"euphausiid":212331,"latRange":[37.0023,37.3091],"lonRange":[237.4034,237.7102],"cellID":"46","lat":37.2727,"lon":237.4367,"uniqueSpecies":["WIDOW ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","PLAINFIN MIDSHIPMAN","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","COMBFISH","CABEZON YOY","BOCACCIO YOY","SALP","SLENDER SOLE","EELPOUT","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":21,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":9,"Ground Fish":3155,"Crustacean":0,"Euphausiid":212331,"Fish":30,"Gelatinous":11,"Cephalopod":115,"Salmonid":0}}},"2014":{"sst":12.1279,"windDegree":-9999,"chloro":25.6667,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":201,"cottid":0,"clupeoid":2,"salmonid":0,"smelt":0,"fish":19,"rockfish":38,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":1590,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":98,"euphausiid":445973,"latRange":[37.0023,37.3091],"lonRange":[237.4034,237.7102],"cellID":"46","lat":37.2627,"lon":237.4343,"uniqueSpecies":["PACIFIC SARDINE","PYROSOMA","CANARY ROCKFISH YOY","GOBY","TOTAL KRILL","SAND SOLE YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","PACIFIC POMPANO","SALP","STRIPETAIL ROCKFISH YOY","SLENDER SOLE","MARKET SQUID","SHORTBELLY ROCKFISH YOY","PLAINFIN MIDSHIPMAN","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":18,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":2,"Ground Fish":239,"Crustacean":0,"Euphausiid":445973,"Fish":19,"Gelatinous":98,"Cephalopod":1590,"Salmonid":0}}},"2015":{"sst":11.7803,"windDegree":-9999,"chloro":12.1562,"popInfo":{"other rockfish":16,"other groundfish":4,"flatfish":113,"cottid":0,"clupeoid":106,"salmonid":0,"smelt":0,"fish":19,"rockfish":70,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":154,"crustacean":0,"jellyfish":5,"hyperiid amphipod":2,"gelatinous":38,"euphausiid":516,"latRange":[37.0023,37.3091],"lonRange":[237.4034,237.7102],"cellID":"46","lat":37.2757,"lon":237.4343,"uniqueSpecies":["REX SOLE YOY","RIGHT EYED FLATFISH YOY","RONQUIL","PACIFIC MACKEREL","JACK MACKEREL","STRIPETAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","PHRONIMA","PACIFIC SANDDAB YOY","FRIED EGG JELLY","PACIFIC HAKE YOY","COWCOD YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","GOBY","SALP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":25,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":5,"Small Fish":106,"Ground Fish":203,"Crustacean":2,"Euphausiid":516,"Fish":19,"Gelatinous":38,"Cephalopod":154,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[237.4034,237.7102]},{"2009":{"sst":10.8337,"windDegree":-9999,"chloro":10.1073},"2010":{"sst":10.9991,"windDegree":-9999,"chloro":12.4932},"2011":{"sst":10.4977,"windDegree":-9999,"chloro":6.7054},"2012":{"sst":10.793,"windDegree":-9999,"chloro":8.3944},"2013":{"sst":11.0994,"windDegree":-9999,"chloro":17.489},"2014":{"sst":11.16,"windDegree":-9999,"chloro":24.4608},"2015":{"sst":11.3802,"windDegree":-9999,"chloro":4.6944},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[237.7102,238.017]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[238.017,238.3239]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.0023,37.3091],"lonRange":[238.3239,238.6307]},{"2009":{"sst":12.0762,"windDegree":-73.75168277529751,"chloro":0.6736},"2010":{"sst":12.1559,"windDegree":87.73843247940242,"chloro":1.0351},"2011":{"sst":12.8282,"windDegree":-68.61085004166262,"chloro":0.1482},"2012":{"sst":12.5809,"windDegree":-51.2142776426229,"chloro":1.1172},"2013":{"sst":12.1374,"windDegree":-68.7625544706714,"chloro":0.8849},"2014":{"sst":13.9553,"windDegree":-77.18338182324963,"chloro":0.6572},"2015":{"sst":12.0831,"windDegree":-43.26922918684302,"chloro":0.6135},"2016":{"sst":-9999,"windDegree":-74.7400647411954,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-82.12961248201447,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-66.49321379895225,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[235.5625,235.8693]},{"2009":{"sst":11.4124,"windDegree":-56.29707095055686,"chloro":0.6611},"2010":{"sst":12.0657,"windDegree":50.39487946636441,"chloro":2.9556},"2011":{"sst":12.6976,"windDegree":-70.60391784360002,"chloro":0.1789},"2012":{"sst":12.516,"windDegree":-46.57433282492319,"chloro":1.3666},"2013":{"sst":11.7031,"windDegree":-69.03544585653337,"chloro":0.9406},"2014":{"sst":13.5829,"windDegree":82.80374837832831,"chloro":3.7869},"2015":{"sst":11.5086,"windDegree":-37.16957982188712,"chloro":0.5327},"2016":{"sst":-9999,"windDegree":-74.5720434679527,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-86.79087461998701,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-63.35784334133603,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[235.8693,236.1761]},{"2009":{"sst":11.0892,"windDegree":-89.30649232740775,"chloro":1.6135},"2010":{"sst":11.7899,"windDegree":82.27833668510027,"chloro":3.4842},"2011":{"sst":12.2727,"windDegree":-70.60476530883106,"chloro":0.2582},"2012":{"sst":12.6509,"windDegree":-45.69876564204663,"chloro":0.6897},"2013":{"sst":11.6461,"windDegree":-69.80075473229019,"chloro":1.3182},"2014":{"sst":12.9722,"windDegree":35.03735940010969,"chloro":6.2851},"2015":{"sst":11.6147,"windDegree":-31.53619036300204,"chloro":0.4082},"2016":{"sst":-9999,"windDegree":-79.32618779656713,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-82.7180149804041,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-58.17417162487432,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[236.1761,236.483]},{"2009":{"sst":10.8501,"windDegree":87.93804006784863,"chloro":1.2021},"2010":{"sst":11.4125,"windDegree":59.19660046736714,"chloro":1.4414},"2011":{"sst":11.5023,"windDegree":-76.39880151864683,"chloro":0.4106},"2012":{"sst":12.6053,"windDegree":-41.34864785580077,"chloro":0.5874},"2013":{"sst":11.4929,"windDegree":-76.92544464538555,"chloro":4.0519},"2014":{"sst":12.4789,"windDegree":-48.60032885328506,"chloro":6.7797},"2015":{"sst":11.6154,"windDegree":-28.741236099198282,"chloro":0.3803},"2016":{"sst":-9999,"windDegree":-84.41984865125384,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-87.91353624849695,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-58.52633559799313,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[236.483,236.7898]},{"2009":{"sst":10.6283,"windDegree":-78.75442347800598,"chloro":7.5324},"2010":{"sst":11.0355,"windDegree":-89.03613825829336,"chloro":2.2261},"2011":{"sst":11.441,"windDegree":-75.93987156120633,"chloro":0.4528},"2012":{"sst":11.8925,"windDegree":-34.981941120434605,"chloro":0.6232},"2013":{"sst":11.422,"windDegree":-75.83540640007905,"chloro":5.8928},"2014":{"sst":12.1568,"windDegree":-47.55926154817173,"chloro":8.75},"2015":{"sst":11.3482,"windDegree":-43.66068031801576,"chloro":2.4841},"2016":{"sst":-9999,"windDegree":-80.97136293798665,"chloro":-9999},"2017":{"sst":-9999,"windDegree":88.37830587459587,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-57.14532200627891,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[236.7898,237.0966]},{"2009":{"sst":11.1865,"windDegree":-9999,"chloro":27.8739,"popInfo":{"other rockfish":2,"other groundfish":52,"flatfish":5,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":11,"fish":49,"rockfish":158,"deep-sea smelt":0,"elasmobranch":2,"myctophid":0,"cephalopod":2,"crustacean":0,"jellyfish":5,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":671004,"latRange":[37.3091,37.6159],"lonRange":[237.0966,237.4034],"cellID":"55","lat":37.603,"lon":237.1798,"uniqueSpecies":["CANARY ROCKFISH YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MARKET SQUID","OTHER ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PACIFIC ELECTRIC RAY","SEA NETTLE","COMBFISH","PACIFIC HAKE YOY","SMELT","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":21,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":5,"Small Fish":11,"Ground Fish":219,"Crustacean":0,"Euphausiid":671004,"Fish":49,"Gelatinous":0,"Cephalopod":2,"Salmonid":0}}},"2010":{"sst":11.1047,"windDegree":-9999,"chloro":8.9932,"popInfo":{"other rockfish":3,"other groundfish":27,"flatfish":75,"cottid":4,"clupeoid":0,"salmonid":0,"smelt":0,"fish":4,"rockfish":43,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":52,"crustacean":1,"jellyfish":6,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":495884,"latRange":[37.3091,37.6159],"lonRange":[237.0966,237.4034],"cellID":"55","lat":37.5895,"lon":237.174,"uniqueSpecies":["REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","SCULPIN YOY","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","OCTOPUS","SAND SOLE YOY","SEA NETTLE","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","COMBFISH","PACIFIC HAKE YOY","COPPER ROCKFISH GROUP YOY","PANDALID SHRIMP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":23,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":6,"Small Fish":4,"Ground Fish":148,"Crustacean":1,"Euphausiid":495884,"Fish":4,"Gelatinous":0,"Cephalopod":52,"Salmonid":0}}},"2011":{"sst":11.5038,"windDegree":-9999,"chloro":1.7694},"2012":{"sst":11.2188,"windDegree":-9999,"chloro":21.3139,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":18,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":45,"crustacean":0,"jellyfish":66,"hyperiid amphipod":0,"gelatinous":669,"euphausiid":49050,"latRange":[37.3091,37.6159],"lonRange":[237.0966,237.4034],"cellID":"55","lat":37.5903,"lon":237.173,"uniqueSpecies":["TOTAL KRILL","SEA NETTLE","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","THETYS SALP","SALP","MARKET SQUID"],"uniqueSpeciesCount":7,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":66,"Small Fish":0,"Ground Fish":18,"Crustacean":0,"Euphausiid":49050,"Fish":0,"Gelatinous":669,"Cephalopod":45,"Salmonid":0}}},"2013":{"sst":11.7672,"windDegree":-9999,"chloro":15.6156,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":8,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":7,"rockfish":18,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":112,"crustacean":0,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":266,"euphausiid":1728,"latRange":[37.3091,37.6159],"lonRange":[237.0966,237.4034],"cellID":"55","lat":37.597,"lon":237.1682,"uniqueSpecies":["MEDUSAFISH","TOTAL KRILL","SEA NETTLE","REX SOLE YOY","PACIFIC SANDDAB YOY","CHILIPEPPER YOY","THETYS SALP","MARKET SQUID","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":12,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":0,"Ground Fish":26,"Crustacean":0,"Euphausiid":1728,"Fish":7,"Gelatinous":266,"Cephalopod":112,"Salmonid":0}}},"2014":{"sst":12.0529,"windDegree":-9999,"chloro":13.887,"popInfo":{"other rockfish":2,"other groundfish":2,"flatfish":299,"cottid":2,"clupeoid":0,"salmonid":0,"smelt":0,"fish":67,"rockfish":92,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":648,"crustacean":0,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1140255,"latRange":[37.3091,37.6159],"lonRange":[237.0966,237.4034],"cellID":"55","lat":37.5948,"lon":237.1683,"uniqueSpecies":["CANARY ROCKFISH YOY","TOPSMELT","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","TOTAL ROCKFISH YOY","PAINTED GREENLING YOY","SEA NETTLE","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","CABEZON YOY","BOCACCIO YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":21,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":2,"Small Fish":2,"Ground Fish":395,"Crustacean":0,"Euphausiid":1140255,"Fish":67,"Gelatinous":0,"Cephalopod":648,"Salmonid":0}}},"2015":{"sst":11.5783,"windDegree":-9999,"chloro":10.1669,"popInfo":{"other rockfish":23,"other groundfish":12,"flatfish":212,"cottid":0,"clupeoid":41,"salmonid":0,"smelt":0,"fish":7,"rockfish":363,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":415,"crustacean":0,"jellyfish":35,"hyperiid amphipod":0,"gelatinous":70,"euphausiid":3534,"latRange":[37.3091,37.6159],"lonRange":[237.0966,237.4034],"cellID":"55","lat":37.5935,"lon":237.1755,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","SAND SOLE YOY","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","FRIED EGG JELLY","COMBFISH","PACIFIC HAKE YOY","COWCOD YOY","COPPER ROCKFISH GROUP YOY","PACIFIC SARDINE YOY","CALIFORNIA LIZARDFISH","SALP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":28,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":35,"Small Fish":41,"Ground Fish":610,"Crustacean":0,"Euphausiid":3534,"Fish":7,"Gelatinous":70,"Cephalopod":415,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[237.0966,237.4034]},{"2009":{"sst":11.0951,"windDegree":-9999,"chloro":23.1268},"2010":{"sst":11.437,"windDegree":-9999,"chloro":18.8731},"2011":{"sst":11.4701,"windDegree":-9999,"chloro":7.6138},"2012":{"sst":11.4978,"windDegree":-9999,"chloro":25.421},"2013":{"sst":11.9083,"windDegree":-9999,"chloro":26.5302},"2014":{"sst":12.7746,"windDegree":-9999,"chloro":25.2387},"2015":{"sst":12.2916,"windDegree":-9999,"chloro":22.098},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[237.4034,237.7102]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":12.5542},"2010":{"sst":15.3548,"windDegree":-9999,"chloro":14.6581},"2011":{"sst":15.1825,"windDegree":-9999,"chloro":13.351},"2012":{"sst":14.2085,"windDegree":-9999,"chloro":13.0771},"2013":{"sst":16.0875,"windDegree":-9999,"chloro":8.86},"2014":{"sst":15.2562,"windDegree":-9999,"chloro":9.192},"2015":{"sst":17.6011,"windDegree":-9999,"chloro":10.1364},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[237.7102,238.017]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[238.017,238.3239]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.3091,37.6159],"lonRange":[238.3239,238.6307]},{"2009":{"sst":11.5045,"windDegree":51.503453285801406,"chloro":0.8641},"2010":{"sst":11.837,"windDegree":-79.49117973417351,"chloro":0.6714},"2011":{"sst":12.4331,"windDegree":-66.04127047559399,"chloro":0.2725},"2012":{"sst":11.9213,"windDegree":-49.76207096811637,"chloro":1.1108},"2013":{"sst":12.1136,"windDegree":-68.49037551364681,"chloro":0.8059},"2014":{"sst":13.5811,"windDegree":-73.0045689053651,"chloro":2.797},"2015":{"sst":11.9112,"windDegree":-42.87851242126988,"chloro":0.6205},"2016":{"sst":-9999,"windDegree":-74.0238185558535,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-80.94697853182761,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-64.80921363755242,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[235.5625,235.8693]},{"2009":{"sst":11.1135,"windDegree":-13.917654051504798,"chloro":0.8779},"2010":{"sst":11.3994,"windDegree":84.54698586644203,"chloro":1.8656},"2011":{"sst":12.1878,"windDegree":-66.23670273272622,"chloro":0.4998},"2012":{"sst":12.063,"windDegree":-48.14114107924846,"chloro":0.8391},"2013":{"sst":11.7018,"windDegree":-66.47256569365467,"chloro":0.9087},"2014":{"sst":13.5082,"windDegree":-88.87732634489637,"chloro":1.4282},"2015":{"sst":11.4215,"windDegree":-33.3001943865368,"chloro":0.5563},"2016":{"sst":-9999,"windDegree":-73.3506328439503,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-84.1838642032783,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-61.19030339678759,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[235.8693,236.1761]},{"2009":{"sst":10.7861,"windDegree":58.12279970868638,"chloro":1.4081},"2010":{"sst":11.2317,"windDegree":-83.56060254850811,"chloro":1.2038},"2011":{"sst":12.178,"windDegree":-67.71896150859571,"chloro":0.649},"2012":{"sst":11.4217,"windDegree":-46.11874346677126,"chloro":0.8691},"2013":{"sst":11.3948,"windDegree":-66.15176561053293,"chloro":2.3254},"2014":{"sst":13.1031,"windDegree":23.97661582958327,"chloro":3.1402},"2015":{"sst":11.3833,"windDegree":-32.276450827365295,"chloro":0.7601},"2016":{"sst":-9999,"windDegree":-81.19727663989816,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-87.03442872968279,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-57.292522617317786,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[236.1761,236.483]},{"2009":{"sst":10.2578,"windDegree":45.464868656156476,"chloro":8.3244,"popInfo":{"other rockfish":1,"other groundfish":532,"flatfish":6,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":210,"deep-sea smelt":5,"elasmobranch":0,"myctophid":1619,"cephalopod":38,"crustacean":58,"jellyfish":25,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":474184,"latRange":[37.6159,37.9227],"lonRange":[236.483,236.7898],"cellID":"63","lat":37.8728,"lon":236.6963,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SQUID","CHILIPEPPER YOY","BLACK ROCKFISH YOY","MARKET SQUID","SCULPIN YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PACIFIC ARGENTINE","BLACKSMELT","OCTOPUS","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","CALIFORNIA LANTERNFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","BLACKTIP SQUID","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":31,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":25,"Small Fish":1625,"Ground Fish":749,"Crustacean":58,"Euphausiid":474184,"Fish":1,"Gelatinous":0,"Cephalopod":38,"Salmonid":0}}},"2010":{"sst":10.5753,"windDegree":79.0258228830184,"chloro":0.9997,"popInfo":{"other rockfish":1,"other groundfish":314,"flatfish":52,"cottid":4,"clupeoid":1,"salmonid":0,"smelt":0,"fish":8,"rockfish":84,"deep-sea smelt":1,"elasmobranch":0,"myctophid":870,"cephalopod":22,"crustacean":124,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":22684,"latRange":[37.6159,37.9227],"lonRange":[236.483,236.7898],"cellID":"63","lat":37.8855,"lon":236.5307,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SNAILFISH","SERGESTID","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","MYCTOPHID","TOTAL ROCKFISH YOY","STARRY FLOUNDER YOY","OCTOPUS","PAINTED GREENLING YOY","SEA NETTLE","PACIFIC SANDDAB YOY","PACIFIC HAKE YOY","COPPER ROCKFISH GROUP YOY","GOBY","CALIFORNIA SMOOTHTONGUE","PANDALID SHRIMP","BARRACUDINA","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":29,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":876,"Ground Fish":451,"Crustacean":124,"Euphausiid":22684,"Fish":8,"Gelatinous":0,"Cephalopod":22,"Salmonid":0}}},"2011":{"sst":11.176,"windDegree":-67.10858481503217,"chloro":0.4334,"popInfo":{"other rockfish":1,"other groundfish":65,"flatfish":161,"cottid":3,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":49,"deep-sea smelt":5,"elasmobranch":0,"myctophid":0,"cephalopod":8,"crustacean":52,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":90100,"latRange":[37.6159,37.9227],"lonRange":[236.483,236.7898],"cellID":"63","lat":37.8855,"lon":236.677,"uniqueSpecies":["CANARY ROCKFISH YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","MARKET SQUID","SCULPIN YOY","OTHER ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","PACIFIC SANDDAB YOY","PACIFIC HAKE YOY","SLENDER SOLE YOY","PANDALID SHRIMP","CALIFORNIA SMOOTHTONGUE","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":24,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":8,"Ground Fish":276,"Crustacean":52,"Euphausiid":90100,"Fish":0,"Gelatinous":0,"Cephalopod":8,"Salmonid":0}}},"2012":{"sst":10.9976,"windDegree":-41.78822558800307,"chloro":0.686,"popInfo":{"other rockfish":0,"other groundfish":119,"flatfish":36,"cottid":0,"clupeoid":7,"salmonid":0,"smelt":0,"fish":2,"rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":13,"cephalopod":0,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":22592,"euphausiid":162510,"latRange":[37.6159,37.9227],"lonRange":[236.483,236.7898],"cellID":"63","lat":37.8815,"lon":236.509,"uniqueSpecies":["PACIFIC SARDINE","PYROSOMA","PACIFIC HAKE","TOTAL KRILL","MYCTOPHID","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","THETYS SALP","SALP","PACIFIC MACKEREL","LAMPREY"],"uniqueSpeciesCount":11,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":20,"Ground Fish":155,"Crustacean":0,"Euphausiid":162510,"Fish":2,"Gelatinous":22592,"Cephalopod":0,"Salmonid":0}}},"2013":{"sst":10.9307,"windDegree":-71.42729991479062,"chloro":0.8869,"popInfo":{"other rockfish":0,"other groundfish":15,"flatfish":267,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":36,"deep-sea smelt":12,"elasmobranch":0,"myctophid":68,"cephalopod":46,"crustacean":4,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":136,"euphausiid":105103,"latRange":[37.6159,37.9227],"lonRange":[236.483,236.7898],"cellID":"63","lat":37.8883,"lon":236.499,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","PACIFIC SANDDAB YOY","EEL LARVAE","PACIFIC HAKE YOY","THETYS SALP","BARRACUDINA","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":21,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":80,"Ground Fish":318,"Crustacean":4,"Euphausiid":105103,"Fish":2,"Gelatinous":136,"Cephalopod":46,"Salmonid":0}}},"2014":{"sst":11.544,"windDegree":-38.16982295503773,"chloro":10.8773,"popInfo":{"other rockfish":1,"other groundfish":6,"flatfish":30,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":3,"rockfish":110,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":8,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":454,"euphausiid":4875,"latRange":[37.6159,37.9227],"lonRange":[236.483,236.7898],"cellID":"63","lat":37.8833,"lon":236.6847,"uniqueSpecies":["LINGCOD YOY","STRIPETAIL ROCKFISH YOY","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","SHORTBELLY ROCKFISH","MARKET SQUID","OTHER ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","MEDUSAFISH","PYROSOMA","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","COMBFISH","COPPER ROCKFISH GROUP YOY","PACIFIC SARDINE","THETYS SALP","SALP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":23,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1,"Ground Fish":147,"Crustacean":0,"Euphausiid":4875,"Fish":3,"Gelatinous":454,"Cephalopod":8,"Salmonid":0}}},"2015":{"sst":11.104,"windDegree":-23.089359022870674,"chloro":1.0215,"popInfo":{"other rockfish":284,"other groundfish":582,"flatfish":986,"cottid":0,"clupeoid":210,"salmonid":0,"smelt":0,"fish":54,"rockfish":1440,"deep-sea smelt":10,"elasmobranch":0,"myctophid":24,"cephalopod":235,"crustacean":3,"jellyfish":0,"hyperiid amphipod":7,"gelatinous":4961,"euphausiid":895151,"latRange":[37.6159,37.9227],"lonRange":[236.483,236.7898],"cellID":"63","lat":37.8828,"lon":236.4927,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","DARKBLOTCHED ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","PACIFIC ARGENTINE","OCTOPUS","ROSY ROCKFISH GROUP YOY","SAND SOLE YOY","PHRONIMA","PACIFIC SANDDAB YOY","OCTOPOTEUTHIS","COMBFISH","PACIFIC HAKE YOY","KING-OF-THE-SALMON","COWCOD YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC HAKE","PACIFIC SARDINE YOY","GOBY","BLACKTIP SQUID","THETYS SALP","SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":46,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":244,"Ground Fish":3292,"Crustacean":10,"Euphausiid":895151,"Fish":54,"Gelatinous":4961,"Cephalopod":235,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-77.05618104391789,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-88.62603182140327,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-54.35766779145655,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[236.483,236.7898]},{"2009":{"sst":10.1375,"windDegree":46.6478246019639,"chloro":19.8248,"popInfo":{"other rockfish":7,"other groundfish":227,"flatfish":86,"cottid":16,"clupeoid":1,"salmonid":2,"smelt":3,"fish":904,"rockfish":605,"deep-sea smelt":14,"elasmobranch":3,"myctophid":1151,"cephalopod":142,"crustacean":1159,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1321739,"latRange":[37.6159,37.9227],"lonRange":[236.7898,237.0966],"cellID":"64","lat":37.6447,"lon":236.7995,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","BERRYTEUTHIS","ARMHOOK SQUID","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","KING SALMON YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SNAILFISH","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","NORTH PACIFIC SPINY DOGFISH","BLACK ROCKFISH YOY","SCULPIN YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","SAND SOLE YOY","SEA NETTLE","CRANGON SHRIMP","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","CALIFORNIA LANTERNFISH","PACIFIC HAKE YOY","ENGLISH SOLE","BLUE LANTERNFISH","PACIFIC SARDINE","SLENDER SOLE YOY","PACIFIC HAKE","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","SMELT","BOCACCIO YOY","BARRACUDINA","SLENDER SOLE","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":49,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":1185,"Ground Fish":928,"Crustacean":1159,"Euphausiid":1321739,"Fish":904,"Gelatinous":0,"Cephalopod":142,"Salmonid":2}}},"2010":{"sst":10.4442,"windDegree":-82.03728454523673,"chloro":4.7407,"popInfo":{"other rockfish":7,"other groundfish":321,"flatfish":271,"cottid":7,"clupeoid":0,"salmonid":0,"smelt":0,"fish":11,"rockfish":145,"deep-sea smelt":47,"elasmobranch":0,"myctophid":867,"cephalopod":329,"crustacean":847,"jellyfish":75,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":802222,"latRange":[37.6159,37.9227],"lonRange":[236.7898,237.0966],"cellID":"64","lat":37.6525,"lon":236.7905,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","WIDOW ROCKFISH YOY","LINGCOD YOY","RONQUIL","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SNAILFISH","SWORD-TAIL SQUID","TOTAL KRILL","LOOSEJAW","BLACKDRAGON","SQUID","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","SCULPIN YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","PAINTED GREENLING YOY","SEA NETTLE","CRANGON SHRIMP","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC SANDDAB","CALIFORNIA LANTERNFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","CALIFORNIA SMOOTHTONGUE","PANDALID SHRIMP","BOCACCIO YOY","BARRACUDINA","EELPOUT","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":45,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":75,"Small Fish":921,"Ground Fish":744,"Crustacean":847,"Euphausiid":802222,"Fish":11,"Gelatinous":0,"Cephalopod":329,"Salmonid":0}}},"2011":{"sst":10.8871,"windDegree":-63.937074695526455,"chloro":0.9776,"popInfo":{"other rockfish":6,"other groundfish":262,"flatfish":263,"cottid":8,"clupeoid":1,"salmonid":0,"smelt":0,"fish":14,"rockfish":317,"deep-sea smelt":158,"elasmobranch":0,"myctophid":539,"cephalopod":561,"crustacean":637,"jellyfish":357,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":1371796,"latRange":[37.6159,37.9227],"lonRange":[236.7898,237.0966],"cellID":"64","lat":37.7,"lon":237.0957,"uniqueSpecies":["CANARY ROCKFISH YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","GREENLING YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SNAILFISH","SWORD-TAIL SQUID","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","SCULPIN YOY","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","STARRY FLOUNDER YOY","BLACKSMELT","OCTOPUS","SEA NETTLE","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","PACIFIC HAKE YOY","KING-OF-THE-SALMON","ARROWTOOTH FLOUNDER YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC HAKE","PANDALID SHRIMP","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","NORTHERN ANCHOVY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":47,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":357,"Small Fish":706,"Ground Fish":848,"Crustacean":637,"Euphausiid":1371796,"Fish":14,"Gelatinous":0,"Cephalopod":561,"Salmonid":0}}},"2012":{"sst":10.4753,"windDegree":-27.525913985451314,"chloro":1.2337,"popInfo":{"other rockfish":1,"other groundfish":0,"flatfish":11,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":2,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":100,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":5714,"euphausiid":205724,"latRange":[37.6159,37.9227],"lonRange":[236.7898,237.0966],"cellID":"64","lat":37.6595,"lon":236.9533,"uniqueSpecies":["PYROSOMA","TOTAL KRILL","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","BOCACCIO YOY","THETYS SALP","SALP","MARKET SQUID","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":9,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":14,"Crustacean":0,"Euphausiid":205724,"Fish":0,"Gelatinous":5714,"Cephalopod":100,"Salmonid":0}}},"2013":{"sst":10.7176,"windDegree":15.328097359584042,"chloro":5.3868,"popInfo":{"other rockfish":0,"other groundfish":289,"flatfish":257,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":14,"rockfish":340,"deep-sea smelt":0,"elasmobranch":0,"myctophid":6,"cephalopod":926,"crustacean":73,"jellyfish":264,"hyperiid amphipod":0,"gelatinous":48,"euphausiid":518470,"latRange":[37.6159,37.9227],"lonRange":[236.7898,237.0966],"cellID":"64","lat":37.6945,"lon":237.0948,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SNAILFISH","SERGESTID","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","PACIFIC POMPANO","MARKET SQUID","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","MEDUSAFISH","PYROSOMA","SEA NETTLE","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","PACIFIC HAKE YOY","ARROWTOOTH FLOUNDER YOY","BLUE LANTERNFISH","PACIFIC HAKE","GOBY","PANDALID SHRIMP","BOCACCIO YOY","THETYS SALP","SALP","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":32,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":264,"Small Fish":6,"Ground Fish":886,"Crustacean":73,"Euphausiid":518470,"Fish":14,"Gelatinous":48,"Cephalopod":926,"Salmonid":0}}},"2014":{"sst":11.2024,"windDegree":-13.881238038239012,"chloro":26.0122,"popInfo":{"other rockfish":6,"other groundfish":190,"flatfish":236,"cottid":0,"clupeoid":1,"salmonid":0,"smelt":0,"fish":87,"rockfish":1266,"deep-sea smelt":4700,"elasmobranch":0,"myctophid":1410,"cephalopod":555,"crustacean":1707,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":431,"euphausiid":2092750,"latRange":[37.6159,37.9227],"lonRange":[236.7898,237.0966],"cellID":"64","lat":37.649,"lon":236.9425,"uniqueSpecies":["CANARY ROCKFISH YOY","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","PALLID EELPOUT","SERGESTID","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","HALFBANDED ROCKFISH YOY","LOOSEJAW","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","SHORTBELLY ROCKFISH","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PLAINFIN MIDSHIPMAN","PYROSOMA","BLACKSMELT","MEDUSAFISH","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","LONGFIN DRAGONFISH","PACIFIC HAKE YOY","COWCOD YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","PACIFIC SARDINE","CALIFORNIA SMOOTHTONGUE","SALP","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":35,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":6111,"Ground Fish":1698,"Crustacean":1707,"Euphausiid":2092750,"Fish":87,"Gelatinous":431,"Cephalopod":555,"Salmonid":0}}},"2015":{"sst":10.8619,"windDegree":-57.54426178276215,"chloro":6.4061,"popInfo":{"other rockfish":51,"other groundfish":208,"flatfish":390,"cottid":0,"clupeoid":23,"salmonid":0,"smelt":0,"fish":44,"rockfish":561,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":115,"crustacean":0,"jellyfish":5,"hyperiid amphipod":37,"gelatinous":27778,"euphausiid":25005,"latRange":[37.6159,37.9227],"lonRange":[236.7898,237.0966],"cellID":"64","lat":37.7445,"lon":236.8597,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","MARKET SQUID","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","PACIFIC ARGENTINE","PHRONIMA","OCTOPUS","SAND SOLE YOY","PACIFIC SANDDAB YOY","FRIED EGG JELLY","COMBFISH","KING-OF-THE-SALMON","PACIFIC HAKE YOY","HETEROPOD","COWCOD YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","GOBY","BLACKTIP SQUID","BOCACCIO YOY","THETYS SALP","SALP","BARRACUDINA","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":37,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":5,"Small Fish":23,"Ground Fish":1210,"Crustacean":37,"Euphausiid":25005,"Fish":44,"Gelatinous":27778,"Cephalopod":115,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":70.81276124043484,"chloro":-9999},"2017":{"sst":-9999,"windDegree":68.24438342837513,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-48.940455635498864,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[236.7898,237.0966]},{"2009":{"sst":10.926,"windDegree":-9999,"chloro":25.2601,"popInfo":{"other rockfish":1,"other groundfish":5,"flatfish":13,"cottid":4,"clupeoid":10,"salmonid":1,"smelt":3,"fish":90,"rockfish":185,"deep-sea smelt":0,"elasmobranch":1,"myctophid":0,"cephalopod":3,"crustacean":0,"jellyfish":4,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":254502,"latRange":[37.6159,37.9227],"lonRange":[237.0966,237.4034],"cellID":"65","lat":37.7882,"lon":237.162,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","GREENLING YOY","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","SCULPIN YOY","MARKET SQUID","OTHER ROCKFISH YOY","PACIFIC HERRING","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","OCTOPUS","PACIFIC ELECTRIC RAY","PACIFIC HAKE YOY","ENGLISH SOLE","COPPER ROCKFISH GROUP YOY","SMELT","BOCACCIO YOY","KING SALMON","MOON JELLY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":29,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":4,"Small Fish":17,"Ground Fish":205,"Crustacean":0,"Euphausiid":254502,"Fish":90,"Gelatinous":0,"Cephalopod":3,"Salmonid":1}}},"2010":{"sst":10.8933,"windDegree":-9999,"chloro":13.0717},"2011":{"sst":11.3937,"windDegree":-9999,"chloro":3.8174},"2012":{"sst":11.0697,"windDegree":-9999,"chloro":8.6541,"popInfo":{"other rockfish":0,"other groundfish":2,"flatfish":10,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":185,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":264,"euphausiid":48942,"latRange":[37.6159,37.9227],"lonRange":[237.0966,237.4034],"cellID":"65","lat":37.7932,"lon":237.1272,"uniqueSpecies":["TOTAL KRILL","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","TOPSMELT","LINGCOD YOY","SALP","MARKET SQUID"],"uniqueSpeciesCount":7,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":12,"Crustacean":0,"Euphausiid":48942,"Fish":3,"Gelatinous":264,"Cephalopod":185,"Salmonid":0}}},"2013":{"sst":11.4446,"windDegree":-9999,"chloro":16.6997,"popInfo":{"other rockfish":0,"other groundfish":22,"flatfish":288,"cottid":0,"clupeoid":0,"salmonid":2,"smelt":3,"fish":22,"rockfish":50,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":142,"crustacean":0,"jellyfish":65,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":23725,"latRange":[37.6159,37.9227],"lonRange":[237.0966,237.4034],"cellID":"65","lat":37.7955,"lon":237.1072,"uniqueSpecies":["MEDUSAFISH","CANARY ROCKFISH YOY","OCTOPUS","TOTAL KRILL","SEA NETTLE","REX SOLE YOY","PACIFIC HAKE YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","BROWN ROCKFISH YOY","PACIFIC SANDDAB","CHILIPEPPER YOY","SMELT","LINGCOD YOY","PACIFIC POMPANO","KING SALMON YOY","MARKET SQUID","SHORTBELLY ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":20,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":65,"Small Fish":3,"Ground Fish":360,"Crustacean":0,"Euphausiid":23725,"Fish":22,"Gelatinous":0,"Cephalopod":142,"Salmonid":2}}},"2014":{"sst":11.8788,"windDegree":-9999,"chloro":25.1872,"popInfo":{"other rockfish":0,"other groundfish":8,"flatfish":320,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":55,"rockfish":208,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":2000,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":759476,"latRange":[37.6159,37.9227],"lonRange":[237.0966,237.4034],"cellID":"65","lat":37.7003,"lon":237.0967,"uniqueSpecies":["COPPER ROCKFISH GROUP YOY","CANARY ROCKFISH YOY","TOTAL KRILL","SAND SOLE YOY","GOBY","STRIPETAIL ROCKFISH YOY","SPECKLED SANDDAB YOY","BLUE ROCKFISH YOY","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","CHILIPEPPER YOY","BOCACCIO YOY","TOPSMELT","MARKET SQUID","PACIFIC HAKE YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","PLAINFIN MIDSHIPMAN","TOTAL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY"],"uniqueSpeciesCount":20,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":0,"Ground Fish":536,"Crustacean":0,"Euphausiid":759476,"Fish":55,"Gelatinous":0,"Cephalopod":2000,"Salmonid":0}}},"2015":{"sst":11.153,"windDegree":-9999,"chloro":15.0412,"popInfo":{"other rockfish":22,"other groundfish":180,"flatfish":1611,"cottid":4,"clupeoid":38,"salmonid":0,"smelt":0,"fish":78,"rockfish":548,"deep-sea smelt":0,"elasmobranch":2,"myctophid":0,"cephalopod":742,"crustacean":0,"jellyfish":11,"hyperiid amphipod":2,"gelatinous":2,"euphausiid":8051,"latRange":[37.6159,37.9227],"lonRange":[237.0966,237.4034],"cellID":"65","lat":37.7788,"lon":237.1473,"uniqueSpecies":["SPLITNOSE ROCKFISH YOY","POACHER","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","NORTHERN ANCHOVY YOY","MARKET SQUID","SCULPIN YOY","OTHER ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","PACIFIC ELECTRIC RAY","PHRONIMA","SAND SOLE YOY","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","FRIED EGG JELLY","PACIFIC HAKE YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","GOBY","CALIFORNIA LIZARDFISH","JACKSMELT","BOCACCIO YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY","TURBOT YOY"],"uniqueSpeciesCount":38,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":11,"Small Fish":42,"Ground Fish":2363,"Crustacean":2,"Euphausiid":8051,"Fish":78,"Gelatinous":2,"Cephalopod":742,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[237.0966,237.4034]},{"2009":{"sst":12.8341,"windDegree":-9999,"chloro":12.8043},"2010":{"sst":13.2059,"windDegree":-9999,"chloro":16.8416},"2011":{"sst":13.4941,"windDegree":-9999,"chloro":13.7267},"2012":{"sst":13.6218,"windDegree":-9999,"chloro":12.576},"2013":{"sst":13.5164,"windDegree":-9999,"chloro":12.2089},"2014":{"sst":14.2198,"windDegree":-9999,"chloro":18.4356},"2015":{"sst":13.9199,"windDegree":-9999,"chloro":19.1075},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[237.4034,237.7102]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":12.0784},"2010":{"sst":14.9893,"windDegree":-9999,"chloro":10.7923},"2011":{"sst":15.2041,"windDegree":-9999,"chloro":13.3485},"2012":{"sst":13.8674,"windDegree":-9999,"chloro":10.8319},"2013":{"sst":15.7657,"windDegree":-9999,"chloro":8.1456},"2014":{"sst":15.135,"windDegree":-9999,"chloro":8.6824},"2015":{"sst":16.4039,"windDegree":-9999,"chloro":9.0319},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[237.7102,238.017]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[238.017,238.3239]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.6159,37.9227],"lonRange":[238.3239,238.6307]},{"2009":{"sst":11.0724,"windDegree":-0.39862299219257274,"chloro":1.371},"2010":{"sst":11.9414,"windDegree":-68.19218038599256,"chloro":1.0219},"2011":{"sst":11.5327,"windDegree":-70.38770609748467,"chloro":0.5533},"2012":{"sst":11.8565,"windDegree":-52.63617395222085,"chloro":1.6174},"2013":{"sst":12.4823,"windDegree":-70.56700093697638,"chloro":0.7537},"2014":{"sst":13.0006,"windDegree":-80.33921120409836,"chloro":2.475},"2015":{"sst":12.1441,"windDegree":-39.96828035319759,"chloro":1.009},"2016":{"sst":-9999,"windDegree":-80.26724553151595,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-78.21277349295963,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-63.602447808736684,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[235.5625,235.8693]},{"2009":{"sst":10.7826,"windDegree":30.8080897249165,"chloro":1.6513},"2010":{"sst":11.9177,"windDegree":-75.90779949864904,"chloro":0.7373},"2011":{"sst":11.378,"windDegree":-67.10872965691613,"chloro":0.5386},"2012":{"sst":11.3832,"windDegree":-52.79402621851301,"chloro":1.1489},"2013":{"sst":12.1467,"windDegree":-68.16686971114133,"chloro":0.8458},"2014":{"sst":12.758,"windDegree":88.28338319474297,"chloro":4.5527},"2015":{"sst":11.915,"windDegree":-42.67759149547174,"chloro":0.931},"2016":{"sst":-9999,"windDegree":-75.92035674914385,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-81.99052946331418,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-61.72910826989515,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[235.8693,236.1761]},{"2009":{"sst":10.3925,"windDegree":-9999,"chloro":2.0516},"2010":{"sst":11.562,"windDegree":-9999,"chloro":1.39},"2011":{"sst":11.1904,"windDegree":-56.35476128937668,"chloro":1.0689},"2012":{"sst":10.8625,"windDegree":-9999,"chloro":0.9832},"2013":{"sst":11.5656,"windDegree":-67.73273632369308,"chloro":1.0036},"2014":{"sst":12.0934,"windDegree":-2.145157362353484,"chloro":10.025},"2015":{"sst":11.0465,"windDegree":-31.812318724721546,"chloro":1.7985},"2016":{"sst":-9999,"windDegree":-77.99143336751821,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-85.39984727000589,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-57.489043707746994,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[236.1761,236.483]},{"2009":{"sst":9.7069,"windDegree":-9999,"chloro":15.1549,"popInfo":{"other rockfish":0,"other groundfish":21,"flatfish":3,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":22,"deep-sea smelt":0,"elasmobranch":0,"myctophid":1,"cephalopod":2,"crustacean":0,"jellyfish":3,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":202272,"latRange":[37.9227,38.2295],"lonRange":[236.483,236.7898],"cellID":"73","lat":38.1603,"lon":236.6447,"uniqueSpecies":["CANARY ROCKFISH YOY","PACIFIC HAKE","OCTOPUS","TOTAL KRILL","SPECKLED SANDDAB YOY","MARKET SQUID","BOCACCIO YOY","STRIPETAIL ROCKFISH YOY","MOON JELLY","PACIFIC HAKE YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY"],"uniqueSpeciesCount":14,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":3,"Small Fish":1,"Ground Fish":46,"Crustacean":0,"Euphausiid":202272,"Fish":0,"Gelatinous":0,"Cephalopod":2,"Salmonid":0}}},"2010":{"sst":10.6962,"windDegree":-9999,"chloro":1.4565,"popInfo":{"other rockfish":0,"other groundfish":180,"flatfish":35,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":166,"deep-sea smelt":9,"elasmobranch":0,"myctophid":255,"cephalopod":36,"crustacean":14,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":11908,"latRange":[37.9227,38.2295],"lonRange":[236.483,236.7898],"cellID":"73","lat":38.1618,"lon":236.6388,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SNAILFISH","SERGESTID","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MYCTOPHID","TOTAL ROCKFISH YOY","BLACKSMELT","OCTOPUS","SAND SOLE YOY","PACIFIC SANDDAB YOY","PACIFIC HAKE YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","CALIFORNIA SMOOTHTONGUE","BOCACCIO YOY","BARRACUDINA","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":25,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":264,"Ground Fish":381,"Crustacean":14,"Euphausiid":11908,"Fish":3,"Gelatinous":0,"Cephalopod":36,"Salmonid":0}}},"2011":{"sst":10.3311,"windDegree":-44.98750684598923,"chloro":0.4348,"popInfo":{"other rockfish":1,"other groundfish":148,"flatfish":108,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":103,"deep-sea smelt":0,"elasmobranch":0,"myctophid":1,"cephalopod":126,"crustacean":138,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":63187,"latRange":[37.9227,38.2295],"lonRange":[236.483,236.7898],"cellID":"73","lat":38.1682,"lon":236.6337,"uniqueSpecies":["SLENDER SOLE YOY","CANARY ROCKFISH YOY","TOTAL KRILL","PACIFIC HAKE","OCTOPUS","SPECKLED SANDDAB YOY","BLACKTIP SQUID","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","KING-OF-THE-SALMON","CHILIPEPPER YOY","OTHER ROCKFISH YOY","ARMHOOK SQUID","PACIFIC HAKE YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","SERGESTID"],"uniqueSpeciesCount":19,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1,"Ground Fish":360,"Crustacean":138,"Euphausiid":63187,"Fish":1,"Gelatinous":0,"Cephalopod":126,"Salmonid":0}}},"2012":{"sst":10.1567,"windDegree":-9999,"chloro":0.726,"popInfo":{"other rockfish":0,"other groundfish":152,"flatfish":12,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":2,"cephalopod":1,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":4745,"euphausiid":8409,"latRange":[37.9227,38.2295],"lonRange":[236.483,236.7898],"cellID":"73","lat":38.1682,"lon":236.6333,"uniqueSpecies":["PYROSOMA","TOTAL KRILL","PACIFIC HAKE","OCTOPUS","LAMPREY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","SALP","PACIFIC HAKE YOY","MYCTOPHID"],"uniqueSpeciesCount":10,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":2,"Ground Fish":164,"Crustacean":0,"Euphausiid":8409,"Fish":3,"Gelatinous":4745,"Cephalopod":1,"Salmonid":0}}},"2013":{"sst":10.6731,"windDegree":-71.22007182673607,"chloro":0.7392,"popInfo":{"other rockfish":0,"other groundfish":71,"flatfish":1566,"cottid":3,"clupeoid":0,"salmonid":0,"smelt":0,"fish":9,"rockfish":212,"deep-sea smelt":0,"elasmobranch":0,"myctophid":110,"cephalopod":116,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":561,"euphausiid":210707,"latRange":[37.9227,38.2295],"lonRange":[236.483,236.7898],"cellID":"73","lat":38.1652,"lon":236.6338,"uniqueSpecies":["CANARY ROCKFISH YOY","POACHER","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","MARKET SQUID","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","MEDUSAFISH","PYROSOMA","OCTOPUS","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","CABEZON YOY","KING-OF-THE-SALMON","PACIFIC HAKE YOY","ARROWTOOTH FLOUNDER YOY","BLUE LANTERNFISH","BLACKTIP SQUID","THETYS SALP","SALP","BARRACUDINA","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY","TURBOT YOY"],"uniqueSpeciesCount":32,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":113,"Ground Fish":1849,"Crustacean":0,"Euphausiid":210707,"Fish":9,"Gelatinous":561,"Cephalopod":116,"Salmonid":0}}},"2014":{"sst":10.9663,"windDegree":-8.269164972814288,"chloro":16.4318,"popInfo":{"other rockfish":1,"other groundfish":60,"flatfish":438,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":145,"deep-sea smelt":0,"elasmobranch":0,"myctophid":43,"cephalopod":135,"crustacean":51,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":348,"euphausiid":425400,"latRange":[37.9227,38.2295],"lonRange":[236.483,236.7898],"cellID":"73","lat":38.1682,"lon":236.634,"uniqueSpecies":["CANARY ROCKFISH YOY","RIGHT EYED FLATFISH YOY","BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","MARKET SQUID","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","OCTOPUS","PACIFIC SANDDAB YOY","PACIFIC HAKE YOY","KING-OF-THE-SALMON","HETEROPOD","BLUE LANTERNFISH","PACIFIC HAKE","BLACKTIP SQUID","THETYS SALP","SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":30,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":43,"Ground Fish":644,"Crustacean":51,"Euphausiid":425400,"Fish":3,"Gelatinous":348,"Cephalopod":135,"Salmonid":0}}},"2015":{"sst":10.2223,"windDegree":-31.570560777763212,"chloro":5.5326,"popInfo":{"other rockfish":4,"other groundfish":17,"flatfish":174,"cottid":0,"clupeoid":15,"salmonid":0,"smelt":0,"fish":3,"rockfish":170,"deep-sea smelt":3,"elasmobranch":0,"myctophid":0,"cephalopod":4,"crustacean":50,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":68,"euphausiid":2285,"latRange":[37.9227,38.2295],"lonRange":[236.483,236.7898],"cellID":"73","lat":38.1717,"lon":236.5103,"uniqueSpecies":["REX SOLE YOY","RIGHT EYED FLATFISH YOY","STRIPETAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","NORTHERN ANCHOVY YOY","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","OCTOPUS","PACIFIC SANDDAB YOY","FRIED EGG JELLY","OCTOPOTEUTHIS","KING-OF-THE-SALMON","HETEROPOD","PACIFIC HAKE YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","THETYS SALP","SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":31,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":18,"Ground Fish":365,"Crustacean":50,"Euphausiid":2285,"Fish":3,"Gelatinous":68,"Cephalopod":4,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-79.24326525151464,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-79.47359695295351,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-55.46424640200911,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[236.483,236.7898]},{"2009":{"sst":10.1399,"windDegree":-9999,"chloro":31.5547,"popInfo":{"other rockfish":0,"other groundfish":39,"flatfish":13,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":60,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":3,"crustacean":0,"jellyfish":1,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":105096,"latRange":[37.9227,38.2295],"lonRange":[236.7898,237.0966],"cellID":"74","lat":38.1628,"lon":236.8465,"uniqueSpecies":["CANARY ROCKFISH YOY","PACIFIC HAKE","OCTOPUS","TOTAL KRILL","STRIPETAIL ROCKFISH YOY","SPECKLED SANDDAB YOY","PACIFIC SANDDAB YOY","DOVER SOLE YOY","PACIFIC SANDDAB","MARKET SQUID","CHILIPEPPER YOY","SCULPIN YOY","PACIFIC HAKE YOY","WIDOW ROCKFISH YOY","PURPLE-STRIPED JELLY","TOTAL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY"],"uniqueSpeciesCount":17,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":1,"Small Fish":1,"Ground Fish":112,"Crustacean":0,"Euphausiid":105096,"Fish":0,"Gelatinous":0,"Cephalopod":3,"Salmonid":0}}},"2010":{"sst":10.2735,"windDegree":-9999,"chloro":7.7384,"popInfo":{"other rockfish":0,"other groundfish":2,"flatfish":148,"cottid":0,"clupeoid":9,"salmonid":0,"smelt":7,"fish":0,"rockfish":8,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":3,"crustacean":7,"jellyfish":2,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":9424,"latRange":[37.9227,38.2295],"lonRange":[236.7898,237.0966],"cellID":"74","lat":38.1667,"lon":237.0007,"uniqueSpecies":["COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","OCTOPUS","TOTAL KRILL","SEA NETTLE","REX SOLE YOY","PANDALID SHRIMP","CRANGON SHRIMP","SPECKLED SANDDAB YOY","RIGHT EYED FLATFISH YOY","PACIFIC SANDDAB YOY","DOVER SOLE YOY","SMELT","NORTHERN ANCHOVY YOY","MARKET SQUID","SLENDER SOLE","PACIFIC HAKE YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":18,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":2,"Small Fish":16,"Ground Fish":158,"Crustacean":7,"Euphausiid":9424,"Fish":0,"Gelatinous":0,"Cephalopod":3,"Salmonid":0}}},"2011":{"sst":10.4766,"windDegree":-9999,"chloro":4.9349,"popInfo":{"other rockfish":0,"other groundfish":11,"flatfish":173,"cottid":4,"clupeoid":0,"salmonid":0,"smelt":151,"fish":12,"rockfish":64,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":6,"crustacean":66,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":310867,"latRange":[37.9227,38.2295],"lonRange":[236.7898,237.0966],"cellID":"74","lat":38.1733,"lon":237.0052,"uniqueSpecies":["CANARY ROCKFISH YOY","POACHER","RIGHT EYED FLATFISH YOY","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","SNAILFISH","TOTAL KRILL","SMELT YOY","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","SCULPIN YOY","MARKET SQUID","PLAINFIN MIDSHIPMAN","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","STARRY FLOUNDER YOY","OCTOPUS","PACIFIC SANDDAB YOY","PACIFIC HAKE YOY","MYSID","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PANDALID SHRIMP","SMELT","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY"],"uniqueSpeciesCount":28,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":155,"Ground Fish":248,"Crustacean":66,"Euphausiid":310867,"Fish":12,"Gelatinous":0,"Cephalopod":6,"Salmonid":0}}},"2012":{"sst":10.1284,"windDegree":-9999,"chloro":11.4982,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":3,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":1395,"fish":0,"rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":2,"crustacean":6599,"jellyfish":9,"hyperiid amphipod":0,"gelatinous":54064,"euphausiid":12835,"latRange":[37.9227,38.2295],"lonRange":[236.7898,237.0966],"cellID":"74","lat":38.159,"lon":236.9843,"uniqueSpecies":["TOTAL KRILL","SEA NETTLE","PANDALID SHRIMP","PACIFIC SANDDAB YOY","SMELT","SALP","MARKET SQUID"],"uniqueSpeciesCount":7,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":9,"Small Fish":1395,"Ground Fish":3,"Crustacean":6599,"Euphausiid":12835,"Fish":0,"Gelatinous":54064,"Cephalopod":2,"Salmonid":0}}},"2013":{"sst":10.8143,"windDegree":-9999,"chloro":7.0757,"popInfo":{"other rockfish":0,"other groundfish":156,"flatfish":899,"cottid":22,"clupeoid":1,"salmonid":0,"smelt":5386,"fish":4,"rockfish":106,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":2789,"crustacean":445,"jellyfish":12,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":41170,"latRange":[37.9227,38.2295],"lonRange":[236.7898,237.0966],"cellID":"74","lat":38.1635,"lon":236.9987,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SNAILFISH","TOTAL KRILL","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","OCTOPUS","SEA NETTLE","CRANGON SHRIMP","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","GHOST SHRIMP","CABEZON YOY","ARROWTOOTH FLOUNDER YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PANDALID SHRIMP","SMELT","BOCACCIO YOY","SLENDER SOLE","NORTHERN ANCHOVY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY"],"uniqueSpeciesCount":34,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":12,"Small Fish":5409,"Ground Fish":1161,"Crustacean":445,"Euphausiid":41170,"Fish":4,"Gelatinous":0,"Cephalopod":2789,"Salmonid":0}}},"2014":{"sst":11.1049,"windDegree":-9999,"chloro":25.7775,"popInfo":{"other rockfish":0,"other groundfish":60,"flatfish":1206,"cottid":6,"clupeoid":0,"salmonid":1,"smelt":33,"fish":39,"rockfish":932,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":145,"crustacean":5,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":40,"euphausiid":1438755,"latRange":[37.9227,38.2295],"lonRange":[236.7898,237.0966],"cellID":"74","lat":38.1613,"lon":236.9942,"uniqueSpecies":["CANARY ROCKFISH YOY","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","PACIFIC POMPANO","MARKET SQUID","SCULPIN YOY","PLAINFIN MIDSHIPMAN","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","OCTOPUS","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","GHOST SHRIMP","STARRY FLOUNDER","COMBFISH","PACIFIC HAKE YOY","SLENDER SOLE YOY","PACIFIC HAKE","GOBY","SMELT","KING SALMON","SLENDER SOLE","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY"],"uniqueSpeciesCount":33,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":39,"Ground Fish":2198,"Crustacean":5,"Euphausiid":1438755,"Fish":39,"Gelatinous":40,"Cephalopod":145,"Salmonid":1}}},"2015":{"sst":10.3333,"windDegree":-9999,"chloro":16.1817,"popInfo":{"other rockfish":147,"other groundfish":397,"flatfish":2605,"cottid":8,"clupeoid":174,"salmonid":0,"smelt":1,"fish":356,"rockfish":720,"deep-sea smelt":1,"elasmobranch":0,"myctophid":0,"cephalopod":194,"crustacean":2,"jellyfish":10,"hyperiid amphipod":0,"gelatinous":97,"euphausiid":10,"latRange":[37.9227,38.2295],"lonRange":[236.7898,237.0966],"cellID":"74","lat":38.1697,"lon":236.9907,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","RONQUIL","STRIPETAIL ROCKFISH YOY","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","PACIFIC POMPANO","NORTHERN ANCHOVY YOY","SCULPIN YOY","MARKET SQUID","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","OCTOPUS","SAND SOLE YOY","PAINTED GREENLING YOY","PACIFIC SANDDAB YOY","FRIED EGG JELLY","PACIFIC HAKE YOY","MYSID","COWCOD YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","CALIFORNIA LIZARDFISH","SMELT","THETYS SALP","SALP","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":36,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":10,"Small Fish":184,"Ground Fish":3869,"Crustacean":2,"Euphausiid":10,"Fish":356,"Gelatinous":97,"Cephalopod":194,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[236.7898,237.0966]},{"2009":{"sst":10.5008,"windDegree":-9999,"chloro":18.617},"2010":{"sst":10.328,"windDegree":-9999,"chloro":21.543},"2011":{"sst":11.1055,"windDegree":-9999,"chloro":17.6689},"2012":{"sst":10.3711,"windDegree":-9999,"chloro":4.7134},"2013":{"sst":11.4089,"windDegree":-9999,"chloro":6.8988},"2014":{"sst":11.1959,"windDegree":-9999,"chloro":31.0647},"2015":{"sst":10.0955,"windDegree":-9999,"chloro":12.6134},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[237.0966,237.4034]},{"2009":{"sst":10.335,"windDegree":-9999,"chloro":10.3374},"2010":{"sst":14.8797,"windDegree":-9999,"chloro":12.5835},"2011":{"sst":15.2352,"windDegree":-9999,"chloro":14.2328},"2012":{"sst":15.9282,"windDegree":-9999,"chloro":10.9628},"2013":{"sst":15.838,"windDegree":-9999,"chloro":7.8267},"2014":{"sst":15.23,"windDegree":-9999,"chloro":8.8311},"2015":{"sst":16.3857,"windDegree":-9999,"chloro":9.5144},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[237.4034,237.7102]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":10.3069},"2010":{"sst":-9999,"windDegree":-9999,"chloro":11.9756},"2011":{"sst":-9999,"windDegree":-9999,"chloro":9.6172},"2012":{"sst":-9999,"windDegree":-9999,"chloro":9.5383},"2013":{"sst":-9999,"windDegree":-9999,"chloro":10.7949},"2014":{"sst":-9999,"windDegree":-9999,"chloro":10.1451},"2015":{"sst":16.85,"windDegree":-9999,"chloro":10.8382},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[237.7102,238.017]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[238.017,238.3239]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[37.9227,38.2295],"lonRange":[238.3239,238.6307]},{"2009":{"sst":10.8221,"windDegree":-37.97497842993868,"chloro":1.281},"2010":{"sst":11.8957,"windDegree":-71.80333075957085,"chloro":4.021},"2011":{"sst":12.0774,"windDegree":-69.62677121696025,"chloro":0.2953},"2012":{"sst":11.6325,"windDegree":-48.84592653066403,"chloro":2.1136},"2013":{"sst":12.3268,"windDegree":-72.31645316868551,"chloro":0.7488},"2014":{"sst":13.5816,"windDegree":59.74299248032315,"chloro":1.0488},"2015":{"sst":12.5759,"windDegree":-42.567136965841776,"chloro":0.4099},"2016":{"sst":-9999,"windDegree":-85.1091896116001,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-81.1997021478406,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-67.18877311423799,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[235.5625,235.8693]},{"2009":{"sst":10.4976,"windDegree":-36.44599903375375,"chloro":2.4377,"popInfo":{"other rockfish":2,"other groundfish":1,"flatfish":0,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":1,"rockfish":306,"deep-sea smelt":7,"elasmobranch":0,"myctophid":1247,"cephalopod":564,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":34496,"latRange":[38.2295,38.5364],"lonRange":[235.8693,236.1761],"cellID":"81","lat":38.4522,"lon":235.9488,"uniqueSpecies":["WIDOW ROCKFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","DARKBLOTCHED ROCKFISH YOY","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","SQUID","CHILIPEPPER YOY","BLACK ROCKFISH YOY","OTHER ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","PACIFIC HAKE YOY","BLUE LANTERNFISH","BLACKTIP SQUID","HIGHFIN DRAGONFISH","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":21,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1254,"Ground Fish":309,"Crustacean":0,"Euphausiid":34496,"Fish":1,"Gelatinous":0,"Cephalopod":564,"Salmonid":0}}},"2010":{"sst":11.8131,"windDegree":62.93897576927325,"chloro":3.3482,"popInfo":{"other rockfish":0,"other groundfish":280,"flatfish":8,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":32,"rockfish":234,"deep-sea smelt":37,"elasmobranch":0,"myctophid":2167,"cephalopod":33,"crustacean":6,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":2880,"latRange":[38.2295,38.5364],"lonRange":[235.8693,236.1761],"cellID":"81","lat":38.4625,"lon":235.9755,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","DARKBLOTCHED ROCKFISH YOY","SNAILFISH","YELLOWTAIL ROCKFISH YOY","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","LOOSEJAW","SQUID","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","CALIFORNIA LANTERNFISH","LONGFIN DRAGONFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","SLENDER SOLE YOY","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BARRACUDINA","WIDOW ROCKFISH YOY"],"uniqueSpeciesCount":28,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":2204,"Ground Fish":522,"Crustacean":6,"Euphausiid":2880,"Fish":32,"Gelatinous":0,"Cephalopod":33,"Salmonid":0}}},"2011":{"sst":11.8787,"windDegree":-68.06182628787163,"chloro":0.6005,"popInfo":{"other rockfish":2,"other groundfish":1507,"flatfish":137,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":26,"deep-sea smelt":1,"elasmobranch":0,"myctophid":400,"cephalopod":193,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":9984,"latRange":[38.2295,38.5364],"lonRange":[235.8693,236.1761],"cellID":"81","lat":38.4692,"lon":235.9492,"uniqueSpecies":["BLACKSMELT","BLUE LANTERNFISH","TOTAL KRILL","TOTAL ROCKFISH YOY","SPECKLED SANDDAB YOY","BLACKTIP SQUID","PACIFIC SANDDAB YOY","CHILIPEPPER YOY","OTHER ROCKFISH YOY","CALIFORNIA LANTERNFISH","ARMHOOK SQUID","PACIFIC HAKE YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":16,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":401,"Ground Fish":1672,"Crustacean":0,"Euphausiid":9984,"Fish":0,"Gelatinous":0,"Cephalopod":193,"Salmonid":0}}},"2012":{"sst":11.248,"windDegree":-57.421807514559575,"chloro":1.1441},"2013":{"sst":12.1755,"windDegree":-71.87424231180792,"chloro":1.0165,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":61,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":24,"rockfish":282,"deep-sea smelt":47,"elasmobranch":0,"myctophid":382,"cephalopod":360,"crustacean":0,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":924,"euphausiid":295,"latRange":[38.2295,38.5364],"lonRange":[235.8693,236.1761],"cellID":"81","lat":38.4673,"lon":235.9517,"uniqueSpecies":["MEDUSAFISH","BLACKSMELT","BLUE LANTERNFISH","TOTAL KRILL","TOTAL ROCKFISH YOY","SPECKLED SANDDAB YOY","BLACKTIP SQUID","PACIFIC SANDDAB YOY","CHILIPEPPER YOY","BOCACCIO YOY","CALIFORNIA LANTERNFISH","ARMHOOK SQUID","SALP","THETYS SALP","BARRACUDINA","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":20,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":429,"Ground Fish":343,"Crustacean":0,"Euphausiid":295,"Fish":24,"Gelatinous":924,"Cephalopod":360,"Salmonid":0}}},"2014":{"sst":12.4211,"windDegree":22.719895510143292,"chloro":8.7871,"popInfo":{"other rockfish":0,"other groundfish":5,"flatfish":221,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":5,"rockfish":90,"deep-sea smelt":0,"elasmobranch":0,"myctophid":417,"cephalopod":152,"crustacean":12,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":347,"euphausiid":55890,"latRange":[38.2295,38.5364],"lonRange":[235.8693,236.1761],"cellID":"81","lat":38.4683,"lon":235.983,"uniqueSpecies":["BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","OCTOPUS","ROSY ROCKFISH GROUP YOY","PACIFIC SANDDAB YOY","LONGFIN DRAGONFISH","OLIVE ROCKFISH YOY","KING-OF-THE-SALMON","BLUE LANTERNFISH","PACIFIC HAKE","BLACKTIP SQUID","THETYS SALP","SALP","BARRACUDINA","TURBOT YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":26,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":417,"Ground Fish":316,"Crustacean":12,"Euphausiid":55890,"Fish":5,"Gelatinous":347,"Cephalopod":152,"Salmonid":0}}},"2015":{"sst":12.397,"windDegree":-43.42561474780685,"chloro":0.5017,"popInfo":{"other rockfish":0,"other groundfish":338,"flatfish":99,"cottid":6,"clupeoid":0,"salmonid":0,"smelt":0,"fish":47,"rockfish":140,"deep-sea smelt":0,"elasmobranch":0,"myctophid":187,"cephalopod":338,"crustacean":134,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":3168,"euphausiid":847,"latRange":[38.2295,38.5364],"lonRange":[235.8693,236.1761],"cellID":"81","lat":38.4702,"lon":235.9313,"uniqueSpecies":["RIGHT EYED FLATFISH YOY","STRIPETAIL ROCKFISH YOY","SERGESTID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","SPINY LOBSTER LARVAE","MYCTOPHID","TOTAL ROCKFISH YOY","MEDUSAFISH","PYROSOMA","PACIFIC SANDDAB YOY","CALIFORNIA LANTERNFISH","CABEZON YOY","PACIFIC HAKE YOY","BLACKTIP SQUID","THETYS SALP","SALP","BARRACUDINA","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":21,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":193,"Ground Fish":577,"Crustacean":134,"Euphausiid":847,"Fish":47,"Gelatinous":3168,"Cephalopod":338,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":-85.4325139845539,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-81.08620988459083,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-62.06823160939857,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[235.8693,236.1761]},{"2009":{"sst":10.1345,"windDegree":-9999,"chloro":3.0383,"popInfo":{"other rockfish":0,"other groundfish":118,"flatfish":0,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":24,"deep-sea smelt":3,"elasmobranch":0,"myctophid":204,"cephalopod":29,"crustacean":6,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":71504,"latRange":[38.2295,38.5364],"lonRange":[236.1761,236.483],"cellID":"82","lat":38.457,"lon":236.3103,"uniqueSpecies":["BLACKSMELT","BLUE LANTERNFISH","CANARY ROCKFISH YOY","OCTOPUS","TOTAL ROCKFISH YOY","TOTAL KRILL","SQUID","BLACKTIP SQUID","PYGMY ROCKFISH YOY","ARMHOOK SQUID","PACIFIC HAKE YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH","SERGESTID"],"uniqueSpeciesCount":17,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":207,"Ground Fish":142,"Crustacean":6,"Euphausiid":71504,"Fish":0,"Gelatinous":0,"Cephalopod":29,"Salmonid":0}}},"2010":{"sst":11.4449,"windDegree":-9999,"chloro":1.6485,"popInfo":{"other rockfish":0,"other groundfish":1012,"flatfish":11,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":21,"rockfish":32,"deep-sea smelt":51,"elasmobranch":0,"myctophid":4426,"cephalopod":44,"crustacean":29,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":9656,"latRange":[38.2295,38.5364],"lonRange":[236.1761,236.483],"cellID":"82","lat":38.467,"lon":236.2958,"uniqueSpecies":["REX SOLE YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","LOOSEJAW","SQUID","SPECKLED SANDDAB YOY","CHILIPEPPER YOY","BLACK ROCKFISH YOY","MYCTOPHID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","BLACKSMELT","PACIFIC SANDDAB YOY","CALIFORNIA LANTERNFISH","LONGFIN DRAGONFISH","PACIFIC HAKE YOY","BLUE LANTERNFISH","BLACKTIP SQUID","BARRACUDINA","WIDOW ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":25,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":4477,"Ground Fish":1055,"Crustacean":29,"Euphausiid":9656,"Fish":21,"Gelatinous":0,"Cephalopod":44,"Salmonid":0}}},"2011":{"sst":10.9239,"windDegree":-9999,"chloro":0.5398,"popInfo":{"other rockfish":0,"other groundfish":352,"flatfish":82,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":2,"rockfish":26,"deep-sea smelt":13,"elasmobranch":0,"myctophid":200,"cephalopod":32,"crustacean":187,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":3265,"latRange":[38.2295,38.5364],"lonRange":[236.1761,236.483],"cellID":"82","lat":38.4737,"lon":236.2837,"uniqueSpecies":["BLACKSMELT","BLUE LANTERNFISH","TOTAL KRILL","TOTAL ROCKFISH YOY","BLACKDRAGON","SPECKLED SANDDAB YOY","BLACKTIP SQUID","PACIFIC SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","BOCACCIO YOY","ARMHOOK SQUID","SERGESTID","PACIFIC HAKE YOY","SHORTBELLY ROCKFISH YOY","MYCTOPHID","TURBOT YOY","SNAILFISH"],"uniqueSpeciesCount":18,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":213,"Ground Fish":460,"Crustacean":187,"Euphausiid":3265,"Fish":2,"Gelatinous":0,"Cephalopod":32,"Salmonid":0}}},"2012":{"sst":10.8765,"windDegree":-9999,"chloro":1.3757},"2013":{"sst":11.3213,"windDegree":-71.46613633491296,"chloro":0.9098,"popInfo":{"other rockfish":1,"other groundfish":0,"flatfish":139,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":14,"rockfish":26,"deep-sea smelt":35,"elasmobranch":0,"myctophid":449,"cephalopod":192,"crustacean":209,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":304,"euphausiid":330720,"latRange":[38.2295,38.5364],"lonRange":[236.1761,236.483],"cellID":"82","lat":38.4658,"lon":236.2853,"uniqueSpecies":["MEDUSAFISH","BLACKSMELT","TOTAL KRILL","TOTAL ROCKFISH YOY","MYCTOPHID","SPECKLED SANDDAB YOY","BLACKTIP SQUID","PACIFIC SANDDAB YOY","ARMHOOK SQUID","THETYS SALP","SALP","SHORTBELLY ROCKFISH YOY","WOLF EEL YOY","BLUE ROCKFISH YOY","BLUE LANTERNFISH","SERGESTID"],"uniqueSpeciesCount":16,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":484,"Ground Fish":166,"Crustacean":209,"Euphausiid":330720,"Fish":14,"Gelatinous":304,"Cephalopod":192,"Salmonid":0}}},"2014":{"sst":11.6394,"windDegree":80.05362583751239,"chloro":17.848,"popInfo":{"other rockfish":0,"other groundfish":148,"flatfish":13,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":22,"deep-sea smelt":25,"elasmobranch":0,"myctophid":570,"cephalopod":123,"crustacean":124,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":100,"euphausiid":96908,"latRange":[38.2295,38.5364],"lonRange":[236.1761,236.483],"cellID":"82","lat":38.472,"lon":236.2868,"uniqueSpecies":["BOREAL CLUBHOOK SQUID","ARMHOOK SQUID","SERGESTID","SWORD-TAIL SQUID","TOTAL KRILL","SQUID","SPECKLED SANDDAB YOY","MARKET SQUID","MYCTOPHID","TOTAL ROCKFISH YOY","PYROSOMA","BLACKSMELT","OCTOPUS","PACIFIC SANDDAB YOY","KING-OF-THE-SALMON","PACIFIC HAKE YOY","COWCOD YOY","BLUE LANTERNFISH","PACIFIC HAKE","RAGFISH","CALIFORNIA SMOOTHTONGUE","THETYS SALP","SALP","TURBOT YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":26,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":595,"Ground Fish":183,"Crustacean":124,"Euphausiid":96908,"Fish":3,"Gelatinous":100,"Cephalopod":123,"Salmonid":0}}},"2015":{"sst":11.4468,"windDegree":-44.180302830162255,"chloro":1.9148,"popInfo":{"other rockfish":9,"other groundfish":169,"flatfish":321,"cottid":9,"clupeoid":94,"salmonid":0,"smelt":0,"fish":7,"rockfish":363,"deep-sea smelt":19,"elasmobranch":0,"myctophid":248,"cephalopod":372,"crustacean":109,"jellyfish":0,"hyperiid amphipod":3,"gelatinous":903,"euphausiid":601840,"latRange":[38.2295,38.5364],"lonRange":[236.1761,236.483],"cellID":"82","lat":38.4713,"lon":236.2798,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","ARMHOOK SQUID","LINGCOD YOY","STRIPETAIL ROCKFISH YOY","GREENLING YOY","SERGESTID","YELLOWTAIL ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","SQUARESPOT ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","SPINY LOBSTER LARVAE","NORTHERN ANCHOVY YOY","OTHER ROCKFISH YOY","MYCTOPHID","TOTAL ROCKFISH YOY","MEDUSAFISH","PYROSOMA","BLACKSMELT","PHRONIMA","ROSY ROCKFISH GROUP YOY","OCTOPUS","PACIFIC SANDDAB YOY","PYGMY ROCKFISH YOY","CABEZON YOY","PACIFIC HAKE YOY","BLUE LANTERNFISH","COPPER ROCKFISH GROUP YOY","CALIFORNIA SMOOTHTONGUE","BLACKTIP SQUID","BOCACCIO YOY","THETYS SALP","SALP","BARRACUDINA","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","CALIFORNIA HEADLIGHTFISH"],"uniqueSpeciesCount":42,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":370,"Ground Fish":862,"Crustacean":112,"Euphausiid":601840,"Fish":7,"Gelatinous":903,"Cephalopod":372,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":63.86388681416336,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-73.40081891594662,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-62.50001690407795,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[236.1761,236.483]},{"2009":{"sst":9.6058,"windDegree":-9999,"chloro":22.22,"popInfo":{"other rockfish":0,"other groundfish":89,"flatfish":3,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":0,"fish":0,"rockfish":48,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":6,"crustacean":0,"jellyfish":3,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":286848,"latRange":[38.2295,38.5364],"lonRange":[236.483,236.7898],"cellID":"83","lat":38.455,"lon":236.629,"uniqueSpecies":["SLENDER SOLE YOY","SWORD-TAIL SQUID","CANARY ROCKFISH YOY","PACIFIC HAKE","OCTOPUS","TOTAL KRILL","RIGHT EYED FLATFISH YOY","PACIFIC SANDDAB YOY","MARKET SQUID","CHILIPEPPER YOY","BOCACCIO YOY","BLACK ROCKFISH YOY","STRIPETAIL ROCKFISH YOY","MOON JELLY","PACIFIC HAKE YOY","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY"],"uniqueSpeciesCount":19,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":3,"Small Fish":0,"Ground Fish":140,"Crustacean":0,"Euphausiid":286848,"Fish":0,"Gelatinous":0,"Cephalopod":6,"Salmonid":0}}},"2010":{"sst":10.2378,"windDegree":-9999,"chloro":6.3484,"popInfo":{"other rockfish":0,"other groundfish":1,"flatfish":17,"cottid":0,"clupeoid":0,"salmonid":0,"smelt":5,"fish":2,"rockfish":2,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":7,"crustacean":112,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":4480,"latRange":[38.2295,38.5364],"lonRange":[236.483,236.7898],"cellID":"83","lat":38.466,"lon":236.769,"uniqueSpecies":["COPPER ROCKFISH GROUP YOY","OCTOPUS","TOTAL KRILL","SAND SOLE YOY","REX SOLE YOY","PANDALID SHRIMP","SPECKLED SANDDAB YOY","RIGHT EYED FLATFISH YOY","PACIFIC SANDDAB YOY","SMELT","LINGCOD YOY","RONQUIL","MARKET SQUID","TOTAL ROCKFISH YOY","SNAILFISH"],"uniqueSpeciesCount":15,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":5,"Ground Fish":20,"Crustacean":112,"Euphausiid":4480,"Fish":2,"Gelatinous":0,"Cephalopod":7,"Salmonid":0}}},"2011":{"sst":10.1528,"windDegree":-9999,"chloro":0.6369,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":233,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":4,"fish":2,"rockfish":14,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":2,"crustacean":502,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":16600,"latRange":[38.2295,38.5364],"lonRange":[236.483,236.7898],"cellID":"83","lat":38.4675,"lon":236.6172,"uniqueSpecies":["CANARY ROCKFISH YOY","RIGHT EYED FLATFISH YOY","SNAILFISH","TOTAL KRILL","SMELT YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","BROWN ROCKFISH YOY","MARKET SQUID","BLUE ROCKFISH YOY","TOTAL ROCKFISH YOY","OCTOPUS","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","SLENDER SOLE YOY","PANDALID SHRIMP","SLENDER SOLE","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","IRISH LORD YOY","TURBOT YOY"],"uniqueSpeciesCount":21,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":5,"Ground Fish":247,"Crustacean":502,"Euphausiid":16600,"Fish":2,"Gelatinous":0,"Cephalopod":2,"Salmonid":0}}},"2012":{"sst":9.9461,"windDegree":-9999,"chloro":1.1383},"2013":{"sst":10.545,"windDegree":-45.42067148206549,"chloro":2.1129,"popInfo":{"other rockfish":0,"other groundfish":0,"flatfish":29,"cottid":1,"clupeoid":0,"salmonid":0,"smelt":0,"fish":3,"rockfish":0,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":4,"crustacean":10,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":114,"latRange":[38.2295,38.5364],"lonRange":[236.483,236.7898],"cellID":"83","lat":38.4672,"lon":236.764,"uniqueSpecies":["TOTAL KRILL","REX SOLE YOY","SPECKLED SANDDAB YOY","CRANGON SHRIMP","RIGHT EYED FLATFISH YOY","PACIFIC SANDDAB YOY","ARMHOOK SQUID","MARKET SQUID","IRISH LORD YOY","TURBOT YOY","SNAILFISH"],"uniqueSpeciesCount":11,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":1,"Ground Fish":29,"Crustacean":10,"Euphausiid":114,"Fish":3,"Gelatinous":0,"Cephalopod":4,"Salmonid":0}}},"2014":{"sst":10.7809,"windDegree":-30.100265665225468,"chloro":15.9569,"popInfo":{"other rockfish":0,"other groundfish":231,"flatfish":262,"cottid":5,"clupeoid":0,"salmonid":0,"smelt":68,"fish":7,"rockfish":152,"deep-sea smelt":0,"elasmobranch":0,"myctophid":0,"cephalopod":23,"crustacean":11,"jellyfish":0,"hyperiid amphipod":0,"gelatinous":0,"euphausiid":673560,"latRange":[38.2295,38.5364],"lonRange":[236.483,236.7898],"cellID":"83","lat":38.4663,"lon":236.767,"uniqueSpecies":["CANARY ROCKFISH YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","YELLOWTAIL ROCKFISH YOY","TOTAL KRILL","HALFBANDED ROCKFISH YOY","SPECKLED SANDDAB YOY","DOVER SOLE YOY","CHILIPEPPER YOY","MARKET SQUID","SCULPIN YOY","PLAINFIN MIDSHIPMAN","TOTAL ROCKFISH YOY","OCTOPUS","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","STARRY FLOUNDER","OLIVE ROCKFISH YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC HAKE","PANDALID SHRIMP","SHARPCHIN ROCKFISH YOY","SMELT","SHORTBELLY ROCKFISH YOY"],"uniqueSpeciesCount":25,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":73,"Ground Fish":645,"Crustacean":11,"Euphausiid":673560,"Fish":7,"Gelatinous":0,"Cephalopod":23,"Salmonid":0}}},"2015":{"sst":10.0738,"windDegree":-31.841064056647735,"chloro":10.7219,"popInfo":{"other rockfish":11,"other groundfish":3180,"flatfish":2197,"cottid":0,"clupeoid":87,"salmonid":0,"smelt":0,"fish":10,"rockfish":131,"deep-sea smelt":0,"elasmobranch":1,"myctophid":0,"cephalopod":38,"crustacean":0,"jellyfish":0,"hyperiid amphipod":3,"gelatinous":298,"euphausiid":103260,"latRange":[38.2295,38.5364],"lonRange":[236.483,236.7898],"cellID":"83","lat":38.4648,"lon":236.6247,"uniqueSpecies":["CANARY ROCKFISH YOY","REX SOLE YOY","RIGHT EYED FLATFISH YOY","LINGCOD YOY","ARMHOOK SQUID","STRIPETAIL ROCKFISH YOY","DARKBLOTCHED ROCKFISH YOY","SWORD-TAIL SQUID","TOTAL KRILL","SPECKLED SANDDAB YOY","BROWN ROCKFISH YOY","CHILIPEPPER YOY","NORTH PACIFIC SPINY DOGFISH","NORTHERN ANCHOVY YOY","MARKET SQUID","PLAINFIN MIDSHIPMAN","PACIFIC HERRING","OTHER ROCKFISH YOY","TOTAL ROCKFISH YOY","PYROSOMA","MEDUSAFISH","PHRONIMA","OCTOPUS","SAND SOLE YOY","PACIFIC SANDDAB YOY","PACIFIC SANDDAB","PACIFIC HAKE YOY","ARROWTOOTH FLOUNDER YOY","COPPER ROCKFISH GROUP YOY","SLENDER SOLE YOY","PACIFIC SARDINE YOY","CALIFORNIA LIZARDFISH","THETYS SALP","SALP","SLENDER SOLE","WIDOW ROCKFISH YOY","SHORTBELLY ROCKFISH YOY","TURBOT YOY"],"uniqueSpeciesCount":38,"levelTwo":["jellyfish","clupeoid","rockfish","hyperiid amphipod","euphausiid","fish","cottid","elasmobranch","other rockfish","deep-sea smelt","gelatinous","crustacean","flatfish","cephalopod","smelt","salmonid","myctophid","other groundfish"],"levelOne":["Small Fish","Crustacean","Ground Fish","Jellyfish","Euphausiid","Salmonid","Cephalopod","Gelatinous","Fish"],"levelOneMap":{"Jellyfish":0,"Small Fish":87,"Ground Fish":5520,"Crustacean":3,"Euphausiid":103260,"Fish":10,"Gelatinous":298,"Cephalopod":38,"Salmonid":0}}},"2016":{"sst":-9999,"windDegree":79.36573260002238,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-88.28116023593982,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-54.88026898932968,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[236.483,236.7898]},{"2009":{"sst":10.2346,"windDegree":-9999,"chloro":25.732},"2010":{"sst":10.0002,"windDegree":-9999,"chloro":15.536},"2011":{"sst":10.0206,"windDegree":-9999,"chloro":12.8762},"2012":{"sst":10.1371,"windDegree":-9999,"chloro":7.8579},"2013":{"sst":11.0182,"windDegree":-9999,"chloro":12.333},"2014":{"sst":11.4463,"windDegree":-9999,"chloro":20.665},"2015":{"sst":10.3666,"windDegree":-9999,"chloro":23.1952},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[236.7898,237.0966]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[237.0966,237.4034]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[237.4034,237.7102]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":7.631},"2010":{"sst":-9999,"windDegree":-9999,"chloro":56.8494},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[237.7102,238.017]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[238.017,238.3239]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.2295,38.5364],"lonRange":[238.3239,238.6307]},{"2009":{"sst":10.6873,"windDegree":-35.85876106275939,"chloro":1.1925},"2010":{"sst":11.3788,"windDegree":-78.06091526009914,"chloro":3.1271},"2011":{"sst":11.5703,"windDegree":-73.91661542484081,"chloro":0.4061},"2012":{"sst":11.6981,"windDegree":-59.894883882128646,"chloro":1.2923},"2013":{"sst":12.1146,"windDegree":-73.13419852381188,"chloro":1.2272},"2014":{"sst":13.3126,"windDegree":38.36829837026039,"chloro":3.2372},"2015":{"sst":11.9567,"windDegree":-46.247452512119644,"chloro":2.7348},"2016":{"sst":-9999,"windDegree":-84.41715059012998,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-81.28606970428888,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-69.89763101984526,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[235.5625,235.8693]},{"2009":{"sst":10.2037,"windDegree":-40.38718678333074,"chloro":2.2796},"2010":{"sst":11.2967,"windDegree":-64.19279958698455,"chloro":3.29},"2011":{"sst":11.2388,"windDegree":-72.93650023641014,"chloro":0.6752},"2012":{"sst":10.7247,"windDegree":-65.56632174871035,"chloro":1.0625},"2013":{"sst":11.5041,"windDegree":-65.57487751151398,"chloro":1.1484},"2014":{"sst":12.1538,"windDegree":-56.38904935659142,"chloro":9.6592},"2015":{"sst":11.672,"windDegree":-70.49881417925609,"chloro":4.0792},"2016":{"sst":-9999,"windDegree":-68.29884526207289,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-55.999057869122844,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[235.8693,236.1761]},{"2009":{"sst":9.5489,"windDegree":-9999,"chloro":14.2006},"2010":{"sst":10.5541,"windDegree":-9999,"chloro":5.7826},"2011":{"sst":10.3065,"windDegree":-9999,"chloro":1.6526},"2012":{"sst":10.1775,"windDegree":-9999,"chloro":1.0243},"2013":{"sst":10.4659,"windDegree":-9999,"chloro":1.1368},"2014":{"sst":10.9254,"windDegree":-9999,"chloro":18.1404},"2015":{"sst":10.5153,"windDegree":-9999,"chloro":7.065},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[236.1761,236.483]},{"2009":{"sst":9.7056,"windDegree":-9999,"chloro":24.7114},"2010":{"sst":9.802,"windDegree":-9999,"chloro":6.9643},"2011":{"sst":9.9055,"windDegree":-9999,"chloro":4.2768},"2012":{"sst":9.6962,"windDegree":-9999,"chloro":0.9332},"2013":{"sst":10.3923,"windDegree":-9999,"chloro":2.5121},"2014":{"sst":10.1599,"windDegree":-9999,"chloro":23.8256},"2015":{"sst":9.7533,"windDegree":-9999,"chloro":10.5398},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[236.483,236.7898]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[236.7898,237.0966]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[237.0966,237.4034]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":57.866},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[237.4034,237.7102]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":37.1114},"2010":{"sst":-9999,"windDegree":-9999,"chloro":99.5377},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[237.7102,238.017]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[238.017,238.3239]},{"2009":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2010":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2011":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2012":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2013":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2014":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2015":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2016":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2017":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"2018":{"sst":-9999,"windDegree":-9999,"chloro":-9999},"latRange":[38.5364,38.8432],"lonRange":[238.3239,238.6307]}];
 
 /***/ }),
 
@@ -81440,14 +77277,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants */ "./src/js/constants.js");
 /* harmony import */ var three__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three */ "./node_modules/three/three.js");
 /* harmony import */ var three__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(three__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _data_processing_population_data_maypop2011_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../data-processing/population-data/maypop2011.json */ "./data-processing/population-data/maypop2011.json");
-var _data_processing_population_data_maypop2011_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../data-processing/population-data/maypop2011.json */ "./data-processing/population-data/maypop2011.json", 1);
-/* harmony import */ var _data_processing_population_data_maypop2015_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../data-processing/population-data/maypop2015.json */ "./data-processing/population-data/maypop2015.json");
-var _data_processing_population_data_maypop2015_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../data-processing/population-data/maypop2015.json */ "./data-processing/population-data/maypop2015.json", 1);
-/* harmony import */ var _libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../libs/speciesClass.json */ "./src/js/libs/speciesClass.json");
-var _libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../libs/speciesClass.json */ "./src/js/libs/speciesClass.json", 1);
-
-
+/* harmony import */ var _libs_average_data_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../libs/average_data.json */ "./src/js/libs/average_data.json");
+var _libs_average_data_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../libs/average_data.json */ "./src/js/libs/average_data.json", 1);
 
 
 
@@ -81455,19 +77286,15 @@ var _libs_speciesClass_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__
 var grid = {
 	initGrid: function (textures,year, config){
 		var i=0, j=0, counter = 0;
-	    var leftX = (-(config['width']) / 2) + (_constants__WEBPACK_IMPORTED_MODULE_0__["CELLWIDTH"] / 2); //left
-	    var topY = ((config['height']) / 2) - (_constants__WEBPACK_IMPORTED_MODULE_0__["CELLHEIGHT"] / 2);//top
+	    var leftX = (-(config['width']) / 2) + (config['cellWidth']  / 2); //left
+	    var topY = ((config['height']) / 2) - (config['cellHeight'] / 2);//top
 	   	var lat=0,lon=0;
-		for(i=topY; i > -(config['height']/2), lat < _constants__WEBPACK_IMPORTED_MODULE_0__["SIZE"]; lat++, i = i - _constants__WEBPACK_IMPORTED_MODULE_0__["CELLHEIGHT"]){
-	    	for(lon=0,j = leftX; j < (config['width'] / 2), lon < _constants__WEBPACK_IMPORTED_MODULE_0__["SIZE"]; lon++, j=j + _constants__WEBPACK_IMPORTED_MODULE_0__["CELLWIDTH"]){
+		for(i=topY; i > -(config['height']/2), lat < _constants__WEBPACK_IMPORTED_MODULE_0__["SIZE"]; lat++, i = i - config['cellHeight']){
+	    	for(lon=0,j = leftX; j < (config['width'] / 2), lon < _constants__WEBPACK_IMPORTED_MODULE_0__["SIZE"]; lon++, j=j + config['cellWidth']){
 	    		config['matrixData'][counter]['pos'] = [j,i];
 	    		counter++;
 			}
 	    }
-	    config['matrixData']['maxPopCell'] = {'value':-9999,'name':''};
-	    config['matrixData']['averages'] = {};
-	    initPopData(config,2011,_data_processing_population_data_maypop2011_json__WEBPACK_IMPORTED_MODULE_2__);
-	    initPopData(config,2015,_data_processing_population_data_maypop2015_json__WEBPACK_IMPORTED_MODULE_3__);
 
 		config['matrixData'].forEach(function(cell){
 			var color = (cell[year]['sst'] == -9999) ? "black":_constants__WEBPACK_IMPORTED_MODULE_0__["TEMP_CS"](cell[year]['sst']);
@@ -81481,6 +77308,18 @@ var grid = {
 			cell['mesh'] = mesh;
 			config['scene'].add(mesh);
 		});
+	},
+	updateGrid: function(config, year) {
+		config['matrixData'].forEach(function(cell){
+		    var color = (cell[year]['sst'] == -9999) ? "black":_constants__WEBPACK_IMPORTED_MODULE_0__["TEMP_CS"](cell[year]['sst']);
+		    cell['mesh'].material.color.set(color);
+		});
+
+		//TODO:Update Wind
+
+		//TODO:Update Chlorophyll
+
+		config['renderer'].render( fullScreenConfig['scene'], fullScreenConfig['camera'] );
 	}
 }
 
@@ -81494,57 +77333,61 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	//Sea Surface Temperature
 	textures['cloth'].anisotropy = config['renderer'].getMaxAnisotropy();
 	textures['cloth'].magFilter = three__WEBPACK_IMPORTED_MODULE_1___default.a.NearestFilter;
-	var geometry = new three__WEBPACK_IMPORTED_MODULE_1___default.a.BoxGeometry( _constants__WEBPACK_IMPORTED_MODULE_0__["CELLWIDTH"], _constants__WEBPACK_IMPORTED_MODULE_0__["CELLHEIGHT"], 1 );
+	var geometry = new three__WEBPACK_IMPORTED_MODULE_1___default.a.BoxGeometry( config['cellWidth'], config['cellHeight'], 1 );
 	var material = new three__WEBPACK_IMPORTED_MODULE_1___default.a.MeshBasicMaterial({map: textures['cloth'], color: color});
 	var mesh = new three__WEBPACK_IMPORTED_MODULE_1___default.a.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 0);
 	group.add(mesh);
 
+	var scale = config['width'] / 1000;
 	//Color Circle for chlorophyll 
-	var cholorMesh = drawCholorphyll(xPos,yPos,cell,year);
+	var cholorMesh = drawCholorphyll(xPos,yPos,cell,year,scale);
 	group.add(cholorMesh);
 
 	//Wind direction on top
-	var windMesh = drawWind(xPos,yPos,textures['wave'], degree);
+	var windMesh = drawWind(xPos,yPos,textures['wave'], degree,scale);
 	group.add(windMesh);
 
 	//Population Bars
-	var populationMesh = drawPopulation(xPos,yPos,config,cell,year);
+	var populationMesh = drawPopulation(xPos,yPos,config,cell,year,scale);
 	group.add(cell[year]['popGroup']);
 
 	return group;
 }
 
 
-function drawWind(xPos,yPos,texture, degree){
+function drawWind(xPos,yPos,texture, degree, scale){
 	//based on x_wind, y_wind create the vector and determine degree to rotate
 	var material = new three__WEBPACK_IMPORTED_MODULE_1___default.a.SpriteMaterial( {  color: 0xffffff, map: texture, rotation: degree} );
 	// material.opacity = 0.25;
 	var sprite = new three__WEBPACK_IMPORTED_MODULE_1___default.a.Sprite( material );
-	sprite.scale.set(15,15,1.0);
+	var k = 15 * scale;
+	sprite.scale.set(k,k,1.0);
 	if(!degree){sprite.scale.set(1 ,1,1.0);}
 	sprite.position.set(xPos, yPos, 4);
 
 	return sprite
 }
 
-function drawCholorphyll(xPos,yPos,cell,year){
+function drawCholorphyll(xPos,yPos,cell,year, scale){
 	var cColor = _constants__WEBPACK_IMPORTED_MODULE_0__["CHLORO_CS"](cell[year]['chloro']);
-	var geometry = new three__WEBPACK_IMPORTED_MODULE_1___default.a.CircleGeometry( 15, 64 );
+
+	var radius = scale * 15;
+	var geometry = new three__WEBPACK_IMPORTED_MODULE_1___default.a.CircleGeometry( radius, 64 );
 	var material = new three__WEBPACK_IMPORTED_MODULE_1___default.a.MeshBasicMaterial( { color: cColor } );
 	var circle = new three__WEBPACK_IMPORTED_MODULE_1___default.a.Mesh( geometry, material );
 	circle.position.set(xPos, yPos, 3);
 	return circle;
 }
 
-function drawRect(xPos, yPos, color, height, width, degree) {
+function drawRect(xPos, yPos, color, height, width, degree, scale) {
 	var geometry = new three__WEBPACK_IMPORTED_MODULE_1___default.a.BoxGeometry(height, width, 0);
 	var material = new three__WEBPACK_IMPORTED_MODULE_1___default.a.MeshBasicMaterial({color: color});
 	var mesh = new three__WEBPACK_IMPORTED_MODULE_1___default.a.Mesh(geometry, material);
 	
 	mesh.position.set(xPos, yPos, 1);
 	var radians = Math.radians(degree);
-	var r = 20;
+	var r = 20 * scale;
 	var move = [r*Math.cos(radians),r*Math.sin(radians)];
 
 	mesh.translateX(move[0]);
@@ -81555,116 +77398,31 @@ function drawRect(xPos, yPos, color, height, width, degree) {
 	return mesh;
 }
 
-function initPopData(config,year,mayPopData){
-	var species = Object.keys(mayPopData[0]);
-	var populations = [];
-	var averages = {};
-
-	//all 17 species
-	species.forEach(function(key){
-		if(key != 'lat' && key != 'lon'){
-			populations.push(key);
-			averages[key] = {'count':0,'sum':0,'average':0} 
-		}
-	});
-
-
-	var maxValue = -9999;
-	var maxName = '';
-	config['matrixData'].forEach(function(cell){
-		var popChartData = [];
-		var degree = 0;
-		var degreeInc = 360/populations.length;
-		
-
-		var popCounts = {};
-		populations.forEach(function(pop){
-			popCounts[pop] = 0;
-		});
-		for (var i = 0; i < mayPopData.length; i++) {
-			var popCell = mayPopData[i]
-			var popCellLat = mayPopData[i]["lat"];
-			var popCellLon = mayPopData[i]["lon"];
-	
-			if (popCellLat >= cell["latRange"][0] && popCellLat < cell["latRange"][1] && popCellLon >= cell["lonRange"][0] && popCellLon < cell["lonRange"][1]) {
-				populations.forEach(function(p){
-					popCounts[p] = popCounts[p] + popCell[p];
-					
-				});
-			}
-		}
-		var degree = 0;
-		populations.forEach(function(d){
-			var populationData = {
-						'name': '',
-						'degree':0,
-						'count': 0,
-						'height':0
-					};
-
-			 populationData['count'] = popCounts[d];
-			 populationData['degree'] = degree;
-			 populationData['height'] = popCounts[d];
-			 populationData['name'] = d;
-
-			 degree = degree + 360/17;
-
-			 if(popCounts[d] > 0){
-				popChartData.push(populationData);
-				averages[d]['sum'] = averages[d]['sum'] + popCounts[d];
-				averages[d]['count'] = averages[d]['count'] + 1;
-			}
-
-
-			 //Metrics:
-			 
-			 maxName =  (maxValue < popCounts[d])? d: maxName;
-			 maxValue = (maxValue < popCounts[d])? popCounts[d]: maxValue;
-		});
-		cell[year]['popChartData'] = popChartData;
-	});
-	config['matrixData']['maxPopCell']['name'] = (config['matrixData']['maxPopCell']['value'] < maxValue)? maxName : config['matrixData']['maxPopCell']['name'];
-	config['matrixData']['maxPopCell']['value'] =(config['matrixData']['maxPopCell']['value'] < maxValue)? maxValue : config['matrixData']['maxPopCell']['value'];
-	config['matrixData']['averages'][year] = averages;
-}
-
-function drawPopulation(xPos,yPos,config, cell,year){
+function drawPopulation(xPos,yPos,config, cell,year, scale){
 		//Population 
-	var barwidth =5;
-	var barheight = 30;
+	var barwidth =10 * scale;
+	var barheight = 40 * scale;
 	var popcolor;
 	var popdegree = 0;
-	var averages = config['matrixData']['averages'][year];
-	//take the popChartData for this and map it such that it is the right ranking
 
-	cell[year]['popChartData'].forEach(function(pop){
-		if(pop['count'] > 0){
-			popcolor = _constants__WEBPACK_IMPORTED_MODULE_0__["POP_CS"](pop['name']);
-			var stats = averages[pop['name']];
-			var average = stats['sum'] / stats['count'];
-			var heightScale = pop['count'] / average;
-			var height = (barheight / 2) * heightScale;
-			height = (height > barheight) ? barheight : height;
+	var popInfo = cell[year]['popInfo'];
+	if('popInfo' in cell[year]){
+		popInfo['levelOne'].forEach(function(species){
+			var count = popInfo['levelOneMap'][species];
+			popcolor = _constants__WEBPACK_IMPORTED_MODULE_0__["POP_CS"](species);
+			if(count > 0){
+				var species_avg = _libs_average_data_json__WEBPACK_IMPORTED_MODULE_2__[year]['L1'][species]['average'];
+				var delta = count / species_avg;
+				var height = barheight * delta;
+				height = (height > barheight)? barheight: height;
 
-			var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, pop['degree']);//right
-			cell[year]['popGroup'].add(popMesh);
-		}
-		
-	});
-}
-
-//deprecated
-function updateCells(year) {
-	fullScreenConfig['matrixData'].forEach(function(cell){
-	    var color = (cell[year]['sst'] == -9999) ? "black":_constants__WEBPACK_IMPORTED_MODULE_0__["TEMP_CS"](cell[year]['sst']);
-	    cell['mesh'].material.color.set(color);
-	});
-
-	//TODO:Update Wind
-
-	//TODO:Update Chlorophyll
-
-	fullScreenConfig['renderer'].render( fullScreenConfig['scene'], fullScreenConfig['camera'] );
+				var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, popdegree, scale);
+				popdegree = popdegree + (360 / popInfo['levelOne'].length);
+				cell[year]['popGroup'].add(popMesh);
+			}
+		});
+	}
+	
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (grid);
@@ -81703,6 +77461,7 @@ function loadMesh(config) {
 		var textures = result[0];
 	    _grid__WEBPACK_IMPORTED_MODULE_0__["default"].initGrid(textures,config['initialYear'],config);
 		config['renderer'].render( config['scene'], config['camera'] );
+		console.log("rendering...");
 		// return new THREE.Mesh(result[0], result[1]);
 	});
 }
@@ -81716,6 +77475,25 @@ var scene = {
 		config['renderer'].setSize(config['width'], config['height'] );
 		document.getElementById(config['containerID']).appendChild( config['renderer'].domElement ); 
 		loadMesh(config);
+	},
+	remove: function() {
+    	var divCanvas = document.getElementById('panels');
+		while (divCanvas.getElementsByTagName('canvas')[0]) {
+			var element = divCanvas.getElementsByTagName('canvas')[0];
+			element.remove();
+		}
+		while (divCanvas.getElementsByClassName('block')[0]) {
+			var element = divCanvas.getElementsByClassName('block')[0];
+			element.remove();
+		}
+	    while (divCanvas.getElementsByClassName('canvas-img')[0]) {
+			var element = divCanvas.getElementsByClassName('canvas-img')[0];
+			element.remove();
+		}
+	    while (divCanvas.getElementsByTagName('img')[0]) {
+			var element = divCanvas.getElementsByTagName('img')[0];
+			element.remove();
+		}
 	}
 }
 
@@ -81765,6 +77543,132 @@ var texture = {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (texture);
+
+/***/ }),
+
+/***/ "./src/js/story.js":
+/*!*************************!*\
+  !*** ./src/js/story.js ***!
+  \*************************/
+/*! exports provided: stories */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "stories", function() { return stories; });
+const stories = [
+    {
+        'title': 'Periodic Temperature Effects on Biodiversity',
+        'titlePage': true,
+        'explanation':' <font size="2">INSTRUCTION: Please use the left and right keyboard arrows to navigate through the rest of the visualization.</font> </br> <font size="2">DISCLAIMER: This visualization works best in 1280x800 or larger screen sizes on WebGL supported browsers.</font>'    
+},
+    {
+        'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors',
+        'image': './src/img/biodiversity.jpg',
+        'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
+    },
+    {
+        'explanation': 'Periodic changes of sea surface temperature -- El Nino and La Nina -- in the Pacific Ocean have impacts all over the globe. How is biodiversity affected by climate change?', 
+        'explanation-src': "https://www.americangeosciences.org/critical-issues/faq/what-are-el-nino-and-la-nina", 
+        'image': './src/img/biodiversity.jpg',
+        'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
+    },
+    {
+        'title': 'We know that changes in ocean temperature can affect species...',
+        'explanation': 'But is there a correlation between a rise in certain species during certain changes in the ocean?'
+    }, 
+    {
+        'title': 'We will be exploring the relationship between species and climate change.',
+        'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.'
+    },
+    {
+        'explanation': 'We will be observing from the period of 2009 - 2015 a range of the ocean in the San Francisco Bay Area.',
+        'image': './src/img/sfBay.jpg',
+        'image-src':'https://eoimages.gsfc.nasa.gov/images/imagerecords/81000/81238/sfbay_oli_2013106_lrg.jpg'
+    },
+    {
+        'explanation': "To understand how climate affects species we needed to consider several variables.",
+        'image': './src/img/step1.png'
+    },
+    {
+        'explanation': "In order to see these all in a single view we constructed a glyph.",
+        'image': './src/img/step2.png'
+    },
+    {
+        'explanation': "The color of the tile indicates the sea surface temperature",
+        'image': './src/img/p1.png'
+    },
+    {
+        'explanation': "The center of our glyph has an arrow indicating wind direction",
+        'image': './src/img/p2.png'
+    },
+    {
+        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence",
+        'image': './src/img/p3.png'
+    },
+    {
+        'explanation': "Lastly, each bar represents a species that was found in that area and its size indicates increase from previous year average",
+        'image': './src/img/p4.png'
+    },
+    {
+        'explanation': "We then applied our glyph on a tiled map of the SF Bay.",
+        'image': './src/img/final.png'
+    },
+    {
+        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area (2009).',
+        'canvas': [
+            {
+                'containerID': 'panel-1',
+                'initialYear': 2009,
+            }
+        ]
+    },
+    {
+        'title': 'We can see that the sea surface temperatures for this year were rather cold.',
+        'canvas': [
+            {
+                'containerID': 'panel-1',
+                'initialYear': 2009,
+            }
+        ]
+    },
+    {
+        'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish.'
+    },
+    {
+        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species.'
+    },
+    {
+        'title': 'From 2011 to 2014, (left to right) we see sea surface temperatures increase as well as diversity and abundance of species.',
+        'canvas': [
+            {
+                'containerID': 'panel-1',
+                'initialYear': 2011,
+            },
+            {
+                'containerID': 'panel-2',
+                'initialYear': 2012,
+            },
+            {
+                'containerID': 'panel-3',
+                'initialYear': 2013,
+            },
+            {
+                'containerID': 'panel-4',
+                'initialYear': 2014,
+            }
+        ]
+    },
+    {
+        'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.',
+        'canvas': [
+            {
+                'containerID': 'panel-1',
+                'initialYear': 2015,
+            }
+        ]
+    }
+]
 
 /***/ })
 

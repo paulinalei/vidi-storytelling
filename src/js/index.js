@@ -1,7 +1,7 @@
 import data from './libs/data.json';
 import * as constants from './constants';
 import gui from './gui';
-import * as jQuery from 'jquery';
+// import * as jQuery from 'jquery';
 import interaction from './interaction';
 import * as story from './story';
 

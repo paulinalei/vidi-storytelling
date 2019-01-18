@@ -24,7 +24,7 @@ export const stories = [
         'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.'
     },
     {
-        'explanation': 'We will be observing from the period of 2009 - 2015 a range of the ocean in the San Francisco Bay Area.',
+        'explanation': 'We will be observing a range of the ocean in the San Francisco Bay Area from the period of 2009 - 2015.',
         'image': './src/img/sfBay.jpg',
         'image-src':'https://eoimages.gsfc.nasa.gov/images/imagerecords/81000/81238/sfbay_oli_2013106_lrg.jpg'
     },
@@ -103,11 +103,22 @@ export const stories = [
     },
     {
         'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.',
+        'explanation': 'With warmer sea surface temperatures, normal upwelling as seen in wind direction, and an increase in chlorophyll levels, these factors all came together and created an environment that allowed for both groundfish and forage species to thrive.'
+    },
+    {
+        'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.',
         'canvas': [
             {
                 'containerID': 'panel-1',
                 'initialYear': 2015,
             }
         ]
+    },
+    {
+        'title': 'Changes in the marine ecosystem are also seen in changes in the food web.',
+        'explanation': 'In previous years, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on. However, in the recent warm years, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
+    },
+    {
+        'title': 'In conclusion, we can see that climate change has intense impact on marine ecosystems.',
     }
 ]
