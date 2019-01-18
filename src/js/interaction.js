@@ -17,6 +17,13 @@ var interaction = {
             } else {
                 $('#title').html('');
             }
+
+            if (currentStory['titlePage']) {
+                $('#title').addClass('largeF');
+            } else{
+                 $('#title').removeClass('largeF');
+            }
+
             if (currentStory['explanation']) {
                 $('#explanation').html(currentStory['explanation']);
             } else {
@@ -62,7 +69,7 @@ var interaction = {
                 panel.className = 'panel';
                 $("#grid").append(panel);
                 var sections = ( currentStory['canvas'].length > 1)? 2 : 1;
-                var dimension = (window.innerHeight * .9) / sections;
+                var dimension = (window.innerHeight * .85) / sections;
                 config['matrixData'] = matrixData;
                 config['height'] = dimension;
                 config['width'] = dimension;

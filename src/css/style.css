@@ -62,6 +62,13 @@ img{
 	transform: translate(-50%, -50%);
 }
 
+.largeF {
+    font-size: 50px;
+}
+
+.textContent {
+    height: 10vh;
+}
 .centerText{
 	text-align: center;
 }
@@ -123,6 +130,7 @@ img{
     width: 60vw;
     flex-flow: row wrap;
     justify-content: center;
+    padding-top: 3vh;
 }
 
 .noBottom{
@@ -130,6 +138,14 @@ img{
 	border-width: 1px;
 	border-style: solid;
 	border-bottom: none;
+	border-top: none;
+}
+
+.noLeft{
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-left: none;
 }
 
 /* Grid CSS */

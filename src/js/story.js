@@ -1,7 +1,9 @@
 export const stories = [
     {
-        'title': 'Periodic Temperature Effects on Biodiversity'
-    },
+        'title': 'Periodic Temperature Effects on Biodiversity',
+        'titlePage': true,
+        'explanation':' <font size="2">INSTRUCTION: Please use the left and right keyboard arrows to navigate through the rest of the visualization.</font> </br> <font size="2">DISCLAIMER: This visualization works best in 1280x800 or larger screen sizes on WebGL supported browsers.</font>'    
+},
     {
         'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors',
         'image': './src/img/biodiversity.jpg',
