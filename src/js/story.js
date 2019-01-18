@@ -57,16 +57,16 @@ export const stories = [
         'image': './src/img/final.png'
     },
     {
-        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area.',
+        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area (2009).',
         'canvas': [
             {
                 'containerID': 'panel-1',
-                'initialYear': 2011,
+                'initialYear': 2009,
             }
         ]
     },
     {
-        'title': 'Here we see in 2009 the corresponding sea surface temperatures and diversity of marine populations.',
+        'title': 'We can see that the sea surface temperatures for this year were rather cold.',
         'canvas': [
             {
                 'containerID': 'panel-1',

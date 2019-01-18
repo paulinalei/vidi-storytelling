@@ -119,8 +119,8 @@ function drawRect(xPos, yPos, color, height, width, degree, scale) {
 
 function drawPopulation(xPos,yPos,config, cell,year, scale){
 		//Population 
-	var barwidth =5 * scale;
-	var barheight = 30 * scale;
+	var barwidth =10 * scale;
+	var barheight = 40 * scale;
 	var popcolor;
 	var popdegree = 0;
 

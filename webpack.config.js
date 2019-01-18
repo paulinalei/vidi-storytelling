@@ -44,7 +44,7 @@ const config = {
         ]
     },
     externals: {
-      jquery: 'jQuery'
+      jquery: 'jquery'
     }   
 };
 // Exports
