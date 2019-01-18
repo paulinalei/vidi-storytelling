@@ -21,5 +21,5 @@ export const TEMP_CS = d3.scaleQuantile()
 // var speciesNum = 11;
 // export const POP_CS = d3.scaleOrdinal(d3.schemeSpectral[speciesNum]);
 
-export const POP_CS = d3.scaleOrdinal(d3.schemeSpectral[11]);
-export const CHLORO_CS = d3.scaleSequential(d3['interpolatePlasma']).domain([0.03,30]);
+export const POP_CS = d3.scaleOrdinal(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999']);
+export const CHLORO_CS = d3.scaleSequential(d3['interpolateYlGn']).domain([30,0.03]);

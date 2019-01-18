@@ -29,6 +29,34 @@ export const stories = [
         'image-src':'https://eoimages.gsfc.nasa.gov/images/imagerecords/81000/81238/sfbay_oli_2013106_lrg.jpg'
     },
     {
+        'explanation': "To understand how climate affects species we needed to consider several variables.",
+        'image': './src/img/step1.png'
+    },
+    {
+        'explanation': "In order to see these all in a single view we constructed a glyph.",
+        'image': './src/img/step2.png'
+    },
+    {
+        'explanation': "The color of the tile indicates the sea surface temperature",
+        'image': './src/img/p1.png'
+    },
+    {
+        'explanation': "The center of our glyph has an arrow indicating wind direction",
+        'image': './src/img/p2.png'
+    },
+    {
+        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence",
+        'image': './src/img/p3.png'
+    },
+    {
+        'explanation': "Lastly, each bar represents a species that was found in that area and its size indicates increase from previous year average",
+        'image': './src/img/p4.png'
+    },
+    {
+        'explanation': "We then applied our glyph on a tiled map of the SF Bay.",
+        'image': './src/img/final.png'
+    },
+    {
         'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area.',
         'canvas': [
             {
