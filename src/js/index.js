@@ -47,11 +47,11 @@ var panel2Config = {
 // load();
 
 function hideBlocks(){
-	$('#blockA').toggleClass('hide');
-	$('#blockB').toggleClass('hide');
-	$('#blockC').toggleClass('hide');
+	$('#blockA').addClass('hide');
+	$('#blockB').addClass('hide');
+	$('#blockC').addClass('hide');
 }
-hideBlocks();
+//hideBlocks();
 
 //Window on resize
 $(window).resize(function () {

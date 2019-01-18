@@ -35,6 +35,15 @@ export const stories = [
         'title': 'Here we see in [insert year] the corresponding sea surface temperatures and diversity of marine populations.'
     },
     {
+        'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish.'
+    },
+    {
+        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species.'
+    },
+    {
+        'title': 'From 2010 to 2014, there was an abundance in krill, which is represented by the euphausiids group.'
+    },
+    {
         'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.'
     }
 ]
