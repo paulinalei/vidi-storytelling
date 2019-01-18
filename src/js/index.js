@@ -39,19 +39,19 @@ var panel2Config = {
 	'cellHeight': constants.getCellHeight()
 }
 
-
-// function load() {
-// 	scene.draw(panel1Config);
-// 	scene.draw(panel2Config);
-// }
-// load();
-
 function hideBlocks(){
 	$('#blockA').toggleClass('hide');
 	$('#blockB').toggleClass('hide');
 	$('#blockC').toggleClass('hide');
 }
 hideBlocks();
+
+function hideTitle(){
+	$('#titlePage').toggleClass('hide');
+}
+hideTitle();
+
+
 
 //Window on resize
 $(window).resize(function () {
