@@ -5,7 +5,7 @@ export const stories = [
         'explanation':' <font size="2">INSTRUCTION: Please use the left and right keyboard arrows to navigate through the rest of the visualization.</font> </br> <font size="2">DISCLAIMER: This visualization works best in 1280x800 or larger screen sizes on WebGL supported browsers.</font>'    
 },
     {
-        'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors',
+        'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors.',
         'image': './src/img/biodiversity.jpg',
         'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
     },
@@ -38,27 +38,27 @@ export const stories = [
         'image': './src/img/step2.png'
     },
     {
-        'explanation': "The color of the tile indicates the sea surface temperature",
+        'explanation': "The color of the tile indicates the sea surface temperature.",
         'image': './src/img/p1.png'
     },
     {
-        'explanation': "The center of our glyph has an arrow indicating wind direction",
+        'explanation': "The center of our glyph has an arrow indicating wind direction.",
         'image': './src/img/p2.png'
     },
     {
-        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence",
+        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence.",
         'image': './src/img/p3.png'
     },
     {
-        'explanation': "Lastly, each bar represents a species that was found in that area and its size indicates increase from previous year average",
+        'explanation': "Lastly, each bar represents a species that was found in that area and its size indicates increase from previous year average.",
         'image': './src/img/p4.png'
     },
     {
-        'explanation': "We then applied our glyph on a tiled map of the SF Bay.",
+        'explanation': "We then applied our glyph on a tiled map of the San Francisco Bay Area.",
         'image': './src/img/final.png'
     },
     {
-        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area (2009).',
+        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area in 2009.',
         'canvas': [
             {
                 'containerID': 'panel-1',
@@ -121,7 +121,11 @@ export const stories = [
     },
     {
         'title': 'Changes in the marine ecosystem are also seen in changes in the food web.',
-        'explanation': 'In previous years, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on. However, in the recent warm years, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
+        'explanation': 'In previous years, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on.'
+    },
+    {
+        'title': 'In 2015, we see that this is no longer the case.',
+        'explanation': 'In the recent warm years, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
     },
     {
         'title': 'In conclusion, we can see that climate change has intense impact on marine ecosystems.',

@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "c84d71a4e58dd1fd7c20";
+/******/ 	var hotCurrentHash = "82549ab97b7e07bac534";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -77660,8 +77660,11 @@ const stories = [
         ]
     },
     {
-        'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.',
+        'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.'
+    },
+    {
         'explanation': 'With warmer sea surface temperatures, normal upwelling as seen in wind direction, and high chlorophyll levels, these factors all came together and created an environment that allowed for both groundfish and forage species to thrive.'
+        
     },
     {
         'title': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years.',
