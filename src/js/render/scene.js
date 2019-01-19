@@ -5,7 +5,7 @@ import texture from './texture';
 function loadMesh(config) {
 	const model = {
 		material: {
-			cloth: './src/img/clothweave.jpg',
+			cloth: './src/img/water.jpg',
 			wave: './src/img/arrow.png'
 		}
 	};
