@@ -20,9 +20,9 @@ export const stories = [
         'explanation': 'But is there a correlation between a rise in certain species during certain changes in the ocean?'
     }, 
     {
-        'title': 'We will be exploring the relationship between species and climate change using data from NOAA[*].',
+        'title': 'We will be exploring the relationship between species and climate change using data from NOAA*.',
         'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.',
-        'explanation-src':'https://coastwatch.pfeg.noaa.gov/data.html'
+        'title-explanation-src':'[*]https://coastwatch.pfeg.noaa.gov/data.html'
     },
     {
         'explanation': 'We will be observing a range of the ocean in the San Francisco Bay Area from the period of 2009 - 2015.',
@@ -76,10 +76,12 @@ export const stories = [
         ]
     },
     {
-        'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish.'
+        'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish*.',
+        'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
-        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species.'
+        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species*.',
+        'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
         'title': 'From 2011 to 2014, (left to right) we see sea surface temperatures increase as well as diversity and abundance of species.',

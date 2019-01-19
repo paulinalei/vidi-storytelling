@@ -30,9 +30,10 @@ var interaction = {
                 $('#explanation').html('');
             }
 
-            if (currentStory['explanation']) {
+            if (currentStory['title-explanation-src']) {
+                console.log('are we here');
                 // $('#title-explanation-src').html([*]reference);
-                // $('#title-explanation-src').href(currentStory['explanation-src']);
+                $('#title-explanation-src').html(currentStory['title-explanation-src']);
             } else {
                 $('#title-explanation-src').html('');
             }
