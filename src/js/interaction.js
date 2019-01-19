@@ -78,11 +78,13 @@ var interaction = {
                 $("#grid").append(panel);
                 var sections = ( currentStory['canvas'].length > 1)? 2 : 1;
                 var dimension = (window.innerHeight * .85) / sections;
+                var quality = 1000;
                 config['matrixData'] = matrixData;
-                config['height'] = dimension;
-                config['width'] = dimension;
-                config['cellWidth'] = dimension / constants.SIZE;
-                config['cellHeight'] = dimension / constants.SIZE;
+                config['img-dim'] = dimension
+                config['height'] = quality;
+                config['width'] = quality;
+                config['cellWidth'] = quality / constants.SIZE;
+                config['cellHeight'] = quality / constants.SIZE;
                 scene.draw(config);
             }
         }
