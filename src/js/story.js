@@ -5,7 +5,7 @@ export const stories = [
         'explanation':' <font size="2">INSTRUCTION: Please use the left and right keyboard arrows to navigate through the rest of the visualization.</font> </br> <font size="2">DISCLAIMER: This visualization works best in 1280x800 or larger screen sizes on WebGL supported browsers.</font>'    
 },
     {
-        'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors',
+        'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors.',
         'image': './src/img/biodiversity.jpg',
         'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
     },
@@ -20,9 +20,9 @@ export const stories = [
         'explanation': 'But is there a correlation between a rise in certain species during certain changes in the ocean?'
     }, 
     {
-        'title': 'We will be exploring the relationship between species and climate change using data from NOAA[*].',
+        'title': 'We will be exploring the relationship between species and climate change using data from NOAA*.',
         'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.',
-        'explanation-src':'https://coastwatch.pfeg.noaa.gov/data.html'
+        'title-explanation-src':'[*]https://coastwatch.pfeg.noaa.gov/data.html'
     },
     {
         'explanation': 'We will be observing a range of the ocean in the San Francisco Bay Area from the period of 2009 - 2015.',
@@ -38,15 +38,15 @@ export const stories = [
         'image': './src/img/step2.png'
     },
     {
-        'explanation': "The color of the tile indicates the sea surface temperature",
+        'explanation': "The color of the tile indicates the sea surface temperature.",
         'image': './src/img/p1.png'
     },
     {
-        'explanation': "The center of our glyph has an arrow indicating wind direction",
+        'explanation': "The center of our glyph has an arrow indicating wind direction.",
         'image': './src/img/p2.png'
     },
     {
-        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence",
+        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence.",
         'image': './src/img/p3.png'
     },
     {
@@ -58,11 +58,11 @@ export const stories = [
         'image': './src/img/p5.png'
     },
     {
-        'explanation': "We then applied our glyph on a tiled map of the SF Bay.",
+        'explanation': "We then applied our glyph on a tiled map of the San Francisco Bay Area.",
         'image': './src/img/final.png'
     },
     {
-        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area (2009).',
+        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area in 2009.',
         'canvas': [
             {
                 'containerID': 'panel-1',
@@ -80,10 +80,12 @@ export const stories = [
         ]
     },
     {
-        'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish.'
+        'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish*.',
+        'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
-        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species.'
+        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species*.',
+        'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
         'title': 'From 2011 to 2014, (left to right) we see sea surface temperatures increase as well as diversity and abundance of species.',
@@ -125,7 +127,11 @@ export const stories = [
     },
     {
         'title': 'Changes in the marine ecosystem are also seen in changes in the food web.',
-        'explanation': 'In previous years, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on. However, in the recent warm years, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
+        'explanation': 'In previous years, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on.'
+    },
+    {
+        'title': 'In 2015, we see that this is no longer the case.',
+        'explanation': 'In the recent warm years, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
     },
     {
         'title': 'In conclusion, we can see that climate change has intense impact on marine ecosystems.',

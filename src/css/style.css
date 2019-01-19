@@ -8,11 +8,19 @@ html, body {
     color: #e6e6e5;
     background-color: black;
 }
+
+a {
+	color: white;
+	text-align: center;
+	display: block;
+}
+
 canvas { width: 100vw; height: 100vh }
 * {
 	 margin: 0;
 	 padding: 0;
 }
+
 #slider {
 	position: absolute;
 	z-index: 1;
@@ -24,6 +32,10 @@ canvas { width: 100vw; height: 100vh }
 	background-color: #0c0c0c;
 	min-width: 630px;
 	min-height: 320px;
+}
+
+#title-explanation-src {
+	font-size: 12px;
 }
 
 .titleContent{
@@ -40,6 +52,7 @@ canvas { width: 100vw; height: 100vh }
 	max-height: 150px;
 	display: block;
 	margin: auto;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #imgSrc{
@@ -107,7 +120,7 @@ canvas { width: 100vw; height: 100vh }
 }
 
 #title {
-    font-family: proxima-nova, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     width: 100%;
 /*    margin-top: 50px;
@@ -200,7 +213,7 @@ h1 {
 
 p {
 	font-color: white;
-	font-family: droid-serif, serif;
+	font-family: 'Montserrat', serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
