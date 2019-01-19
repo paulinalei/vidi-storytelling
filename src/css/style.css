@@ -42,14 +42,6 @@ canvas { width: 100vw; height: 100vh }
 	margin: auto;
 }
 
-img{
-	display: block;
-	margin: auto;
-	max-height: 60vh;
-	max-width: 80vw;
-	min-height: 100%;
-}
-
 #imgSrc{
 	font-size: 12px;
 }
@@ -70,6 +62,20 @@ img{
 #imageExplanation {
     min-width: 1200px;
     min-height: 800px;
+}
+
+#image{
+	display: block;
+	margin: auto;
+	max-height: 60vh;
+	max-width: 80vw;
+	min-height: 100%;
+}
+
+.cLegend {
+    height: 23px;
+    display: block;
+    margin: auto;
 }
 
 .centerDiv{

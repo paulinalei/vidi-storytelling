@@ -50,8 +50,12 @@ export const stories = [
         'image': './src/img/p3.png'
     },
     {
-        'explanation': "Lastly, each bar represents a species that was found in that area and its size indicates increase from previous year average",
+        'explanation': "Each bar represents a species that was found in that area up to 9 bars. The more bars present in an area the higher the diversity.",
         'image': './src/img/p4.png'
+    },
+    {
+        'explanation': "The height of the bar indicates increase from previous year average",
+        'image': './src/img/p5.png'
     },
     {
         'explanation': "We then applied our glyph on a tiled map of the SF Bay.",
