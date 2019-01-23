@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "82549ab97b7e07bac534";
+/******/ 	var hotCurrentHash = "05ff10f23299d55babe7";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -77149,6 +77149,14 @@ var interaction = {
             } else {
                 $('#explanation').html('');
             }
+
+            if (currentStory['title-explanation-src']) {
+                console.log('are we here');
+                // $('#title-explanation-src').html([*]reference);
+                $('#title-explanation-src').html(currentStory['title-explanation-src']);
+            } else {
+                $('#title-explanation-src').html('');
+            }
         }
 
         //if image 
@@ -77190,11 +77198,13 @@ var interaction = {
                 $("#grid").append(panel);
                 var sections = ( currentStory['canvas'].length > 1)? 2 : 1;
                 var dimension = (window.innerHeight * .85) / sections;
+                var quality = 1000;
                 config['matrixData'] = matrixData;
-                config['height'] = dimension;
-                config['width'] = dimension;
-                config['cellWidth'] = dimension / _constants__WEBPACK_IMPORTED_MODULE_1__["SIZE"];
-                config['cellHeight'] = dimension / _constants__WEBPACK_IMPORTED_MODULE_1__["SIZE"];
+                config['img-dim'] = dimension
+                config['height'] = quality;
+                config['width'] = quality;
+                config['cellWidth'] = quality / _constants__WEBPACK_IMPORTED_MODULE_1__["SIZE"];
+                config['cellHeight'] = quality / _constants__WEBPACK_IMPORTED_MODULE_1__["SIZE"];
                 _render_scene__WEBPACK_IMPORTED_MODULE_2__["default"].draw(config);
             }
         }
@@ -77387,7 +77397,7 @@ function drawRect(xPos, yPos, color, height, width, degree, scale) {
 	
 	mesh.position.set(xPos, yPos, 1);
 	var radians = Math.radians(degree);
-	var r = 20 * scale;
+	var r = 15 * scale;
 	var move = [r*Math.cos(radians),r*Math.sin(radians)];
 
 	mesh.translateX(move[0]);
@@ -77405,6 +77415,18 @@ function drawPopulation(xPos,yPos,config, cell,year, scale){
 	var popcolor;
 	var popdegree = 0;
 
+	var degreeObj = {
+		"Fish": 0,
+		"Ground Fish": (360 / 9),
+		"Salmonid": (360 / 9) * 2,
+		"Small Fish": (360 / 9) * 3,
+		"Cephalopod": (360 /9) * 4,
+		"Crustacean": (360 / 9) * 5,
+		"Jellyfish": (360 / 9) * 6,
+		"Gelatinous": (360 / 9) * 7,
+		"Euphausiid": (360 / 9) * 8
+	}
+
 	var popInfo = cell[year]['popInfo'];
 	if('popInfo' in cell[year]){
 		popInfo['levelOne'].forEach(function(species){
@@ -77416,8 +77438,7 @@ function drawPopulation(xPos,yPos,config, cell,year, scale){
 				var height = barheight * delta;
 				height = (height > barheight)? barheight: height;
 
-				var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, popdegree, scale);
-				popdegree = popdegree + (360 / popInfo['levelOne'].length);
+				var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, degreeObj[species], scale);
 				cell[year]['popGroup'].add(popMesh);
 			}
 		});
@@ -77449,7 +77470,7 @@ __webpack_require__.r(__webpack_exports__);
 function loadMesh(config) {
 	const model = {
 		material: {
-			cloth: './src/img/clothweave.jpg',
+			cloth: './src/img/water.jpg',
 			wave: './src/img/arrow.png'
 		}
 	};
@@ -77461,8 +77482,17 @@ function loadMesh(config) {
 		var textures = result[0];
 	    _grid__WEBPACK_IMPORTED_MODULE_0__["default"].initGrid(textures,config['initialYear'],config);
 		config['renderer'].render( config['scene'], config['camera'] );
+
+		var divCanvas = document.getElementById(config['containerID']);
+		var canvas = divCanvas.getElementsByTagName('canvas')[0];
+		var dataurl = canvas.toDataURL();
+
+		//height is
+		var img = new Image(config['img-dim'],config['img-dim']);
+		img.src = canvas.toDataURL();
+		canvas.remove();
+		divCanvas.appendChild(img);
 		console.log("rendering...");
-		// return new THREE.Mesh(result[0], result[1]);
 	});
 }
 
@@ -77563,7 +77593,7 @@ const stories = [
         'explanation':' <font size="2">INSTRUCTION: Please use the left and right keyboard arrows to navigate through the rest of the visualization.</font> </br> <font size="2">DISCLAIMER: This visualization works best in 1280x800 or larger screen sizes on WebGL supported browsers.</font>'    
 },
     {
-        'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors',
+        'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors.',
         'image': './src/img/biodiversity.jpg',
         'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
     },
@@ -77578,8 +77608,9 @@ const stories = [
         'explanation': 'But is there a correlation between a rise in certain species during certain changes in the ocean?'
     }, 
     {
-        'title': 'We will be exploring the relationship between species and climate change.',
-        'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.'
+        'title': 'We will be exploring the relationship between species and climate change using data from NOAA*.',
+        'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.',
+        'title-explanation-src':'[*]https://coastwatch.pfeg.noaa.gov/data.html'
     },
     {
         'explanation': 'We will be observing a range of the ocean in the San Francisco Bay Area from the period of 2009 - 2015.',
@@ -77595,27 +77626,31 @@ const stories = [
         'image': './src/img/step2.png'
     },
     {
-        'explanation': "The color of the tile indicates the sea surface temperature",
+        'explanation': "The color of the tile indicates the sea surface temperature.",
         'image': './src/img/p1.png'
     },
     {
-        'explanation': "The center of our glyph has an arrow indicating wind direction",
+        'explanation': "The center of our glyph has an arrow indicating wind direction.",
         'image': './src/img/p2.png'
     },
     {
-        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence",
+        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence.",
         'image': './src/img/p3.png'
     },
     {
-        'explanation': "Lastly, each bar represents a species that was found in that area and its size indicates increase from previous year average",
+        'explanation': "Each bar represents a species that was found in that area up to 9 bars. The more bars present in an area the higher the diversity.",
         'image': './src/img/p4.png'
     },
     {
-        'explanation': "We then applied our glyph on a tiled map of the SF Bay.",
+        'explanation': "The height of the bar indicates increase from previous year average",
+        'image': './src/img/p5.png'
+    },
+    {
+        'explanation': "We then applied our glyph on a tiled map of the San Francisco Bay Area.",
         'image': './src/img/final.png'
     },
     {
-        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area (2009).',
+        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area in 2009.',
         'canvas': [
             {
                 'containerID': 'panel-1',
@@ -77633,10 +77668,12 @@ const stories = [
         ]
     },
     {
-        'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish.'
+        'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish*.',
+        'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
-        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species.'
+        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species*.',
+        'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
         'title': 'From 2011 to 2014, (left to right) we see sea surface temperatures increase as well as diversity and abundance of species.',
@@ -77663,7 +77700,8 @@ const stories = [
         'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.'
     },
     {
-        'explanation': 'With warmer sea surface temperatures, normal upwelling as seen in wind direction, and high chlorophyll levels, these factors all came together and created an environment that allowed for both groundfish and forage species to thrive.'
+        'title':'Warmer sea surface temperatures, normal upwelling as seen in wind direction, and high chlorophyll levels...',
+        'explanation': 'These factors all came together and created an environment that allowed for both groundfish and forage species to thrive.'
         
     },
     {
@@ -77677,7 +77715,11 @@ const stories = [
     },
     {
         'title': 'Changes in the marine ecosystem are also seen in changes in the food web.',
-        'explanation': 'In previous years, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on. However, in the recent warm years, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
+        'explanation': 'In previous years, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on.'
+    },
+    {
+        'title': 'In 2015, we see that this is no longer the case.',
+        'explanation': 'In the recent warm years, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
     },
     {
         'title': 'In conclusion, we can see that climate change has intense impact on marine ecosystems.',
