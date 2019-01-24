@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>VIDi Storytelling</title>
+    <title>Biodiversity Story</title>
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -10,73 +10,76 @@
     <!-- <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> -->
     <!-- <script src="semantic/dist/semantic.min.js"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/jly1ipt.css">
     <link href="../src/css/style.css" rel="stylesheet">
   </head>
   <body>
 
     <div id="titlePage" class="titleCard border centerDiv">
-        <div class="centerDiv">
-          <h1 id="title" class="centerText"></h1>
+        <div class="centerDiv titleContent">
+          <div class="lazyCenter titleFix centerText"><h1 id="title" ></h1></div>
           <div class="underline"></div>
           <p id="explanation" class="centerText"></p>
+          <p id="title-explanation-src" class="centerText"></p>
         </div>
     </div>
 
     <div id="imageExplanation">
       <div class="descriptionContainer border"> 
-        <div class="centerRelative">
-          <p id="image-explanation" class="centerText">
-          <p id="contentSrc" class="centerText"></p>
-          </p>
+        <div class="lazyCenter titleFix centerText">
+          <p id="image-explanation" class="centerText"></p>
+          <a id="image-explanation-src" class="centerText" href=""></a>
         </div>
       </div>
       <div id="img" class="imageContainer">
-        <div class="centerRelative">
+        <div class="imgFix">
           <img id="image" src="">
           <p id="imgSrc" class="centerText"> </p>
         </div>
       </div>
     </div>
 
-    <div id="blockA" class="block">
-      
-    </div>
-
-<div id="blockB" class="block">
-    <div id="blockB1" class="border">
-      <div class="textContent">
-        <div class="centerRelative">
-          <p id="blockExplanation" class="centerText">random nonsense</p>
+<div id="blocks">
+  <div id="blockA" class="block"></div>
+  <div id="blockB" class="block">
+      <div id="blockB1" class="border">
+        <div class="textContent">
+          <div class="centerRelative">
+            <p id="blockExplanation" class="centerText">random nonsense</p>
+            <a id="block-explanation-src" class="centerText" href=""></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div id="blockB2" class="noBottom">
-      <div id="panels" class="mainView">
-        <div id="grid">
-        </div>
-      </div>  
-    </div>
-</div>
-
-<div id="blockC" class="block">
-   <div id="blockC2" class="noLeft">
-    <div class="legend">
-      <div class="container">
-        <div id="legend-1">
-          <div class="legendTitle border">Species</div>
-          <svg id="pop-legend"></svg>
-        </div>
-        <div id="legend-2">
-          <div class="legendTitle border">Temperature &#8451;</div>
-          <svg id="temp-legend"></svg>
-        </div>
+      <div id="blockB2" class="">
+        <div id="panels" class="mainView">
+          <div id="grid">
+          </div>
+        </div>  
       </div>
-    </div>
   </div>
-  <div id="blockC1" class="border"></div>  
+  <div id="blockC" class="block">
+     <div id="blockC2" class="noLeft">
+      <div class="legend">
+        <div class="container">
+          <div id="legend-1">
+            <div class="legendTitle ">Species</div>
+            <svg id="pop-legend"></svg>
+          </div>
+          <div id="legend-2">
+            <div class="legendTitle ">Temperature &#8451;</div>
+            <svg id="temp-legend"></svg>
+          </div>
+          <div id="legend-3">
+            <div class="legendTitle ">Chlorophyll </div>
+            <img class="cLegend" src="./src/img/cLegend.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="blockC1" class=""></div>  
+  </div>
 </div>
-
     
 <script type="text/javascript" src="bundle.js"></script></body>
 </html>

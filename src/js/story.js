@@ -36,9 +36,9 @@ export const stories = [
         'title-explanation-src':'[*]https://coastwatch.pfeg.noaa.gov/data.html'
     },
     {
-        'explanation': 'We will be observing a range of the ocean in the San Francisco Bay Area from the period of 2009 - 2015.',
-        'image': './src/img/sfBay.jpg',
-        'image-src':'https://eoimages.gsfc.nasa.gov/images/imagerecords/81000/81238/sfbay_oli_2013106_lrg.jpg'
+        'explanation': 'We will be observing a range of the ocean from the Monterey Bay up to the San Francisco Bay Area from the period of 2009 - 2015.',
+        'image': './src/img/montereytosf.PNG',
+        'image-src':'Google Maps'
     },
     {
         'explanation': "To understand how climate affects species we needed to consider several variables.",
@@ -65,15 +65,15 @@ export const stories = [
         'image': './src/img/p4.png'
     },
     {
-        'explanation': "The height of the bar indicates increase from previous year average",
+        'explanation': "The height of the bar indicates increase from previous year average.",
         'image': './src/img/p5.png'
     },
     {
-        'explanation': "We then applied our glyph on a tiled map of the San Francisco Bay Area.",
+        'explanation': "We then applied our glyph on a tiled map of the area.",
         'image': './src/img/final.png'
     },
     {
-        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area in 2009.',
+        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean of the region in 2009.',
         'canvas': [
             {
                 'containerID': 'panel-1',
