@@ -1,9 +1,20 @@
 export const stories = [
+    // {
+    //     'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area in 2009.',
+    //     'canvas': [
+    //         {
+    //             'containerID': 'panel-1',
+    //             'initialYear': 2010,
+    //             'showPop': true,
+    //             'showWeather': false
+    //         }
+    //     ]
+    // },
     {
         'title': 'Periodic Temperature Effects on Biodiversity',
         'titlePage': true,
         'explanation':' <font size="2">INSTRUCTION: Please use the left and right keyboard arrows to navigate through the rest of the visualization.</font> </br> <font size="2">DISCLAIMER: This visualization works best in 1280x800 or larger screen sizes on WebGL supported browsers.</font>'    
-},
+    },
     {
         'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors.',
         'image': './src/img/biodiversity.jpg',
@@ -67,6 +78,8 @@ export const stories = [
             {
                 'containerID': 'panel-1',
                 'initialYear': 2009,
+                'showPop': false,
+                'showWeather': true
             }
         ]
     },
@@ -76,6 +89,8 @@ export const stories = [
             {
                 'containerID': 'panel-1',
                 'initialYear': 2009,
+                'showPop': true,
+                'showWeather': false
             }
         ]
     },
@@ -93,18 +108,26 @@ export const stories = [
             {
                 'containerID': 'panel-1',
                 'initialYear': 2011,
+                'showPop': true,
+                'showWeather': false
             },
             {
                 'containerID': 'panel-2',
                 'initialYear': 2012,
+                'showPop': true,
+                'showWeather': false
             },
             {
                 'containerID': 'panel-3',
                 'initialYear': 2013,
+                'showPop': true,
+                'showWeather': false
             },
             {
                 'containerID': 'panel-4',
                 'initialYear': 2014,
+                'showPop': true,
+                'showWeather': false
             }
         ]
     },
@@ -122,6 +145,8 @@ export const stories = [
             {
                 'containerID': 'panel-1',
                 'initialYear': 2015,
+                'showPop': true,
+                'showWeather': false
             }
         ]
     },
