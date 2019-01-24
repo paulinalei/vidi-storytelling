@@ -73,26 +73,12 @@ export const stories = [
         'image': './src/img/final.png'
     },
     {
-        'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean of the region in 2009.',
-        'canvas': [
-            {
-                'containerID': 'panel-1',
-                'initialYear': 2009,
-                'showPop': false,
-                'showWeather': true
-            }
-        ]
+        'explanation': 'This is our visualization of species in a specific latitude and longitude range of the ocean of the region in 2009.',
+        'image':  './src/img/popOnly_2009.png'
     },
     {
-        'title': 'We can see that the sea surface temperatures for this year were rather cold.',
-        'canvas': [
-            {
-                'containerID': 'panel-1',
-                'initialYear': 2009,
-                'showPop': true,
-                'showWeather': false
-            }
-        ]
+        'explanation': 'We can see that the sea surface temperatures for this year were rather cold.',
+        'image': './src/img/popOnly_2009.png'
     },
     {
         'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish*.',
@@ -103,33 +89,8 @@ export const stories = [
         'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
-        'title': 'From 2011 to 2014, (left to right) we see sea surface temperatures increase as well as diversity and abundance of species.',
-        'canvas': [
-            {
-                'containerID': 'panel-1',
-                'initialYear': 2011,
-                'showPop': true,
-                'showWeather': false
-            },
-            {
-                'containerID': 'panel-2',
-                'initialYear': 2012,
-                'showPop': true,
-                'showWeather': false
-            },
-            {
-                'containerID': 'panel-3',
-                'initialYear': 2013,
-                'showPop': true,
-                'showWeather': false
-            },
-            {
-                'containerID': 'panel-4',
-                'initialYear': 2014,
-                'showPop': true,
-                'showWeather': false
-            }
-        ]
+        'explanation': 'From 2011 to 2015, we see sea surface temperatures increase as well as diversity and abundance of species.',
+        'image': './src/img/popOnly9-15.png'
     },
     {
         'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.'
@@ -140,15 +101,8 @@ export const stories = [
         
     },
     {
-        'title': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years.',
-        'canvas': [
-            {
-                'containerID': 'panel-1',
-                'initialYear': 2015,
-                'showPop': true,
-                'showWeather': false
-            }
-        ]
+        'explanation': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years.',
+        'image': './src/img/popOnly_2015.png'
     },
     {
         'title': 'Changes in the marine ecosystem are also seen in changes in the food web.',
