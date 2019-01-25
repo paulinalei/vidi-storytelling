@@ -41,12 +41,17 @@ export const stories = [
         'image-src':'Google Maps'
     },
     {
-        'explanation': "To understand how climate affects species we needed to consider several variables.",
-        'image': './src/img/step1.png'
+        'explanation': 'Every year, NOAA scientists trawled the ocean in the middle of the year to gather data on the species.',
+        'image': 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG',
+        'image-src':'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG'
     },
     {
-        'explanation': "In order to see these all in a single view we constructed a glyph.",
+        'explanation': "In order to represent the trawl, we constructed a glyph.",
         'image': './src/img/step2.png'
+    },
+    {
+        'explanation': "To understand how climate affects species diversity we needed to consider several variables.",
+        'image': './src/img/step1.png'
     },
     {
         'explanation': "The color of the tile indicates the sea surface temperature.",
@@ -61,11 +66,11 @@ export const stories = [
         'image': './src/img/p3.png'
     },
     {
-        'explanation': "Each bar represents a species that was found in that area up to 9 bars. The more bars present in an area the higher the diversity.",
+        'explanation': "Each bar represents a species category that was found in that area up to 9 bars. The more bars present in an area the higher the diversity.",
         'image': './src/img/p4.png'
     },
     {
-        'explanation': "The height of the bar indicates increase from previous year average.",
+        'explanation': "The height of the bar indicates number of unique species in this category.",
         'image': './src/img/p5.png'
     },
     {
@@ -73,12 +78,19 @@ export const stories = [
         'image': './src/img/final.png'
     },
     {
-        'explanation': 'This is our visualization of species in a specific latitude and longitude range of the ocean of the region in 2009.',
+        'explanation': 'This is our visualization of the trawl in 2009.',
         'image':  './src/img/popOnly_2009.png'
     },
     {
-        'explanation': 'We can see that the sea surface temperatures for this year were rather cold.',
-        'image': './src/img/popOnly_2009.png'
+        'title': 'We can see that the sea surface temperatures for this year were rather cold.',
+        'canvas': [
+                    {
+                        'containerID': 'panel-1',
+                        'initialYear': 2010,
+                        'showPop': false,
+                        'showWeather': true
+                    }
+                ]
     },
     {
         'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish*.',
