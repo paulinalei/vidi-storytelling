@@ -31,7 +31,6 @@ var interaction = {
             }
 
             if (currentStory['title-explanation-src']) {
-                console.log('are we here');
                 // $('#title-explanation-src').html([*]reference);
                 $('#title-explanation-src').html(currentStory['title-explanation-src']);
             } else {
