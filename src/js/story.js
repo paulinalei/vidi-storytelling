@@ -1,15 +1,4 @@
 export const stories = [
-    // {
-    //     'title': 'This is our visualization of species in a specific latitude and longitude range of the ocean in the San Francisco Bay Area in 2009.',
-    //     'canvas': [
-    //         {
-    //             'containerID': 'panel-1',
-    //             'initialYear': 2010,
-    //             'showPop': true,
-    //             'showWeather': false
-    //         }
-    //     ]
-    // },
     {
         'title': 'Periodic Temperature Effects on Biodiversity',
         'titlePage': true,
@@ -47,31 +36,27 @@ export const stories = [
     },
     {
         'explanation': "In order to represent the trawl, we constructed a glyph.",
-        'image': './src/img/step2.png'
+        'image': './src/img/p0.png'
     },
     {
         'explanation': "To understand how climate affects species diversity we needed to consider several variables.",
         'image': './src/img/step1.png'
     },
     {
-        'explanation': "The color of the tile indicates the sea surface temperature.",
+        'explanation': "The center of our glyph has an arrow indicating wind direction.",
         'image': './src/img/p1.png'
     },
     {
-        'explanation': "The center of our glyph has an arrow indicating wind direction.",
+        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence.",
         'image': './src/img/p2.png'
     },
     {
-        'explanation': "The color of the circle below denotes cholorophyll levels where brighter means higher presence.",
+        'explanation': "Each bar represents a species category that was found in that area up to 9 bars. The more bars present in an area the higher the diversity.",
         'image': './src/img/p3.png'
     },
     {
-        'explanation': "Each bar represents a species category that was found in that area up to 9 bars. The more bars present in an area the higher the diversity.",
-        'image': './src/img/p4.png'
-    },
-    {
         'explanation': "The height of the bar indicates number of unique species in this category.",
-        'image': './src/img/p5.png'
+        'image': './src/img/p4.png'
     },
     {
         'explanation': "We then applied our glyph on a tiled map of the area.",
@@ -82,11 +67,11 @@ export const stories = [
         'image':  './src/img/popOnly_2009.png'
     },
     {
-        'explanation': 'We can see that the sea surface temperatures for this year were rather cold, and chlorophyll levels are rather low. PUT IN LEGEND',
+        'explanation': 'We can see that the sea surface temperatures for this year were rather cold, and chlorophyll levels are rather low.',
         'image': './src/img/weathercholo_2009.png'
     },
     {
-        'explanation': 'Just looking at the population, we see there is some species diversity. PUT IN LEGEND',
+        'explanation': 'Just looking at the population, we see there is some species diversity.',
         'image': './src/img/popOnly_2009.png'
     },
     {
@@ -94,20 +79,20 @@ export const stories = [
         'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
-        'explanation': 'In 2011, which was a peak cold year*, we see that this caused a decrease in species diversity in 2012. [*]https://ggweather.com/enso/oni.htm',
-        'image': 'insert histogram'
+        'explanation': 'In 2011, which was a peak cold year*, we see that this caused a decrease in species diversity in 2012. </br> [*]https://ggweather.com/enso/oni.htm',
+        'image': './src/img/2011_2012_compare.png'
     },
     {
-        'explanation': 'If we look at the conditions of the trawl from 2011 to 2014, we see that waters are getting warmer and diversity increases.',
+        'explanation': 'We see a decrease in the diversity of <span style="color:red">Rockfish</span> and an increase for <span style="color:#a65628">Gelatinous</span> species.',
+        'image': './src/img/2011_2012_compare.png'
+    },
+    {
+        'explanation': 'If we look at the conditions of the trawl from 2011 to 2014, we see that waters are getting warmer.',
         'image': './src/img/2011to2014horizontal.png'
     },
     {
-        'explanation': 'We see that in 2013, a warmer water mass, which is seen in white, begins to appear.',
-        'image': './src/img/2011to2014horizontal.png'
-    },
-    {
-        'explanation': 'Then in 2014, the warm water mass takes over and we see areas with red.',
-        'image': './src/img/2011to2014horizontal.png'
+        'explanation': 'We see that in 2013, a warmer water mass, which is seen in white, begins to appear. Then in 2014, the warm water mass takes over.',
+        'image': './src/img/2011to2014caption.png'
     },
     {
         'title': 'We also observed the food web during this time.',
@@ -125,7 +110,7 @@ export const stories = [
         'title': 'All the factors from 2011 to 2014 came together and led to an abnormal increase in biodiversity in 2015.'
     },
     {
-        'explanation': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years. PUT IN LEGEND',
+        'explanation': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years.',
         'image': './src/img/popOnly_2015.png'
     },
     {

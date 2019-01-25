@@ -31,6 +31,24 @@ function loadMesh(config) {
 	});
 }
 
+
+function noTexture(config){
+	var textures=[];
+	grid.initGrid(textures,config['initialYear'],config);
+	config['renderer'].render( config['scene'], config['camera'] );
+
+	var divCanvas = document.getElementById(config['containerID']);
+	var canvas = divCanvas.getElementsByTagName('canvas')[0];
+	var dataurl = canvas.toDataURL();
+
+	//height is
+	var img = new Image(config['img-dim'],config['img-dim']);
+	img.src = canvas.toDataURL();
+	canvas.remove();
+	divCanvas.appendChild(img);
+	console.log("rendering...");
+}
+
 var scene = {
 	draw: function(config){
 		config['scene'] = new THREE.Scene();

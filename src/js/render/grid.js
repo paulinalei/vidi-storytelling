@@ -81,14 +81,14 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	textures['cloth'].anisotropy = config['renderer'].getMaxAnisotropy();
 	textures['cloth'].magFilter = THREE.NearestFilter;
 	var geometry = new THREE.BoxGeometry( config['cellWidth'], config['cellHeight'], 1 );
-	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color:color}); //"white"
+	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color:"white"}); //"white"
 	var mesh = new THREE.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 0);
 	group.add(mesh);
 
-	// var sstHD = cell[year]['sstHD'];
-	// var highResBG = higherResOcean(xPos,yPos,config,sstHD);
-	// group.add(highResBG);
+	var sstHD = cell[year]['sstHD'];
+	var highResBG = higherResOcean(xPos,yPos,config,sstHD);
+	group.add(highResBG);
 
 	//toggle aspects of glpyh that relate to weather
 	if(config['showWeather']){
@@ -202,7 +202,6 @@ function drawWind(xPos,yPos,texture, degree, scale){
 	var k = 15 * scale;
 	sprite.scale.set(k,k,1.0);
 	sprite.position.set(xPos, yPos, 5);
-
 	return sprite
 }
 
