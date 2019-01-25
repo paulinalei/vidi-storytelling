@@ -18,13 +18,12 @@
 	"euphausiid":"9"	
 },
 {
-	"1":"Fish",
+	"1":"Rockfish",
 	"2":"Ground Fish",
-	"3":"Salmonid",
-	"4":"Small Fish",
-	"5":"Cephalopod",
-	"6":"Crustacean",
-	"7":"Jellyfish",
-	"8":"Gelatinous",
-	"9":"Euphausiid"
+	"3":"Forage",
+	"4":"Cephalopod",
+	"5":"Crustacean",
+	"6":"Jellyfish",
+	"7":"Gelatinous",
+	"8":"Krill"
 }]

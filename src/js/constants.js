@@ -20,6 +20,6 @@ export const TEMP_CS = d3.scaleQuantile()
   .range(d3.schemeRdBu[steps].reverse());
 // var speciesNum = 11;
 // export const POP_CS = d3.scaleOrdinal(d3.schemeSpectral[speciesNum]);
-
-export const POP_CS = d3.scaleOrdinal(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999']);
+var color =['#e41a1c','#a9a9a9','#42d4f4','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf'];
+export const POP_CS = d3.scaleOrdinal(color);
 export const CHLORO_CS = d3.scaleSequential(d3['interpolateYlGn']).domain([30,0.03]);

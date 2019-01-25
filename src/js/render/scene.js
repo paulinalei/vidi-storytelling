@@ -41,6 +41,17 @@ var scene = {
 		document.getElementById(config['containerID']).appendChild( config['renderer'].domElement ); 
 		loadMesh(config);
 	},
+	drawHistoGram: function(config){
+		config['scene'] = new THREE.Scene();
+		config['camera'] = new THREE.OrthographicCamera( config['width'] / - 2, config['width'] / 2, config['height'] / 2,  config['height'] / - 2, 1, 20 );
+		config['camera'].position.z = 10;
+		config['renderer'] = new THREE.WebGLRenderer({antialias: true});
+		config['renderer'].setSize(config['width'], config['height'] );
+		document.getElementById(config['containerID']).appendChild( config['renderer'].domElement ); 
+
+		histogram.initHistogram(config);
+		config['renderer'].render( config['scene'], config['camera'] );
+	},
 	remove: function() {
     	var divCanvas = document.getElementById('panels');
 		while (divCanvas.getElementsByTagName('canvas')[0]) {

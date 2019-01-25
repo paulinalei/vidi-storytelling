@@ -81,7 +81,7 @@ function addCell(xPos,yPos,textures,color, degree, config, cell,year){
 	textures['cloth'].anisotropy = config['renderer'].getMaxAnisotropy();
 	textures['cloth'].magFilter = THREE.NearestFilter;
 	var geometry = new THREE.BoxGeometry( config['cellWidth'], config['cellHeight'], 1 );
-	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color:color});
+	var material = new THREE.MeshBasicMaterial({map: textures['cloth'], color:color}); //"white"
 	var mesh = new THREE.Mesh(geometry, material);
 	mesh.position.set(xPos, yPos, 0);
 	group.add(mesh);
@@ -158,8 +158,6 @@ function drawRect(xPos, yPos, color, height, width, degree, scale) {
 
 function drawCholorphyll(xPos,yPos,cell,year, scale){
 	var cColor = constants.CHLORO_CS(cell[year]['chloro']);
-	console.log(cell[year]['chloro']);
-
 	var group = new THREE.Group();
 	var radius = scale * 15;
 	var geometry = new THREE.CircleGeometry( radius, 64 );
@@ -211,35 +209,47 @@ function drawWind(xPos,yPos,texture, degree, scale){
 
 function drawPopulation(xPos,yPos,config, cell,year, scale){
 		//Population 
-	var barwidth =10 * scale;
-	var barheight = 40 * scale;
+	var barwidth = 10 * scale;
+	var barheight = 60 * scale;
 	var popcolor;
 	var popdegree = 0;
 
 	var degreeObj = {
-		"Fish": 0,
-		"Ground Fish": (360 / 9),
-		"Salmonid": (360 / 9) * 2,
-		"Small Fish": (360 / 9) * 3,
-		"Cephalopod": (360 /9) * 4,
-		"Crustacean": (360 / 9) * 5,
-		"Jellyfish": (360 / 9) * 6,
-		"Gelatinous": (360 / 9) * 7,
-		"Euphausiid": (360 / 9) * 8
+		"Rockfish": 0,
+		"Ground Fish": (360 / 8),
+		"Forage": (360 / 8) * 2,
+		"Cephalopod": (360 /8) * 3,
+		"Crustacean": (360 / 8) * 4,
+		"Jellyfish": (360 / 8) * 5,
+		"Gelatinous": (360 / 8) * 6,
+		"Krill": (360 / 8) * 7
 	}
+	var names = [
+		"Rockfish",
+		"Ground Fish",
+		"Forage",
+		"Cephalopod",
+		"Crustacean",
+		"Jellyfish",
+		"Gelatinous",
+		"Krill"];
+
 	var hasPopData = false;
 	var popInfo = cell[year]['popInfo'];
 	if('popInfo' in cell[year]){
-		popInfo['levelOne'].forEach(function(species){
-			hasPopData = true;
-			var count = popInfo['levelOneMap'][species];
+		hasPopData = true;
+		var maxDiversity = -9999;
+		names.forEach(function(species){
+			maxDiversity =(popInfo[species] > maxDiversity)? popInfo[species]: maxDiversity;
+		});
+		console.log(popInfo);
+		names.forEach(function(species){
+			var count = popInfo[species];
 			popcolor = constants.POP_CS(species);
 			if(count > 0){
-				var species_avg = averageData[year]['L1'][species]['average'];
-				var delta = count / species_avg;
+				var delta = count / maxDiversity;
 				var height = barheight * delta;
 				height = (height > barheight)? barheight: height;
-
 				var popMesh = drawRect(xPos, yPos, popcolor, barwidth, height, degreeObj[species], scale);
 				cell[year]['popGroup'].add(popMesh);
 			}
