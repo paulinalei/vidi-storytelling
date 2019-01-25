@@ -36,8 +36,8 @@ export const stories = [
         'title-explanation-src':'[*]https://coastwatch.pfeg.noaa.gov/data.html'
     },
     {
-        'explanation': 'We will be observing a range of the ocean from the Monterey Bay up to the San Francisco Bay Area from the period of 2009 - 2015.',
-        'image': './src/img/montereytosf.PNG',
+        'explanation': 'We will be observing a range of the ocean from the Monterey Bay up to the San Francisco Bay Area from the period of 2009 to 2015.',
+        'image': './src/img/region.PNG',
         'image-src':'Google Maps'
     },
     {
@@ -82,47 +82,59 @@ export const stories = [
         'image':  './src/img/popOnly_2009.png'
     },
     {
-        'title': 'We can see that the sea surface temperatures for this year were rather cold.',
-        'canvas': [
-                    {
-                        'containerID': 'panel-1',
-                        'initialYear': 2010,
-                        'showPop': false,
-                        'showWeather': true
-                    }
-                ]
+        'explanation': 'We can see that the sea surface temperatures for this year were rather cold, and chlorophyll levels are rather low. PUT IN LEGEND',
+        'image': './src/img/weathercholo_2009.png'
+    },
+    {
+        'explanation': 'Just looking at the population, we see there is some species diversity. PUT IN LEGEND',
+        'image': './src/img/popOnly_2009.png'
     },
     {
         'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish*.',
         'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
+        'explanation': 'In 2011, which was a peak cold year*, we see that this caused a decrease in species diversity in 2012. [*]https://ggweather.com/enso/oni.htm',
+        'image': 'insert histogram'
+    },
+    {
+        'explanation': 'If we look at the conditions of the trawl from 2011 to 2014, we see that waters are getting warmer and diversity increases.',
+        'image': './src/img/2011to2014horizontal.png'
+    },
+    {
+        'explanation': 'We see that in 2013, a warmer water mass, which is seen in white, begins to appear.',
+        'image': './src/img/2011to2014horizontal.png'
+    },
+    {
+        'explanation': 'Then in 2014, the warm water mass takes over and we see areas with red.',
+        'image': './src/img/2011to2014horizontal.png'
+    },
+    {
+        'title': 'We also observed the food web during this time.',
+        'explanation': 'From 2011 to 2014, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on.'
+    },
+    {
+        'explanation': 'Here we see a histogram of the species from 2011 to 2014.',
+        'image': 'insert image'
+    },
+    {
         'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species*.',
         'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
-        'explanation': 'From 2011 to 2015, we see sea surface temperatures increase as well as diversity and abundance of species.',
-        'image': './src/img/popOnly9-15.png'
+        'title': 'All the factors from 2011 to 2014 came together and led to an abnormal increase in biodiversity in 2015.'
     },
     {
-        'title': 'In 2015, we saw an increase in biodiversity with warmer sea surface temperatures.'
-    },
-    {
-        'title':'Warmer sea surface temperatures, normal upwelling as seen in wind direction, and high chlorophyll levels...',
-        'explanation': 'These factors all came together and created an environment that allowed for both groundfish and forage species to thrive.'
-        
-    },
-    {
-        'explanation': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years.',
+        'explanation': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years. PUT IN LEGEND',
         'image': './src/img/popOnly_2015.png'
     },
     {
-        'title': 'Changes in the marine ecosystem are also seen in changes in the food web.',
-        'explanation': 'In previous years, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on.'
+        'explanation': 'Here we show a histogram of the species diversity in 2015.',
+        'image': 'insert histogram'
     },
     {
-        'title': 'In 2015, we see that this is no longer the case.',
-        'explanation': 'In the recent warm years, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
+        'title': 'Changes in the marine ecosystem are also seen in changes in the food web.',
+        'explanation': 'In 2015, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.'
     },
     {
         'title': 'In conclusion, we can see that climate change has intense impact on marine ecosystems.',
