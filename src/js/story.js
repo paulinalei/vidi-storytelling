@@ -99,23 +99,27 @@ export const stories = [
         'explanation': 'From 2011 to 2014, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on.'
     },
     {
-        'explanation': 'Here we see a histogram of the species from 2011 to 2014.',
-        'image': 'insert image'
+        'explanation': 'Here we see a histogram of the species from 2011 to 2015. Years are read from left to right. Each histogram corresponds to a specific species and is color coordinated with the legend. The histograms are mirrored horizontally except for <span style="color:#f781bf">Krill</span> and <span style="color:#a65628">Gelatinous</span>.',
+        'image': './src/img/infographic.png'
     },
     {
-        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species*.',
+        'explanation': '<span style="color:#f781bf">Krill</span> and <span style="color:#a65628">Gelatinous</span> species are shown as fins at the head of the fish. <span style="color:#f781bf">Krill</span> grew exponentially until 2014 and then experienced a drop in 2015. <span style="color:#a65628">Gelatinous</span> was not collected in 2011. However, krill grew exponentially from 2012 and peaked in 2014. Then, it dropped quickly in 2015.',
+        'image': './src/img/gel_krill_infographic.png'
+    },
+    {
+        'explanation': '<span style="color:#42d4f4">Forage</span> species had low abundance in 2011, a peak cold year, but began to increase in population as sea surface temperatures got warmer. This is seen as a peak in 2014, a warm year.',
+        'image': './src/img/forage.png'
+    },
+    {
+        'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species and a decrease in krill*.',
         'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
         'title': 'All the factors from 2011 to 2014 came together and led to an abnormal increase in biodiversity in 2015.'
     },
     {
-        'explanation': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years.',
+        'explanation': 'Here, we see the interaction of a warm water mass with high chlorophyll levels and wind direction consistent with previous years. This led to an increase in species diversity in 2015.',
         'image': './src/img/popOnly_2015.png'
-    },
-    {
-        'explanation': 'Here we show a histogram of the species diversity in 2015.',
-        'image': 'insert histogram'
     },
     {
         'title': 'Changes in the marine ecosystem are also seen in changes in the food web.',
