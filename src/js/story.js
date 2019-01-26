@@ -22,7 +22,7 @@ export const stories = [
     {
         'title': 'We will be exploring the relationship between species and climate change using data from NOAA*.',
         'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.',
-        'title-explanation-src':'[*]https://coastwatch.pfeg.noaa.gov/data.html'
+        'title-explanation-src':'*https://coastwatch.pfeg.noaa.gov/data.html'
     },
     {
         'explanation': 'We will be observing a range of the ocean from the Monterey Bay up to the San Francisco Bay Area from the period of 2009 to 2015.',
@@ -30,7 +30,7 @@ export const stories = [
         'image-src':'Google Maps'
     },
     {
-        'explanation': 'NOAA scientists trawled the ocean in the middle of the every year to gather data on the species.',
+        'explanation': 'NOAA scientists trawled the ocean in the middle of every year to gather data on the species.',
         'image': 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG',
         'image-src':'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG'
     },
@@ -39,7 +39,7 @@ export const stories = [
         'image': './src/img/p0.png'
     },
     {
-        'explanation': "To understand how climate affects species diversity we needed to consider several variables.",
+        'explanation': "To understand how climate affects species diversity, we needed to consider several variables.",
         'image': './src/img/step1.png'
     },
     {
@@ -55,11 +55,11 @@ export const stories = [
         'image': './src/img/p3.png'
     },
     {
-        'explanation': "The height of the bar indicates number of unique species in this category.",
+        'explanation': "The height of the bar indicates the number of unique species in this category.",
         'image': './src/img/p4.png'
     },
     {
-        'explanation': "The color of the tile indicates the sea surface temperature",
+        'explanation': "The color of the tile indicates the sea surface temperature.",
         'image': './src/img/p5.png'
     },
     {
@@ -101,14 +101,14 @@ export const stories = [
     },
     {
         'title': 'We also observed the food web during this time.',
-        'explanation': 'From 2011 to 2014, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on.'
+        'explanation': 'From 2011 to 2014, we saw that there was an abundance of plankton and krill, which fish tend to feed on.'
     },
     {
         'explanation': 'Here we drew a histogram of species abundance from 2011 to 2015. Years are read from left to right. Each histogram corresponds to a specific species and is color coordinated with the legend. The histograms are mirrored horizontally except for <span style="color:#f781bf">Krill</span> and <span style="color:#a65628">Gelatinous</span>, as their scales are much larger in comparison to other species.',
         'image': './src/img/infographic.png'
     },
     {
-        'explanation': '<span style="color:#f781bf">Krill</span> and <span style="color:#a65628">Gelatinous</span> species are shown as fins at the head of the fish. <span style="color:#f781bf">Krill</span> grew exponentially until 2014 and then experienced a drop in 2015. <span style="color:#a65628">Gelatinous</span> was not collected in 2011. However, krill grew exponentially from 2012 and peaked in 2014. Then, it dropped quickly in 2015.',
+        'explanation': '<span style="color:#f781bf">Krill</span> and <span style="color:#a65628">Gelatinous</span> species are shown as fins at the head of the fish. <span style="color:#f781bf">Krill</span> grew exponentially until 2014 and then experienced a drop in 2015. <span style="color:#a65628">Gelatinous</span> was not collected in 2011. However, we see that it peaked in 2015.',
         'image': './src/img/gel_krill_infographic.png',
         'image-src': 'Krill image: https://commons.wikimedia.org/wiki/File:Krill666.jpg, Gelatinous image: https://www.flickr.com/photos/jlambus/2348695979'
     },
@@ -132,7 +132,7 @@ export const stories = [
         'title': 'Changes in the marine ecosystem are also seen in changes in the food web.'
     },
     {
-        'explanation': 'In 2015, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by euphausiids to gelatinous organisms.',
+        'explanation': 'In 2015, we see that there is a higher proportion of gelatinous plankton. This shows a shift in the food web from a system dominated by krill to gelatinous organisms.',
         'image': './src/img/krill_gel_2015.png',
         'image-src': 'Krill image: https://commons.wikimedia.org/wiki/File:Krill666.jpg, Gelatinous image: https://www.flickr.com/photos/jlambus/2348695979'
     },
