@@ -80,12 +80,12 @@ export const stories = [
     },
     {
         'title': 'Cooler ocean temperatures and strong upwelling favor production of groundfish*.',
-        'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
+        'title-explanation-src': '*J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
         'explanation': 'In 2011, which was a peak cold year*, we see that this caused a decrease in species diversity in 2012.',
         'image': './src/img/2011_2012_compare.png',
-        'image-src': '[*]https://ggweather.com/enso/oni.htm'
+        'image-src': '*https://ggweather.com/enso/oni.htm'
     },
     {
         'explanation': 'We see a decrease in the diversity of <span style="color:red">Rockfish</span> and an increase for <span style="color:#a65628">Gelatinous</span> species.',
@@ -119,7 +119,7 @@ export const stories = [
     },
     {
         'title': 'Warmer ocean temperatures with weak upwelling favor production of forage species and a decrease in krill*.',
-        'title-explanation-src': '[*]J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
+        'title-explanation-src': '*J. A. Santora, E. L. Hazen, I. D. Schroeder, S. J. Bograd, K. M. Sakuma, and J. C. Field. Impacts of ocean climate variability on biodiversityof pelagic forage species in an upwelling ecosystem. Marine EcologyProgress Series, 580:205–220, 2017.'
     },
     {
         'title': 'All the factors from 2011 to 2014 came together and led to an abnormal increase in biodiversity in 2015.'
