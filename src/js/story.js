@@ -59,6 +59,10 @@ export const stories = [
         'image': './src/img/p4.png'
     },
     {
+        'explanation': "The color of the tile indicates the sea surface temperature",
+        'image': './src/img/p5.png'
+    },
+    {
         'explanation': "We then applied our glyph on a tiled map of the area.",
         'image': './src/img/final.png'
     },
