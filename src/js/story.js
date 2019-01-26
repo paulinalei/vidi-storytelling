@@ -17,7 +17,7 @@ export const stories = [
     },
     {
         'title': 'We know that changes in ocean temperature can affect species...',
-        'explanation': 'But is there a correlation between a rise in certain species during certain changes in the ocean?'
+        'explanation': 'But is there a correlation between a rise in the population of certain species during certain changes in the ocean?'
     }, 
     {
         'title': 'We will be exploring the relationship between species and climate change using data from NOAA*.',
@@ -30,12 +30,12 @@ export const stories = [
         'image-src':'Google Maps'
     },
     {
-        'explanation': 'Every year, NOAA scientists trawled the ocean in the middle of the year to gather data on the species.',
+        'explanation': 'NOAA scientists trawled the ocean in the middle of the every year to gather data on the species.',
         'image': 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG',
         'image-src':'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG'
     },
     {
-        'explanation': "In order to represent the trawl, we constructed a glyph.",
+        'explanation': "In order to represent the data, we constructed a glyph.",
         'image': './src/img/p0.png'
     },
     {
@@ -92,7 +92,7 @@ export const stories = [
         'image': './src/img/2011to2014horizontal.png'
     },
     {
-        'explanation': 'We see that in 2013, a warmer water mass, which is seen in white, begins to appear. Then in 2014, the warm water mass takes over.',
+        'explanation': 'We see that in 2013, a warmer water mass, which is seen in <span style="color:#89bcdd">light blue</span>, begins to appear. Then in 2014, the warm water mass takes over.',
         'image': './src/img/2011to2014caption.png'
     },
     {
@@ -100,7 +100,7 @@ export const stories = [
         'explanation': 'From 2011 to 2014, we saw that there was an abundance of plankton and euphausiids, which fish tend to feed on.'
     },
     {
-        'explanation': 'Here we drew a histogram of the species from 2011 to 2015. Years are read from left to right. Each histogram corresponds to a specific species and is color coordinated with the legend. The histograms are mirrored horizontally except for <span style="color:#f781bf">Krill</span> and <span style="color:#a65628">Gelatinous</span>.',
+        'explanation': 'Here we drew a histogram of species abundance from 2011 to 2015. Years are read from left to right. Each histogram corresponds to a specific species and is color coordinated with the legend. The histograms are mirrored horizontally except for <span style="color:#f781bf">Krill</span> and <span style="color:#a65628">Gelatinous</span>, as their scales are much larger in comparison to other species.',
         'image': './src/img/infographic.png'
     },
     {
