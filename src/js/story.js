@@ -7,13 +7,15 @@ export const stories = [
     {
         'explanation': 'Marine biodiversity is threatened by climate change and increasing human-related stressors.',
         'image': './src/img/biodiversity.jpg',
-        'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
+        'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg',
+        'first': true
     },
     {
         'explanation': 'Periodic changes of sea surface temperature -- El Nino and La Nina -- in the Pacific Ocean have impacts all over the globe. How is biodiversity affected by climate change?', 
         'explanation-src': "https://www.americangeosciences.org/critical-issues/faq/what-are-el-nino-and-la-nina", 
         'image': './src/img/biodiversity.jpg',
-        'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg'
+        'image-src':'https://cdn.reefs.com/blog/wp-content/uploads/2016/04/Lampanyctus-alatus-osezaki-Ryo-Minemizu.jpg',
+        'first': true
     },
     {
         'title': 'We know that changes in ocean temperature can affect species...',
@@ -22,17 +24,20 @@ export const stories = [
     {
         'title': 'We will be exploring the relationship between species and climate change using data from NOAA*.',
         'explanation': 'There are thousands of marine species. We have grouped them into 9 groups following the specific categories provided by NOAA.',
-        'title-explanation-src':'*https://coastwatch.pfeg.noaa.gov/data.html'
+        'title-explanation-src':'*https://coastwatch.pfeg.noaa.gov/data.html',
+        'first': true
     },
     {
         'explanation': 'We will be observing a range of the ocean from the Monterey Bay up to the San Francisco Bay Area from the period of 2009 to 2015.',
         'image': './src/img/region.PNG',
-        'image-src':'Google Maps'
+        'image-src':'Google Maps',
+        'first': true
     },
     {
         'explanation': 'NOAA scientists trawled the ocean in the middle of every year to gather data on the species.',
         'image': 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG',
-        'image-src':'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG'
+        'image-src':'https://upload.wikimedia.org/wikipedia/commons/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG',
+        'first': true
     },
     {
         'explanation': "In order to represent the data, we constructed a glyph.",

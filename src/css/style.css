@@ -46,12 +46,14 @@ canvas { width: 100vw; height: 100vh }
 .descriptionContainer{
 	height: 20vh;
 	width: 80vw;
-	min-width: 880px;
+	/* min-width: 880px;
 	min-height: 150px;
 	max-width: 925px;
-	max-height: 150px;
-	display: block;
+	max-height: 150px; */
 	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -60,18 +62,23 @@ canvas { width: 100vw; height: 100vh }
 }
 
 .imgFix {
-    min-height: 440px;
-    padding-top: 50px;
+    /* min-height: 440px; */
+    padding-top: 10px;
 }
 
 .imageContainer {
-    height: 80vh;
-    width: 100vw;
-    min-width: 1200px;
-    display: block;
-    margin: auto;
+	height: 80vh;
+	width: 80vw;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+#image-explanation {
+	padding-left: 2%;
+	padding-right: 2%;
+}
 #imageExplanation {
     min-width: 1200px;
     min-height: 800px;
@@ -80,9 +87,17 @@ canvas { width: 100vw; height: 100vh }
 #image{
 	display: block;
 	margin: auto;
+}
+
+.not-first {
 	max-height: 70vh;
 	max-width: 80vw;
 	min-height: 100%;
+}
+
+.first {
+	width: 80vw;
+	height: 70vh;
 }
 
 .cLegend {

@@ -54,6 +54,13 @@ var interaction = {
             } else {
                 $('#imgSrc').html('');
             }
+
+            if (currentStory['first']) {
+                $('#image').addClass('first');
+            } else {
+                $('#image').removeClass('first');
+                $('#image').addClass('not-first');
+            }
             $('#image').attr('src', currentStory['image']);
         }
         
